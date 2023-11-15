@@ -2902,3 +2902,10 @@ addr = 0x12e6dc
 func_addr = 0x12e6dc
 comment = "==== AI Summarization ====\nThe given code defines a function called sub_12e6dc in C which is using a large \nnumber of global variables and local temporary variables in its definition.\n\nThe function performs bitwise operations & arithmetic operations on the global a\nnd local variables and calls multiple functions namely sub_6f9f0, sub_6f240, sub\n_6f7d0, sub_bc6b0 and sub_bc800. \n\nMoreover, multiple conditions testing base on bitwise operations and logical ope\nrations are performed in the function, using bit-wise AND, XOR and logical AND o\nperators. In the if-condition statements the increments are assigned to certain \nglobal variables. \n\nAlso, method pointers are executed as functions within conditions and their outp\nuts are stored into global variables. For instance in a part of the function, th\ne sub_6f9f0 function is called with arguments and its value is stored into a glo\nbal variable.\n\nFinally, the function returns the value of v13.\n"
 decompiled = true
+
+[0x12e970]
+last_change = 2023-11-15T15:17:21.699289Z
+addr = 0x12e970
+func_addr = 0x12e970
+comment = "==== AI Summarization ====\nThe given code declares several external char variables named in a hexadecimal f\normat. This code also declares a function `sub_12e970` that initializes multiple\n integer and unsigned integer variables. Inside this function, numerous operatio\nns are performed on these variables, including arithmetic operations and functio\nn calls. These operations involve several computations, including subtracting ad\ndresses, bitwise operations, and function calls to `sub_6f9f0` and `sub_6f640`, \namong others. The code also includes a large number of conditional statements, w\nhere specific operations are performed depending on certain conditions. At the e\nnd, the function returns the address of a global char variable `g_8000`.\n\n"
+decompiled = true

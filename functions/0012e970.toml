@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x12e970
+size = 0x8bc
+last_change = 2023-11-15T15:17:21.699289Z
+
+[header]
+name = "perform_arithmetic_and_assign_global_vars"
+addr = 0x12e970
