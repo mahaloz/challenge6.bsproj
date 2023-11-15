@@ -4274,3 +4274,10 @@ addr = 0x177b4c
 func_addr = 0x177b4c
 comment = "==== AI Summarization ====\nThis C code defines a structure called struct_0 and various external variable. I\nt also defines a function called sub_177b4c. Inside this function some variables\n are declared and then manipulated. This function also calls another function su\nb_6f8e0 multiple times with different parameters. Depending on certain condition\ns updating of variables takes place. If the third bit from right of variable tmp\n_13 is not set, then several global and local variables are set to zero. The fun\nction ends by checking the second bit from right of variable tmp_13, and if it's\n set, a label is jumped to, otherwise the variable g_60062351 is set to zero.\n"
 decompiled = true
+
+[0x177f44]
+last_change = 2023-11-15T16:48:57.290976Z
+addr = 0x177f44
+func_addr = 0x177f44
+comment = "==== AI Summarization ====\nThe given C code first defines a structure type (struct_0) with a character arra\ny and an unsigned integer. It also declares multiple externally linked (external\n) variables including several unsigned shorts and characters, signified by 'exte\nrn' keyword.\n\nThen it defines a function `sub_177f44`, which declares multiple local variables\n, including a pointer to the structure type `struct_0`. It also seems to manipul\nate data and call another function, named `sub_6fbb0`, with these variables mult\niple times. The function `sub_177f44` ends without any returning value, meaning \nit modifies variables in-place (likely the external variables' state is what mat\nters). Since we do not know the definitions of `sub_6fbb0` and `sub_6f240` , we \ncan't say for certain what they do.\n\nIn general, the code uses various data types and manipulations, pointing to a co\nmplex business logic beneath it or may be some low-level operations such as hard\nware interfacing or system-level programming.\n\nHowever, without additional context, specific function of the code is hard to di\nscern.\n"
+decompiled = true
