@@ -4624,3 +4624,10 @@ addr = 0x18a1d8
 func_addr = 0x18a1d8
 comment = "==== AI Summarization ====\nThe code defines a structure \"struct_0\" and then in the function \"sub_18a1d8()\" \nit performs a set of operations including some condition checks and calculations\n. After that, it assigns the value of certain variables to global variables. \n\nIf certain conditions are met, the function also calls some functions, likely pr\nesent elsewhere in the codebase, named 'sub_10e59c()', 'sub_6f170()', and 'sub_6\nff50()'. \n\nFinally, it modifies the fields in an instance of the 'struct_0' named 'v27', up\ndating its 'field_1c', 'field_20', 'field_24', 'field_28', and 'field_df'.\n\nThe code appears to be a part of a lower-level or embedded system program where \nmemory addresses of different variables and fields are directly used for computa\ntion and assignment.\n"
 decompiled = true
+
+[0x18a5ec]
+last_change = 2023-11-15T17:12:21.929294Z
+addr = 0x18a5ec
+func_addr = 0x18a5ec
+comment = "==== AI Summarization ====\nThe code defines two structures, struct_0 and struct_1, with various types of fi\nelds (unsigned int, char, unsigned short) and then declares multiple global vari\nables (mostly chars and unsigned int). There is also a method named sub_18a5ec()\n. Inside this method, there are a large number of local variables declared, incl\nuding int, char, unsigned short, unsigned int, custom structs, and void pointer \nvariables. \n\nThe method contains a complex set of conditional (if-else) statements that manip\nulate these variables in various ways, including bit manipulation, value assignm\nent from external variables, value comparison, etc. There is also logic embedded\n within the conditions like bitwise OR and AND operations within the if-else con\nditions. It also makes use of external subroutines like sub_10e59c and sub_6ff50\n. The method sub_18a5ec itself doesn't return any value (as per the given code).\n It's worthy to note the hexadecimal values used in the code which suggests its \nlow-level or system-level nature.\n"
+decompiled = true
