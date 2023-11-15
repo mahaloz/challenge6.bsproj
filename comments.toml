@@ -536,3 +536,10 @@ addr = 0x7e190
 func_addr = 0x7e190
 comment = "==== AI Summarization ====\nThe code snippet is written in C language, defining three structures (struct_1, \nstruct_0, and struct_2) and a bunch of external variables (both char and unsigne\nd int types, and pointers). It also declares an integer function sub_7e190() wit\nh no functionality inside it. These types of struct and extern declarations are \ntypically found in C programs where multiple source files share common data or f\nunction definitions. The empty function, sub_7e190(), doesn't currently do anyth\ning.\n"
 decompiled = true
+
+[0x7f540]
+last_change = 2023-11-15T10:24:16.252032Z
+addr = 0x7f540
+func_addr = 0x7f540
+comment = "==== AI Summarization ====\nThe provided code defines the function sub_7f540(). It appears to be a low-level\n program written in C programming language, possibly a disassembled code. \n\nThe function involves various operations on global and local variables, includin\ng bitwise operations and conditional checks. It imported external variables at t\nhe start, with prefixes such as g_ suggesting they are global.\n\nThe function invokes multiple other functions such as sub_6fbb0(), sub_6f8e0(), \nsub_10c860(), sub_10ca10(), sub_10cbcc(), sub_10cc30(), sub_10ccfc(), sub_7e190(\n), sub_a9f90(), and others.\n\nIt includes bitwise rotation (__ROR__), bitwise AND (&) operations, and conditio\nn checks. It contains a lot of if-else branches which modify the values of vario\nus variables based on different conditions.\n\nThe function returns either the output of sub_a9f90() or sub_7e190() based on wh\nether a specific condition is met. It seems to be part of a larger program, and \nspecific functionality is related to the whole program context.\n\n"
+decompiled = true
