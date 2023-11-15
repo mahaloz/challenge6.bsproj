@@ -2573,3 +2573,10 @@ addr = 0x1204b0
 func_addr = 0x1204b0
 comment = "==== AI Summarization ====\nThis code is a function from a low-level language such as C or C++. It first dec\nlares several externally defined characters and some local variables. In the bod\ny of the function `sub_1204b0()`, there are multiple conditional and looping sta\ntements which manipulates shared variables and involves intricate bitwise operat\nions (also known as binary shift operations). The function mainly involves bitwi\nse operations, pointer arithmetic, function calls, and memory manipulation. It s\neems to be performing some form of low-level transformation or computation based\n on the values of variables defined outside the function. The function `sub_1204\nb0()` returns an unsigned integer `v7`.\n"
 decompiled = true
+
+[0x1205e0]
+last_change = 2023-11-15T14:48:49.606829Z
+addr = 0x1205e0
+func_addr = 0x1205e0
+comment = "==== AI Summarization ====\nThis is a function written in the C programming language. It primarily deals wit\nh bitwise operations on a set of global variables and local variables. The funct\nion may be a subroutine of a larger program and its name suggests that it might \nbe machine-generated or reverse-engineered from machine code, likely from an emb\nedded system or an operating system.\n\nIt's difficult to decipher the exact purpose of this function without knowing th\ne larger context in which it operates. This function performs various operations\n such as bit shifting, bitwise AND, bitwise OR on the global and local variables\n. It also contains a number of conditional statements and loops suggesting compl\nex control flow. \n\nThe function returns an integer, which is computed by calling another function s\nub_120a60() at the end. The function also calls a function named sub_121670() un\nder certain conditions.\n\nWithout more specific context, its role within the larger software system cannot\n be accurately determined.\n"
+decompiled = true
