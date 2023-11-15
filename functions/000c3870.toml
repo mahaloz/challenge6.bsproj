@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc3870
+size = 0x580
+last_change = 2023-11-15T13:35:50.507198Z
+
+[header]
+name = "initialize_struct_and_variable_values"
+addr = 0xc3870
