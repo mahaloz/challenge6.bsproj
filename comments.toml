@@ -5884,3 +5884,10 @@ addr = 0x1f9130
 func_addr = 0x1f9130
 comment = "==== AI Summarization ====\nThe code defines a structure named 'struct_0' that contains two fields, an array\n of characters ('padding_0') of size 725 and a character variable 'field_2d5'. \n\nFurthermore, the code also declares an empty function named 'sub_1f9130' that re\nturns an integer. It doesn't contain any operations or return any values.\n"
 decompiled = true
+
+[0x1fc8a8]
+last_change = 2023-11-15T20:00:30.504913Z
+addr = 0x1fc8a8
+func_addr = 0x1fc8a8
+comment = "==== AI Summarization ====\nThe code is written in C, which defines a function called `sub_1fc8a8()`. This f\nunction involves operations on various global variables (`extern` keyword) of di\nfferent data types such as characters (`char`), unsigned short, unsigned int and\n void pointers.\n\nFurther, the function `sub_1fc8a8()` uses various locally defined variables of d\nata type unsigned integer, integer, character and void pointers.\n\nThe main body of the function involves a lot of condition checking (`if` stateme\nnts), bitwise operations, assignment of values and certain mathematical computat\nions.\n\nSub-functions `sub_10cd8c`, `sub_10cbcc`, `sub_10ccfc`, `sub_10cc30`, `sub_10e59\nc`, `sub_10c860`, `sub_c7840` etc. are called multiple times with different argu\nments inside the main function, but their implementations are not provided in th\nis piece of code.\n\nThe function ends by returning an unsigned integer `v13`. This returned value de\npends on the outcome of all the computations and conditions within the function.\n\nNote, the exact purpose of this function is not clear without the wider context \nof the program/codebase it is part of.\n"
+decompiled = true
