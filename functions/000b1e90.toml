@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xb1e90
+size = 0x550
+last_change = 2023-11-15T12:52:05.680201Z
+
+[header]
+name = "update_memory_registers"
+addr = 0xb1e90
