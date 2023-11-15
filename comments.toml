@@ -1978,3 +1978,10 @@ addr = 0xc92b0
 func_addr = 0xc92b0
 comment = "==== AI Summarization ====\nThis code declares a structure `struct_0` with two members: a character array `p\nadding_0` of size 2, and an unsigned short `field_2`. \n\nThen, it defines a function `sub_c92b0()` which has some complex looping and con\nditional logic inside it. The function is manipulating variables based on specif\nic binary conditions, calling other unspecified functions (`sub_b73d0()` and `su\nb_b6910()`), performing bit manipulation, and updating specific fields in the `s\ntruct_0` variable `v9`. \n\nThe function doesn't have a clear return value in the code, but it includes a st\natement implying the return of an unsigned int `v11`. \n\nThe purpose of the function isn't immediately clear from the code given, as it w\nould depend on context not provided as well as the behavior of the external func\ntions called within it.\n"
 decompiled = true
+
+[0xc9430]
+last_change = 2023-11-15T13:48:19.974041Z
+addr = 0xc9430
+func_addr = 0xc9430
+comment = "==== AI Summarization ====\nThe code defines a function `sub_c9430()` which appears to be performing operati\nons on a set of temporary data `tmp_` and global pointer register `gpr` variable\ns. It is full of bitwise operations and conditional statements. However, without\n further context and understanding of what function `sub_b73d0(v3)` and `sub_b69\n10(v3)` do, as well as the specific meaning and use of the variables, it is diff\nicult to provide a detailed summary. The function does not return any value. It \nis inferred that this could be a fragment of low-level programming language, lik\ne C/C++, and might be used for hardware control/communication, possibly in an em\nbedded system.\n"
+decompiled = true
