@@ -2083,3 +2083,10 @@ addr = 0xcc540
 func_addr = 0xcc540
 comment = "==== AI Summarization ====\nThe provided code defines a function named `sub_cc540` that operates mostly on `\nunsigned short`, `char`, and `unsigned int` data types along with some temporal \ninteger variables. It initializes several variables and in a loop, it updates se\nveral values based on calculations and manipulations on these variables. The fun\nction makes use of bitwise operators, pointer arithmetic, and function calls to \nperform its operations. If certain conditions are met, the function returns the \nvalue of `v8`. This function seems to be a part of a larger codebase, as it uses\n and modifies global and external variables, as well as calling an external func\ntion `sub_cae00`.\n"
 decompiled = true
+
+[0xccb10]
+last_change = 2023-11-15T14:20:41.800478Z
+addr = 0xccb10
+func_addr = 0xccb10
+comment = "==== AI Summarization ====\nThe function `sub_ccb10` appears to be a part of a larger system, possibly a dri\nver or kernel module due to the use of globally defined bit-manipulation operati\nons. The function first initializes a large number of automatic variables in sta\nck memory. Then sets some bit values on the variables `g_c3fc0014`, `g_c3fc0018`\n, and `g_c3fc0000`.\n\nThe function then enters a loop, which seems to repeatedly zero out memory locat\nions in a region starting at `g_c3fc8000`, `g_c3fcc000` and `g_c3fd0000` respect\nively. Subsequently, the function performs some operation possibly related to a \nsub_77184 function and a calculation with the integer `3288137724`.\n\nThe function performs some more operation involving bit manipulation and divisio\nn operation on `g_315b24` and `g_315b18` and stores the result in `g_c3fc0040` a\nnd `g_c3fc0020`. Finally, the function checks some conditions and sets the bit v\nalues on `g_c3fc0000`, `g_600873d4` and `g_600873d8`. Then assigns `0` to `g_600\n873e0` and `g_c3fc0240`, and calls another function `sub_cc820`, returning its r\nesult.\n"
+decompiled = true

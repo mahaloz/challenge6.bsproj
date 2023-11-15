@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xccb10
+size = 0x2b4
+last_change = 2023-11-15T14:20:41.800478Z
+
+[header]
+name = "initialize_set_bit_values_and_zero_memory"
+addr = 0xccb10
