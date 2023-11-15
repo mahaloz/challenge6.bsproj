@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x147850
+size = 0x14c
+last_change = 2023-11-15T15:40:38.871167Z
+
+[header]
+name = "perform_hardware_related_operation"
+addr = 0x147850
