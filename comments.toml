@@ -1159,3 +1159,10 @@ addr = 0xa3910
 func_addr = 0xa3910
 comment = "==== AI Summarization ====\nThis function appears to be a low-level or compiled code which is difficult to a\nbstract without additional context. It contains numerous local integer, characte\nr, and pointer variables. It assigns some integer variables from other variables\n, and then performs a series of checks on 'tmp' variables. Depending on the resu\nlts of these checks, the function enters different loops, each of which performs\n some operations on memory using pointer arithmetic and constant numerical offse\nts. In the end, values are assigned to locations in memory based on these numeri\ncal offsets and conditions tested. It's likely that this code is performing some\n sort of data transformation or copying.\n"
 decompiled = true
+
+[0xa4630]
+last_change = 2023-11-15T12:25:06.906128Z
+addr = 0xa4630
+func_addr = 0xa4630
+comment = "==== AI Summarization ====\nThis code declares a function named `sub_a4630` which initializes several intege\nr variables and pointers. It performs a bitwise operation on `tmp_70` variable. \nDepending on the result, it follows one of two branches. In both branches, it ca\nlculates values for `v0`, `v1`, `v2`, `v3`, `v4`, `v5`, and `v6` variables, read\ning from specific memory locations and performing some arithmetic operations. An\nother bitwise operation is performed with the `tmp_21` variable and depending on\n the result, `v19` variable is assigned and the function returns, or the functio\nn calls another function `sub_958d0` with calculated parameters and does not ret\nurn. Overall, it seems to feature a part of lower-level procedure or hardware-or\niented programming, such as working with memory management.\n"
+decompiled = true

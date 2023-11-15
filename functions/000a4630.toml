@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xa4630
+size = 0x120
+last_change = 2023-11-15T12:25:06.906128Z
+
+[header]
+name = "perform_bitwise_operations_and_memory_management"
+addr = 0xa4630
