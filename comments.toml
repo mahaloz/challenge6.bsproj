@@ -5457,3 +5457,10 @@ addr = 0x1cc0c0
 func_addr = 0x1cc0c0
 comment = "==== AI Summarization ====\nThe code appears to be an obfuscated or low-level rendition of a function in C l\nanguage. Here's what it does, in outline:\n\n- It begins by defining a struct named struct_0, which contains an anonymous cha\nracter array of size 104 and an unsigned short field named field_68.\n  \n- It then defines a function 'sub_1cc0c0' which declares a series of integer, ch\nar, unsigned integer, and pointer variables.\n\n- The function has a series of complex conditional statements (if-else) and assi\ngnments, including bitwise operations. It appears the behavior of the function i\ns determined by these conditions which operate on the input values together with\n the values of dummy variables.\n\n- The bitwise operators (&, ^) are used to manipulate the individual bits of var\niables.\n\n- The ultimate goal of the function remains unclear without further information.\n While we can see various assignments and condition checks, there are no clear i\nnput parameters or return values for 'sub_1cc0c0()'. \n\n- The function does not return any specific value.\n\n- The function also references some external function 'sub_10dc10(v6)'.\n  \nNote: Some incongruities in the function, such as the repeated blocks with 'if (\n!(tmp_8 & 2 ^ 2))', could suggest that the code has been auto-generated or decom\npiled from an object file or machine code.\n"
 decompiled = true
+
+[0x1cc3b8]
+last_change = 2023-11-15T19:33:40.454146Z
+addr = 0x1cc3b8
+func_addr = 0x1cc3b8
+comment = "==== AI Summarization ====\nThe code defines two structs, struct_1 and struct_0, with various fields. It als\no declares an external char, g_49b0. In the function sub_1cc3b8(), it creates se\nveral integer and character variables, some of which are designated as temporary\n value holders. It calls an external function sub_10e238(), then performs severa\nl operations on the variables, including calling another external function sub_d\n1cc0(). The code also does several bitwise operations and assignments, and makes\n use of conditionals.\n"
+decompiled = true
