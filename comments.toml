@@ -5800,3 +5800,10 @@ addr = 0x1e3bc0
 func_addr = 0x1e3bc0
 comment = "==== AI Summarization ====\nThe code defines a series of external variables of various types (chars, unsigne\nd shorts, unsigned ints, pointers). In addition, it declares an integer function\n `sub_1e3bc0()`. \n\nIn the function `sub_1e3bc0()`, multiple local variables and pointer variables a\nre defined. The function checks certain operations with these variables and exte\nrnal variables, mainly bitwise operations to manipulate or test the status of pa\nrticular bits. \n\nThe function contains several loops, conditionals and function calls to certain \noperations with variables and pointers. All these operations modify the values o\nf variables and pointers.\n\nAt the end of the function, several conditionals check certain operations with d\nifferent variables. Depending on their result, certain values are assigned to so\nme of the external variables declared at the beginning of the code.\n\nThe function as a whole seems to perform various operations on data and maintain\ning status of these operations. The names of the variables and the function itse\nlf (`sub_1e3bc0`) suggest that this is a part of larger, machine generated code \n(likely from a decompilation process).\n"
 decompiled = true
+
+[0x1e411c]
+last_change = 2023-11-15T19:55:24.939087Z
+addr = 0x1e411c
+func_addr = 0x1e411c
+comment = "==== AI Summarization ====\nThe given C code defines a structure `struct_0` which is comprised of a characte\nr array `padding_0` of size 1684 bytes and an unsigned integer `field_694`.\n\nThere are multiple global variables declared with `extern`. These might be defin\ned in another source file and therefore are being declared with `extern`. There \nare character variables, unsigned short variables, unsigned integer variables, a\nnd void pointers.\n\nThe code also declares a stub function named `sub_1e411c` returning an integer. \nAs per the provided code, this function does nothing yet as its body is empty.\n"
+decompiled = true
