@@ -3553,3 +3553,10 @@ addr = 0x1590e8
 func_addr = 0x1590e8
 comment = "==== AI Summarization ====\nThis code defines an external character variable and a function sub_1590e8(). Th\nis function implements some binary operations such as bitwise AND (&), OR (|) an\nd XOR (^) on some of its initialized local variables together with a global vari\nable g_100000. It also uses the conditional 'if-else' statements to dictate the \noutput based on these binary operations. The '__ROR__' indicates a binary rotati\non operation.\nLabels such as tmp_95, tmp_13, etc. are likely placeholders for actual variables\n or values that must have been redacted or lost in decompilation.\nThe function makes use of an external global variable g_100000. Moreover, it doe\nsn't have a return statement, suggesting it could be modifying global state or t\nhe actual function may have been truncated.\n"
 decompiled = true
+
+[0x15922c]
+last_change = 2023-11-15T15:58:48.825722Z
+addr = 0x15922c
+func_addr = 0x15922c
+comment = "==== AI Summarization ====\nThe code is a function from an unoptimized code in a low-level language like C o\nr C++. It declares several integer and character variables and temporary variabl\nes. The function uses a series of bitwise operators, shifts, and comparisons to \nmanipulate these variables and works with externally defined variables g_100000,\n g_5648, and g_565e. The high usage of bitwise operators (`&`, `|`, `^`, `__ROR_\n_`) is typical of low-level systems programming and optimization. \n\nThe function logic primarily includes a series of if-else conditional statements\n that manipulate the variables based on certain conditions. Most of these condit\nions involve bitwise AND operations to check the state of particular bits in the\n variables. \n\nPlease note that the interpretation and behaviour of this code heavily rely on t\nhe definition and behaviour of `sub_d0960` function (which isn't provided here) \nand the external variables it interacts with (also not provided). \n\nWithout further context or comments, a more specific summary of the code's preci\nse functional behavior cannot be given.\n"
+decompiled = true
