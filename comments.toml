@@ -2426,3 +2426,10 @@ addr = 0x10f9d0
 func_addr = 0x10f9d0
 comment = "==== AI Summarization ====\nThe given code is defining many global char variables which are declared in anot\nher file (extern keyword indicates that). The variable names are from 'g_199a' t\no 'g_7fff'. Also, it's defining an empty function called 'sub_10f9d0' but there'\ns no logic implemented in it.\n"
 decompiled = true
+
+[0x110ca0]
+last_change = 2023-11-15T14:40:07.118125Z
+addr = 0x110ca0
+func_addr = 0x110ca0
+comment = "==== AI Summarization ====\nThe provided code is a stub declaring a number of global variables without assig\nning them any values. Also, there is an empty function named 'sub_110ca0'. The g\nlobal variables include one unsigned short 'g_600616a6' and many character varia\nbles with distinct identifiers. However, as both the global variables and the fu\nnction don't have any assignments or implementation specified, they don't perfor\nm anything meaningful in their current state.\n"
+decompiled = true
