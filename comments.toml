@@ -5079,3 +5079,10 @@ addr = 0x1b69d8
 func_addr = 0x1b69d8
 comment = "==== AI Summarization ====\nThe code is written in C/C++ and appears to be an assembly language disassembly \nof a program. This program imports several external characters and then defines \na function named `sub_1b69d8()` with local variables and applies some bit-level \nmanipulations and operations on these variables. Some conditions are tested by u\nsing bitwise operations and the values of the global variables are updated based\n on the results of these operations. If certain conditions are met, specific act\nions are taken, such as setting certain variables to 0 or 1, or pointing a point\ner to a specific memory location. Due to the complexity and bit-level operations\n of this code, it's difficult to determine exactly what it's doing without knowi\nng more context or where the external variable values come from.\n"
 decompiled = true
+
+[0x1b6cdc]
+last_change = 2023-11-15T18:50:21.143213Z
+addr = 0x1b6cdc
+func_addr = 0x1b6cdc
+comment = "==== AI Summarization ====\nThe code defines two structures named struct_0 and struct_1 with padding bytes a\nnd fields in them. It also defines many extern variables, a function named \"sub_\n1b6cdc\". The function \"sub_1b6cdc\" has many local variables and performs various\n operations with the fields of the declared structures and externally defined va\nriables such as bitwise operations, assignment operations, conditional operation\ns and calls to other functions. It appears to be manipulating a complex data str\nucture and involves some low level operations potentially related to hardware or\n system programming.\n"
+decompiled = true
