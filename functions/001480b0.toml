@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1480b0
+size = 0x138
+last_change = 2023-11-15T15:40:59.418410Z
+
+[header]
+name = "manipulate_memory_addresses"
+addr = 0x1480b0
