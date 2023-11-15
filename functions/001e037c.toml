@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1e037c
+size = 0x1ac
+last_change = 2023-11-15T19:54:12.982113Z
+
+[header]
+name = "update_global_variables_and_perform_bitwise_operations"
+addr = 0x1e037c
