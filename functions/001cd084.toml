@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1cd084
+size = 0x468
+last_change = 2023-11-15T19:34:28.574449Z
+
+[header]
+name = "handle_hardware_control_operations"
+addr = 0x1cd084
