@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc2300
+size = 0x104
+last_change = 2023-11-15T13:33:55.612343Z
+
+[header]
+name = "manipulate_memory_registers"
+addr = 0xc2300
