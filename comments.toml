@@ -4134,3 +4134,10 @@ addr = 0x171418
 func_addr = 0x171418
 comment = "==== AI Summarization ====\nThis code defines a function, `sub_171418()`, that utilizes a variety of externa\nlly defined variables, temporary variables, and variables defined within the fun\nction. The procedure uses these values to manipulate specific bits in memory and\n call additional helper functions. The logic of the function is based on conditi\non control statements (`if` statements) and bitwise operations, with specific be\nhavior being implemented depending on the evaluation of each condition. \n\nThe purpose of a function like this could be low-level system operations, commun\nication protocols, or device interactions, where bitwise manipulation is common.\n\nPlease note that the helper functions `sub_10e59c()`, `sub_6f170()`, `sub_6ff50(\n)`, and `sub_6f240()` are not defined in the given code, nor are `g_51a6` and `g\n_60061dd8` which suggests they are declared and defined elsewhere in the system.\n"
 decompiled = true
+
+[0x171648]
+last_change = 2023-11-15T16:39:48.326842Z
+addr = 0x171648
+func_addr = 0x171648
+comment = "==== AI Summarization ====\nThis is a C++ function named `sub_171648` containing complex calculations involv\ning a number of unsigned integers and conditional (if) statements.\n\nThere are two external variables declared at the beginning: a character `g_51a6`\n and an unsigned integer `g_60061dd8`.\n\nThere are various variables declared of `int` and `unsigned int` types. Some of \nthe variables are assigned an address, value, or a reference (pointer) to anothe\nr variable.\n\nThe function comprises several conditions (if statements) with go-to (goto) bran\nches. Some of these conditional blocks involve bitwise operations, alterations o\nf global variables, and calls to other functions (`sub_10e59c`, `sub_6f170`, `su\nb_6ff50`, `sub_6f240`).\n\nPlease note without additional context or comments, it is difficult to state wha\nt is this function's purpose.\n"
+decompiled = true
