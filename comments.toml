@@ -242,3 +242,10 @@ addr = 0x6e2b0
 func_addr = 0x6e2b0
 comment = "==== AI Summarization ====\nThis code defines two external characters, g_5278 and g_527c. It also defines an\n empty function called sub_6e2b0. The function does not perform any operations a\ns there is nothing within the function body.\n"
 decompiled = true
+
+[0x6e730]
+last_change = 2023-11-15T10:07:06.999661Z
+addr = 0x6e730
+func_addr = 0x6e730
+comment = "==== AI Summarization ====\nThis C code defines a structure `struct_0` with various fields of different type\ns. It also contains variables of different data types including character, integ\ner, and pointer to the structure `struct_0`.\n\nThe code then contains a function `sub_6e730()`, which performs different operat\nions including assigning values to variables, if-else conditional checking, and \ncalling other functions like `sub_6cb60()` and `sub_239b30()`. However, without \nthe rest of the code or context, it's not clear what this function or the operat\nions in the function are specifically for.\n"
+decompiled = true
