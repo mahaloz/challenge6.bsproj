@@ -4372,3 +4372,10 @@ addr = 0x17efe0
 func_addr = 0x17efe0
 comment = "==== AI Summarization ====\nThis C code defines an external character `g_4b9b` and a function `sub_17efe0`, \nwhich performs specific bit operations on multiple integer variables and returns\n a value based on the condition check. It also casts some integers to characters\n. The function checks threshold conditions where 2 is and-ed with different vari\nables and performs different operations based on the output. Different sections \nof memory are accessed and operations are performed on or with their values. A c\nharacter from a specific memory address is read.\n"
 decompiled = true
+
+[0x17f1f4]
+last_change = 2023-11-15T16:55:06.223773Z
+addr = 0x17f1f4
+func_addr = 0x17f1f4
+comment = "==== AI Summarization ====\nThe provided C language code shows a function called `sub_17f1f4`. The function \nmakes use of several globally defined character variables - `g_60062354`, `g_600\n62356` and `g_60062358`, and several local variables which are a mix of integers\n and character types.\n\nA series of conditional statements are implemented. The first `if` assigning a v\nalue to `v2`, and another complex condition to set the value of `v7`.\n\nThen, `v1` is assigned the character value of `v7`, and the global variable `g_6\n0062358` is set to `4`.\n\nThe code continues with more conditional statements, particularly affecting the \ncharacter `v8` and global variables `g_60062356` and `g_60062354`.\n\nThe main goal of the code is however, not clear as there are no comments or info\nrmation about the purpose of the variables and the function. The code appears to\n be automatically generated due to the usage of generic variable names and somew\nhat unreadable code formatting.\n"
+decompiled = true
