@@ -5807,3 +5807,10 @@ addr = 0x1e411c
 func_addr = 0x1e411c
 comment = "==== AI Summarization ====\nThe given C code defines a structure `struct_0` which is comprised of a characte\nr array `padding_0` of size 1684 bytes and an unsigned integer `field_694`.\n\nThere are multiple global variables declared with `extern`. These might be defin\ned in another source file and therefore are being declared with `extern`. There \nare character variables, unsigned short variables, unsigned integer variables, a\nnd void pointers.\n\nThe code also declares a stub function named `sub_1e411c` returning an integer. \nAs per the provided code, this function does nothing yet as its body is empty.\n"
 decompiled = true
+
+[0x1e4e50]
+last_change = 2023-11-15T19:55:48.674345Z
+addr = 0x1e4e50
+func_addr = 0x1e4e50
+comment = "==== AI Summarization ====\nThis is a C program code for a function `sub_1e4e50` where there are several ext\nernal variables of different data types being declared initially. The function c\nhecks certain conditions based on bit level operations. It makes use of other ex\nternal functions like `sub_10cd8c`, `sub_10cbcc`, `sub_10ccfc` and `sub_10d2bc`.\n There are also several update conditions on certain global variables `g_60062cf\nc`, `g_60062db4`, `g_60062d84`, and `g_60062d80`. The function returns the value\n of `g_60062cfc`.\n"
+decompiled = true
