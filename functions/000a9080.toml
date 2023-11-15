@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xa9080
+size = 0x10c
+last_change = 2023-11-15T12:31:44.242610Z
+
+[header]
+name = "complex_control_flow_function"
+addr = 0xa9080
