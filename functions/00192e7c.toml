@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x192e7c
+size = 0x45c
+last_change = 2023-11-15T18:30:46.304043Z
+
+[header]
+name = "manipulate_structs_and_globals"
+addr = 0x192e7c
