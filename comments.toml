@@ -2307,3 +2307,10 @@ addr = 0x10b404
 func_addr = 0x10b404
 comment = "==== AI Summarization ====\nThis piece of code is complex, mostly due to the excessive use of bitwise operat\nions as well as conditional control statements such as if and do-while. \n\nThe function, `sub_10b404()`, creates several integer and unsigned integer varia\nbles. It appears to handle some form of low-level computation or data processing\n, possibly related to memory management or machine-level operations.\n\nThe critical part of the function involves a series of nested if statements, a d\no-while loop, which adjusts some variables based on bitwise manipulations. \n\nThe function applies some bitwise operations including AND, OR, Right shift, XOR\n, and Right Circular Shift (__ROR__). It seems to perform some form of encoding,\n manipulation or testing on input data, before storing the modified values in ot\nher variables.\n\nThe function contains a recurrent expression `sub_10b5d0()`, which appears to be\n a function call. This might be a call to external function or machine instructi\non, but without more context the exact purpose cannot be determined. \n\nIn the end, the function seems to return nothing (as no return statement is expl\nicitly given), this might suggest that the function's purpose is to modify some \nglobal state or produce side effects rather than compute and return a result.\n"
 decompiled = true
+
+[0x10b5d8]
+last_change = 2023-11-15T14:33:20.792736Z
+addr = 0x10b5d8
+func_addr = 0x10b5d8
+comment = "==== AI Summarization ====\nThis C-language code defines a function named 'sub_10b5d8' which does not take a\nny arguments and returns an integer value. However, it's worth noting that it do\nes not actually return any value. The function utilizes bitwise operations such \nas right shift (>>), left shift (<<), bitwise OR (|), bitwise AND (&), bitwise X\nOR (^), and the use of binary negation (~). It consists of several conditional c\nhecks and loops which further modify values of given variables. Due to the natur\ne of the operations, the exact purpose of this code is not defined and is likely\n dependent on other segments of the code.\n"
+decompiled = true
