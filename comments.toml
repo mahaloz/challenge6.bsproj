@@ -4316,3 +4316,10 @@ addr = 0x1791cc
 func_addr = 0x1791cc
 comment = "==== AI Summarization ====\nThe code defines two `struct` types, `struct_0` and `struct_1` that both have a \nchar array for padding and an `unsigned int` field. There are also several chara\ncter and `unsigned int` type global variables defined.\n\nThe code then defines a function `sub_1791cc()`. In this function, several local\n variables are initialized, mainly `int` and `unsigned int` types. There are als\no pointers to `struct_0` and `struct_1` and a void pointer. \n\nThe body of this function performs a series of bitwise operations (like binary A\nND, OR, and XOR operations), conditional assignments (modifying the value of var\niables depending on certain conditions), and function calls. The objective of th\ne function appears to be making alterations to the fields of the `struct_0` and \n`struct_1` type structures and to the global variables, based upon the values of\n other local variables and some hardcoded values. \n\nThere is also a do-while loop with conditions and operations on global and local\n variables.\n\nThis code, given its format and the use of bitwise operations, seems to be an ou\ntput of a decompilation of binary code with many hard-coded references. These mi\nght be higher-level operations such as encryption, decryption, encoding, decodin\ng or simple data manipulation but that is hard to conclude without additional co\nntextual information.\n"
 decompiled = true
+
+[0x179e34]
+last_change = 2023-11-15T16:51:26.155642Z
+addr = 0x179e34
+func_addr = 0x179e34
+comment = "==== AI Summarization ====\nThe code is a function \"sub_179e34\" externalizing two unsigned integers \"g_60062\n2a8\" and \"g_600622ac\", and declaring five different unsigned integers. \n\nThe function then assigns the values of external variables \"g_600622a8\" and \"g_6\n00622ac\" to variables \"v1\" and \"v2\" respectively. Then the \"v0\" variable is assi\ngned with the integer value of 1611013624. \n\nFinally, the function calls the function \"sub_70050\" three times each with param\neters \"v5\" and \"v6\".\n"
+decompiled = true
