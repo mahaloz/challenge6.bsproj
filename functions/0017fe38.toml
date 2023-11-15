@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x17fe38
+size = 0x270
+last_change = 2023-11-15T16:56:00.408694Z
+
+[header]
+name = "manipulate_bit_and_struct_fields"
+addr = 0x17fe38

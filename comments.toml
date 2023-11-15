@@ -4386,3 +4386,10 @@ addr = 0x17f49c
 func_addr = 0x17f49c
 comment = "==== AI Summarization ====\nThe code contains the definition of a function 'sub_17f49c' that utilizes both l\nocal variables and external global variables. The function contains complex comp\nutation, which includes arithmetic calculations, comparisions, bitwise operation\ns and condition checks. The results of these computations are assigned to variab\nles which are later used to update the values of multiple global variables. The \nexternal global variables that have their values updated are 'g_60062353', 'g_60\n062352', 'g_60061ed0', 'g_6006235f', 'g_60062359', 'g_60062357', and 'g_60061ecc\n'. The function does not return any value.\n"
 decompiled = true
+
+[0x17fe38]
+last_change = 2023-11-15T16:56:00.408694Z
+addr = 0x17fe38
+func_addr = 0x17fe38
+comment = "==== AI Summarization ====\nThis C code defines two data structures, `struct_0` and `struct_1`, and several \nglobal variables. `struct_1` has a padding of 1490 char-sized and an unsigned sh\nort field. `struct_0` has two unsigned int fields, 473 characters of padding, an\nd several other char fields.\n\n`sub_17fe38()` is a function that carries out a variety of operations including \nbitwise AND, XOR, and negation operations, conditional checks, and memory derefe\nrences to manipulate global and local variables. This function also calls anothe\nr function named `sub_10e59c()` multiple times passing it `v13` and `v14` as arg\numents.\n\nThe condition checks usually look whether certain bits in its operands are set o\nr not. If they are set, it calls a function or changes the value of a global var\niable. If the bit-checked conditions are met, it modifies various fields in the \ngiven data structures.\n\nThere is some indirect manipulation of global variables (like `g_60061e04`), lik\nely pointers, through offsetting the pointer `v_12` and storing values there. \n\nPlease note that many variables and function names seem to be auto-generated nam\nes usually produced by reverse-engineering tools and might not convey the actual\n intent/meaning of the code.\n"
+decompiled = true
