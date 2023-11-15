@@ -1425,3 +1425,10 @@ addr = 0xb1e90
 func_addr = 0xb1e90
 comment = "==== AI Summarization ====\nThe code declares two structures 'struct_0' and 'struct_1.' 'struct_0' contains \narrays of type char and pointers to 'struct_1.' It contains a series of initiali\nzed variables and a function 'sub_b1e90' that updates the variables through a se\nries of operations, most of which are bitwise operations and assignments. It als\no calls other functions (whose implementations are not provided) such as 'sub_b2\n3e0', 'sub_b4160', 'sub_cc990', 'sub_cca30', and 'sub_cca90.' The code works on \nlow-level data manipulation, possibly for a complex system as reflected by varia\nbles representing hardware registers (general purpose registers - gpr) and lower\n-level computations. The code structures could represent memory layouts of some \nhardware or complex data structures. The function includes various conditional a\nnd loop segments to perform updates on these variables.\n"
 decompiled = true
+
+[0xb24f0]
+last_change = 2023-11-15T12:52:31.099309Z
+addr = 0xb24f0
+func_addr = 0xb24f0
+comment = "==== AI Summarization ====\nThis C code defines an externally linked function named `sub_b24f0`. The functio\nn declares multiple external variables (presumably defined elsewhere), multiple \nlocal variables (mostly unsigned integers and short arrays), and temporary varia\nbles.\n\nThe function primarily deals with bit manipulation - testing for various statuse\ns of certain bits, performing bitwise AND and OR operations, and storing the res\nults in char pointers, externally defined variables, and integer pointers. The v\nariables `g_c3f90681` and `g_c3f90687` are being updated in this function as wel\nl.\n\nThis code seems to be part of a larger program, and without additional context, \nit's hard to determine what it's used for. However, it's clear that it manipulat\nes certain variables based on the status of certain bits in other variables. The\n function also returns an int `v67` which is initialized as `v0` at the start of\n the function and is potentially updated throughout the function.\n"
+decompiled = true
