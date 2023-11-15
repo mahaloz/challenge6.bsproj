@@ -788,3 +788,10 @@ addr = 0x908a8
 func_addr = 0x908a8
 comment = "==== AI Summarization ====\nThe code defines two structures, `struct_1` and `struct_0`, with their respectiv\ne members. There is a globally available character `g_7930`. It also declares a \nfunction `sub_908a8()` which employs complicated operations involving further te\nmporary variables, pointers to structures, and array. The function appears to up\ndate some fields of the structures based upon certain conditions and function ca\nlls. Although a summary is provided, fully understanding the exact working would\n require additional context outside the scope of this snippet like the actual da\nta these structures are handling and the actual activity inside invoked function\ns such as `sub_6f8e0` and `sub_d0b90`.\n"
 decompiled = true
+
+[0x91138]
+last_change = 2023-11-15T10:38:19.676850Z
+addr = 0x91138
+func_addr = 0x91138
+comment = "==== AI Summarization ====\nThe code defines a structure and a function in C language. The structure, `struc\nt_0`, consists of a character array with a size of 3272 and an unsigned integer \nmember variable, `field_cc8`. The function, `sub_91138`, is a complex program th\nat manipulates the values of the global and local variables, including some of t\nhe members of `struct_0`. \n\nInternal function calls are made to functions labeled `sub_10e238`, `sub_6fbb0`,\n `sub_239c30`, `sub_239c20`, `sub_6f8e0`, and `sub_90ee0`, although the code for\n these functions is not provided. The function also includes a substantial amoun\nt of conditional (if) statements, bitwise operations, arithmetic operations, and\n pointer arithmetic which are applied on these local and global variables.\n\nThe function does not return any value explicitly, and the logic of the function\n suggests that it is used for modifying or updating the values of certain global\n variables and producing side effects rather than returning a result.\n"
+decompiled = true
