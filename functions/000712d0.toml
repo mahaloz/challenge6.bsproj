@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x712d0
+size = 0x12c
+last_change = 2023-11-15T10:16:00.205299Z
+
+[header]
+name = "configure_bitwise_memory_manipulation"
+addr = 0x712d0
