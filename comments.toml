@@ -5513,3 +5513,10 @@ addr = 0x1cec20
 func_addr = 0x1cec20
 comment = "==== AI Summarization ====\nThis is a C code piece that uses multiple global and local variables. There is a\n defined data structure named \"struct_0\", which has a char array and an unsigned\n int field. 18 global variables and multiple local variables are also declared. \nThe \"sub_1cec20\" function appears to manipulate these variables using arithmetic\n and bitwise operations, including multiple conditional statements and calls to \nexternal functions named \"sub_10e59c\", \"sub_6f170\", \"sub_7d190\", and \"sub_d0b90\"\n.This function manipulates values of the struct and global variables and return \na value after various operations. The conditional logic can follow two main path\ns, depending on the evaluation of an complicated condition.\n"
 decompiled = true
+
+[0x1cf390]
+last_change = 2023-11-15T19:37:10.482682Z
+addr = 0x1cf390
+func_addr = 0x1cf390
+comment = "==== AI Summarization ====\nThis C code defines a structure named struct_0 containing a large character arra\ny and a single character, as well as many global (extern) variables, including i\nntegers, characters, and pointers. It also contains an int function named sub_1c\nf390(). This function includes a large number of local variable definitions and \nifs condition statements. It uses bitwise operations '&' and '^', comparison, as\nsignments, and lots of address manipulations to control the values of the global\n variables and the fields of struct_0. The function returns an integer value.\n"
+decompiled = true
