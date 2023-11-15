@@ -963,3 +963,10 @@ addr = 0x986a0
 func_addr = 0x986a0
 comment = "==== AI Summarization ====\nThis piece of code appears to be declaring a C function called `sub_986a0()`. Th\nis function seems to perform a variety of actions based on certain conditions, s\nplitting into different branches via if statements. Actions within these branche\ns include manipulation with pointers and variables of a custom structure (`struc\nt_0`), various calculations with global variables, and invocations of another fu\nnction (`sub_aa7c0()`), for which it does not return. It also makes use of bitwi\nse operations, likely for manipulating bits in particularly designated ways.\n"
 decompiled = true
+
+[0x98b00]
+last_change = 2023-11-15T10:47:47.554948Z
+addr = 0x98b00
+func_addr = 0x98b00
+comment = "==== AI Summarization ====\nThis code defines two C data structures, `struct_0` and `struct_1`, and a functi\non `sub_98b00()`. \n\nThe structures `struct_0` and `struct_1` contain several members of types, char,\n unsigned char, and unsigned int. \n\nThe function `sub_98b00` makes use of these structure data types and variables t\no perform operations. The function performs several operations including allocat\ning memory, logical operations, and array indexing. Notably, the function contai\nns a do-while loop which continues to perform operations as long as a condition \nis met, specifically `(tmp_80 & 2 ^ 2)` and `((char)tmp_20 & 8)`. The function a\nlso makes use of bitmap operations. \n\nThe function also interacts with several global character variables such as `g_7\n10e`, `g_7110`, `g_7112`, `g_7126`, `g_7128`.\n\nHowever, without context or reference, the true function and purpose of `sub_98b\n00()` are difficult to deduce given this is low-level hardware related code.\n"
+decompiled = true
