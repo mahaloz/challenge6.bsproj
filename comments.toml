@@ -3084,3 +3084,10 @@ addr = 0x143580
 func_addr = 0x143580
 comment = "==== AI Summarization ====\nThis code provides the definition of a function named `sub_143580`. This functio\nn appears to involve various manipulations with external character variables and\n integers with bitwise operations and conditional constructs. The operations inv\nolve calling to other functions (like `sub_146320`, `sub_143480`, `sub_146190` a\nnd `sub_239b30`), assignment of integer values, bit shifting, and condition chec\nks.\n\nRegarding the functionality, without context or comments, it's difficult to prov\nide the precise functional description of the function. It seems to be a piece o\nf a lower-level system or device software, maybe a driver or a compiler due to t\nhe use of raw memory addresses and low-level data manipulations. \n\nAt the end of the execution, variable `v15` is returned as the result of the fun\nction. It also modifies a global variable `g_60065325`, setting its value to 0 b\nefore the function ends.\n"
 decompiled = true
+
+[0x143838]
+last_change = 2023-11-15T15:29:35.086653Z
+addr = 0x143838
+func_addr = 0x143838
+comment = "==== AI Summarization ====\nThis code defines the function `sub_143838` which involves operation with some e\nxternal variables `g_60072b1c`, `g_7be4`, and `g_7bec`. The function works on co\nnditions with bitwise operations and assigns condition-based values to the exter\nnal variable `g_60072b1c` and to local variable `v4`. The function includes nest\ned if-else conditions and returns the value of `v4` at various conditions. The s\npecific operations seem to be related to memory or bit manipulation, including g\netting the values of specific memory addresses, bitwise and and xor operations, \nand calling other functions (`sub_1426f0`, `sub_27c8d0`, `sub_145080`, `sub_1435\n80`) whose details are not given in the provided code.\n"
+decompiled = true
