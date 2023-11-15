@@ -2195,3 +2195,10 @@ addr = 0xd23a0
 func_addr = 0xd23a0
 comment = "==== AI Summarization ====\nThe provided code is a complex C function that manipulates a variety of integer \nand short variables primarily through bitwise shifting and logic operations. The\n function appears to be highly dependent on temporary variables, and the logic i\ns organized through a series of nested conditionals and loops. The function itse\nlf does not appear to return a value. Further context (like function calls, data\n types of the temporary variables, or overarching program goal) would help furth\ner understanding of this function.\n"
 decompiled = true
+
+[0xd2900]
+last_change = 2023-11-15T14:27:12.253674Z
+addr = 0xd2900
+func_addr = 0xd2900
+comment = "==== AI Summarization ====\nThe given code is a function named `sub_d2900` that seems to calculate some time\n values related to date and time (seconds, minutes, hours, and days), as well as\n processing an unknown external array of integers, based on some input values an\nd conditions.\n\nThe function also has variables v0 to v27, including variables v6 to v27 for sto\nring general purpose registers (gpr), tmp_131, tmp_40, and tmp_92 for temporary \nvalues, and char variables v0 to v5 for bit-level manipulation. However, the fun\nction doesn't provide a return value and has multiple unresolved symbols, so its\n exact purpose can't be determined just from the given code.\n"
+decompiled = true
