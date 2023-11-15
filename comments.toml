@@ -235,3 +235,10 @@ addr = 0x6df30
 func_addr = 0x6df30
 comment = "==== AI Summarization ====\nThe provided code is a C program that defines a function named `sub_6df30`. This\n function first declares a bunch of integer and unsigned integer variables, char\nacter variables and pointer variables. \n\nAt the start of the function, a short variable located at v2 minus a constant g_\n5278 offset, is incremented by 5.\n\nThen it checks for a condition, if it's true, it returns the value of v10. \n\nIf not, it enters a do-while loop where multiple statements and conditions are e\nxecuted. Within this loop, there are other sub-loops and conditions where differ\nent function calls are made based on various conditions. These function calls wh\nose names look like sub_XXXXX are probably sub-routines present in the same code\n but not shown here.\n\nAt the end of the function, v10 is returned. Note that, there is no actual compu\ntation in this function and it's mostly function calls and condition checks.\n\nIt's worth noting that the g_5278 variable is defined as extern, which means it \nis defined in another file and this file has a reference to it.\nMoreover, some variable names such as v10, v7 etc. suggest that this code may be\n generated from a disassembler or decompiler.\n"
 decompiled = true
+
+[0x6e2b0]
+last_change = 2023-11-15T10:06:52.255139Z
+addr = 0x6e2b0
+func_addr = 0x6e2b0
+comment = "==== AI Summarization ====\nThis code defines two external characters, g_5278 and g_527c. It also defines an\n empty function called sub_6e2b0. The function does not perform any operations a\ns there is nothing within the function body.\n"
+decompiled = true
