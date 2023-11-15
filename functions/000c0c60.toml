@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc0c60
+size = 0x1f0
+last_change = 2023-11-15T13:31:49.251832Z
+
+[header]
+name = "manipulate_variables_and_struct"
+addr = 0xc0c60
