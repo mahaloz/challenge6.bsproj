@@ -1124,3 +1124,10 @@ addr = 0xa1474
 func_addr = 0xa1474
 comment = "==== AI Summarization ====\nThe code appears to be some decompiled code named 'sub_a1474'. It starts by init\nializing several variables, then calls a subroutine 'sub_10dc14'. It then uses b\nitwise operations and conditional statements to modify the values of certain var\niables. The resulting value is stored in 'v3', which is then copied to 'v0'. It \nends with a conditional statement that may lead to some part of the code identif\nied by 'LABEL_0xa15f0'. However, there is not enough context to provide a meanin\ngful understanding of the specific functionality or intended purpose of this cod\ne.\n"
 decompiled = true
+
+[0xa19b4]
+last_change = 2023-11-15T12:23:00.236054Z
+addr = 0xa19b4
+func_addr = 0xa19b4
+comment = "==== AI Summarization ====\nThis C code includes a struct definition and a function named sub_a19b4. \n\nThe struct \"struct_0\" is made up of an array of 4 characters named padding_0 and\n an unsigned integer named field_4.\n\nThe function sub_a19b4 contains variables of different types, including char, in\nt, unsigned int, and a pointer to the struct struct_0. It appears to be managing\n memory and conducting bitwise operations & arithmetic operations.\n\nThere are also three externally defined global unsigned integer variables: g_600\n70d44, g_60070dcc, and g_60070de8. \n\nInside the function, it first checks if a bitwise operation on ‘v8’ with 4 equal\ns 4.  If not, it will jump to LABEL_0xa19b8. If it does, it calls a function nam\ned sub_a0db0 four times with different set of arguments each time and later perf\norms bit-wise OR on the return values.\n\nIt also does some read and write operations with pointers and bitwise operations\n and finally, uses a do-while loop due to some reason not clearly apparent from \nthe given code.\n\nThe function ends by storing the value of v23 in g_60070d44. \n\nThe purpose of the function isn’t clear, it seems to be handling a form of low-l\nevel memory processing or peripheral interaction. It could be traditional C code\n most likely used in an embedded system context.\n"
+decompiled = true

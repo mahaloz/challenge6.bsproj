@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xa19b4
+size = 0x110
+last_change = 2023-11-15T12:23:00.236054Z
+
+[header]
+name = "process_memory_bitwise_operations"
+addr = 0xa19b4
