@@ -676,3 +676,10 @@ addr = 0x887a0
 func_addr = 0x887a0
 comment = "==== AI Summarization ====\nThis is a rather complex code in C programming language. The given code first de\nclares a structure named 'struct_2' with one member - an array of characters of \nlength 24. The code then declares several global variables: 'g_69a4', 'g_69a5', \n'g_69a6', 'g_69a7', 'g_69a8', and 'g_69b0'. \n\nThen it proceeds to define a function named 'sub_887a0', which doesn't take any \narguments. Within this function, various integer and character variables along w\nith pointers are declared. These variables are used in performing different oper\nations like bitwise shifts and rotations, comparisons, bitwise AND, OR and XOR o\nperations, and assignment operations. The function sub_6f8e0 is called multiple \ntimes with different argument values. \n\nIt also appears that this code includes certain checks and conditions which migh\nt be part of an error-checking mechanism or a security feature as there are cert\nain bitwise operations that are often used in cryptography or hashing like right\n-rotate, AND, OR, XOR, NOT, etc. \n\nThe code also contains some form of loop that continuously operates until a cert\nain condition is met (while (((char)tmp_75 & 8));).\n\nHowever, due to the partial nature of the code and lack of context, a more speci\nfic description can't be provided.\n"
 decompiled = true
+
+[0x89fe0]
+last_change = 2023-11-15T10:32:40.342855Z
+addr = 0x89fe0
+func_addr = 0x89fe0
+comment = "==== AI Summarization ====\nThe code defines two structures, `struct_1` and `struct_0`, with character array\ns for padding and an additional variable for each. The type of variable differs \nbetween the two structures with one containing an `unsigned short` and a `char` \nwhile the other only contains an `unsigned short`.\n\nThe code then declares several external character variables like `g_7861`, `g_78\n76`, and `g_787b` among others.\n\nLastly, an empty function named `sub_89fe0` is declared.\n"
+decompiled = true
