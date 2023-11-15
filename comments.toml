@@ -4694,3 +4694,10 @@ addr = 0x18f42c
 func_addr = 0x18f42c
 comment = "==== AI Summarization ====\nThis C code defines a function called sub_18f42c which involves several local in\nteger and character variables including some temporary variables. The variables \nv7 through v13 and v0 are also declared. The function executes a sequence of con\nditional statements and assignments including bitwise operations. The program al\nso potentially calls another function, sub_10e59c, depending on certain conditio\nns. The function does not explicitly return a value for all execution paths, whi\nch may cause undefined behavior.\n"
 decompiled = true
+
+[0x18f4c8]
+last_change = 2023-11-15T18:27:13.216085Z
+addr = 0x18f4c8
+func_addr = 0x18f4c8
+comment = "==== AI Summarization ====\nThis code defines an externally accessible character and a function. The functio\nn initializes a set of integer and character variables. It also sets conditions \nthat check if certain bits are set in the integer variables, and depending on th\ne outcome of those conditions, it may call another function (`sub_10e59c`), mani\npulate the variables or return a value early. Without a broader context, the exa\nct application or purpose of this function cannot be determined as the variable \nnames are non-descriptive and there is no surrounding documentation.\n"
+decompiled = true
