@@ -116,3 +116,10 @@ addr = 0x6b330
 func_addr = 0x6b330
 comment = "==== AI Summarization ====\nThis code defines several data structures (`struct_0`, `struct_1`, and `struct_2\n`), and a single function `sub_6b330`. \n\nThe data structures each contain a specific set of fields:\n- `struct_0` contains an unsigned integer `field_0`, and a pointer to `struct_1`\n named `field_4`. \n- `struct_1` contains an unsigned integer `field_0`.\n- `struct_2` contains a character array `padding_0`[28] and an unsigned integer \n`field_1c`.\n\nThe function `sub_6b330` initiates multiple variables, including arrays and poin\nters, and contains two loops that manipulate these variables based on certain co\nnditions. Specifically, the loops contain operations related to memory access an\nd mathematical calculations. If certain conditions are met, the function calls a\n sub-function `sub_6b270`.\n\nIt's worth noting that without the code for `sub_6b270` and the exact usage of `\ng_7bb4` and the other `tmp_` variables that act as condition within the function\n `sub_6b330`, it's difficult to identify with certainty the specific high-level \npurpose or function of the `sub_6b330` function. However, it's clear that this f\nunction is manipulating data structures and memory in complex ways.\n"
 decompiled = true
+
+[0x6b4b0]
+last_change = 2023-11-15T09:59:23.119577Z
+addr = 0x6b4b0
+func_addr = 0x6b4b0
+comment = "==== AI Summarization ====\nThe code is written in C language. It first defines a structure named struct_1 a\nnd then declares several external variables. It includes the definition of a fun\nction called sub_6b4b0, which contains several variables including integer, char\nacter, void pointer, pointer to struct_1. The function mainly involves operation\ns on variables including bit manipulation, calling a couple of other functions, \nlooping till a condition is satisfied, and complex conditional statements with n\nested conditions. However, since the function lacks comments and doesn't show th\ne fixed values for some variables like tmp_20, tmp_19, and others, it's not poss\nible to derive a concrete purpose of this function.\n"
+decompiled = true
