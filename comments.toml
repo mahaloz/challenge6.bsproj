@@ -2090,3 +2090,10 @@ addr = 0xccb10
 func_addr = 0xccb10
 comment = "==== AI Summarization ====\nThe function `sub_ccb10` appears to be a part of a larger system, possibly a dri\nver or kernel module due to the use of globally defined bit-manipulation operati\nons. The function first initializes a large number of automatic variables in sta\nck memory. Then sets some bit values on the variables `g_c3fc0014`, `g_c3fc0018`\n, and `g_c3fc0000`.\n\nThe function then enters a loop, which seems to repeatedly zero out memory locat\nions in a region starting at `g_c3fc8000`, `g_c3fcc000` and `g_c3fd0000` respect\nively. Subsequently, the function performs some operation possibly related to a \nsub_77184 function and a calculation with the integer `3288137724`.\n\nThe function performs some more operation involving bit manipulation and divisio\nn operation on `g_315b24` and `g_315b18` and stores the result in `g_c3fc0040` a\nnd `g_c3fc0020`. Finally, the function checks some conditions and sets the bit v\nalues on `g_c3fc0000`, `g_600873d4` and `g_600873d8`. Then assigns `0` to `g_600\n873e0` and `g_c3fc0240`, and calls another function `sub_cc820`, returning its r\nesult.\n"
 decompiled = true
+
+[0xccf20]
+last_change = 2023-11-15T14:20:56.444053Z
+addr = 0xccf20
+func_addr = 0xccf20
+comment = "==== AI Summarization ====\nThe provided C code declares a function named `sub_ccf20` that operates with ext\nernal variables `g_7d60` and `g_cd5d8`, and several local variables. It performs\n some bitwise operations and conditions inside multiple while loops and updates \nthe values of a defined array `v2`. At the end, the function returns the address\n of the external variable `g_cd5d8`. The purpose of these operations might be re\nlated to managing, encoding or processing some bit-level information, but withou\nt a wider context it is difficult to determine the specific objective of this co\nde.\n"
+decompiled = true
