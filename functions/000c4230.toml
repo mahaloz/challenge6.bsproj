@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc4230
+size = 0x178
+last_change = 2023-11-15T13:37:08.592431Z
+
+[header]
+name = "manipulate_struct_values"
+addr = 0xc4230
