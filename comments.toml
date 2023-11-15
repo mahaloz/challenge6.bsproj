@@ -172,3 +172,10 @@ addr = 0x6c520
 func_addr = 0x6c520
 comment = "==== AI Summarization ====\nThis program defines a function `sub_6c520` with no explicit inputs, which perfo\nrms a set of operations using bitwise AND(`&`), bitwise OR(`|`), and bitwise XOR\n(`^`) operations on some temporary variables and a series of unsigned integers a\nnd characters. Values assigned to these variables seem random (e.g., `805544080`\n, `1611001928`). The function uses a do-while loop where certain operations and \nconditions, mostly bitwise, are checked and carried out until a certain conditio\nn regarding the temporary variable `tmp_32` and the constant `4` is met. The val\nue of `v11` is updated within this loop using a function `sub_71cf0` that is cal\nled with two arguments and returned at the end of `sub_6c520`.\nThe memory addresses like `805544080`, `1611001928`, etc. suggest that this code\n might be emitted from a decompiler and could be part of a larger embedded syste\nm application or driver. This case means that the true function of this code wou\nld be understood if viewed in the context of the whole decompiled code.\n"
 decompiled = true
+
+[0x6c690]
+last_change = 2023-11-15T10:03:13.113371Z
+addr = 0x6c690
+func_addr = 0x6c690
+comment = "==== AI Summarization ====\nThe code presents two custom data structures (\"struct_0\" and \"struct_1\"), and a \nfunction named \"sub_6c690\". This function carries out a series of operations, ma\ninly focusing on the bitwise operations. It defines a group of variables and per\nforms bitwise operations such as bitwise AND (&), XOR (^), and right rotation (_\n_ROR__). The function also uses a while loop and multiple if-else conditional st\natements to determine the flow of operations. The return value of the function i\ns not specified. There are two return statements, returning nothing, that appear\n to be used to break out of the function early under certain condition-tested si\ntuations. The function also uses pointers to the custom data structures (struct_\n0 and struct_1).\n"
+decompiled = true
