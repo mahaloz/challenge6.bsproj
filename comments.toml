@@ -5037,3 +5037,10 @@ addr = 0x1b4850
 func_addr = 0x1b4850
 comment = "==== AI Summarization ====\nThis code defines a function `sub_1b4850` with several local variables and one e\nxternal variable `g_60071d04`. This function has multiple conditional checks usi\nng the bitwise AND operator `&` and the bitwise XOR operator `^`. If certain con\nditions are met, the function returns the value `v7`. If other conditions are me\nt, it changes the value of the global variable `g_60071d04` and possibly jumps t\no other sections of the code (indicated by the labels `LABEL_0x1b4978` and `LABE\nL_0x1b48cc`). These jumps could possibly be a part of a larger conditional struc\nture or loop not fully given in this code snippet.\n"
 decompiled = true
+
+[0x1b57ac]
+last_change = 2023-11-15T18:47:38.533143Z
+addr = 0x1b57ac
+func_addr = 0x1b57ac
+comment = "==== AI Summarization ====\nThe provided code is a C++ function named `sub_1b57ac`. It's a complex function \nfilled with calculations that involve bitwise operator (`&`, `^`, `|`). This fun\nction uses several global externally declared variables such as `g_46e3`, `g_46e\n4`, `g_4708`, `g_4714`, `g_4718`, etc. Additionally, it defines a lot of local v\nariables without initializing them. \n\nThe details of concrete computation can't be clearly discerned without knowing t\nhe initial state or values of these variables and definitions of any used sub-fu\nnctions like `sub_6f240(v10)`. It features branches of if-else conditions that a\nssign different values to various variables, depending on the conditions. Some o\nf these if-else conditions refer to a function named `sub_6f240`. \n\nThis seems to be a part of larger, low-level code (like device driver or part of\n an operating system kernel) dealing with data in a bit-wise manner. The exact p\nurpose of the function is hard to discern without additional context.\n"
+decompiled = true
