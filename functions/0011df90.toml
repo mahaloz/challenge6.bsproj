@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x11df90
+size = 0x44c
+last_change = 2023-11-15T14:46:20.577081Z
+
+[header]
+name = "manipulate_memory_locations"
+addr = 0x11df90
