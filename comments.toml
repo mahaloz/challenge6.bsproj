@@ -2468,3 +2468,10 @@ addr = 0x118b70
 func_addr = 0x118b70
 comment = "==== AI Summarization ====\nThe given C code declares a function `sub_118b70()`. \n\nThe function begins with numerous variable initializations and extern global var\niable declarations. These global variables are unsigned shorts, void pointers or\n chars. The function `sub_118b70()` itself does not take any arguments.\n\nWithin this function, the main logic involves: \n- Calling other functions like `sub_b6460()`, `sub_6f7d0()`, `sub_6fbb0()`, `sub\n_d14d0()`, `sub_6f170()`, `sub_b9420()`, `sub_6ff50()`, which presumably perform\n specific calculations or operations. \n- Assigning values to the variables and global variables.\n- Performing bitwise operations under certain conditions.\n- Value comparisons and conditional (if-else) logic.\n\nThe function ends by returning the value from calling another function `sub_6f7d\n0()`.\n"
 decompiled = true
+
+[0x119410]
+last_change = 2023-11-15T14:42:20.855743Z
+addr = 0x119410
+func_addr = 0x119410
+comment = "==== AI Summarization ====\nThe mentioned code declares several global external characters. Additionally, it\n contains a function named `sub_119410()`. The function operates conditionally b\nased on binary operations with pre-declared variables and updates the values of \nglobal variables accordingly.\nThe function is executing several conditional statements using bitwise operators\n on integer variables and compares their corresponding 2nd bit. Depending on the\n condition's result, it either sets the value of memory pointed to by other glob\nal variables or calls `sub_d0cc0()` or `sub_d23a0()` functions with several argu\nments.\nIn the end, it finally sets the value of two other global variables and returns \ninteger `v11`. The exact functional details and purpose cannot be determined wit\nhout the corresponding implementation of the rest of this program.\n"
+decompiled = true
