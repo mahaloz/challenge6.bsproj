@@ -2258,3 +2258,10 @@ addr = 0x107f30
 func_addr = 0x107f30
 comment = "==== AI Summarization ====\nThe code appears to be an assembly programming subroutine. The function first in\nitializes a number of unsigned integer and character variables. It then performs\n various bitwise operations and conditional checks on these variables. If certai\nn conditions are met, the function jumps to other sections of the program, denot\ned by \"Goto None\" and \"goto LABEL_0x0\". These jumps prevent the rest of the func\ntion from executing. If none of the conditions are met, the function calls anoth\ner subroutine \"sub_1081dc()\" with a number of parameters derived from the previo\nusly defined variables, performing several bitwise operations on them. The purpo\nse of these operations isn't clear from the provided snippet. The function doesn\n't return anything.\n"
 decompiled = true
+
+[0x1085dc]
+last_change = 2023-11-15T14:30:03.191301Z
+addr = 0x1085dc
+func_addr = 0x1085dc
+comment = "==== AI Summarization ====\nThe code is a function declaration in C++ language for a function named 'sub_108\n5dc' that doesn't take any arguments and returns an integer. However, the functi\non is empty and it does not have any operations or a return statement inside it,\n meaning it will cause an error if it's called.\n"
+decompiled = true
