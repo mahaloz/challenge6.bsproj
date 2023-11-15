@@ -3126,3 +3126,10 @@ addr = 0x144650
 func_addr = 0x144650
 comment = "==== AI Summarization ====\nThe function sub_144650 uses integer variable declarations and bitwise operation\ns. It starts with initializing several integer and pointer variables, then goes \ninto a conditional looping statement checking bitwise operations on external cha\nracter variables.\n\nIf a condition is met, it performs a series of calculations and checks on numero\nus variables, resulting in operations on a set of integers using bitwise additio\nn or assignment. Depending on the evaluation of other bitwise checks, it enters \ninto another loop that performs operations on integers.\n\nLastly, it sets v0 to v16 and exits the function. As with much low-level code, w\ne can't be certain about the purpose of this routine without knowing more about \nthe context in which it is used.\n\n"
 decompiled = true
+
+[0x1448b0]
+last_change = 2023-11-15T15:31:58.041285Z
+addr = 0x1448b0
+func_addr = 0x1448b0
+comment = "==== AI Summarization ====\nThe C code implements a function named 'sub_1448b0'. It declares several externa\nl global variables and local variables. The function contains complex logic incl\nuding decision structures (if-statements), and iterative structures such as two \nwhile(true) loops indicating indicating infinite loops which are only terminated\n under certain conditions met inside the loops.\nSome operations like sub_239b30(g_600058dc) and g_600058dc = 0 seem to deallocat\ne or reset the same global pointers repeatedly under different conditions.\nAdditionally, it seems to be manipulating memory in a low-level manner -- possib\nly for some sort of memory management, indexing or optimization purpose.\nIt also contains references to other functions ('sub_c1400', 'sub_239b30', 'sub_\n145080', 'sub_145f80', 'sub_143970') which functionality is not given in this ex\ncerpt.\nThis code is likely a part of a larger system given the usage of external variab\nles and references to external functions.\n"
+decompiled = true
