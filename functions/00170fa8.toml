@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x170fa8
+size = 0x1c0
+last_change = 2023-11-15T16:38:43.814751Z
+
+[header]
+name = "condition_based_bitwise_operation"
+addr = 0x170fa8
