@@ -270,3 +270,10 @@ addr = 0x6f4c0
 func_addr = 0x6f4c0
 comment = "==== AI Summarization ====\nThe provided code is written in C. It declares a struct called `struct_0` with t\nwo members, an array of characters called `padding_0` and an unsigned short call\ned `field_2`. It also declares some global characters. \n\nThe code also defines a function `sub_6f4c0()`. This function declares several i\nntegers and pointers, and then carries out some calculations and bitwise operati\nons on these variables. \n\nThe main body of the function seems to be implementing some type of logic with s\neveral conditionals (`if` statements) and loops (`while` statements), which mani\npulate the fields in an instance of `struct_0`, several integers and pointers de\nclared earlier in the function, and some of the global characters. \n\nIn the end of function, it assigns the value of `v7` to the dereferenced `v8` po\ninter and a local variable `v0` to `v9`. Then, the function ends without returni\nng anything.\n"
 decompiled = true
+
+[0x6f640]
+last_change = 2023-11-15T10:08:39.670424Z
+addr = 0x6f640
+func_addr = 0x6f640
+comment = "==== AI Summarization ====\nThe given code is written in C and involves operations on data types, bitwise op\nerations, conditional statements and loops . It begins with declaring a structur\ned data type 'struct_0' which contains 'padding_0' array of characters and an un\nsigned short field called 'field_2'. \n\nNext, it specifies the external variables - 'g_7d3c', 'g_7d42', 'g_7d48', 'g_7ff\nf8', 'g_d2a78' and 'g_dd91c' which are part of the memory outside of the file. \n\nA function 'sub_6f640()' is defined with several local variables and a few condi\ntion checks involving various bitwise operations including Right Bitwise Rotatio\nn (ROR). Depending on the conditions, it either adds a value to an unsigned shor\nt pointer variable or assigns it a value from the structured pointer. Finally, i\nt assigns the value of variable 'v0' to 'v9' and terminates the function.\n"
+decompiled = true
