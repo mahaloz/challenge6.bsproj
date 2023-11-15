@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1621e0
+size = 0x15c
+last_change = 2023-11-15T16:08:41.526795Z
+
+[header]
+name = "memory_management_operation"
+addr = 0x1621e0
