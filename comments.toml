@@ -4974,3 +4974,10 @@ addr = 0x1b1624
 func_addr = 0x1b1624
 comment = "==== AI Summarization ====\nThis code defines three C structures (struct_2, struct_0, and struct_1), all con\nsisting of various char arrays (used for padding) and unsigned int values. It al\nso declares several global variables as extern, indicating that they are actuall\ny defined elsewhere (in another file or module). A final piece of the code is a \ndeclared, yet undefined, function called sub_1b1624.\n"
 decompiled = true
+
+[0x1b1d98]
+last_change = 2023-11-15T18:43:56.811434Z
+addr = 0x1b1d98
+func_addr = 0x1b1d98
+comment = "==== AI Summarization ====\nThe C code includes definitions of two structs (`struct_0` and `struct_1`), a se\nries of `extern` variables, and a function `sub_1b1d98()`. These components are \neither variables of some types or contain functions and entries for various oper\nations.\n\n`struct_0` has various fields, some are padding fields, unsigned ints of certain\n byte values, chars, and unsigned short.\n\n`struct_1` has a padding field and an unsigned int field.\n\nThe function `sub_1b1d98()` initializes various variables including integers, ch\naracters, and unsigned integers. Using bitwise operations and conditional statem\nents, the function then proceeds to modify global variables, conduct checks, and\n carry out slightly more complex operations such as function calls to some exter\nnally declared functions (`sub_10e59c()`, `sub_6f170()`, and `sub_6ff50()`). \n\nThe function also appears to be used in lower-level programming due to its manip\nulation of memory and bitwise-based checks. \n\nIt is hard to understand the precise purpose of this function due to lack of con\ntext and comments.\n\n"
+decompiled = true
