@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1ce1e8
+size = 0x350
+last_change = 2023-11-15T19:35:53.246182Z
+
+[header]
+name = "modify_struct_0_fields"
+addr = 0x1ce1e8
