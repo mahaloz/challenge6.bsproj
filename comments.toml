@@ -4106,3 +4106,10 @@ addr = 0x170b38
 func_addr = 0x170b38
 comment = "==== AI Summarization ====\nThis is a C code snippet with multiple conditionals. It makes modifications to g\nlobally declared external variables using bitwise operations and calls multiple \nother functions. The functions being called look like they are also returning va\nlues, but these values are not being assigned to anything in this snippet.\nThe purpose of this code cannot be determined without the creator's original com\nments and the context as the function and variable names are non-meaningful, and\n it seems to be a low-level code snippet that interacts with hardware or an oper\nating system.\n"
 decompiled = true
+
+[0x170d70]
+last_change = 2023-11-15T16:38:23.029118Z
+addr = 0x170d70
+func_addr = 0x170d70
+comment = "==== AI Summarization ====\nThe code is a function in C language named \"sub_170d70\". This function has a com\nplex control flow with multiple conditions checked and actions performed based o\nn these conditions. \n\nThe function first checks if a certain bit in the variable \"v3\" is set. If the b\nit is not set, several operations are performed where the global variables \"g_60\n061de4\" and \"g_60061de0\" are manipulated. The function calls other functions suc\nh as \"sub_10e59c\", \"sub_6f170\" and \"sub_6ff50\" with certain parameters. \n\nTowards the end of the function, it makes a call to the function \"sub_6f240\" and\n again checks if the same certain bit in \"v3\" is set. \n\nPlease note that the given code contains parts representative of a decompiled bi\nnary (likely using a tool like ghidra), which means the original function name, \nvariable names, and certain other aspects of the code are not available and are \nrepresented by placeholders, such as \"sub_170d70\" for the function name. Also, i\nt uses hexadecimal addresses for function calls and memory locations which are l\nikely specific to an individual runtime instance or specific binary.\n"
+decompiled = true
