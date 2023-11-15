@@ -1068,3 +1068,10 @@ addr = 0x9e590
 func_addr = 0x9e590
 comment = "==== AI Summarization ====\nThis code defines an external global variable and a function. The function has m\nany local variables and performs several operations on these variables, includin\ng arithmetic operations, conditional checks, assignments, and function calls. It\n also interacts with global variables. Several conditionals, loops, and external\n function calls suggest complex functionality. This function could be a part of \nlarger system or framework. However, the exact purpose of the function isn't cle\nar just from the code without context.\n"
 decompiled = true
+
+[0x9eb94]
+last_change = 2023-11-15T10:53:25.234397Z
+addr = 0x9eb94
+func_addr = 0x9eb94
+comment = "==== AI Summarization ====\nThe code defines two structures, struct_1 and struct_0, each with their own fiel\nds. It then proceeds with the function 'sub_9eb94()' where it declares a variety\n of integer and char variables, and some pointers to the previously created stru\nctures. \n\nThe function then manipulates these variables using various conditional statemen\nts and operations, such as bitwise operations and comparison. Among these manipu\nlations, it appears to conduct certain operations under specific conditions that\n check the state of certain temporary variables like 'tmp_13', 'tmp_39', 'tmp_15\n' and so on.\n\nEssentially, 'sub_9eb94()' is using manipulations and conditions to carry out a \nspecific operation defined by the developer, using the fields of the created str\nuctures and several temporarily stored variables. It appears to manipulate and c\nheck certain bit locations and doing arithmetic operations. However, without add\nitional context or comments, the higher level purpose of this function is unclea\nr.\n"
+decompiled = true
