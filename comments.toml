@@ -39,3 +39,10 @@ addr = 0x35c0
 func_addr = 0x35c0
 comment = "==== AI Summarization ====\nThis code, written in C language, defines a function named `sub_35c0`. This func\ntion runs another function, `sub_3898()`, and does not return any value.\n"
 decompiled = true
+
+[0x38ec]
+last_change = 2023-11-15T09:55:17.665413Z
+addr = 0x38ec
+func_addr = 0x38ec
+comment = "==== AI Summarization ====\nThe code defines a function named 'sub_38ec'. This function calls another functi\non named 'sub_3ba0'. According to a comment, 'sub_3ba0' function does not return\n any value. Note: the purpose of both functions cannot be identified from this s\nnippet since the detailed implementations are not provided.\n"
+decompiled = true
