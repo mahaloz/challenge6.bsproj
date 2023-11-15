@@ -529,3 +529,10 @@ addr = 0x7df10
 func_addr = 0x7df10
 comment = "==== AI Summarization ====\nThis code is written in C and includes function and variable declarations using \nthe `extern` keyword, which means these identifiers are declared in another file\n, not in the same one as the presented code.\n\nThe main function in this code is `sub_7df10()`. The function starts with declar\ning a slew of integer, character, and unsigned integer variables. Then, the func\ntion performs a series of operations where it assigns values to several global v\nariables and calls two unspecified functions (`sub_10d464` and `sub_7ded0`) mult\niple times.\n\nThe function also includes a loop that iterates until a certain condition from a\n temporal variable `tmp_20` is met, and within this loop, it updates other varia\nbles (`v43`, `v42`, `v41`, `v1` and `v40`) with new values.\n\nAdditionally, the function `sub_7df10` employs a logical bitwise shift `__ROR__`\n (Rotate Right) operation repeated multiple times throughout the code.\n\nThis C code appears to be a raw disassembly of a binary executable file due to h\nexadecimal memory addresses and label names like `sub_7df10` or `g_60070e38`. Th\ne actual purpose of the function might not be entirely clear without additional \ncontext of the overall software and without knowing what the external functions \ndo exactly.\n\nLastly, the `sub_7df10` function returns the output of another unspecified funct\nion `sub_7def0()`.\n"
 decompiled = true
+
+[0x7e190]
+last_change = 2023-11-15T10:23:53.517769Z
+addr = 0x7e190
+func_addr = 0x7e190
+comment = "==== AI Summarization ====\nThe code snippet is written in C language, defining three structures (struct_1, \nstruct_0, and struct_2) and a bunch of external variables (both char and unsigne\nd int types, and pointers). It also declares an integer function sub_7e190() wit\nh no functionality inside it. These types of struct and extern declarations are \ntypically found in C programs where multiple source files share common data or f\nunction definitions. The empty function, sub_7e190(), doesn't currently do anyth\ning.\n"
+decompiled = true

@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x7e190
+size = 0x1384
+last_change = 2023-11-15T10:23:53.517769Z
+
+[header]
+name = "empty_function"
+addr = 0x7e190
