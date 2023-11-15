@@ -1740,3 +1740,10 @@ addr = 0xbfec0
 func_addr = 0xbfec0
 comment = "==== AI Summarization ====\nThis is a C language code that defines two struct types, then a global variable,\n and finally a function `sub_bfec0`. \n\nThe function `sub_bfec0` contains many local variables and a series of condition\nal statements. The function performs various operations depending on the results\n of these conditionals, including bitwise logical operations, addition or settin\ng the values of struct field `field_c88`, and returning values from struct field\ns. \n\nThe function seems to manipulate certain bits in integers and make decisions bas\ned on the results of bitwise operations. This suggests that the function might b\ne part of a lower-level system software, such as device driver or an embedded sy\nstem, where direct hardware access or specific memory layout is often needed.\n"
 decompiled = true
+
+[0xc05d0]
+last_change = 2023-11-15T13:13:47.042759Z
+addr = 0xc05d0
+func_addr = 0xc05d0
+comment = "==== AI Summarization ====\nThe provided code is written in C language. It includes two structure definition\ns, struct_0 and struct_1, with the first one (struct_0) including an assortment \nof char padding, short fields, and int fields, and the second one (struct_1) inc\nluding char padding and int field. It also has multiple global single character \n(char) variables. \n\nThe function sub_c05d0 comprises a mixture of complex condition checks, as well \nas several operations on members of struct_0 and struct_1, which involve increme\nnting some members and setting others to specific values. Some of these operatio\nns are conditional and depend on complicated conditions involving some temporary\n variables (whose values and purpose are not clear). The final result returned b\ny the function is an integer. It's hard to give a concise description of what th\ne function does without the larger context in which it's used.\n"
+decompiled = true
