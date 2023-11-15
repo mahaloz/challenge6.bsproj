@@ -2314,3 +2314,10 @@ addr = 0x10b5d8
 func_addr = 0x10b5d8
 comment = "==== AI Summarization ====\nThis C-language code defines a function named 'sub_10b5d8' which does not take a\nny arguments and returns an integer value. However, it's worth noting that it do\nes not actually return any value. The function utilizes bitwise operations such \nas right shift (>>), left shift (<<), bitwise OR (|), bitwise AND (&), bitwise X\nOR (^), and the use of binary negation (~). It consists of several conditional c\nhecks and loops which further modify values of given variables. Due to the natur\ne of the operations, the exact purpose of this code is not defined and is likely\n dependent on other segments of the code.\n"
 decompiled = true
+
+[0x10b904]
+last_change = 2023-11-15T14:33:46.289836Z
+addr = 0x10b904
+func_addr = 0x10b904
+comment = "==== AI Summarization ====\nThe given C code represents a function named \"sub_10b904\" that performs bitwise \noperations on integer variables. It does not return any value.\n\nIn this function, several variables (some of them possibly temporary, as their n\names suggest) are declared, among them are integers and pointers to void. There \nare also some character variables which seem to function as condition registers.\n\nBelow steps are followed in the function:\n1. The memory address of character variable v1 is assigned to unsigned integer v\n0.\n2. Several if conditions and loops are checked/executed based on bitwise manipul\nation and results of temporary variables. \n    - These manipulations use bitwise 'AND', 'XOR', and some shifts (Rotate Righ\nt with __ROR__).\n    - In the loops, variables are incremented and values are updated through var\nious bitwise manipulations.\n3. Finally, the value of v0 is assigned to another unsigned integer variable v14\n.\n\nPlease note that as the code involves complex bitwise operations and conditional\n checks, and since full context is not available (like values of tmp_x variables\n and purpose of this function in a larger program), it's difficult to describe t\nhe precise functionality of this code.\n"
+decompiled = true
