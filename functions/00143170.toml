@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x143170
+size = 0x1c0
+last_change = 2023-11-15T15:28:08.185030Z
+
+[header]
+name = "apply_bitwise_operations_on_struct"
+addr = 0x143170
