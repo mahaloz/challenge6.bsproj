@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc3590
+size = 0x20c
+last_change = 2023-11-15T13:35:32.176289Z
+
+[header]
+name = "memory_bitwise_operation"
+addr = 0xc3590
