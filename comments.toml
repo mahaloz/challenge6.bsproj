@@ -3784,3 +3784,10 @@ addr = 0x163928
 func_addr = 0x163928
 comment = "==== AI Summarization ====\nThis code snippet appears to be a function where a series of operations are perf\normed on a set of initialized variables. It starts by declaring a character 'g_5\n2ac' and integers with the names of 'tmp_154', 'tmp_8', 'tmp_13', 'tmp_22' and o\nthers, as well as some arrays 'v7' and 'v10'. \n\nAfter the initial assignments, the function checks various conditional statement\ns involving bitwise operations on certain variables. Depending on the outcome of\n these checks, various computation (arithmetic operations and assignments) and f\nunction calls occur. At the end of the routine, the value of 'v8' is assigned to\n 'v16' before the function returns. \n\nThis function might be part of larger code base, and without more context, it is\n difficult to identify the purpose. The commented code also seems to indicate so\nme assembly and low level operations taking place.\n"
 decompiled = true
+
+[0x163c20]
+last_change = 2023-11-15T16:13:06.131045Z
+addr = 0x163c20
+func_addr = 0x163c20
+comment = "==== AI Summarization ====\nThe code declares external variables and defines a function named 'sub_163c20'. \nThe function initializes certain memory spaces with certain values. It checks va\nrious conditions based on the values of `tmp_51`, `tmp_13` and `tmp_19`, then ha\nndles these different conditions accordingly. It appears to include a loop that \nrepeatedly calls the `sub_163b20` and `sub_163b40` functions under certain condi\ntions until a specific condition linked with `tmp_19` is met. The function `sub_\n6f640` also seems to be used for some calculations or transformations. Finally, \nthe function returns `v11`, an unsigned integer, which might be the result of th\ne performed operations or calculations.\n\n"
+decompiled = true

@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x163c20
+size = 0x14c
+last_change = 2023-11-15T16:13:06.131045Z
+
+[header]
+name = "init_memory_and_perform_operations"
+addr = 0x163c20
