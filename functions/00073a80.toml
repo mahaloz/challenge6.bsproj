@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x73a80
+size = 0x3ec
+last_change = 2023-11-15T10:19:42.519115Z
+
+[header]
+name = "manipulate_global_variables"
+addr = 0x73a80
