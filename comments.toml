@@ -2251,3 +2251,10 @@ addr = 0xffab0
 func_addr = 0xffab0
 comment = "==== AI Summarization ====\nThe given code is written in C and describes a structure type `struct_0` and a f\nunction `sub_ffab0()`. \n\nThe structure `struct_0` has six members: four are unsigned integers `field_0`, \n`field_4`, `field_8` and `field_1e;` and the remaining two are characters `field\n_1f` and `field_20`. \n\nThe function `sub_ffab0()` defines a large number of local variables including i\nntegers, characters, unsigned integers and a pointer `v25` to the `struct_0` typ\ne. During its execution, `sub_ffab0()` manipulates these local variables and als\no interacts with some global variables (like `g_39ec`, `g_6006e225`, `g_6006e228\n`, etc.)\n\nThe function calls `sub_141d10()` function and `sub_10d2bc()` function within mu\nltiple conditional statements. Also, it assigns values from the structure to glo\nbal variables and computes a few values based on other local variables. However,\n the code does not show what these functions (`sub_141d10()` and `sub_10d2bc()`)\n are doing. \n\nIn the end, the function `sub_ffab0` does not return any value; it just manipula\ntes and reassigns values to the variables.\n"
 decompiled = true
+
+[0x107f30]
+last_change = 2023-11-15T14:29:48.004850Z
+addr = 0x107f30
+func_addr = 0x107f30
+comment = "==== AI Summarization ====\nThe code appears to be an assembly programming subroutine. The function first in\nitializes a number of unsigned integer and character variables. It then performs\n various bitwise operations and conditional checks on these variables. If certai\nn conditions are met, the function jumps to other sections of the program, denot\ned by \"Goto None\" and \"goto LABEL_0x0\". These jumps prevent the rest of the func\ntion from executing. If none of the conditions are met, the function calls anoth\ner subroutine \"sub_1081dc()\" with a number of parameters derived from the previo\nusly defined variables, performing several bitwise operations on them. The purpo\nse of these operations isn't clear from the provided snippet. The function doesn\n't return anything.\n"
+decompiled = true
