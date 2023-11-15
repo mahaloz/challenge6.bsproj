@@ -2384,3 +2384,10 @@ addr = 0x10d8e0
 func_addr = 0x10d8e0
 comment = "==== AI Summarization ====\nThis is a typical example of \"low-level\" program code, specifically written in C\n programming language, with lots of bitwise operation and conditional statements\n. \n\nThe code declares a data structure called 'struct_0' consisting of a character a\nrray and an unsigned integer. Then, an external character variable 'g_10a4' is d\neclared.\n\nA function 'sub_10d8e0' is defined where many local variables of different types\n (mainly integers, pointers, and characters) are declared. Within this function,\n multiple operations are performed involving the declared variables, many of whi\nch are bitwise shift operations and condition checks. There are also complex ari\nthmetic operations being performed on these variables.\n\nThe function does not have an explicit return statement implying the probably a \nbug or the function is not complete as it doesn't return any value although it i\ns declared with a return type of int.\n\nPlease note that this code is very technical and difficult to understand without\n further context or comments.\n"
 decompiled = true
+
+[0x10e028]
+last_change = 2023-11-15T14:38:06.818270Z
+addr = 0x10e028
+func_addr = 0x10e028
+comment = "==== AI Summarization ====\nThe given code is a C-style function called `sub_10e028` . The function declares\n a number of external character variables, integer variables and unsigned intege\nr variables, both scalar and array types. Then it checks a mask on several condi\ntions and assigning values based on these conditions. The function ends with a r\neturn but without explicitly returning a value. Mostly, it has some conditions, \nbit manipulations and writes some values into memory addresses computed by addin\ng & subtracting addresses of the global variables and values of other variables.\n However, this code is quite cryptic and might be a part of a larger decompiled \ncode, maybe for a low-level hardware operation or encryption/decryption operatio\nn as the numbers represent hexadecimal values with reference counting and shifti\nng.\n"
+decompiled = true
