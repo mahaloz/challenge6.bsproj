@@ -4666,3 +4666,10 @@ addr = 0x18c350
 func_addr = 0x18c350
 comment = "==== AI Summarization ====\nThis code declares an external global character variable. It then defines a func\ntion sub_18c350 which declares four local signed integers. The first one v0 is g\niven the address of v1. Then the function \"sub_6f9f0\" is called 28 times with th\ne same arguments v2 and v3. After that, the global character variable 'g_60074c7\n7' is set to 1. Finally, the function sub_6f9f0 is called one last time and its \nreturn value is the result of sub_18c350 function.\n"
 decompiled = true
+
+[0x18c524]
+last_change = 2023-11-15T18:25:51.591582Z
+addr = 0x18c524
+func_addr = 0x18c524
+comment = "==== AI Summarization ====\nThe code is written in C language. It is defining several external variables of \ntypes char, void*, and unsigned int respectively with specific identifiers. Then\n a function \"sub_18c524()\" is defined. In this function, several new int, char, \nunsigned short, unsigned int, and void* type variables are declared. \n\nAfter the variable declarations, the function proceeds with a series of conditio\nnal operations, function calls (\"sub_6f8e0\" and \"sub_6fe10\"), and assignments on\n these variables. The conditionals often check if the second least significant b\nit of certain tmp variables is set (given by \"& 2\" operation), and the function \ncalls seems to manipulate certain variables. \n\nThe function also modifies the values of some of the external variables that wer\ne declared at the start of the code. Other operations include bitwise operations\n and memory address dereferencing. Towards the end, the function contains a labe\nl which suggests presence of a goto statement pointing to it somewhere in the co\nde. The function does not have a defined return statement, so it's return will b\ne undefined.\n"
+decompiled = true
