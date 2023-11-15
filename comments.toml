@@ -5730,3 +5730,10 @@ addr = 0x1dd16c
 func_addr = 0x1dd16c
 comment = "==== AI Summarization ====\nThis is a C programming language code that includes variable and struct declarat\nions as well as a complex function. There are two different structs struct_0 and\n struct_1, each containing different types of variables. The function sub_1dd16c\n, performs a series of complex operations based on various conditions, also maki\nng use of global variables declared at the start of the code. There are also sev\neral function(s) being called within sub_1dd16c but their implementation is not \ngiven in this code. As a whole, without more contextual information about these \ndata types, functions and the whole program, it's difficult to understand exactl\ny what is the function's purpose.\n"
 decompiled = true
+
+[0x1dd548]
+last_change = 2023-11-15T19:51:13.258041Z
+addr = 0x1dd548
+func_addr = 0x1dd548
+comment = "==== AI Summarization ====\nThe provided code is written in C programming language. It defines two struct da\nta types, 'struct_0' and 'struct_1', each with different sized char arrays and u\nnsigned integers or shorts.\n\nAt the start, it declares a number of external variables (most likely global or \nstatic variables defined in another file).\n\nA function 'sub_1dd548()' is then defined with a series of local variables. The \nfunction itself involves a series of if-else conditional statements, bitwise ope\nrations, as well as function calls to unknown functions 'sub_727b0', 'sub_10e59c\n', 'sub_6f170', and 'sub_6ff50'. \n\nAlso, the function seems to modify global variables such as 'g_60062ea0' , 'g_60\n062f5c', 'g_60062e5c' and 'g_60062e50'. At the end, it modifies certain fields o\nf an instance of 'struct_1'.\n\nHowever, without more information about these missing elements, such as what the\n overarching program does, or what the undeclared functions actually do, it is i\nmpossible to understand the functional utility of 'sub_1dd548()' in depth.\n"
+decompiled = true
