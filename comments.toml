@@ -5870,3 +5870,10 @@ addr = 0x1f7b20
 func_addr = 0x1f7b20
 comment = "==== AI Summarization ====\nThe code defines several structs (struct_0, struct_1, struct_2, struct_3) which \nlay out the structure of memory in a program. Each struct is formatted with byte\n padding and fields, presumably to match a specific pattern in memory. Additiona\nlly, it declares a number of external variables including chars, unsigned shorts\n, unsigned ints and void pointers. These are specific locations in memory that t\nhe program expects to reference. Finally, it declares an empty function stub `su\nb_1f7b20`.\n"
 decompiled = true
+
+[0x1f8830]
+last_change = 2023-11-15T19:59:33.903807Z
+addr = 0x1f8830
+func_addr = 0x1f8830
+comment = "==== AI Summarization ====\nThis code defines a function `sub_1f8830()` written in C that uses a custom `str\nuct_0` structure and externally available variables to perform complex calculati\non. The structure consists of a large-space char array `padding_0` and an intege\nr `field_690`. The function defines a number of integer, character, and unsigned\n integer variables, along with a pointer to the custom structure.\n\nThe function performs a series of bitwise operations, conditional checks, extern\nal function calls (like `sub_d1cc0()`, `sub_10cbcc()`, etc.) and arithmetic oper\nations within nested if-else conditions, which manipulates data in assignment, c\nomparison, and sub-routines. The binary decision trees are largely based on bitw\nise operation results of previously defined temporary variables or conditional i\nf statements.\n\nThe results are stored and manipulated in a series of globally defined variables\n (g_XXXX). Modifications are also conducted on the structure's `field_690` membe\nr. If a certain bitwise operation on `tmp_8` yields a non-zero result, the funct\nion calls `sub_70050` and eventually returns `v35`, which is altered throughout \nthe function's logic.\n"
+decompiled = true
