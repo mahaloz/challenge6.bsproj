@@ -1523,3 +1523,10 @@ addr = 0xb73d0
 func_addr = 0xb73d0
 comment = "==== AI Summarization ====\nThe provided code is a C/C++ function named `sub_b73d0`. Inside, several variabl\nes are initialized, including integer and pointer types. The function appears to\n be doing multiple bit-level manipulations combined with a lot of conditional ch\necks using bitwise operators, possibly for some low-level hardware interfacing o\nr communication protocol. The loops iterate indefinitely until certain bit condi\ntions are met. There's a call to another function `sub_bae30`, hinting that this\n function is part of a broader set of low-level operations. The location `161115\n4500` is repeatedly accessed, suggesting that it could be a hardware-mapped memo\nry location or an offset in a memory map. The function does not return any value\n.\n"
 decompiled = true
+
+[0xb77b0]
+last_change = 2023-11-15T12:58:56.987598Z
+addr = 0xb77b0
+func_addr = 0xb77b0
+comment = "==== AI Summarization ====\nThis provided C code defines an externally linked function `sub_b77b0` which use\ns several temporary and externally defined variables. It includes loops and cond\nitional statements to perform certain operations involving bitwise operations, a\nrray manipulation, function calls to other externally defined functions (`sub_c7\n840`, `sub_b7780`, `sub_ba5f0`), and interaction with global variables (`g_6400`\n and `g_b7690`). \n\nThe exact purpose of this function is difficult to determine without the context\n provided by the rest of the codebase it is a part of, however, it seems to be h\nandling some lower level manipulation of data storage or transmission, indicated\n by its usage of bit-level operations, references to memory addresses, and poten\ntial shifts of data between buffers/arrays. \n\nThe function does not have a return value.\n"
+decompiled = true
