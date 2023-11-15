@@ -53,3 +53,10 @@ addr = 0x3ba0
 func_addr = 0x3ba0
 comment = "==== AI Summarization ====\nThis is a simple function named \"sub_3ba0\" with integer return type. The functio\nn calls another function \"sub_3ea8\". This function does not return a value, it e\nxecutes another function called \"sub_3ea8\".\n"
 decompiled = true
+
+[0x5b00]
+last_change = 2023-11-15T09:55:41.423800Z
+addr = 0x5b00
+func_addr = 0x5b00
+comment = "==== AI Summarization ====\nThe code defines a function `sub_5b00` which calls another function `sub_5d1c`. \nThe comment suggests that `sub_5d1c` does not return control to `sub_5b00` after\n it finishes executing.\n"
+decompiled = true
