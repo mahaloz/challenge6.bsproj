@@ -4652,3 +4652,10 @@ addr = 0x18ba5c
 func_addr = 0x18ba5c
 comment = "==== AI Summarization ====\nThe code defines a struct type \"struct_0\", several global variables, and functio\nn \"sub_18ba5c()\". \n\nThe function initializes an extensive list of local variables, including some pr\nesumed to be buffers and referenced by control registers. It does bitwise operat\nions, conditional branching, and applies transformations on the variables. It al\nso interactively calls several undefined functions (\"sub_309470, sub_6f240, sub_\n10e59c\"), the specifics of which can't be known without their definitions. \n\nGlobal variables (g_60062886, g_600627bc, g_60062888, g_6006266c, g_600627b8, an\nd g_60062884) are actively modified.\n\nThe struct_0 type structure \"v66\" is specifically used within one of the conditi\nonally executed blocks and its field_26 is also used.\n\nThere's also a piece of iteratively executed code per specific conditions and co\nmplex branching based on the settings of various \"tmp\" variables. \n\nIt's compiled from a particular 'C' or 'C++' file, however without function and \nvariable descriptions and without the understanding of the wider program, compre\nhension of the summary is limited.\n"
 decompiled = true
+
+[0x18c0f8]
+last_change = 2023-11-15T18:25:12.017267Z
+addr = 0x18c0f8
+func_addr = 0x18c0f8
+comment = "==== AI Summarization ====\nThis C code defines a structure `struct_0` and declares global variables. It als\no contains the implementation of the function `sub_18c0f8()`. The function perfo\nrms an initial check and determines the value of `v1` based upon that check. It \nthen sets the value of `v76` based on another check. The function continues with\n initializing multiple variables, calling a function, and running a loop that co\npies values from one address to another. The code seems to be a partial decompil\ned section of an executable and contains low-level operations, possibly for devi\nce control, data manipulation or, communication protocol.\n"
+decompiled = true
