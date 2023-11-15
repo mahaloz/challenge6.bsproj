@@ -1299,3 +1299,10 @@ addr = 0xaaa50
 func_addr = 0xaaa50
 comment = "==== AI Summarization ====\nThis is an assembly-like code. It is a C-like function named `sub_aaa50`, but it\n operates at a very low level closer to assembly language. It declares several e\nxternal variables (possibly stored in specific memory locations),\nand uses bitwise operations heavily. The function is performing some sort of com\nplex computation, with the specific intent hard to determine without further con\ntext. Its heavy use of bitwise operations suggests low-level system programming,\n perhaps a system or hardware interface. It could be for memory management, hard\nware programming, communications or similar functions. The function finalizes by\n setting the values of g_6007ebe8, g_6007ec02, and g_60071500, and returning the\n value of v11.\n"
 decompiled = true
+
+[0xaafa0]
+last_change = 2023-11-15T12:34:18.726283Z
+addr = 0xaafa0
+func_addr = 0xaafa0
+comment = "==== AI Summarization ====\nThe provided code is a function declaration for `sub_aafa0`. This function inclu\ndes a combination of bitwise operations, memory location pointing and dereferenc\ning, variable declaration, assignments, and function calls. The function manipul\nates global variables and uses locally called temporary variables. The function \nalso includes several conditions/if-else branches that dictate its behavior. Thi\ns code seems to feature low-level programming practices, suggesting it might hav\ne been generated as the output of a decompiler. This means it was likely transla\nted directly from the machine code, which is why it uses direct addresses and no\n human-readable variable names, only autonaming like \"tmp_54\". \n\nThe function finishes by returning the value of the variable `v6`. Without more \ncontext or details regarding the datas or the functionality of `sub_10b7e4`, `__\nROR__`, or the specific use or contents of memory locations like `g_60071504`, `\ng_60071510`, etc., it's hard to determine more about what the function's specifi\nc purpose might be.\n"
+decompiled = true
