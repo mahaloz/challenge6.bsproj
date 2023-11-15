@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x126504
+size = 0x13c
+last_change = 2023-11-15T15:07:36.993978Z
+
+[header]
+name = "perform_pointer_arithmetic_and_update_globals"
+addr = 0x126504
