@@ -557,3 +557,10 @@ addr = 0x80610
 func_addr = 0x80610
 comment = "==== AI Summarization ====\nThe code is a function named sub_80610 defined in C programming language. It use\ns external global variables 'g_6ab9', 'g_6b2c', 'g_6bce', and 'g_6bcf' that are \ndefined outside of this code. \n\nThe function primarily consists of:\n- Definitions and initializations of various local variables of different types.\n- A loop which updates some local variables based on an undefined variable tmp_3\n8. The loop is repeated as long as the 3rd least significant bit of tmp_38 is se\nt (tmp_38 & 8 is true).\n- Some operations with other local variables based on certain conditions related\n to tmp_36 and tmp_24.\n- Another loop which updates some variables until the 3rd least significant bit \nof tmp_22 is set (tmp_22 & 8 is true).\n- Function calls to undefined function 'sub_10b208' with different parameters an\nd 'sub_9bfc0'.\n- Alterations of memory locations based on the external variables, and an end re\nsult returned from the function using 'sub_9bfc0'.\n\nNote: The understanding and impact of the code block largely depends on the impl\nementation of 'sub_10b208' and 'sub_9bfc0', as well as the nature and usage of t\nemporary (tmp_##) and global (g_##) variables, which are not available within th\nis code block.\n"
 decompiled = true
+
+[0x80a10]
+last_change = 2023-11-15T10:25:23.927633Z
+addr = 0x80a10
+func_addr = 0x80a10
+comment = "==== AI Summarization ====\nThis C code defines a structure named `struct_0` which has an array of `char` of\n length 11 `padding_0`  and a single `char` element `field_b`. This structure ma\ny be padding to reach a particular memory size for performance reasons.\n\nFive global variables are also declared, all of type `char`: `g_60070eff`, `g_60\n0813e7`, `g_6a74`, `g_6a96`, `g_6ab9`, and `g_6b24`. \n\nIn addition, an empty function `sub_80a10()` is also defined. The function curre\nntly does not do anything because there is no code within the function.\n"
+decompiled = true
