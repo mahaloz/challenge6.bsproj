@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x8f648
+size = 0x208
+last_change = 2023-11-15T10:36:29.108440Z
+
+[header]
+name = "process_structures"
+addr = 0x8f648
