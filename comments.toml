@@ -3679,3 +3679,10 @@ addr = 0x16102c
 func_addr = 0x16102c
 comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` with two fields: a character array `padd\ning_0` and an unsigned integer `field_562c`. It also declares several global var\niables and defines the function `sub_16102c`. This function involves several mem\nory operations, reading and writing to different variables and memory locations,\n possibly representing registers or specific addresses in memory. It contains so\nme conditions and logic operations, bitwise shifts, and a function call to `sub_\nd1cc0`. The code may be part of a larger low-level system, firmware, or hardware\n control program, but the function and role of this part of the code, especially\n function `sub_16102c`, is hard to determine without additional context or docum\nentation.\n"
 decompiled = true
+
+[0x161378]
+last_change = 2023-11-15T16:06:40.041748Z
+addr = 0x161378
+func_addr = 0x161378
+comment = "==== AI Summarization ====\nThis piece of code appears to be part of a larger program written in C language.\n It defines a function \"sub_161378\" with several local and global variables (lik\ne \"g_5390\" and \"g_5394\"). It also performs several operations and calls two othe\nr functions (sub_d1cc0 and sub_d0b90) with specific parameters. \n\nThe function \"sub_161378\" starts by setting v0 equal to v6. Then it checks if th\ne bitwise logical operation on tmp_18 and 4 result is not equivalent to 4, if it\n is not, it sets a series of variables (v1, v3, v2, v4 and v5) using specific ad\ndresses and even calls other functions using these and some more specific values\n as arguments. \n\nThe function does not return any value. However, the specific operations perform\ned suggest that it is likely part of a larger program dealing with lower level o\nperations or specific hardware interactions, given the explicit integer addresse\ns used in the code.\n"
+decompiled = true
