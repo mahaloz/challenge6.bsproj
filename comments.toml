@@ -2202,3 +2202,10 @@ addr = 0xd2900
 func_addr = 0xd2900
 comment = "==== AI Summarization ====\nThe given code is a function named `sub_d2900` that seems to calculate some time\n values related to date and time (seconds, minutes, hours, and days), as well as\n processing an unknown external array of integers, based on some input values an\nd conditions.\n\nThe function also has variables v0 to v27, including variables v6 to v27 for sto\nring general purpose registers (gpr), tmp_131, tmp_40, and tmp_92 for temporary \nvalues, and char variables v0 to v5 for bit-level manipulation. However, the fun\nction doesn't provide a return value and has multiple unresolved symbols, so its\n exact purpose can't be determined just from the given code.\n"
 decompiled = true
+
+[0xddc9c]
+last_change = 2023-11-15T14:27:31.069005Z
+addr = 0xddc9c
+func_addr = 0xddc9c
+comment = "==== AI Summarization ====\nThe code defines a function named `sub_ddc9c` which declares five char variables\n. Then, it checks some binary conditions for four of these variables. For some o\nf the conditions, it uses a logical negation operator \"!\" and \"Not\" function (wh\nich might be user-defined since C++ standard library does not have \"Not\" functio\nn). If a certain bitwise condition is met, it will jump to a specific location d\nenoted by \"LABEL_0x0\". It also has special conditions where it jumps to \"None\" a\nlthough it's not clear what that refers to since that is not standard C++ syntax\n. Also \"Goto\" is typically written in lowercase as \"goto\" in C++. It's also wort\nh noting that there are references to variable names which are not declared in t\nhe given code.\n"
+decompiled = true
