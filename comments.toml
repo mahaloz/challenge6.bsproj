@@ -4267,3 +4267,10 @@ addr = 0x177810
 func_addr = 0x177810
 comment = "==== AI Summarization ====\nThe given C code defines several externally linked variables of type char and vo\nid pointers. It also defines a function \"sub_177810\". \n\nIn the function, it defines several temporary and local variables. Various check\ns and operations are performed on these variables. Specifically in the function,\n the statement `v10 = &v11;` assigns the address of the variable v11 to v10. The\nn, the code checks whether the second least significant bit of tmp_48 is set, if\n it is, the function returns v12.\n\nThe code continues to call the function `sub_6f8e0` with parameters v13, v14, v1\n5 and do further bit-wise checks on tmp_13, if the second least significant bit \nof tmp_13 is not set, it assigns 0 to various variables including local variable\ns (v1, v2, v3, v4) and global extern variables (g_600622c4, g_6006230c, g_600623\n50, g_60062280).\n\nFinally, it assigns v0 to g_60061887, calls the function `sub_6f8e0` again with \nsame parameters, and checks if the third least significant bit of tmp_18 is set \nto perform a jump to label \"LABEL_0x1779e4\". \n\nHowever, the last line is incomplete and the code doesn't provide what is done w\nith v5 or what follows the LABEL_0x1779e4.\n"
 decompiled = true
+
+[0x177b4c]
+last_change = 2023-11-15T16:48:34.394554Z
+addr = 0x177b4c
+func_addr = 0x177b4c
+comment = "==== AI Summarization ====\nThis C code defines a structure called struct_0 and various external variable. I\nt also defines a function called sub_177b4c. Inside this function some variables\n are declared and then manipulated. This function also calls another function su\nb_6f8e0 multiple times with different parameters. Depending on certain condition\ns updating of variables takes place. If the third bit from right of variable tmp\n_13 is not set, then several global and local variables are set to zero. The fun\nction ends by checking the second bit from right of variable tmp_13, and if it's\n set, a label is jumped to, otherwise the variable g_60062351 is set to zero.\n"
+decompiled = true
