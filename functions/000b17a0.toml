@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xb17a0
+size = 0x1f0
+last_change = 2023-11-15T12:51:42.726454Z
+
+[header]
+name = "perform_bitwise_and_pointer_operations"
+addr = 0xb17a0
