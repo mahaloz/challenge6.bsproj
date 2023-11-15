@@ -3546,3 +3546,10 @@ addr = 0x158424
 func_addr = 0x158424
 comment = "==== AI Summarization ====\nThe provided code snippet is a partial function of a low-level programming langu\nage, likely C or C++. The function seems to deal with various memory operations,\n specifically copying integer and character values from certain memory addresses\n to variables and testing conditionals with bitwise operations. \n\nUnfortunately, there's no distinct functionality achieved visible in the code pr\novided, and the function does not return any value.\n\nIn absence of certain parts and context: the main flow of the function is depend\nent of variables, `tmp_251` and `tmp_8`, which are used in condition checks. The\nn, the value of `v31`, `v30`, pointers (`v0`, `v10`, `v9`, `v8`, `v15`, `v14`), \nand some `gpr` variables are assigned to another set of variables according to t\nhe condition met. The condition checks are repeated with the same condition. \n\nIt should be noted that the code seems generated or obfuscated: variable names a\nre not informative, some variables are defined but never used, and identical con\nditions are checked repeatedly.\n"
 decompiled = true
+
+[0x1590e8]
+last_change = 2023-11-15T15:58:26.705441Z
+addr = 0x1590e8
+func_addr = 0x1590e8
+comment = "==== AI Summarization ====\nThis code defines an external character variable and a function sub_1590e8(). Th\nis function implements some binary operations such as bitwise AND (&), OR (|) an\nd XOR (^) on some of its initialized local variables together with a global vari\nable g_100000. It also uses the conditional 'if-else' statements to dictate the \noutput based on these binary operations. The '__ROR__' indicates a binary rotati\non operation.\nLabels such as tmp_95, tmp_13, etc. are likely placeholders for actual variables\n or values that must have been redacted or lost in decompilation.\nThe function makes use of an external global variable g_100000. Moreover, it doe\nsn't have a return statement, suggesting it could be modifying global state or t\nhe actual function may have been truncated.\n"
+decompiled = true
