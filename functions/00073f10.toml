@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x73f10
+size = 0x710
+last_change = 2023-11-15T10:20:00.030060Z
+
+[header]
+name = "process_operations"
+addr = 0x73f10

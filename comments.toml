@@ -452,3 +452,10 @@ addr = 0x73a80
 func_addr = 0x73a80
 comment = "==== AI Summarization ====\nThe provided C code defines a function 'sub_73a80' that manipulates global varia\nbles as well as a struct. A struct called struct_0 is also defined which has sev\neral fields including padding arrays, an unsigned short field_958, and an unsign\ned int field_95c. The function sub_73a80 receives no parameters and returns an i\nnteger value. It uses local variables and checks many conditions through bitwise\n operations. According to these conditions, the function changes the value of so\nme global variables: for example, it sets the global variable g_6006f930 to vari\nous values based on different conditions and modifications include multiplicatio\nn and addition operations. \n\nThis code appears to be part of a larger program, potentially made from decompil\ned machine code due to unusual variable naming. Function's specific purpose isn'\nt available from this snippet. It would depend upon the broader context of the o\nverall program in which it belongs.\n"
 decompiled = true
+
+[0x73f10]
+last_change = 2023-11-15T10:20:00.030060Z
+addr = 0x73f10
+func_addr = 0x73f10
+comment = "==== AI Summarization ====\nThe provided code is written in C programming language. It appears to be an impl\nementation of a function named `sub_73f10`. This function doesn't take any argum\nent and doesn't return any value. \n\nThe function seems to perform a variety of operations, including arithmetic oper\nations, logical checks, and assignments involving a number of global and local v\nariables. These global and local variables include both simple types like intege\nrs, characters, short, unsigned integers, and pointers. \n\nIt also appears to call some other functions, named `sub_6f8e0` and `sub_d23a0` \namong others. However, given that the code of these functions is not included, i\nt's hard to determine their specific functionality. \n\nThe final aim of this function is not evident due to use of hexadecimal numbers \nwhich make the understanding a bit harder. It also lacks documentation to provid\ne further context.\n"
+decompiled = true
