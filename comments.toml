@@ -46,3 +46,10 @@ addr = 0x38ec
 func_addr = 0x38ec
 comment = "==== AI Summarization ====\nThe code defines a function named 'sub_38ec'. This function calls another functi\non named 'sub_3ba0'. According to a comment, 'sub_3ba0' function does not return\n any value. Note: the purpose of both functions cannot be identified from this s\nnippet since the detailed implementations are not provided.\n"
 decompiled = true
+
+[0x3ba0]
+last_change = 2023-11-15T09:55:28.339432Z
+addr = 0x3ba0
+func_addr = 0x3ba0
+comment = "==== AI Summarization ====\nThis is a simple function named \"sub_3ba0\" with integer return type. The functio\nn calls another function \"sub_3ea8\". This function does not return a value, it e\nxecutes another function called \"sub_3ea8\".\n"
+decompiled = true
