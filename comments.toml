@@ -1607,3 +1607,10 @@ addr = 0xba350
 func_addr = 0xba350
 comment = "==== AI Summarization ====\nThis C code defines a function named `sub_ba350` that appears to contain code fo\nr calculation and memory manipulation. The function has no explicit parameters a\nnd does not return a specific value. The implementation details are not pointed \nout, but a significant portion of the code is handling bitwise operations, loopi\nng structures, and memory assignment, including both direct and indirect (pointe\nr-based) read/write operations. There are calls to other functions named `sub_b9\nc60`, `sub_b9a30`, and `sub_c7840`, the purpose of which is not described. The f\nunction also uses an external character variable named `g_32a6cc`. Bitwise opera\ntions and conditionals are extensively used to manipulate and check the properti\nes of certain variables. However, the exact purpose or real-world application of\n this function is unclear from the code itself.\n"
 decompiled = true
+
+[0xba5f0]
+last_change = 2023-11-15T13:04:35.627018Z
+addr = 0xba5f0
+func_addr = 0xba5f0
+comment = "==== AI Summarization ====\nThe code is written in C and defines three data structures ('struct_0', 'struct_\n1', and 'struct_2') with fields for padding and additional fields of type 'char'\n and 'unsigned int'. It also defines six external 'char' variables (g_100000, g_\n200000, g_40000, g_400000, g_8000, g_80000). There's an empty function 'sub_ba5f\n0' at the end. The purpose of the code cannot be determined as it stands, as the\n function is empty and the defined structures and variables are not being used.\n\n"
+decompiled = true
