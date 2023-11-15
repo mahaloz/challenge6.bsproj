@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x8c160
+size = 0x2cc
+last_change = 2023-11-15T10:33:45.726767Z
+
+[header]
+name = "handle_data_operations"
+addr = 0x8c160

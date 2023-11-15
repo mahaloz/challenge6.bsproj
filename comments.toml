@@ -697,3 +697,10 @@ addr = 0x8b8c0
 func_addr = 0x8b8c0
 comment = "==== AI Summarization ====\nThis is a quite large and complex C function, called `sub_8b8c0`. This function \nhas many external variables (designated as `extern`) of various types (`char`, `\nunsigned int`, `unsigned short`, `void*`) that it operates on. \n\nIn the function, several local variables of type `int`, `unsigned int`, `char`, \nand `unsigned short` are declared and used. The function also involves complex p\nointer operations and calculations. \n\nThe main operations in the function include assigning values to many of the exte\nrnal variables. These values are either constant values or calculated values fro\nm the operations on other variables or data fetched from certain memory addresse\ns. The function also calls two other functions: `sub_309470` and `sub_8b700`.\n\nThe function `sub_8b8c0` ends with returning the integer value `528`. Due to the\n lack of comments and use of ambiguous variable and function names (such as `g_6\n0070590`, `sub_8b8c0`), the specific purpose of this function is not directly ap\nparent from the code.\n"
 decompiled = true
+
+[0x8c160]
+last_change = 2023-11-15T10:33:45.726767Z
+addr = 0x8c160
+func_addr = 0x8c160
+comment = "==== AI Summarization ====\nThe code defines an external function, `sub_8c160()`, where a series of temporar\ny and variable pointers are created, with corresponding external and internal as\nsignments, conditional checks, pointer arithmetic, memory copies and function ca\nlls. This function appears to be handling lower level operations and seems to wo\nrk with short and char types of data primarily. Lower level bitwise operations s\nuch as bitwise shifting and bitwise XOR operations are being performed. The func\ntion also involves multiple condition checkings and based on different condition\ns, different work paths are taken.\n"
+decompiled = true
