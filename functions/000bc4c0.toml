@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xbc4c0
+size = 0x1e4
+last_change = 2023-11-15T13:09:14.354220Z
+
+[header]
+name = "update_global_vars_and_looped_operations"
+addr = 0xbc4c0
