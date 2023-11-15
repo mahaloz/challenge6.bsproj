@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xb4160
+size = 0x5c0
+last_change = 2023-11-15T12:55:15.288800Z
+
+[header]
+name = "empty_function"
+addr = 0xb4160

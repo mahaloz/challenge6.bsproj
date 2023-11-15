@@ -1467,3 +1467,10 @@ addr = 0xb3f10
 func_addr = 0xb3f10
 comment = "==== AI Summarization ====\nThis code defines a function named `sub_b3f10` which has no explicit input param\neters. The function uses a set of local variables and operations on bitwise AND,\n OR and XOR on some of these variables. It also contains multiple conditional ch\necks and loops (do-while loops) that run based on certain conditions. \n\nAt a high level, the function appears to be performing some operations based on \ncertain conditions associated with the variables `tmp_22`, `tmp_8`, `tmp_41`, `t\nmp_26`, `tmp_13` and `tmp_36`. It appears that these variables may be globally d\nefined as their values are not assigned within this function. The function also \nreferences an external character `g_8000`.\n\nHowever, it's difficult to determine a specific task this function is performing\n, since variable and function names lack descriptive context. As such, the preci\nse purpose of the function cannot be determined without additional context, part\nicularly the values of `tmp_*` variables and how their values impact the functio\nn's operation.\n"
 decompiled = true
+
+[0xb4160]
+last_change = 2023-11-15T12:55:15.288800Z
+addr = 0xb4160
+func_addr = 0xb4160
+comment = "==== AI Summarization ====\nThe code defines four structures (struct_0, struct_1, struct_2, struct_3) each c\nontaining a character array (padding_0) of different sizes, and an unsigned inte\nger field. Furthermore, it declares multiple external variables, including sever\nal of type char and one of type unsigned int. Additionally, an empty function ca\nlled sub_b4160 is defined with an int return type. It seems to be a C or C++ pro\ngram.\n"
+decompiled = true
