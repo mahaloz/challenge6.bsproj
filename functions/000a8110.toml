@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xa8110
+size = 0x11c
+last_change = 2023-11-15T12:29:53.169930Z
+
+[header]
+name = "manipulate_global_variables_and_memory_addresses"
+addr = 0xa8110
