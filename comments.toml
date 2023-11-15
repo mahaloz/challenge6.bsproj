@@ -851,3 +851,10 @@ addr = 0x93420
 func_addr = 0x93420
 comment = "==== AI Summarization ====\nThe given code is written in C language which defines multiple external variable\ns and a function named 'sub_93420'. \n\nIn the function 'sub_93420', several local integer and character variables are d\neclared. It is also performing bitwise operations, making decisions based on 'if\n' conditions, and running a do-while loop. \n\nThe function is then updating the external variables 'g_60081b1c', 'g_60081b20',\n 'g_60081b24', 'g_60081b28' and 'g_60081b18' based on the operations and conditi\nons within the function. The function does not return any value.\n"
 decompiled = true
+
+[0x935b0]
+last_change = 2023-11-15T10:41:39.737162Z
+addr = 0x935b0
+func_addr = 0x935b0
+comment = "==== AI Summarization ====\nThe function `sub_935b0` declares four variables `v0`, `v1`, `v2`, and `v3`. It \nassigns the memory address of `v1` to `v0`. Then, it calls the function `sub_6f9\nf0` with `v2` and `v3` as arguments 15 times. For the last call, the function's \nreturn value is also returned by `sub_935b0`. The function `sub_6f9f0` is assume\nd to perform some operation using `v2` and `v3`.\n"
+decompiled = true
