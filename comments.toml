@@ -4099,3 +4099,10 @@ addr = 0x170900
 func_addr = 0x170900
 comment = "==== AI Summarization ====\nThis is a C/C++ function named `sub_170900()`. The function declares external va\nriables `g_51a6` and `g_60061dd8`, sets up several local variables, and involves\n multiple conditional branches (`if` statements) and bitwise operations. The fun\nction also involves calling other external functions (such as `sub_10e59c`, `sub\n_6f170` and `sub_6f240`), whose definitions are not visible in the given code. T\nhe function involves updating the value of various local variables and the menti\noned external variables based on the conditions evaluated in the `if` statements\n. This function involves bitwise operations and condition checking quite heavily\n indicating it could be part of a low-level system or a driver. Due to the lack \nof a defined business logic, it is not possible to ascertain the functional impl\nementation behind this code. The actual functionality would heavily depend on th\ne implementation of the external variables and functions involved.\n"
 decompiled = true
+
+[0x170b38]
+last_change = 2023-11-15T16:37:53.024838Z
+addr = 0x170b38
+func_addr = 0x170b38
+comment = "==== AI Summarization ====\nThis is a C code snippet with multiple conditionals. It makes modifications to g\nlobally declared external variables using bitwise operations and calls multiple \nother functions. The functions being called look like they are also returning va\nlues, but these values are not being assigned to anything in this snippet.\nThe purpose of this code cannot be determined without the creator's original com\nments and the context as the function and variable names are non-meaningful, and\n it seems to be a low-level code snippet that interacts with hardware or an oper\nating system.\n"
+decompiled = true
