@@ -5016,3 +5016,10 @@ addr = 0x1b3c08
 func_addr = 0x1b3c08
 comment = "==== AI Summarization ====\nThe code defines a struct `struct_0` which contains a character array of size 72\n40, an unsigned integer and a character. It further declares some global variabl\nes of integer and char types.\n\nA function named `sub_1b3c08` is declared with a lot of local variables. The typ\ne and purpose of these variables are not clear, likely because they've been gene\nrated by a disassembler tool. In this function, it performs some operations and \nsets a value for the variables.\nSome of the operations include: \n- Comparing the `tmp_36` and `tmp_8` with a constant 2, then either fetching the\n value of `g_1c48` from the struct `struct_0` (`v10 + &g_1c48`) or the value of \n`v1`.\n- Performing bitwise operations with `tmp_30` and returning the result.\n  \nThe function does not return a value and it isn't clear what the end result of t\nhis function is supposed to be because of the missing context and comments.\n"
 decompiled = true
+
+[0x1b3e38]
+last_change = 2023-11-15T18:46:26.246409Z
+addr = 0x1b3e38
+func_addr = 0x1b3e38
+comment = "==== AI Summarization ====\nThis C code defines a struct named \"struct_0\", declares some global variables, a\nnd defines a function called \"sub_1b3e38\".\n\nThe struct \"struct_0\" contains several data fields, including a padding field, s\neveral character fields and an unsigned integer field \"field_1c40\".\n\nThe global variables include some character and unsigned integer variables.\n\nThe function \"sub_1b3e38\" consists of many local variables and performs a series\n of conditional checks and operations, including manipulation of fields of \"stru\nct_0\" instances and the global variables. It involves bitwise operations, assign\nments, conditions, and function calls to \"sub_10e59c\", \"sub_6f170\", and \"sub_727\nb0\".\n \nNote: The code appears to be partly decompiled from machine code which leads to \nless meaningful variable names (like tmp_16, tmp_27, v0, v1, g_1c40 etc.), and c\nould be harder to understand without having the full context of the source code.\n"
+decompiled = true
