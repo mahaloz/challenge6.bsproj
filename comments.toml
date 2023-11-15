@@ -4988,3 +4988,10 @@ addr = 0x1b20d8
 func_addr = 0x1b20d8
 comment = "==== AI Summarization ====\nThe code is a function named `sub_1b20d8` that contains a series of conditions a\nnd operations on variables. Four variables `tmp_144`, `tmp_13`, `tmp_16`, `tmp_2\n1` are used in different binary operations. If the least significant bit of thes\ne variables is set (is 1), different computation paths are followed. Further, th\nere is an array `v3` of size 350 and the code manipulates and assigns some exist\ning values of this array to some of its own indices. Lastly, there is `v4` which\n takes a value from either the end of array `v3` or from a memory location `1611\n064872` depending on the conditions of `tmp_21` and `tmp_16`. The return value o\nf this function is not explicitly defined for all paths and some of the variable\n values such as `v0`, `v1`, and `v2` are not manipulated within this function.\n"
 decompiled = true
+
+[0x1b24d4]
+last_change = 2023-11-15T18:44:46.585708Z
+addr = 0x1b24d4
+func_addr = 0x1b24d4
+comment = "==== AI Summarization ====\nThis function is written in a C-style language and it begins by defining several\n integer and pointer variables. It checks three variables: `tmp_223`, `tmp_13`, \nand `tmp_25` to see if they have their second bit set (i.e., whether they are od\nd). If the second bit of `tmp_223` or `tmp_13` is set, it returns the unsigned i\nnteger `v5`.\n\nThe function further includes expressions that will never evaluate to true (such\n as if 'false') weirdly included in the code. It also uses a somewhat arbitrary \ninteger '1611016348' as the address to an integer pointer before to assign the g\nlobal pointer `g_60071cb8` to null. \n\nIf the second bit of `tmp_25` is not set, it assigns `v0` to null. There are two\n conditional branches to the labels `LABEL_0x1b2604` and `LABEL_0x1b2558` but th\ne code for these branches is not provided in the snippet.\n"
+decompiled = true
