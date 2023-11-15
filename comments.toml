@@ -4421,3 +4421,10 @@ addr = 0x1809d0
 func_addr = 0x1809d0
 comment = "==== AI Summarization ====\nThis is a piece of low-level C code that uses a combination of typedef struct an\nd conventional if-statement structures to manipulate binary data. The code begin\ns by defining two types `struct_1` and `struct_0` with specific sizes in bytes t\nhat include both integers and char arrays. Then, it declares four global `unsign\ned int` variables.\n\nThe code further defines a function `sub_1809d0()` which works with local-int va\nriables, char variables, unsigned int variables, and pointers. This function has\n complicated conditional statements and loops which manipulate the variables and\n pointers. \n\nFinally, the function contains a series of operations which set the global varia\nbles and update specific fields on the `struct_0` object based on the local vari\nables. However, due to obfuscated nature of the code, it is hard to predict the \npurpose of these manipulations without additional functional context.\n"
 decompiled = true
+
+[0x180db8]
+last_change = 2023-11-15T16:58:13.205780Z
+addr = 0x180db8
+func_addr = 0x180db8
+comment = "==== AI Summarization ====\nThe given code is a complex function written in C/C++ language which defines sev\neral external variables and declares a bulk of integers and unsigned integers. T\nhis method also checks conditions and executes code accordingly. It seems to hav\ne few unknown functions like 'sub_10e59c', 'sub_d0b90', 'sub_6f170' etc., which \nmight be defined somewhere else in the program or maybe an external library func\ntion. However, without the complete code or context, it is hard to determine the\n exact purpose of this function.\n"
+decompiled = true
