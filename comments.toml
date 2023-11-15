@@ -4,3 +4,10 @@ addr = 0x2000
 func_addr = 0x2000
 comment = "==== AI Summarization ====\nThe code presents an empty function named \"sub_2000\" that returns an integer. Cu\nrrently, it doesn't perform any operations or return any values.\n"
 decompiled = true
+
+[0x27b8]
+last_change = 2023-11-15T09:54:13.915553Z
+addr = 0x27b8
+func_addr = 0x27b8
+comment = "==== AI Summarization ====\nThis code represents an empty function named \"sub_2000\" which returns an integer\n. However, since there is no code inside the function or a return statement, it \nwill cause a compilation error.\n"
+decompiled = true
