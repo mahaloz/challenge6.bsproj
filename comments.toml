@@ -5303,3 +5303,10 @@ addr = 0x1c818c
 func_addr = 0x1c818c
 comment = "==== AI Summarization ====\nThe given code describes a function (`sub_1c818c`) with several variables. The f\nunction performs a series of conditional and bitwise operations on these variabl\nes, which include function calls (`sub_10dc10()` and `sub_10f02c()`), comparison\ns (`&`, `^`, `||`, `!`, `&&`), assignments, and pointer arithmetic. In particula\nr, the function checks specific bits in certain variables and sets other variabl\nes based on these checks. It also makes conditional function calls and accesses \na global character variable (`g_4a3c`) indirectly through a computed pointer. Pl\nease note that the code seems incomplete, considering it does not have a return \nstatement. This function could be a part of low-level programming where operatio\nns on bits are frequently done like in embedded systems programming or systems p\nrogramming. However, more context is needed to definitively understand its real \nworld application.\n"
 decompiled = true
+
+[0x1c83e4]
+last_change = 2023-11-15T19:24:23.550201Z
+addr = 0x1c83e4
+func_addr = 0x1c83e4
+comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` with several fields comprised of charact\ner and integer arrays. It also defines a function `sub_1c83e4()`, which initiate\ns numerous integer, character, and struct type variables. \n\nIn `sub_1c83e4()`, `v3` is set to either `0` or `1` based on the bitwise operati\non results on `tmp_117` and `tmp_8`. \n\nIf bitwise operations on `tmp_27` yield TRUE, several operations occur: \n   - `v1` is calculated by adding 1489 to `v4`.\n   - Fields `field_1de` and `field_cc` of `v5` are set to `0` and `v6` respectiv\nely. \n   - `field_1df` of `v5` is calculated using a complex operation involving bitwi\nse logic and arithmetic operations on many variables.\n   - Depending on the condition created by multiple nested if statements, the pr\nogram jumps to either the `1c85c0` or `1c8520 labels`. \n\nThe function ultimately controls logical operations and manipulates structural d\nata based on conditions.\n"
+decompiled = true
