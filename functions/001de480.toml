@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1de480
+size = 0x5bc
+last_change = 2023-11-15T19:52:53.864091Z
+
+[header]
+name = "load_and_process_structures"
+addr = 0x1de480
