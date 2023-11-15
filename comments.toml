@@ -1376,3 +1376,10 @@ addr = 0xb05d0
 func_addr = 0xb05d0
 comment = "==== AI Summarization ====\nThe code is an empty function named 'sub_b05d0' in C or C++ programming language\n, which returns an integer. Currently, it doesn't perform any operations.\n"
 decompiled = true
+
+[0xb0940]
+last_change = 2023-11-15T12:38:32.584076Z
+addr = 0xb0940
+func_addr = 0xb0940
+comment = "==== AI Summarization ====\nThe provided code is written in C and is a function named `sub_b0940` which decl\nares several variables. It then sets up 4 do-while loops that perform some opera\ntions on these variables, such as addition and assigning them to certain memory \naddresses. The outer blocks of code seem to manipulate some externally declared \ncharacter and short unsigned integer variables, performing some division and mor\ne complex operations on them. The function returns the value from a specific mem\nory address (1610630604).\n"
+decompiled = true

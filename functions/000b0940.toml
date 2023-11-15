@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xb0940
+size = 0x1a4
+last_change = 2023-11-15T12:38:32.584076Z
+
+[header]
+name = "perform_memory_operations"
+addr = 0xb0940
