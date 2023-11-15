@@ -2909,3 +2909,10 @@ addr = 0x12e970
 func_addr = 0x12e970
 comment = "==== AI Summarization ====\nThe given code declares several external char variables named in a hexadecimal f\normat. This code also declares a function `sub_12e970` that initializes multiple\n integer and unsigned integer variables. Inside this function, numerous operatio\nns are performed on these variables, including arithmetic operations and functio\nn calls. These operations involve several computations, including subtracting ad\ndresses, bitwise operations, and function calls to `sub_6f9f0` and `sub_6f640`, \namong others. The code also includes a large number of conditional statements, w\nhere specific operations are performed depending on certain conditions. At the e\nnd, the function returns the address of a global char variable `g_8000`.\n\n"
 decompiled = true
+
+[0x12f2b0]
+last_change = 2023-11-15T15:17:39.660199Z
+addr = 0x12f2b0
+func_addr = 0x12f2b0
+comment = "==== AI Summarization ====\nThe code sets up global external variable references for multiple char and unsig\nned int variables (with hexadecimal naming convention), and also a few void poin\nters. Afterwards, it declares an empty function called sub_12f2b0. The function \ndoesn't have any arguments and doesn't perform any operations. The variables and\n the function are expected to be defined in other source files.\n"
+decompiled = true
