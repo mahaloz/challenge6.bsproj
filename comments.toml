@@ -5814,3 +5814,10 @@ addr = 0x1e4e50
 func_addr = 0x1e4e50
 comment = "==== AI Summarization ====\nThis is a C program code for a function `sub_1e4e50` where there are several ext\nernal variables of different data types being declared initially. The function c\nhecks certain conditions based on bit level operations. It makes use of other ex\nternal functions like `sub_10cd8c`, `sub_10cbcc`, `sub_10ccfc` and `sub_10d2bc`.\n There are also several update conditions on certain global variables `g_60062cf\nc`, `g_60062db4`, `g_60062d84`, and `g_60062d80`. The function returns the value\n of `g_60062cfc`.\n"
 decompiled = true
+
+[0x1e4fd0]
+last_change = 2023-11-15T19:56:14.705530Z
+addr = 0x1e4fd0
+func_addr = 0x1e4fd0
+comment = "==== AI Summarization ====\nThe code defines a structure struct_0 containing a char array of size 1684 and a\nn unsigned int field (field_694). Multiple variables are then extern declared, i\nndicating that they are defined in another source file. In the function sub_1e4f\nd0(), multiple local variables are declared and further initialized during runti\nme, implementing complex logic with bitwise operations, logical conditions, glob\nal variables, and function calls to other functions (the names of which are hint\ns due to obfuscation). These function calls, along with the heavy use of specifi\nc memory addresses, suggest that this code is part of a larger, possibly system-\nlevel project or a reverse-engineered program. The function sub_1e4fd0() modifie\ns multiple global variables and returns the result of another function call to s\nub_70050.\n"
+decompiled = true
