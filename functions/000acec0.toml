@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xacec0
+size = 0x990
+last_change = 2023-11-15T12:36:03.024332Z
+
+[header]
+name = "generate_emulation_value"
+addr = 0xacec0
