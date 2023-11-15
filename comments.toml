@@ -4253,3 +4253,10 @@ addr = 0x176a74
 func_addr = 0x176a74
 comment = "==== AI Summarization ====\nThis C code defines a struct by the name `struct_0` with two member variables 'p\nadding_0' and 'field_3f' and then declares extern variables `g_5191` and `g_5192\n`. \n\nThe method `sub_176a74` then declares a series of integer and character variable\ns, alongside a pointer to `struct_0`. The function tests some bitwise conditions\n to set values to some of the variables and perform certain operations.\n\nIf certain conditions hold true, then the character *(v1) is assigned certain in\nteger values. In the end, if the bitwise conditions still hold true, it jumps in\nto certain labels, probably for keeping track of where to resume execution.\n"
 decompiled = true
+
+[0x177660]
+last_change = 2023-11-15T16:47:42.546086Z
+addr = 0x177660
+func_addr = 0x177660
+comment = "==== AI Summarization ====\nThis code declares a global variable 'g_60074a52' and then defines a function 's\nub_177660()'. \n\nIn the function, four variables are defined: v0, v1, v2, v3. The memory address \nof v1 is assigned to v0. \n\nThen, the function 'sub_6f9f0' is called 25 times with arguments v2 and v3, thou\ngh it's not shown in this snippet where v2 and v3 are being assigned. \n\nAfter the repeated function calls, the global variable 'g_60074a52' is set to 1.\n \n\nThe function then ends by calling the 'sub_6f9f0' function once again and return\ning its result.\n"
+decompiled = true
