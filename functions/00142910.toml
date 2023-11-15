@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x142910
+size = 0x680
+last_change = 2023-11-15T15:27:34.873149Z
+
+[header]
+name = "process_bitfield_or_decode"
+addr = 0x142910
