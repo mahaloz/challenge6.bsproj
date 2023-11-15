@@ -5422,3 +5422,10 @@ addr = 0x1cb1e8
 func_addr = 0x1cb1e8
 comment = "==== AI Summarization ====\nThe C code defines a custom struct type `struct_0` with a padding of 1567 charac\nters and one character field `field_61f`. \n\nThe `sub_1cb1e8` function is declared and within it, numerous integer and charac\nter variables, a void pointer, an unsigned integer, and a `struct_0` pointer are\n declared. \n\nSeveral conditional checks are then performed on the bits of these variables (bi\ntwise operations), and depending on the results, different bits or characters ar\ne assigned to the variables. \n\nFinally, a pointer is set to `NULL`.\n\nThe code is very low level operations which is align with Assembly operations or\n hardware manipulating operations and it is hard to get a high level understandi\nng what the over all application achieve.\n"
 decompiled = true
+
+[0x1cb42c]
+last_change = 2023-11-15T19:31:32.623755Z
+addr = 0x1cb42c
+func_addr = 0x1cb42c
+comment = "==== AI Summarization ====\nThe given code has a function `sub_1cb42c()` which is performing a complex set o\nf bitwise operations and condition checks on numerous defined variables and temp\norary variables. These include conditional checks and bitwise shifting, AND, OR \noperations, and values assignment based upon the evaluation of each respective o\nperation. The values assigned or processed are then used in further operations.\n\nSome variables suggest a possible link to processor registers or specifics of as\nsembly language (like 'gpr', 'cr', and 'xer'), implying a lower-level system ope\nration. The variable `g_100000` is declared as external implying it is defined e\nlsewhere outside of this snippet. \n\nTowards the end of the function, there is an unused label `LABEL_0x1cb618` which\n suggests that the code may be incomplete or a part of larger source code.\n\nPlease note, there is a remarkable number of bitwise operations involved. As suc\nh, the exact purpose or the functionality of the function cannot be accurately d\neduced just from the code. It requires a wider context of the codebase or softwa\nre to ascertain the exact function's role.\n"
+decompiled = true
