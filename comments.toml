@@ -5107,3 +5107,10 @@ addr = 0x1bb134
 func_addr = 0x1bb134
 comment = "==== AI Summarization ====\nThis code declares a number of functions, variables, and structures. There are t\nwo structures defined: struct_0 and struct_1. Each structure has a series of fie\nlds of different types - some are arrays of characters, some are unsigned intege\nrs, and some are unsigned shorts.\n\nThe code also declares multiple extern variables, those variables are defined in\n a different translation unit. These include a range of types - chars, unsigned \nshorts and unsigned ints.\n\nThe function sub_1bb134() contains several conditionals (if statements) and exec\nutes different code paths based on these evaluations. The function contains a la\nrge number of variables, some of which are local variables and some of which app\near to be global. The calculations and transformations largely involve bitwise o\nperations, pointer dereferencing, and multiplications. \n\nThe function doesn't return any explicit value, thus the return type is int whic\nh by default will return garbage value if nothing is returned. \n\nIn general, without more context about how these data structures, extern variabl\nes, and the large sub_1bb134 function are related to the software's overall arch\nitecture and broader codebase, it's difficult to give a much more detailed summa\nry.\n"
 decompiled = true
+
+[0x1bb518]
+last_change = 2023-11-15T18:52:03.940355Z
+addr = 0x1bb518
+func_addr = 0x1bb518
+comment = "==== AI Summarization ====\nThe code is written in C and it declares a number of external global variables, \nboth char and unsigned int types, then sets up a function \"sub_1bb518()\". Inside\n this function, it sets several variables, check conditions using bitwise operat\nors, and calls another unspecified function \"sub_d1cc0()\" with multiple argument\ns repeatedly. The results of these function calls are assigned to respective glo\nbal variables. Certain branches in the function are outlined, although their con\nditions and subsequent instructions are not defined.\n"
+decompiled = true
