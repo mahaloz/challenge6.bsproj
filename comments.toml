@@ -4127,3 +4127,10 @@ addr = 0x1711e0
 func_addr = 0x1711e0
 comment = "==== AI Summarization ====\nThe given code is a function in C language, which is defined to handle bitwise o\nperations and conditional branching based on certain conditions. It's mainly man\nipulating some global and local variables using bitwise operations, subroutines \nand condition checks. \n\nThe code uses external variables `g_51a6` and `g_60061dd8`. It involves checks w\nith bitwise operations such as `AND (&)` and `XOR (^)`, and based on these condi\ntions it moves to different labels or calls some subroutines such as `sub_10e59c\n()`, `sub_6f170()`, `sub_6ff50()` and `sub_6f240()`. \n\nAlthough not fully described due to unclear context, the operations include basi\nc manipulation such as assignment of values to variables, bitwise negation and O\nR operations. It looks sections of the code are designed for different scenarios\n or states for the values of the variables.\n"
 decompiled = true
+
+[0x171418]
+last_change = 2023-11-15T16:39:25.596538Z
+addr = 0x171418
+func_addr = 0x171418
+comment = "==== AI Summarization ====\nThis code defines a function, `sub_171418()`, that utilizes a variety of externa\nlly defined variables, temporary variables, and variables defined within the fun\nction. The procedure uses these values to manipulate specific bits in memory and\n call additional helper functions. The logic of the function is based on conditi\non control statements (`if` statements) and bitwise operations, with specific be\nhavior being implemented depending on the evaluation of each condition. \n\nThe purpose of a function like this could be low-level system operations, commun\nication protocols, or device interactions, where bitwise manipulation is common.\n\nPlease note that the helper functions `sub_10e59c()`, `sub_6f170()`, `sub_6ff50(\n)`, and `sub_6f240()` are not defined in the given code, nor are `g_51a6` and `g\n_60061dd8` which suggests they are declared and defined elsewhere in the system.\n"
+decompiled = true
