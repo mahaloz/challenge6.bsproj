@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x169120
+size = 0x53c
+last_change = 2023-11-15T16:27:26.802038Z
+
+[header]
+name = "compute_and_adjust_values"
+addr = 0x169120
