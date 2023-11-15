@@ -5310,3 +5310,10 @@ addr = 0x1c83e4
 func_addr = 0x1c83e4
 comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` with several fields comprised of charact\ner and integer arrays. It also defines a function `sub_1c83e4()`, which initiate\ns numerous integer, character, and struct type variables. \n\nIn `sub_1c83e4()`, `v3` is set to either `0` or `1` based on the bitwise operati\non results on `tmp_117` and `tmp_8`. \n\nIf bitwise operations on `tmp_27` yield TRUE, several operations occur: \n   - `v1` is calculated by adding 1489 to `v4`.\n   - Fields `field_1de` and `field_cc` of `v5` are set to `0` and `v6` respectiv\nely. \n   - `field_1df` of `v5` is calculated using a complex operation involving bitwi\nse logic and arithmetic operations on many variables.\n   - Depending on the condition created by multiple nested if statements, the pr\nogram jumps to either the `1c85c0` or `1c8520 labels`. \n\nThe function ultimately controls logical operations and manipulates structural d\nata based on conditions.\n"
 decompiled = true
+
+[0x1c8760]
+last_change = 2023-11-15T19:24:46.686129Z
+addr = 0x1c8760
+func_addr = 0x1c8760
+comment = "==== AI Summarization ====\nThe provided C code first defines two struct types, called struct_1 and struct_0\n, each with a char array and an unsigned integer as fields. \n\nIt then declares a few external variable references.\n\nFinally, it defines a function named 'sub_1c8760' that seemingly performs bitwis\ne operations and conditions and assigns various manipulated values to the fields\n of declared structs and previously defined global variables. \n\nIn the last if condition, if the bitwise AND operation between the character rep\nresentation of 'tmp_37' and 2 results to false, and bitwise XOR operation of 'tm\np_12' and 2 is true, then it sets the global variable 'g_6006ed50' to 1, sets ce\nrtain addresses to certain values, and sets field 'field_610' of a 'struct_0' in\nstance to value 'v4'. This function doesn't return any values.\n"
+decompiled = true
