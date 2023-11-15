@@ -5723,3 +5723,10 @@ addr = 0x1dcc90
 func_addr = 0x1dcc90
 comment = "==== AI Summarization ====\nThis C code defines two structs, `struct_1` and `struct_0`, each containing padd\ning and a field. It also declares several global variables and an integer functi\non named `sub_1dcc90`.\n\nThe `sub_1dcc90` function contains blocks of conditions (`if` statements), bitwi\nse operations, and calls to other functions (some of which are not defined in th\nis code). The operations primarily involve bitwise operations and updates to spe\ncified struct fields or global variables. \n\nThe function seems to process a series of condition checks and adjustments on va\nlues/variables (mostly bitwise operations), and calls to subfunctions (`sub_10e5\n9c`, `sub_6f170`, `sub_6ff50`, `sub_727b0`, `sub_239c30` and `sub_239c20`). Thes\ne subfunctions are not implemented here.\n\nThe result of this function is unclear due to the hidden operations in these sub\nfunctions and because the function does not have a return statement. \n\nThe intended purpose of this function, or the overall code, is not clear from th\nis snippet. It would depend on the purpose of the subfunctions called and the gl\nobal variables used.\n"
 decompiled = true
+
+[0x1dd16c]
+last_change = 2023-11-15T19:50:49.893761Z
+addr = 0x1dd16c
+func_addr = 0x1dd16c
+comment = "==== AI Summarization ====\nThis is a C programming language code that includes variable and struct declarat\nions as well as a complex function. There are two different structs struct_0 and\n struct_1, each containing different types of variables. The function sub_1dd16c\n, performs a series of complex operations based on various conditions, also maki\nng use of global variables declared at the start of the code. There are also sev\neral function(s) being called within sub_1dd16c but their implementation is not \ngiven in this code. As a whole, without more contextual information about these \ndata types, functions and the whole program, it's difficult to understand exactl\ny what is the function's purpose.\n"
+decompiled = true
