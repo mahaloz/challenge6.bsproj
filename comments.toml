@@ -3721,3 +3721,10 @@ addr = 0x1621e0
 func_addr = 0x1621e0
 comment = "==== AI Summarization ====\nThis is a C code snippet that defines a function and a struct type. \n\n1. struct_0 structure is defined that includes a 12 byte character array and an \nunsigned int.\n2. The function sub_1621e0 is defined. This function operates with a lot of diff\nerent temporary and general variables and array elements. \n3. The function contains conditional logic (if-else statements), bitwise operati\nons and calls to external functions. \n4. It's goal appears to do several different operations of potentially manipulat\ning and managing memory, depending on the values and flags of the temporary and \ngeneral variables.\n  \nThis is a very complex function and the true end goal is hard to know without it\ns wider context such as the other functions being called (e.g., sub_162e70, sub_\n709b0, sub_71dd0, sub_162db0, sub_239b30) or what values get passed into sub_162\n1e0 initially. The actual purpose would be clear in the context of the whole pro\ngram which this function is part of.\n"
 decompiled = true
+
+[0x162500]
+last_change = 2023-11-15T16:08:58.832410Z
+addr = 0x162500
+func_addr = 0x162500
+comment = "==== AI Summarization ====\nThe provided C code defines a struct at the beginning, then declares a function.\n The function first declares and initializes a set of variables, including a poi\nnter to the struct. Then based on certain conditions, it modifies the values of \nsome members of the struct several times in different conditional statements and\n loops. The code in the function is quite complex and seems to involve a variety\n of bitwise operations and low-level memory manipulation, but the general purpos\ne is not specified. It also appears to be calling two external functions named `\nsub_709b0` and `sub_71e90`. Finally, before returning, it alters more member val\nues in the struct and performs more function calls and operations based on furth\ner conditions.\n"
+decompiled = true
