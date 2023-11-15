@@ -2160,3 +2160,10 @@ addr = 0xd0cc0
 func_addr = 0xd0cc0
 comment = "==== AI Summarization ====\nThe code creates a struct named `struct_0` with a character array and an unsigne\nd short as its members. It then creates a function named `sub_d0cc0()`, which co\nntains a large number of local variables and performs several computations.\n\nThe function seems to mainly manipulate and update these local variables accordi\nng to different conditions evaluated by numerous if-else conditions. It appears \nto be performing some bit manipulation and arithmetic operations on these variab\nles.\n\nThe code, however, is not very clear about what it accomplishes functionally bec\nause it lacks context and comments. The use of descriptive names for variables a\nnd functions is limited, which obfuscates the code's purpose. Furthermore, unusu\nal constructs like an empty return and bitwise XOR with the same number are pres\nent in the code, making it hard to assess its real-world usefulness.\n"
 decompiled = true
+
+[0xd0f00]
+last_change = 2023-11-15T14:25:26.474360Z
+addr = 0xd0f00
+func_addr = 0xd0f00
+comment = "==== AI Summarization ====\nThe given C code is a function named \"sub_d0f00\". The function declares a number\n of integer and character variables. It also appears to be working with memory p\nointers and performing various operations or function calls based on a series of\n conditional checks (if-else statements). The conditions mainly focus on the sec\nond bit from these variable values, and calls various other unknown functions li\nke \"sub_6f170\", \"sub_6f240\" and \"sub_6ff50\" based on these conditions.\n\nPlease note that without further context, it's challenging to provide a more det\nailed overview because the variables and functions are named quite cryptically. \nMany variables are temporary containers (like tmp_54 and so on), and names like \nv0, v1, v2, etc. do not provide clear context on their use. Similarly, the purpo\nse of functions like sub_6f170 is unclear since we do not have their implementat\nion details.\n"
+decompiled = true
