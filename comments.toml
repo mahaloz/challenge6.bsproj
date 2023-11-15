@@ -2132,3 +2132,10 @@ addr = 0xcfd60
 func_addr = 0xcfd60
 comment = "==== AI Summarization ====\nThe code defines a function `sub_cfd60()` in C language. It uses global external\n char variables `g_c3f9069c`, `g_c3f9069e`, `g_c3f906bc`, `g_c3f906be`, `g_c3f90\n6c0`, `g_c3f9072b`, and local integer and unsigned integer variables.\n\nThe function initializes `v0` with the value `0xc3f90000`, then checks bit masks\n for certain temporary variables (`tmp_19`, `tmp_23`, `tmp_8`, `tmp_16`, `tmp_20\n`) to determine assignments of other variables and updates the value of global v\nariables accordingly.\n\nThe function then manipulates the variables based on the conditions and returns \n`0xc3f90000` unconditionally.\n\nOverall, the purpose of the code is likely for some sort of low-level memory man\nipulation or bit masking operation, but without broader context, it's difficult \nto specify the exact purpose of the function.\n"
 decompiled = true
+
+[0xcffe0]
+last_change = 2023-11-15T14:23:42.743647Z
+addr = 0xcffe0
+func_addr = 0xcffe0
+comment = "==== AI Summarization ====\nThe given C code defines a function named `sub_cffe0()`. The function declares a\n number of variables and external variables (which are probably defined elsewher\ne in the code). In the function, various operations on the variables are perform\ned, including assignment of the address of other variables and computation based\n on the bitwise OR operation. The code maintains multiple condition checks that \nincludes bitwise operations and based on the condition it calls the same functio\nn `sub_cae00()` with different arguments. Notably, this function `sub_cae00()` s\neems to be a non-returning function as indicated by comments. Furthermore, the f\nunction `sub_cffe0()` modifies the external variables 'g_600075aa' to 'g_600075b\na', 'g_c3f90128', and 'g_c3f90674'.\n\n"
+decompiled = true
