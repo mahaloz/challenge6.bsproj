@@ -5877,3 +5877,10 @@ addr = 0x1f8830
 func_addr = 0x1f8830
 comment = "==== AI Summarization ====\nThis code defines a function `sub_1f8830()` written in C that uses a custom `str\nuct_0` structure and externally available variables to perform complex calculati\non. The structure consists of a large-space char array `padding_0` and an intege\nr `field_690`. The function defines a number of integer, character, and unsigned\n integer variables, along with a pointer to the custom structure.\n\nThe function performs a series of bitwise operations, conditional checks, extern\nal function calls (like `sub_d1cc0()`, `sub_10cbcc()`, etc.) and arithmetic oper\nations within nested if-else conditions, which manipulates data in assignment, c\nomparison, and sub-routines. The binary decision trees are largely based on bitw\nise operation results of previously defined temporary variables or conditional i\nf statements.\n\nThe results are stored and manipulated in a series of globally defined variables\n (g_XXXX). Modifications are also conducted on the structure's `field_690` membe\nr. If a certain bitwise operation on `tmp_8` yields a non-zero result, the funct\nion calls `sub_70050` and eventually returns `v35`, which is altered throughout \nthe function's logic.\n"
 decompiled = true
+
+[0x1f9130]
+last_change = 2023-11-15T19:59:50.057699Z
+addr = 0x1f9130
+func_addr = 0x1f9130
+comment = "==== AI Summarization ====\nThe code defines a structure named 'struct_0' that contains two fields, an array\n of characters ('padding_0') of size 725 and a character variable 'field_2d5'. \n\nFurthermore, the code also declares an empty function named 'sub_1f9130' that re\nturns an integer. It doesn't contain any operations or return any values.\n"
+decompiled = true
