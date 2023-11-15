@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x16338c
+size = 0x194
+last_change = 2023-11-15T16:11:55.522594Z
+
+[header]
+name = "perform_memory_and_bit_operations"
+addr = 0x16338c
