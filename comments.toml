@@ -4456,3 +4456,10 @@ addr = 0x183200
 func_addr = 0x183200
 comment = "==== AI Summarization ====\nThe code is written in C. It declares multiple global character variables and de\nfines a function `sub_183200()`. In the function, it first declares multiple loc\nal variables including integers, characters, and unsigned integers. It then assi\ngns various values or results of function calls to these variables and also perf\norms several bitwise operations and comparisons. The function `sub_6f2a0` is rep\neatedly called, implying that this function returns some important values which \nare then manipulated. It also includes several conditional statements including \nif statements checking if certain bits are set in the variables `tmp_25` and `tm\np_16`. If they are set, it executes the function `sub_2c27a0` with different arg\numents. Finally, it sets a value conditionally and returns an unsigned integer `\nv10`.  The function seems to be part of a larger system or application, and it's\n purpose is not clear without additional context.\n"
 decompiled = true
+
+[0x183370]
+last_change = 2023-11-15T17:00:55.508882Z
+addr = 0x183370
+func_addr = 0x183370
+comment = "==== AI Summarization ====\nThe code is a function written in C that declares four variables: v0, v1, v2, an\nd v3. It assigns the address of v1 to v0. Then, it runs a subroutine (sub_6f9f0)\n with v2 and v3 as arguments 16 times. It returns the output of the 17th call to\n the same subroutine (sub_6f9f0).\n"
+decompiled = true
