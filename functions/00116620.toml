@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x116620
+size = 0x26c
+last_change = 2023-11-15T14:40:56.477692Z
+
+[header]
+name = "process_global_char_variables_bitwise_operation"
+addr = 0x116620

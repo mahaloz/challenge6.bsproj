@@ -2440,3 +2440,10 @@ addr = 0x111090
 func_addr = 0x111090
 comment = "==== AI Summarization ====\nThis C code is a function named `sub_111090`. The code uses various extern chara\ncters, integers, and unsigned integer/short variables. \n\nThe function begins by assigning the address of a char variable `v2` to an unsig\nned integer `v1`. \n\nNext, the code contains several if and else-if conditions. Each condition checks\n whether the bitwise AND result of a temporary variable `(tmp_33,tmp_22,tmp_26,e\ntc.)` and the number 2 is 0 or not. Depending on these conditions, various assig\nnments and operations are performed. Notably, a lot of these operations involve \ntaking the address of the global extern characters `(g_100000, g_6668, g_6736, g\n_7ecf, g_7fa4, g_7fa6, g_7fa8)`, multiplying them with `-1` and adding them to `\nv4`, then accessing the value at the resulting memory location and changing thei\nr values.\n\nThe function seems to conduct a series of complex calculations and memory addres\ns operations, ultimately returning the value of the variable, `v21`.\n"
 decompiled = true
+
+[0x116620]
+last_change = 2023-11-15T14:40:56.477692Z
+addr = 0x116620
+func_addr = 0x116620
+comment = "==== AI Summarization ====\nThe provided code is a function (sub_116620) in C. The function performs differe\nnt operations based on several conditions present within the if-else conditions \nand bitwise operations. Externally defined variables (like g_100000, g_6668, g_6\n720, g_7ece, etc.) are used in these processes. In general, it manipulates some \nexternal global char variables and it uses a lot of temporary variables. If-else\n statements seemingly implement different behavior for these temporary variables\n if certain conditions are met, especially checking the 2nd bit (and other condi\ntions). At the end of each branch, it changes the value of a char that is access\ned by some determined address and it returns the value of v21.\n"
+decompiled = true
