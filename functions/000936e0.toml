@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x936e0
+size = 0x2b8
+last_change = 2023-11-15T10:41:57.505341Z
+
+[header]
+name = "setup_or_modify_memory_segment"
+addr = 0x936e0

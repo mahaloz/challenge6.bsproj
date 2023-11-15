@@ -858,3 +858,10 @@ addr = 0x935b0
 func_addr = 0x935b0
 comment = "==== AI Summarization ====\nThe function `sub_935b0` declares four variables `v0`, `v1`, `v2`, and `v3`. It \nassigns the memory address of `v1` to `v0`. Then, it calls the function `sub_6f9\nf0` with `v2` and `v3` as arguments 15 times. For the last call, the function's \nreturn value is also returned by `sub_935b0`. The function `sub_6f9f0` is assume\nd to perform some operation using `v2` and `v3`.\n"
 decompiled = true
+
+[0x936e0]
+last_change = 2023-11-15T10:41:57.505341Z
+addr = 0x936e0
+func_addr = 0x936e0
+comment = "==== AI Summarization ====\nThis code declares several external char variables and a function `sub_936e0()`.\n The function defines several local variables and pointers before calling a subr\noutine `sub_936c0(1)`. Following this, a large number of memory locations, relat\nive to the base `v2`, are set to the return values of calls to the function `sub\n_6f2a0()`, performed with various hard-coded and externally defined arguments. T\nhe function ends by assigning the return of `sub_6f2a0()` to the variable `v3` a\nnd then returning `v3`. In summary, this function seems to be setting up or modi\nfying a large segment of memory according to certain rules defined by function `\nsub_6f2a0()`.\n"
+decompiled = true
