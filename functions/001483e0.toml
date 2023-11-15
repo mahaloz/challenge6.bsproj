@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1483e0
+size = 0x16c
+last_change = 2023-11-15T15:41:49.119133Z
+
+[header]
+name = "manipulate_struct_based_on_conditions"
+addr = 0x1483e0
