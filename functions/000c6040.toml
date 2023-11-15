@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc6040
+size = 0x334
+last_change = 2023-11-15T13:40:16.735909Z
+
+[header]
+name = "manipulate_byte_values_in_memory_blocks"
+addr = 0xc6040
