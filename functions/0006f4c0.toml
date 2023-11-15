@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x6f4c0
+size = 0x178
+last_change = 2023-11-15T10:08:13.282046Z
+
+[header]
+name = "calculate_and_assign_values"
+addr = 0x6f4c0

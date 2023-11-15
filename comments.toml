@@ -263,3 +263,10 @@ addr = 0x6f300
 func_addr = 0x6f300
 comment = "==== AI Summarization ====\nThe provided C code defines two structs named `struct_0` and `struct_1`. `struct\n_0` has a char array of length 4 and a pointer to `struct_1`.\n\nSix globally accessible characters are defined.\n\nA function `sub_6f300` is defined. It uses a mix of assembler and C which is gen\nerally not recommended due to portability and readability concerns. The function\n includes a range of local variables and pointers. \n\nThe function performs a range of bit manipulation operations, loops and addresse\ns memory using the variables and pointers. The specific logic and semantics are \ncomplex and without context or variable names that hint at their role, the preci\nse purpose of this function is fairly opaque. Since the function lacks a return \nstatement, it will likely return an undefined value.\n"
 decompiled = true
+
+[0x6f4c0]
+last_change = 2023-11-15T10:08:13.282046Z
+addr = 0x6f4c0
+func_addr = 0x6f4c0
+comment = "==== AI Summarization ====\nThe provided code is written in C. It declares a struct called `struct_0` with t\nwo members, an array of characters called `padding_0` and an unsigned short call\ned `field_2`. It also declares some global characters. \n\nThe code also defines a function `sub_6f4c0()`. This function declares several i\nntegers and pointers, and then carries out some calculations and bitwise operati\nons on these variables. \n\nThe main body of the function seems to be implementing some type of logic with s\neveral conditionals (`if` statements) and loops (`while` statements), which mani\npulate the fields in an instance of `struct_0`, several integers and pointers de\nclared earlier in the function, and some of the global characters. \n\nIn the end of function, it assigns the value of `v7` to the dereferenced `v8` po\ninter and a local variable `v0` to `v9`. Then, the function ends without returni\nng anything.\n"
+decompiled = true
