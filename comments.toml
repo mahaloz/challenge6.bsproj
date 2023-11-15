@@ -5968,3 +5968,10 @@ addr = 0x2034f0
 func_addr = 0x2034f0
 comment = "==== AI Summarization ====\nThis code defines a C structure named struct_0 with two fields: a character arra\ny padding_0 of 1760 bytes, and an unsigned integer field_6e0. It declares severa\nl global variables and a function sub_203364(). \n\nThe function sub_203364() declares a large number of variables of various types.\n The logic in this function appears to involve many bitwise operations, which ar\ne often used for manipulating bits within binary data, and conditional (if) stat\nements. \n\nIt also involves explicit memory addressing (potentially collection data from sp\necific memory locations), and calls to other functions such as sub_6fe10, sub_6f\n240, and sub_10e59c. \n\nThe function uses these operations and calls to modify the global variables and \nthe fields of instances of struct_0 in complex ways based on different condition\ns. The specific purpose or overall functionality of the code cannot be determine\nd from this snippet alone, and would depend on the wider program that this code \nis part of.\n"
 decompiled = true
+
+[0x204630]
+last_change = 2023-11-15T20:05:43.440284Z
+addr = 0x204630
+func_addr = 0x204630
+comment = "==== AI Summarization ====\nThe code is a function `sub_204630()` likely written in the C programming langua\nge. It has several extern char and unsigned int variables. It includes multiple \nlocal variables including integers, characters, and a pointer. The function is p\nerforming various bitwise operations, conditional checks and multiple assignment\ns to local and global variables. The function is also calling another function, \npossibly `sub_10e59c()`. It appears to contain considerable conditional flow con\ntrol, possibly representing a complex computation or algorithm. However, without\n more context, the specific purpose of these operations is unclear.\n"
+decompiled = true
