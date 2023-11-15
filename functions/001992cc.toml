@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1992cc
+size = 0x114
+last_change = 2023-11-15T18:36:05.796591Z
+
+[header]
+name = "calculate_and_assign_global_variables"
+addr = 0x1992cc

@@ -4841,3 +4841,10 @@ addr = 0x199178
 func_addr = 0x199178
 comment = "==== AI Summarization ====\nThis code is a function named `sub_199178` written in C programming language. It\n first lists a variety of external global variables, represented as `extern`, wh\nich means these variables could be defined in another file. \n\nThe `sub_199178` function contains a significant number of local variables, incl\nuding integer, character array, void pointer, and unsigned integer array types. \n\nThe function proceeds with a series of computations and condition checks (if-con\nditions) involving these variables. Notably, based on the value of `tmp_142` and\n `tmp_111`, it sets certain values in global variables such as `g_6006e4f8`, `g_\n6006e4ee`, `g_6006e4eb`, `g_60075160`, and `g_6006e4f4`.\n\nThe function appears to be part of a larger program, and without that context it\n's hard to surmise its exact purpose. The use of hardcoded values and multiple b\nitwise operations suggests it might be part of a lower level system, memory mana\ngement or possibly a driver.\n"
 decompiled = true
+
+[0x1992cc]
+last_change = 2023-11-15T18:36:05.796591Z
+addr = 0x1992cc
+func_addr = 0x1992cc
+comment = "==== AI Summarization ====\nThe given code is a function called \"sub_1992cc\" written in C. It declares a num\nber of variables and pointers to some global variables. The function calculates \nand assigns values for these variables based on various conditions. The global v\nariables \"g_6006e598\", \"g_6006e59a\", and \"g_6007515c\" are accessed and modified \nmultiple times in different conditions. It seems like an assembly-to-C translate\nd code due to the variables named like registers (For example, gpr13, gpr3) and \ntmp (temporary) variables. The \"__ROR__\" represents a \"rotate right\" operation.\n"
+decompiled = true
