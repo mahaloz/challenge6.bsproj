@@ -1656,3 +1656,10 @@ addr = 0xbbd70
 func_addr = 0xbbd70
 comment = "==== AI Summarization ====\nThis is a function named `sub_bbd70` that operates in the following way: it init\nializes several local integer variables and two char variables. Then, the functi\non performs different sequences of calls to external functions `sub_bc6b0`, `sub\n_bc6e0`, `sub_bbaf0`, and `sub_c0500` based on conditions checked by nested if s\ntatements. These conditions are istantly related to the values of tmp variables.\n The function doesn't appear to return a value, but it does set the value of v3 \nto the address value of v1, which is more purposeful in a larger context of the \nprogram.\n"
 decompiled = true
+
+[0xbc090]
+last_change = 2023-11-15T13:07:55.326206Z
+addr = 0xbc090
+func_addr = 0xbc090
+comment = "==== AI Summarization ====\nThe provided code represents a C/C++ style function named `sub_bc090`. The funct\nion makes use of external global variables of various data types like unsigned i\nnteger and void pointers. In the function, multiple variables are declared and s\nome are initialized with values.\n\nThe function contains several conditional checks and related operations. Also, t\nhe function handles and manipulates memory address locations. The function appea\nrs to reference other functions and variables that aren't present in the provide\nd code snippet (like `sub_10a720`, `sub_bbf90`, `sub_10a440`, and `sub_109f30`).\n It issues multiple calls to these subroutines with the passed parameters differ\ning per situation.\n\nThe function is presumably a part of a larger codebase as there are several exte\nrnal variables and function calls within the provided code, which also suggests \nthat it might be performing some complex operations and/or checks.\n\nWithout context or comments, it is hard to determine the exact functional role t\nhat this code segment is fulfilling, however, its operations deal with memory al\nlocation and value assigning tasks.\n"
+decompiled = true
