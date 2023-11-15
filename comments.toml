@@ -25,3 +25,10 @@ addr = 0x2c64
 func_addr = 0x2c64
 comment = "==== AI Summarization ====\nThe given code defines a function named \"sub_2c64\". Inside this function, anothe\nr function \"sub_2e1c\" is called and there's a comment stating \"do not return\". H\nowever, the actual functionality of these functions can't be determined from the\n code because the body of these functions is not provided. The comment \"do not r\neturn\" might indicate that \"sub_2e1c\" is an infinite loop or ends the program, b\nut this is uncertain without more code or context.\n"
 decompiled = true
+
+[0x3124]
+last_change = 2023-11-15T09:54:54.598759Z
+addr = 0x3124
+func_addr = 0x3124
+comment = "==== AI Summarization ====\nThis code defines a function named `sub_3124()`, which calls another function na\nmed `sub_3330()`. The function `sub_3124()` does not have a specified return val\nue.\n"
+decompiled = true
