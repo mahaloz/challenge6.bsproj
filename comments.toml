@@ -2608,3 +2608,10 @@ addr = 0x121670
 func_addr = 0x121670
 comment = "==== AI Summarization ====\nThis C code declares a function `sub_121670`, which is interacting with a number\n of global extern variables, sets multiple conditions, performs several operatio\nns and bitwise manipulations, and returns `v17`. The function heavily involves p\nointer arithmetic. Evidently, it's part of a complex program, but its specific a\nim in that program cannot be deduced without additional context.\n"
 decompiled = true
+
+[0x1223b0]
+last_change = 2023-11-15T14:50:45.296392Z
+addr = 0x1223b0
+func_addr = 0x1223b0
+comment = "==== AI Summarization ====\nThe provided code is written in C and is a part of a larger system - possibly a \nreverse engineered code from some binary executable. This particular `sub_1223b0\n` function seems to include operations on a series of global and local variables\n and pointers, character, and integers including shifting, bitwise operations, a\nnd an iterative do-while loop. It also invokes other externally defined function\ns. The function is structured with various conditional statements, and depending\n on the conditions, different operations are performed on the variables. An exce\nption to return `v11` is made when certain conditions are met. One of the main o\nperations involves the manipulation of global and locally defined pointers and i\nntegers, possibly for some form of data transformation or protection. However, w\nithout the complete program or context, it's hard to precisely predict its role \nin a program.\n"
+decompiled = true
