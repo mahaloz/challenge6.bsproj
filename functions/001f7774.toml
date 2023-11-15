@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1f7774
+size = 0x274
+last_change = 2023-11-15T19:58:49.018200Z
+
+[header]
+name = "perform_bitwise_and_reset_variables"
+addr = 0x1f7774

@@ -5856,3 +5856,10 @@ addr = 0x1f7478
 func_addr = 0x1f7478
 comment = "==== AI Summarization ====\nThe provided C code defines a structure called struct_0 with five fields and the\nn declares several variables including extern and local ones. It then defines a \nfunction named sub_1f7478(). \n\nInside this function, it first initializes multiple variables. It then starts a \ndo-while loop where an unsigned int value gets updated each time the loop iterat\nes. This loop continues only while v61 is an odd number. After the loop, it call\ns another function named sub_309470(). Another do-while loop follows which again\n iterates while v66 is an odd number. \n\nThe function also updates multiple global variables like g_60071e14, g_60071e16,\n g_60071e10, g_60071dcc, g_60071e12, g_60071e18, g_60071e1c, g_60071e0a, g_60071\nd25, g_60071d24. It also updates the fields of structure v58 before the function\n ends.\n"
 decompiled = true
+
+[0x1f7774]
+last_change = 2023-11-15T19:58:49.018200Z
+addr = 0x1f7774
+func_addr = 0x1f7774
+comment = "==== AI Summarization ====\nThe given C code defines a function named `sub_1f7774`. This function declares a\n number of global variables and variables of various data types including intege\nr, character, pointer, and unsigned short. This function seems to be performing \nchecks for bitwise AND operation of `tmp_184` and `tmp_13` variables with the nu\nmber 2. If the result is False, several variables are set to 0 and written to me\nmory with addresses based on the address of `v16` and each extern char variable \n`g_4664` to `g_467c`. This function also makes calls to two external functions n\named `sub_6fe10` and `sub_6f8e0` with parameters `v13, v14, v15`. The final `v17\n` value is then returned.\n"
+decompiled = true
