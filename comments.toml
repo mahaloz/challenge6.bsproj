@@ -4890,3 +4890,10 @@ addr = 0x19b12c
 func_addr = 0x19b12c
 comment = "==== AI Summarization ====\nThe code defines a structure type \"struct_0\" with two fields - a character array\n (padding_0) of length 1244 and an unsigned integer (field_4dc). Then it declare\ns a large number of external global variables, most of them being of char type a\nnd some of unsigned short and unsigned int types. \n\nThen the function sub_19b12c() is defined. In this function:\n\n- Some global variables are set and assigned certain values.\n- Many of these global short variables are assigned the return value of another \nfunction, sub_6f2a0(), which is called with different arguments.\n- The function also contains conditional logic to determine the values of certai\nn variables.\n- The function sub_c8390() and sub_18efe0() are called with certain parameters.\n- Additional function calls to sub_70050(), sub_6f8e0() are made.\n- The function ends by assigning certain variables with calculated values and th\nen returns the result of calling the function sub_6f8e0() without any parameters\n.\n\nAs there is a mention of padding_0 for 1244 bytes, it appears it might be relate\nd to handling of low-level data structures or memory alignment. Also, due to fre\nquent access to global variables, it might be part of a larger system. However, \nwithout further context or comments it's difficult to discern the exact purpose \nof this function.\n"
 decompiled = true
+
+[0x1ae360]
+last_change = 2023-11-15T18:38:53.730173Z
+addr = 0x1ae360
+func_addr = 0x1ae360
+comment = "==== AI Summarization ====\nThe given code declares four variables: v0, v1, v2, and v3. It then assigns the \naddress of v1 to v0. After that, the function sub_6f9f0 is called 64 times with \nthe arguments v2 and v3. After 64 calls, the return value from the 65th call of \nsub_6f9f0 with the same arguments is returned from function sub_1ae360. Informat\nion about what sub_6f9f0 does is not provided.\n"
+decompiled = true
