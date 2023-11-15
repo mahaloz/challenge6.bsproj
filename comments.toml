@@ -1964,3 +1964,10 @@ addr = 0xc8390
 func_addr = 0xc8390
 comment = "==== AI Summarization ====\nThe code defines several data structure types (strut_0, struct_1, struct_2, stru\nct_3, struct_5) with different fields. There are also global character variables\n defined (g_1fffe0, g_60000, g_70000, g_ffff0). A complex function (sub_c8390) i\ns also defined which consists of nested conditionals, assignments, and function \ninvocations with interlinked variables. The function performs different operatio\nns and manipulations on these data structures based on various conditions. The '\nif' conditions are based on bitwise operations on variables. They are involved i\nn assignments, recalculations, and also influence the flow control of the functi\non. The function doesn't explicitly return a value, suggesting the function perf\norms actions with side-effects, possibly on the global variables or memory addre\nsses being referenced.\n"
 decompiled = true
+
+[0xc8dd0]
+last_change = 2023-11-15T13:47:34.105572Z
+addr = 0xc8dd0
+func_addr = 0xc8dd0
+comment = "==== AI Summarization ====\nThe given code is a C function, 'sub_c8dd0()', with a complex control flow and l\nots of variables declarations. The function, 'sub_c8dd0()', accepts no arguments\n but is using some external variables, 'g_6400' and 'g_f4240'.\n\nInitially, it declares a large amount of integer, character, pointer and array v\nariables, some of them intended to be temporary variables. There are also variab\nles that are very likely used for handling General Purpose Registers (GPR).\n\nThe control flow is mostly composed of nested conditional statements and a while\n loop. Inside these control structures, various operations are performed, includ\ning arithmetic operations, fetching or storing values in memory, and calling oth\ner functions.\n\nDue to the naming of the functions and variables, it is difficult to determine t\nhe exact purpose of this function without additional context. However, it seems \nto be performing some sort of iteration or computation based on the state of its\n many variables and possibly manipulating some memory locations.\n"
+decompiled = true
