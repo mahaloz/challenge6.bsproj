@@ -3581,3 +3581,10 @@ addr = 0x159dd8
 func_addr = 0x159dd8
 comment = "==== AI Summarization ====\nThe provided code is incomplete as it neither returns a value nor modifies any g\nlobal or external variables to indicate a result. Moreover, there are no functio\nn or method calls within the code. It primarily declares a number of integer and\n character variables, and copies values between these variables. However, severa\nl statements are repeated verbatim, suggesting possible error or redundancy. It \nalso checks if `tmp_259` and `tmp_8` variables have a certain value (4) by using\n bitwise operations. If they do, it jumps to a label which isn't shown in the pr\novided code.\n"
 decompiled = true
+
+[0x15a85c]
+last_change = 2023-11-15T16:00:35.180073Z
+addr = 0x15a85c
+func_addr = 0x15a85c
+comment = "==== AI Summarization ====\nThe code is a C program that declares a number of externally defined variables (\ncharacters and unsigned integers) and a function `sub_15a85c()`. After declaring\n several types of local variables like int, char, unsigned int, and void*, the f\nunction conducts some operations:\n\n- It sets the value of a void pointer, `v6`, based on the condition of a certain\n bit of a char variable, `v21`.\n- It conducts several checks of the bitwise operations on various int variables \n(such as `tmp_16`, `tmp_51`, `tmp_22`), and depending on these checks:\n    - It calls an externally defined function `sub_d2010()` with different argum\nents.\n    - It assigns values to certain global variables.\n- In the final part of the code, there is one more condition: it checks again th\ne bit of `v21` and if the condition is met, the code flow is directed to a label\n `LABEL_0x15a8a0` which is not present in the given code.\n"
+decompiled = true
