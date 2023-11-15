@@ -4932,3 +4932,10 @@ addr = 0x1afff4
 func_addr = 0x1afff4
 comment = "==== AI Summarization ====\nThe given code is a part of a larger C program and defines an external global ch\naracter and unsigned integer variables. It then declares a function \"sub_1afff4\"\n which involves a complex set of operations including assignment, conditional ch\necks, and bitwise operations on these variables. It looks like this function man\nipulates the global variables declared at the beginning based on the results of \nmultiple conditional (if-else) statements. It also deals with the concept of poi\nnters to manipulate memory locations directly. It's complicated to determine the\n overall functionality without knowing the usage and actual values of the global\n variables and the context where this function is used.\n"
 decompiled = true
+
+[0x1b0450]
+last_change = 2023-11-15T18:41:11.112304Z
+addr = 0x1b0450
+func_addr = 0x1b0450
+comment = "==== AI Summarization ====\nThe provided code is a function `sub_1b0450()` written in C. The function contai\nns statements to initialize multiple variables. It performs some complex operati\nons involving bitwise AND (&), OR (|), XOR (^), and right rotation (`__ROR__`) o\nn various variables. It also includes some conditional statements to assign valu\nes and potentially control the flow of the function.\n\nThe function seems to handle low-level operations such as manipulating and testi\nng individual bits in different variables by using shifting and masking operatio\nns. It also includes some hard-coded values, such as `1611016860`, and operates \non a global `char`, `g_100000`. Due to the absence of any context or comments, t\nhe exact purpose of these operations is unclear.\n\nThe function does not return any value explicitly and considering existing condi\ntions and operations, it seems to perform some operations undisclosed by the var\niable names or given context.\n"
+decompiled = true
