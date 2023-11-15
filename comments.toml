@@ -5905,3 +5905,10 @@ addr = 0x200800
 func_addr = 0x200800
 comment = "==== AI Summarization ====\nThis is C code that defines a function `sub_200800()`. This function uses a stru\nct_0 and some integers, characters, and unsigned integers as local variables. It\n performs multiple conditional operations and assignments. The function also cal\nls to multiple functions like `sub_70050()`, `sub_10e59c()`, `sub_6f170()`, `sub\n_7d190()`, and `sub_d0b90()`, but since the body of these functions are not incl\nuded in this code, what these functions do is not clear from the given code. The\n function ends by returning an unsigned integer `v65`. The functionality of this\n function is hard to determine without more context like function and variable n\names that are more descriptive. In addition, a large number of global variables \nare declared.\n"
 decompiled = true
+
+[0x20147c]
+last_change = 2023-11-15T20:01:42.732085Z
+addr = 0x20147c
+func_addr = 0x20147c
+comment = "==== AI Summarization ====\nThe provided C code is defined in a function named `sub_20147c`. This function w\norks on global and locally defined variables. The function includes reference to\n externally defined global chars `g_4820`, `g_4824`, and `g_4848`.\n\nThe function runs several if conditions which are dependent on bitwise operation\ns on the variables. Bitwise operations include And `&`, Or `|`, and Exclusive Or\n `^`.\n\nThe execution of the function also depends on the result of the execution of thr\nee other functions namely`sub_6f240`, `sub_10e59c`, and `sub_10e59c`.\n\nThe behavior of the function `sub_20147c` would mainly depend on the values of t\nhe variables at runtime, especially the three externally defined global variable\ns. The function does not return any value.\n"
+decompiled = true
