@@ -2937,3 +2937,10 @@ addr = 0x136160
 func_addr = 0x136160
 comment = "==== AI Summarization ====\nThis C program declares a bunch of external char variables (presumably defined i\nn other files/modules), and one function named `sub_136160`. The function initia\nlizes a number of integer and short variables and pointers with hexadecimal addr\ness-based offsets calculated from the addresses of certain external variables. I\nt features multiple loops which perform condition checks and calculations based \non temporary variables. The function finally returns the hex value `0x10000`. Th\nis seems to be a low-level code which may relate to memory or hardware managemen\nt in embedded systems or similar environments.\n"
 decompiled = true
+
+[0x136630]
+last_change = 2023-11-15T15:19:02.976006Z
+addr = 0x136630
+func_addr = 0x136630
+comment = "==== AI Summarization ====\nThis C code specifies a function `sub_136630()` that uses external global variab\nles (represented by `g_XXXXXX`) and local variables (represented by `vX` and `tm\np_XX`). \n\nThe function contains complex integer calculations and transformations including\n bitwise manipulations (e.g., bitwise AND `&`, OR `|`, shift `>>`, rotation `__R\nOR__`), conditional operations (if-else statements), and function calls (`sub_6f\n4c0()`, `sub_10b7e4()`). The function uses these operations to compute and updat\ne the values of certain variables, and conditionally perform certain tasks based\n on specific conditions. Finally, the function updates the values of certain glo\nbal variables and returns an integer `v21`.\n\nThis looks like a low-level function that is mostly composed of bitwise manipula\ntions which could be part of a larger program such as a device driver or an oper\nating system module. However, without specific contextual information, it is dif\nficult to determine the exact high-level functionality intended by the code. The\n function seems to be auto-generated from a lower-level representation of code (\nlike assembly), hence the naming of variables and lack of clear documentation.\n"
+decompiled = true
