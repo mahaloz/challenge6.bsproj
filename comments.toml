@@ -5296,3 +5296,10 @@ addr = 0x1c7dc0
 func_addr = 0x1c7dc0
 comment = "==== AI Summarization ====\nThis code declares an external global variable, `g_100000`, and defines a functi\non, `sub_1c7dc0()`. The function initializes a number of variables, including se\nveral temporary variables, and some variables to hold values associated with con\ndition register fields (for a system using PowerPC architecture), as well a few \nother arbitrary variables. There are several conditional flows determined by bit\nwise operations on these variables. \n\nThe function first checks if the third bit of variable `v5` is set, it assigns `\nv4` to `v6` if true, or the address of `v0` if false. It also performs a complex\n Rotate Right operation and assigns the result to `v1`, and assigns `1` to `v22`\n under certain conditions otherwise `0`. After that, `v22` is assigned to `v2`, \nand a few more variables are set with the values of some temporary variables. Fi\nnally, the function sets `v3` to `0` and determines its value based on condition\nal checks on the values of other variables.\n"
 decompiled = true
+
+[0x1c818c]
+last_change = 2023-11-15T19:23:56.571526Z
+addr = 0x1c818c
+func_addr = 0x1c818c
+comment = "==== AI Summarization ====\nThe given code describes a function (`sub_1c818c`) with several variables. The f\nunction performs a series of conditional and bitwise operations on these variabl\nes, which include function calls (`sub_10dc10()` and `sub_10f02c()`), comparison\ns (`&`, `^`, `||`, `!`, `&&`), assignments, and pointer arithmetic. In particula\nr, the function checks specific bits in certain variables and sets other variabl\nes based on these checks. It also makes conditional function calls and accesses \na global character variable (`g_4a3c`) indirectly through a computed pointer. Pl\nease note that the code seems incomplete, considering it does not have a return \nstatement. This function could be a part of low-level programming where operatio\nns on bits are frequently done like in embedded systems programming or systems p\nrogramming. However, more context is needed to definitively understand its real \nworld application.\n"
+decompiled = true
