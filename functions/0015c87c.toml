@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x15c87c
+size = 0x5d0
+last_change = 2023-11-15T16:02:47.374686Z
+
+[header]
+name = "complex_memory_management"
+addr = 0x15c87c
