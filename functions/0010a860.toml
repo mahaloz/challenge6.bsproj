@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x10a860
+size = 0x614
+last_change = 2023-11-15T14:32:04.813241Z
+
+[header]
+name = "memory_operations_processor"
+addr = 0x10a860
