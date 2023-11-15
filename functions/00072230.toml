@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x72230
+size = 0x1a4
+last_change = 2023-11-15T10:18:08.316031Z
+
+[header]
+name = "manipulate_memory_using_pointers"
+addr = 0x72230
