@@ -4687,3 +4687,10 @@ addr = 0x18ea8c
 func_addr = 0x18ea8c
 comment = "==== AI Summarization ====\nThe code declares a set of external global unsigned integer variables. It then d\nefines a function `sub_18ea8c()` which makes use of these variables. The functio\nn assigns values to the global variables based on certain conditions. If the sec\nond least significant bit of `tmp_24` or `tmp_16`(temporary variables) is set, i\nt assigns the value at certain memory addresses (possibly from some hardware reg\nisters) to other local variables. Otherwise, it takes values from an array `v5`.\n Finally, it assigns these local variables and some array variables to the globa\nl variables.\n"
 decompiled = true
+
+[0x18f42c]
+last_change = 2023-11-15T18:26:55.081543Z
+addr = 0x18f42c
+func_addr = 0x18f42c
+comment = "==== AI Summarization ====\nThis C code defines a function called sub_18f42c which involves several local in\nteger and character variables including some temporary variables. The variables \nv7 through v13 and v0 are also declared. The function executes a sequence of con\nditional statements and assignments including bitwise operations. The program al\nso potentially calls another function, sub_10e59c, depending on certain conditio\nns. The function does not explicitly return a value for all execution paths, whi\nch may cause undefined behavior.\n"
+decompiled = true
