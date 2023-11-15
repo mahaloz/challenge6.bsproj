@@ -4736,3 +4736,10 @@ addr = 0x1918a0
 func_addr = 0x1918a0
 comment = "==== AI Summarization ====\nThe provided C code consists of two structure definitions and a function. The fi\nrst structure 'struct_1' consists of padding fields, and fields of unsigned int \nand char types. The second structure 'struct_0' only consists of padding and a c\nhar field. The function 'sub_1918a0()' involves a lot of integer variables, 'if'\n conditionals, and interactions with the previously defined structures. It inter\nacts with some external character and integer variables. Some function 'sub_d0b9\n0()' is called at the end of 'sub_1918a0()' function with different parameters.\n"
 decompiled = true
+
+[0x191ac4]
+last_change = 2023-11-15T18:29:52.346975Z
+addr = 0x191ac4
+func_addr = 0x191ac4
+comment = "==== AI Summarization ====\nThis C code declares two structs and several global variables. The struct `struc\nt_0` consists of padding with size 212 and 54, several unsigned integers and cha\nr fields. The struct `struct_1` consists of padding with size 1156 and an unsign\ned integer. The global variables are all chars.\n\nIt also defines a function `sub_191ac4()`, which has a complex structure, with n\numerous temporary variables (both ints and unsigned ints) and several conditions\n and routine calls, performing various operations on the structs (`struct_0` and\n `struct_1`) and other variables, including shifting, bitwise operations, assign\nments and function calls. The code seems to be machine-generated due to the vari\nable naming, data manipulation, and overall complexity.\n"
+decompiled = true
