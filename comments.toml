@@ -2776,3 +2776,10 @@ addr = 0x1268c0
 func_addr = 0x1268c0
 comment = "==== AI Summarization ====\nThis is a C programming language code. It first declares some global variables g\n_0 to g_a of character type (char). It then defines a function sub_1268c0 which \ndeclares several variables. The function starts by defining v0 to be the referen\nce to v1. Then, it sets v3 equal to v2 if the bitwise AND of tmp_18 and 2 is not\n equal to 2. It set v12 equal to reference of g_0. If bitwise AND of tmp_11 and \n4 is not equal to 4, the function enters a loop. Inside the loop, it copies char\nacters from the global variables to certain addresses determined by v2. It does \nso for each global variable g_0 to g_9. After this loop, it assigns v14 the refe\nrence to g_1 and assigns v15 equal to v0. The function returns nothing. However,\n due to the usage of global variables and numerous logical variables, it's hard \nto determine precisely what the purpose of this code is without the context in w\nhich it's used.\n"
 decompiled = true
+
+[0x1269d0]
+last_change = 2023-11-15T15:08:52.771319Z
+addr = 0x1269d0
+func_addr = 0x1269d0
+comment = "==== AI Summarization ====\nThis C code declares a function called `sub_1269d0()` which has no arguments. Wi\nthin this function, there are several integer and character variables declared b\nut not initialized with any values. The variable `v2` is assigned a value based \non a conditional expression (ternary operator) applied on `tmp_8`. \n\nThe array `v0` elements are assigned values from their respective indexes which \nseems redundant as it doesn't modify any value. Then, `v3`, `v4`, `v5`, `v6` are\n assigned values from certain indices of the `v0` array. \n\nThe pointer `v7` is pointed to the start of the `v0` array shifted by one index.\n \n\nThe code then has an `if` statement that checks whether certain binary operation\ns on `tmp_286` and `tmp_290` are both false. If so, it assigns three initial ele\nments of array `v7` as `0`. \n\nFinally, `v9` is assigned the value `1`, and the function ends without returning\n anything.\n"
+decompiled = true
