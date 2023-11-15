@@ -5520,3 +5520,10 @@ addr = 0x1cf390
 func_addr = 0x1cf390
 comment = "==== AI Summarization ====\nThis C code defines a structure named struct_0 containing a large character arra\ny and a single character, as well as many global (extern) variables, including i\nntegers, characters, and pointers. It also contains an int function named sub_1c\nf390(). This function includes a large number of local variable definitions and \nifs condition statements. It uses bitwise operations '&' and '^', comparison, as\nsignments, and lots of address manipulations to control the values of the global\n variables and the fields of struct_0. The function returns an integer value.\n"
 decompiled = true
+
+[0x1cf660]
+last_change = 2023-11-15T19:37:36.897594Z
+addr = 0x1cf660
+func_addr = 0x1cf660
+comment = "==== AI Summarization ====\nThe provided code describes a function in C language which performs complex mani\npulation based on multiple conditions and global variables. The function 'sub_1c\nf390' mainly involves bitwise operations and condition checks. It contains a str\nuct 'struct_0' declaration. There are global variables declared, mostly of type \n'char' and 'unsigned short'. The function appears to manipulate these global var\niables based on certain conditions and assignments. The code is somewhat difficu\nlt to understand as variables, such as 'tmp_73', 'tmp_13', etc., are used withou\nt any initial content or meaning.\n"
+decompiled = true
