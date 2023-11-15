@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x41324
+size = 0x1b0
+last_change = 2023-11-15T09:56:51.159713Z
+
+[header]
+name = "interact_with_global_data_and_execute_functions"
+addr = 0x41324
