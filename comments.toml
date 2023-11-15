@@ -1985,3 +1985,10 @@ addr = 0xc9430
 func_addr = 0xc9430
 comment = "==== AI Summarization ====\nThe code defines a function `sub_c9430()` which appears to be performing operati\nons on a set of temporary data `tmp_` and global pointer register `gpr` variable\ns. It is full of bitwise operations and conditional statements. However, without\n further context and understanding of what function `sub_b73d0(v3)` and `sub_b69\n10(v3)` do, as well as the specific meaning and use of the variables, it is diff\nicult to provide a detailed summary. The function does not return any value. It \nis inferred that this could be a fragment of low-level programming language, lik\ne C/C++, and might be used for hardware control/communication, possibly in an em\nbedded system.\n"
 decompiled = true
+
+[0xc9610]
+last_change = 2023-11-15T13:48:37.895383Z
+addr = 0xc9610
+func_addr = 0xc9610
+comment = "==== AI Summarization ====\nThe given C++ code is of a function named `sub_c9610` which doesn't accept any a\nrguments and returns an integer. The function mainly includes variable initializ\nations, condition checks and return statements. There are two function calls: `s\nub_b3f10(v6)` and `sub_cca90(*((short *)&v4), *((short *)&v5), &v0, &v1)` inside\n the function. The function conditionally returns nothing and includes infinite \nloops that break based on certain conditions. Most of the variables in the code \nare not initialized or used, suggesting that the code might be incomplete or has\n been decompiled.\n"
+decompiled = true
