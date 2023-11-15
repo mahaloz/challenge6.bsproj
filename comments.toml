@@ -2811,3 +2811,10 @@ addr = 0x128af8
 func_addr = 0x128af8
 comment = "==== AI Summarization ====\nThis code is a function named sub_128af8 in C programming language. It defines a\n set of integer and character variables at beginning. The function checks certai\nn conditions based on these variables and makes further processing accordingly. \nIt makes use of bitwise operations with the variables and based on their results\n, it calls two other functions sub_6f8e0 and sub_1289a0 with specific arguments.\n At the end of the function, it assigns the value of v3 to v8 before returning. \nIt also involves memory address operations. However, the function declaration is\n incorrect because it does not specify what the return type is.\n"
 decompiled = true
+
+[0x128e98]
+last_change = 2023-11-15T15:11:01.970025Z
+addr = 0x128e98
+func_addr = 0x128e98
+comment = "==== AI Summarization ====\nThe provided code is a quite complex piece of low-level source code, written in \nthe C programming language. It contains a function `sub_128e98`, which performs \nmultiple operations with external global variables, memory manipulation using po\ninters, and bitwise operations. \n\nThis function has a large number of uninitialized local variables, most of them \nrelated to register and bitwise operations. It uses multiple external char type \nvariables. \n\nThe function appears to perform a complex operation relying heavily on bit manip\nulation (especially bit shifting and bitwise AND operations), a few arithmetic o\nperations, and low-level memory access through pointers. \n\nDue to the complexity of raw memory manipulations and the heavy use of bitwise o\nperations, it's challenging to deduce its overall purpose just by casually readi\nng the code. Functions like this can be typically found in systems programming, \nembedded systems, or certain high performance applications.\n"
+decompiled = true
