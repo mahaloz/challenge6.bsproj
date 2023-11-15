@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x148550
+size = 0x1f0
+last_change = 2023-11-15T15:42:11.953070Z
+
+[header]
+name = "perform_checks_and_update_structures"
+addr = 0x148550
