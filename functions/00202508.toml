@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x202508
+size = 0x29c
+last_change = 2023-11-15T20:03:41.687740Z
+
+[header]
+name = "switch_bit_and_execute"
+addr = 0x202508
