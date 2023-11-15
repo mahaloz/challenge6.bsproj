@@ -2657,3 +2657,10 @@ addr = 0x1237f0
 func_addr = 0x1237f0
 comment = "==== AI Summarization ====\nThis is a C code for a function named \"sub_1237f0\". This function does not take \nin any parameters and does not return a value. The function is interacting with \na number of global variable pointers by manipulating addresses and values. These\n global pointers seem to point to char variables. The code seems to be involved \nin low-level manipulation of memory. The function body includes a number of unin\nitialized local variables, both integer and character types. Also, some of if-el\nse conditions and arithmetic operations are applied in the function. The functio\nn ends with returning without a value which makes it void function. It also incl\nudes a nested loop, which continues its iteration until a certain condition is m\net.\n"
 decompiled = true
+
+[0x123950]
+last_change = 2023-11-15T14:53:19.406523Z
+addr = 0x123950
+func_addr = 0x123950
+comment = "==== AI Summarization ====\nThis C code appears to define a structure and a function containing some complex\n logic. It first defines a structure `struct_7` which contains two character fie\nlds, `field_0` and `field_1`. It then declares a set of external characters with\n names like `g_47b8`, `g_620c` etc., likely referring to global variables. \n\nAfterwards, it defines a function `sub_123950` which performs numerous operation\ns, involving pointer arithmetics and bitwise operators. \n\nThe function appears to be working on different arrays and data located on speci\nfic memory addresses, and then makes decisions based on bitwise manipulations. T\nhere are also calls to other undefined functions like `sub_6f640` and `sub_239c5\n0`. \n\nAfter some complex loops and conditionals, the function ends without returning a\n specific value. Because of its complexity, it's hard to identify a high-level p\nurpose of this function without additional context, such as comments or knowledg\ne about the rest of the program.\n"
+decompiled = true
