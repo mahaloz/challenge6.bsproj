@@ -2230,3 +2230,10 @@ addr = 0xedbbc
 func_addr = 0xedbbc
 comment = "==== AI Summarization ====\nThis C code declares two structures, \"struct_0\" and \"struct_1\", and a function, \n\"sub_edbbc()\". The structures have 4-byte and 1-byte padding fields and unsigned\n integer fields. Externally defined characters \"g_1710\" and \"g_4f68\" are referen\nced in the function.\n\nFunction \"sub_edbbc()\" performs various bitwise operations on unsigned integers \nand characters. The function does a series of checks against multiple variables,\n and if these checks pass, the function jumps to multiple labels within the func\ntion itself. The function concludes with a call to another function \"sub_edd54()\n\" before returning.\n\nNote that there are many untranslated or undefined portions in the code (e.g. \"G\noto None\", \"LABEL_0x8\", \"LABEL_0x0\", \"LABEL_0xedbf8\"). Therefore it could be ass\numed that this is a portion of a decompiled code, not original source code, whic\nh might need further interpretation or refinement to become fully understandable\n and useable.\n"
 decompiled = true
+
+[0xfd9ec]
+last_change = 2023-11-15T14:28:38.226810Z
+addr = 0xfd9ec
+func_addr = 0xfd9ec
+comment = "==== AI Summarization ====\nThe code defines two data structures, `struct_1` and `struct_0`, each containing\n various fields of char array and unsigned short integers. It also declares two \nexternal char variables `g_8d04` and `g_8d08`. Lastly, it provides an empty func\ntion declaration `sub_fd9ec()` without any implementation.\n"
+decompiled = true
