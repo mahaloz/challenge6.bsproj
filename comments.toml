@@ -3518,3 +3518,10 @@ addr = 0x1566c8
 func_addr = 0x1566c8
 comment = "==== AI Summarization ====\nThis C code declares the external variables and a function named sub_1566c8. The\n function sub_1566c8 initializes several local variables. The function has a key\n if-else if-else clause where it takes different paths based on the specific bit\ns of the value of the variable tmp_22. Inside each conditional block, it is invo\nking another function sub_d2010 with different parameters. If any of the if-else\n conditions are not met, it assigns the values of several local variables to som\ne external variables. The code seems to be part of a larger program, possibly in\nvolving bitwise operations, and each external variable and function might be def\nined elsewhere in the code.\n"
 decompiled = true
+
+[0x156c90]
+last_change = 2023-11-15T15:56:51.887444Z
+addr = 0x156c90
+func_addr = 0x156c90
+comment = "==== AI Summarization ====\nThis code declares several variables, both integer and character type. The initi\nal values for the integer variables (v27 to v41) are then set using the addresse\ns of certain character variables and other integer variables. There's a series o\nf conditional statements checking if the bitwise AND of variable tmp_8 remains 4\n after being XORed with 4; if it does, values for additional integer variables (\nv12 to v26) are set with the pointer references of certain variables. If tmp_8 d\noesn't pass the bitwise check, nothing happens in that condition. The function d\noes not ultimately return anything. Overall, it appears to be performing some ki\nnd of memory manipulation or data extraction operation, but it's unclear what th\ne overall goal or context is.\n"
+decompiled = true
