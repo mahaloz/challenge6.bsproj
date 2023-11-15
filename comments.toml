@@ -5030,3 +5030,10 @@ addr = 0x1b459c
 func_addr = 0x1b459c
 comment = "==== AI Summarization ====\nThe code is written in low-level language known as C. It is declaring eight exte\nrnal char variables (g_474f, g_4750, etc.).\n\nThe sub_1b459c function takes no input parameters. It defines multiple local var\niables, including several integer, character, and void pointer types. \n\nThe logic of the function hinges on bitwise operations and checks. If the second\n least significant bit of integer temp variables is set, the function either ret\nurns value of v2 or sets the values of the pointer variables to 0. \n\nIt then conducts some operations (presumably calculations or manipulations), usi\nng the external functions sub_6fe10, sub_6f8e0, and sub_6fbb0. As the functions \nare not defined in this code, it's not clear what these operations might be.\n\nFinally, the function returns the value of the variable v2. \n\nPlease note the specific functionality is hard to identify without context such \nas the definitions of the external functions and variables, and what this code i\ns targeting to achieve.\n"
 decompiled = true
+
+[0x1b4850]
+last_change = 2023-11-15T18:47:12.015635Z
+addr = 0x1b4850
+func_addr = 0x1b4850
+comment = "==== AI Summarization ====\nThis code defines a function `sub_1b4850` with several local variables and one e\nxternal variable `g_60071d04`. This function has multiple conditional checks usi\nng the bitwise AND operator `&` and the bitwise XOR operator `^`. If certain con\nditions are met, the function returns the value `v7`. If other conditions are me\nt, it changes the value of the global variable `g_60071d04` and possibly jumps t\no other sections of the code (indicated by the labels `LABEL_0x1b4978` and `LABE\nL_0x1b48cc`). These jumps could possibly be a part of a larger conditional struc\nture or loop not fully given in this code snippet.\n"
+decompiled = true
