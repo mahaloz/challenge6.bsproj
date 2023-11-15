@@ -1334,3 +1334,10 @@ addr = 0xacec0
 func_addr = 0xacec0
 comment = "==== AI Summarization ====\nThe given code is a function named sub_acec0 written in C language. This functio\nn deals with a multitude of global and local variables of different types includ\ning integer, char, unsigned short & pointers. \n\nIt creates a series of temporary variables and some (v0-v50, v65-v96) that appea\nr to have specific functions in different parts of your code. It also references\n unshown functions like sub_d23a0, sub_d0cc0, etc. and updates the values of som\ne global variables like g_6007ec08. \n\nPrimarily, it performs a loop and updates its variables according to specific co\nnditions. Additionally, it appears to be generating a value which is expected to\n be stored in a register (in lines that look like v51 = gpr19). This code seems \nlikely to be output from a decompiler and looks like it might be part of an emul\nator or a very low level piece of software due to its direct manipulation of pro\ncessor registers. \n\nIt's difficult to determine the eventual result of the function due to the opaqu\ne nature of the variable and function names, but the final value v7 in this func\ntion is defined as the result of a bitwise operation and logical XOR operation o\nn v96. This value may potentially be used elsewhere in the overall program.\n"
 decompiled = true
+
+[0xae3b0]
+last_change = 2023-11-15T12:36:21.366940Z
+addr = 0xae3b0
+func_addr = 0xae3b0
+comment = "==== AI Summarization ====\nThis is a C function named \"sub_ae3b0\" which does not take any explicit inputs a\nnd does not return any value. It sets some values to given variables and pointer\ns. The function contains different conditions involving bitwise operations. Base\nd on the satisfied condition, different values are copied from specific memory l\nocations in a loop until a certain condition related to variable tmp_22 is met. \nFinally, it calls another function named \"sub_d0cc0\" and stores some of its outp\nuts in memory variables. It should be noted that the code may be part of a large\nr program and may depend on external data that is not apparent from just this fu\nnction.\n"
+decompiled = true
