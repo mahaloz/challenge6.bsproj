@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xb6910
+size = 0x34c
+last_change = 2023-11-15T12:56:59.637037Z
+
+[header]
+name = "empty_int_function"
+addr = 0xb6910
