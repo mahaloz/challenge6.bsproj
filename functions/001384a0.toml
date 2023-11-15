@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1384a0
+size = 0x270
+last_change = 2023-11-15T15:19:35.231920Z
+
+[header]
+name = "perform_memory_manipulation"
+addr = 0x1384a0
