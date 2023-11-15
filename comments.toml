@@ -3105,3 +3105,10 @@ addr = 0x144024
 func_addr = 0x144024
 comment = "==== AI Summarization ====\nThe code is written in C language and represents a function called `sub_144024()\n`. It starts by declaring several local variables and externally declared variab\nles `g_60072c88`, `g_7be0`, and `g_7be8`. The function has a complex conditional\n structure with a loop and multiple calls to other functions like `sub_141f70()`\n, `sub_143b70()`, `sub_143c30()`, and `sub_143ca0()`.\n\nThe function `sub_144024()` has conditions evaluated with bitwise AND and XOR op\nerations. The function has a `do while` loop which updates `v5` and `g_60072c88`\n based on the evaluation of the conditions. Furthermore, at the end of the funct\nion it modifies the value pointed to by `(v8 + -0x1 * &g_7be0)`. Finally, this f\nunction returns the value of `v5`. \n\nThe purpose of this function is not clear directly from the code. It may be part\n of a larger code base where it serves a specific purpose based on particular co\nnditions and input data.\n"
 decompiled = true
+
+[0x144224]
+last_change = 2023-11-15T15:30:47.285276Z
+addr = 0x144224
+func_addr = 0x144224
+comment = "==== AI Summarization ====\nThis code is written in a lower-level programming language (possibly Assembly or\n C). It's difficult to discern exactly what it does due to the heavy use of hexa\ndecimal addresses, external variables, and bitwise operations. However, generall\ny speaking, the code appears to contain several loops, conditionally performs va\nrious assignments and function calls, performs bitwise math operations, and inte\nracts with several memory locations and global variables. The function returns a\nn integer.\n\n"
+decompiled = true
