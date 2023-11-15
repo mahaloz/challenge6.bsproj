@@ -4022,3 +4022,10 @@ addr = 0x16d5d0
 func_addr = 0x16d5d0
 comment = "==== AI Summarization ====\nThe provided code is written in C language. It references an external variable `\ng_100000` and declares a function `sub_16d5d0`. This function first initializes \na series of variable types; int, char, and unsigned int. It then performs a seri\nes of logical AND bitwise operations involving bit shifting and rotation (ROR: R\notate Right). \n\nThere's a conditional statement checking for `tmp_17`'s second least significant\n bit. If this condition is not met, it modifies a few values and performs more b\nitwise operations.\n\nNote that actual operations on variables `v0`, `v1`, and other variables in the \nfunction body are not provided or are incomplete. The function also doesn't have\n a return statement. The constants, memory addresses and the uses of rotation an\nd bitwise operations suggest some form of manual encoding or decoding operation \nor a deep system-level operation.\n\n"
 decompiled = true
+
+[0x16d8f0]
+last_change = 2023-11-15T16:33:04.050211Z
+addr = 0x16d8f0
+func_addr = 0x16d8f0
+comment = "==== AI Summarization ====\nThe provided C code declares a set of external global variables (g_60061ec0, g_6\n0061ec3, g_60061ec8, g_60061ec9). It then defines a function named `sub_16d8f0` \nwhich contains a number of local variables and conditions. \n\nThis function primarily performs bitwise operations on the local variables. Bitw\nise operations are used to perform operations at the bit level, which can be ben\neficial in cases where there's a need for manipulating or examining the binary f\norm of values. \n\nAdditionally, the function updates the values of the external variables (g_60061\nec0, g_60061ec3, g_60061ec8, g_60061ec9) based on the outcomes of the bitwise op\nerations. Lastly, the function contains several conditional branches labeled as \nLABEL_0x16d900, LABEL_0x16daec, and LABEL_16dae4, the destinations of which are \nnot specified within the provided code.\n"
+decompiled = true
