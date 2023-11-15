@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x123ba0
+size = 0x2dc
+last_change = 2023-11-15T14:53:47.961622Z
+
+[header]
+name = "perform_global_variable_operations"
+addr = 0x123ba0
