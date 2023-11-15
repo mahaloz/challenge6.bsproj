@@ -1950,3 +1950,10 @@ addr = 0xc7d20
 func_addr = 0xc7d20
 comment = "==== AI Summarization ====\nThe code defines an empty function named 'sub_c7d20' that returns an integer. Ho\nwever, it doesn't perform any operation or return any value.\n"
 decompiled = true
+
+[0xc7f50]
+last_change = 2023-11-15T13:46:43.312687Z
+addr = 0xc7f50
+func_addr = 0xc7f50
+comment = "==== AI Summarization ====\nThis code represents a function named `sub_c7f50` written in C syntax. The funct\nion is complex and appears to be performing low-level operations and manipulatio\nns on memory. \n\nThe function starts by declaring a slew of variables of diverse data types inclu\nding integers, characters, just pointer to unsigned short, pointers to void and \nlarge arrays of unsigned integers. \n\nTwo external characters `g_b0000` and `g_ffff0` have also been declared at the s\ntart. \n\nThe function then executes a series of conditional and arithmetic operations alt\nering the state of these variables and the memory they point to. Without context\n, it's difficult to determine the higher-level purpose of these operations, but \nthey likely have a specific, low-level, machine-specific purpose or optimization\n. \n\nThis function uses bitwise operations, array indexing, and pointer arithmetic, i\nndicating a low-level process. Also, the function is dealing with some very larg\ne data structures (based on the arrays sizes), which could indicate it's for han\ndling substantial data or complex algorithms. \n\nNotably, `sub_b6c60`, `sub_b6910`, `sub_cc990`, `sub_c82b0`, and `sub_c8dd0` are\n function calls within this function, but these functions are not defined in the\n provided code snippet. Therefore an exact summarization contextualizing these c\nalls can't be provided.\n\nFinally, the function adjusts the value of `v19` to `v2` and ends, although the \nadjustment to `v19` seems to have no effect since it is not returned or passed b\ny reference. The function does not have a return statement indicating a returned\n value, so it can be inferred that the function's purpose is primarily side-effe\ncts (changes to the state of its inputs or other global state).\n"
+decompiled = true
