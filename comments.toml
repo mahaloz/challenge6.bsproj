@@ -2566,3 +2566,10 @@ addr = 0x1202c0
 func_addr = 0x1202c0
 comment = "==== AI Summarization ====\nThe code defines a structure and several global variables, followed by a functio\nn sub_1202c0 that seems to be part of some low-level or hardware-related code. \n\nThe sub_1202c0 function initially assigns the address of a local variable to ano\nther variable, then calls the function sub_120440 with parameter 1. \n\nIt then invokes a function sub_6f2a0 with the address of a global variable &g_15\n47. The return value from sub_6f2a0 is slightly modified and saved into two diff\nerent places based on the condition checked for tmp_22. \n\nThe process is repeated with different global variables. \n\nThere is a loop that copies the content of the variables from v1 to v21 into the\n memory location pointed by v30. \n\nFinally, it calls sub_2a6200 and sub_2a0af0 routines with respective global vari\nable's address and returns whatever sub_2a0af0 returns.\n\nIt appears to be part of a low-level system or a driver, possibly for a console \nor some type of hardware device. However, without additional context, it is impo\nssible to determine its exact purpose.\n"
 decompiled = true
+
+[0x1204b0]
+last_change = 2023-11-15T14:48:28.678812Z
+addr = 0x1204b0
+func_addr = 0x1204b0
+comment = "==== AI Summarization ====\nThis code is a function from a low-level language such as C or C++. It first dec\nlares several externally defined characters and some local variables. In the bod\ny of the function `sub_1204b0()`, there are multiple conditional and looping sta\ntements which manipulates shared variables and involves intricate bitwise operat\nions (also known as binary shift operations). The function mainly involves bitwi\nse operations, pointer arithmetic, function calls, and memory manipulation. It s\neems to be performing some form of low-level transformation or computation based\n on the values of variables defined outside the function. The function `sub_1204\nb0()` returns an unsigned integer `v7`.\n"
+decompiled = true
