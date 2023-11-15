@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc43b0
+size = 0x33c
+last_change = 2023-11-15T13:37:44.479868Z
+
+[header]
+name = "perform_operation_and_update_struct"
+addr = 0xc43b0
