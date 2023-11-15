@@ -4204,3 +4204,10 @@ addr = 0x1738c0
 func_addr = 0x1738c0
 comment = "==== AI Summarization ====\nThis code is a function named `sub_1738c0` in C programming language that uses a\n mixture of global and local variables (including pointers and integers), bitwis\ne operations, and if conditions. \n\nIt initially assigns the address of local variable `v9` to `v8`. \n\nThen it checks if the second bit of variable `tmp_67` is set, if true, it return\ns the value of `v10`. \n\nIt then executes a function `sub_6fe10` with parameters `v11`, `v12`, `v13`. Sim\nilarly, it then checks if the second bit of `tmp_13` is set and creates several \nif-conditions depending on result. \n\nDepending on conditions, It also modifies the value of some global variable such\n as `g_60061ae8`, `g_60061ade`, and `g_6006189a`. \n\nThere's also an invocation of other function `sub_6f8e0`, `sub_d0b90`, and `sub_\n6fe10` with certain parameters. Finally, `v1` is assigned with a dereferenced va\nlue from a specific memory address.\n"
 decompiled = true
+
+[0x1739f4]
+last_change = 2023-11-15T16:44:29.008017Z
+addr = 0x1739f4
+func_addr = 0x1739f4
+comment = "==== AI Summarization ====\nThis is a script in C programming language. It declares some variables and point\ners. It runs some conditions and based on the conditions, it assigns some defaul\nt values to the extern variables and calls a couple of external functions 'sub_6\nfe10' and 'sub_6f8e0' with different arguments. 'sub_d0b90' function is also cal\nled and its returned value is assigned to 'v7'. Finally, depending on a conditio\nn, it sets the value of variable 'v3' and 'v1'. Different memory addresses are m\nanipulated and some mathematical operations have been used. It seems to be a pie\nce of a larger program where precise memory management is necessary.\n"
+decompiled = true
