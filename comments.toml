@@ -1922,3 +1922,10 @@ addr = 0xc7408
 func_addr = 0xc7408
 comment = "==== AI Summarization ====\nThe code is written in C language and declares several external global variables\n of char and unsigned int type. It then defines a function named 'sub_c7408'. Th\nis function first initializes a series of local variables, then follows an if co\nndition. If that condition passes, another set of if conditions are evaluated. I\nf these conditions pass, the function executes some operations on the external g\nlobal variables, including bitwise XOR operations. After exiting the if conditio\nns, a call to another function 'sub_c7390' may be made, applying the function to\n one of the local variables. Finally, the function ends by updating one of the l\nocal variables and then exits.\n"
 decompiled = true
+
+[0xc76d4]
+last_change = 2023-11-15T13:43:46.362514Z
+addr = 0xc76d4
+func_addr = 0xc76d4
+comment = "==== AI Summarization ====\nThis code is written in C programming language. It defines a function named 'sub\n_c76d4'. Several global numeric and character variables (g_1950, g_4f46, g_60010\n450, g_60086428, g_6008642c, g_60086430, g_60086434, g_7b43) are declared as ext\nernal using `extern`. Local integer, character and unsigned integer variables ar\ne also set up.\n\nThe function sub_c76d4 doesn't take any argument, and its return type is int. It\n performs bitwise operations (like bitwise and, bitwise exclusive OR) on the var\niables. If certain conditions are met, the function returns, with v1 being store\nd in v9 before the function ends.\n\nThe function also calls two other functions: 'sub_d06f0' and 'sub_d2a20', each w\nith a specific set of arguments. Further, the code modifies the external unsigne\nd int variables 'g_60086428', 'g_6008642c', 'g_60086430', 'g_60086434', and 'g_6\n0010450'.\n\nIt is not clear what the exact purpose of the code is due to the usage of functi\non and variable names that are seemingly auto-generated or obscured for security\n reasons. The behavior of the function will also depend on the implementation of\n the external functions (sub_d06f0 and sub_d2a20) being called, which are not pr\novided.\n\n"
+decompiled = true
