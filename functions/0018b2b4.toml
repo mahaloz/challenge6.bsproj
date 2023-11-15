@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x18b2b4
+size = 0x6f0
+last_change = 2023-11-15T17:13:17.807925Z
+
+[header]
+name = "manipulate_global_local_vars"
+addr = 0x18b2b4
