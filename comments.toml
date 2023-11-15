@@ -1726,3 +1726,10 @@ addr = 0xbf220
 func_addr = 0xbf220
 comment = "==== AI Summarization ====\nThis C code snippet defines a struct and a function. The struct \"struct_0\" conta\nins string arrays (also known as buffers, used for storage), unsigned ints and s\nhorts (which are types of integers), and padding (used to align elements in memo\nry).\n\nThere are also global variables declared with multiple \"extern\" statements.\n\nThe function \"sub_bf220\" takes no arguments and returns nothing. It initializes \nseveral variables, then performs a set of conditions. This function mainly tests\n a series of bitwise operations with the results being used to determine the con\ntrol flow of the function. These operations involve a sequence of conditional te\nsts with negation and bitwise exclusive or (&). \n\nWhat is interesting is a forever loop (\"while(true)\") with two bitwise condition\ns, where a set of operations is performed that mainly composed of assignments. I\nf the condition is not met, the loop breaks. \n\nIn the end, after several tests and calculations, the function doesn't seem to r\neturn anything. It seems to be manipulating some global variables and probably h\nas side-effects somewhere else in the code. This might be a part of a larger sys\ntem and without the full context, the specific use case is hard to determine.\n"
 decompiled = true
+
+[0xbf6a0]
+last_change = 2023-11-15T13:12:49.503530Z
+addr = 0xbf6a0
+func_addr = 0xbf6a0
+comment = "==== AI Summarization ====\nThe code presents an empty function named \"sub_bf6a0\" that returns an integer. C\nurrently, this function does nothing since there's no code inside it. It seems i\nncomplete or under development.\n"
+decompiled = true
