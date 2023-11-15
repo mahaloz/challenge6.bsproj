@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc3480
+size = 0x110
+last_change = 2023-11-15T13:34:53.059215Z
+
+[header]
+name = "perform_bitwise_operations_and_memory_manipulation"
+addr = 0xc3480
