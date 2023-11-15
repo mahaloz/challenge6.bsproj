@@ -5898,3 +5898,10 @@ addr = 0x1ffb7c
 func_addr = 0x1ffb7c
 comment = "==== AI Summarization ====\nThis code is written in C programming language. The function `sub_1ffb7c` does n\not take any parameters. It initializes several integer and unsigned integer vari\nables. It also initializes a pointer `v0` to a character `v1`. \n\nThen, it performs check on some variables (like `tmp_119`, `tmp_13`, `tmp_16`, e\ntc) if their second-least significant bit is set. If it is, then the function re\nturns the value stored in `v11`. If not, it will check some other conditions, pe\nrform bit manipulation and then call another function `sub_b0d30` with several v\nariables as arguments. \n\nFinally, it checks some other conditions and if true, it returns the value store\nd in `v11`. If the conditions are not met, the function doesn't return anything \nwhich is not a good practice because it may lead to undefined behavior.\n"
 decompiled = true
+
+[0x200800]
+last_change = 2023-11-15T20:01:17.367921Z
+addr = 0x200800
+func_addr = 0x200800
+comment = "==== AI Summarization ====\nThis is C code that defines a function `sub_200800()`. This function uses a stru\nct_0 and some integers, characters, and unsigned integers as local variables. It\n performs multiple conditional operations and assignments. The function also cal\nls to multiple functions like `sub_70050()`, `sub_10e59c()`, `sub_6f170()`, `sub\n_7d190()`, and `sub_d0b90()`, but since the body of these functions are not incl\nuded in this code, what these functions do is not clear from the given code. The\n function ends by returning an unsigned integer `v65`. The functionality of this\n function is hard to determine without more context like function and variable n\names that are more descriptive. In addition, a large number of global variables \nare declared.\n"
+decompiled = true
