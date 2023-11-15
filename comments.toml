@@ -1040,3 +1040,10 @@ addr = 0x9cb90
 func_addr = 0x9cb90
 comment = "==== AI Summarization ====\nThe given C code defines a procedure named sub_9cb90(). This code uses some glob\nal character variables. At the beginning of the function, some variables are ini\ntialized. After that, it invokes function sub_6f9f0() multiple times with the sa\nme argument pair. Throughout the execution, certain global variables are assigne\nd the value 255. This function ends by returning the value of function sub_6f9f0\n(). Please note that the behavior of sub_6f9f0() is not given in the code snippe\nt, so complete understanding might not be possible without the implementation of\n sub_6f9f0().\n"
 decompiled = true
+
+[0x9cd7c]
+last_change = 2023-11-15T10:52:14.594504Z
+addr = 0x9cd7c
+func_addr = 0x9cd7c
+comment = "==== AI Summarization ====\nThe code is written in C and includes a function `sub_9cd7c()` that manipulates \nnumbers in several ways. It primarily interacts with a struct called `struct_0`,\n and the globally declared `unsigned int` variables `g_600709a4` and `g_60070a44\n`.\n\nThe `struct_0` structure includes a 4-element character array `padding_0` and an\n unsigned integer `field_4`.\n\nIn the `sub_9cd7c()` function, several variables of several types, including int\negers, characters, pointers to unsigned integers, and pointers to `struct_0` are\n declared.\n\nAfter initializations and a conditional check, an operation in a `do-while` loop\n is performed, which may potentially change the value of the global variable `g_\n600709a4`.\n\nIn the second part of the function, based on the result of another conditional c\nheck, either the global variable `g_60070a44` is altered or a longer piece of co\nmputation inside another `do-while` loop is performed. The latter operation invo\nlves manipulation of the fields of the `struct_0` structure, among other things.\n\nHowever, the function does not return a value, so it is not clear what the end r\nesult of the computations performed in this function would be. Also, it's possib\nle types for some of the variables are not clear as they are commented as 'Other\n Possible Types' in the code.\n"
+decompiled = true
