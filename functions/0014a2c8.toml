@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x14a2c8
+size = 0x648
+last_change = 2023-11-15T15:45:48.629484Z
+
+[header]
+name = "process_memory_assignments"
+addr = 0x14a2c8
