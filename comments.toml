@@ -1502,3 +1502,10 @@ addr = 0xb6910
 func_addr = 0xb6910
 comment = "==== AI Summarization ====\nThis code is a C/C++ program. It does the following things:\n\n1. Defines a structure \"struct_0\" having 2 fields. First is a character array na\nmed \"padding_0\" of length 2 and the second is an unsigned short named \"field_2\".\n \n\n2. Declares a global character variable \"g_32a718\".\n\n3. Defines an empty integer function called \"sub_b6910\" with no arguments. As of\n this code snippet, the function does nothing.\n\n"
 decompiled = true
+
+[0xb6c60]
+last_change = 2023-11-15T12:57:32.917319Z
+addr = 0xb6c60
+func_addr = 0xb6c60
+comment = "==== AI Summarization ====\nThe given code is written in C language and defines three structured data types:\n struct_1, struct_2, and struct_3. Each structure holds some specific data field\ns and some padding. The exact purpose of these structures is not clear from the \ngiven code.\n\nThe function, `sub_b6c60` is a complex and lengthy one, involving multiple local\n variables, manipulations, and conditional statements. It uses pointers to manip\nulate and access elements within instances of struct_1, struct_2, and struct_3. \nSome use-cases include checking values of specific variables, making bitwise com\nparisons, modifying fields of the structures via the pointers and loops to itera\nte over certain conditions and operations.\n\nThe function `sub_b77b0` and `sub_cae00` are called inside `sub_b6c60`, but thei\nr definitions are not provided, therefore their functionality is unclear. \n\nThe function does not return a specific value, but since the non-void `sub_b6c60\n` function ends with a statement `v25 = v0; return;`, it seems it might have bee\nn intended to return the value of 'v0' as 'v25'.\n\nFrom what can be understood from the provided code, the main function `sub_b6c60\n` seems to execute some kind of data manipulation tasks and logical checks, but \nwithout proper naming, code comments, and full context, it's hard to definitivel\ny determine its exact aim and functionality.\n"
+decompiled = true
