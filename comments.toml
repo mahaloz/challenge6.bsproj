@@ -3896,3 +3896,10 @@ addr = 0x1669d0
 func_addr = 0x1669d0
 comment = "==== AI Summarization ====\nThis code presents an external linkage of several variables of different types (\nchar, unsigned short, unsigned int). These variables are likely defined in anoth\ner file and are being used in this function sub_1669d0(). The function itself se\nts the values of the global variables according to conditions represented by bit\nwise operations. Some values are retrieved directly from external variables and \nsome are computed with the help of helper functions like sub_6f8e0() and sub_6fe\n10(). The function ends by assigning a value to the global variable g_60062bf0 c\nomputed from local variables and another global variable.\n"
 decompiled = true
+
+[0x166c5c]
+last_change = 2023-11-15T16:25:02.766538Z
+addr = 0x166c5c
+func_addr = 0x166c5c
+comment = "==== AI Summarization ====\nThe provided code is a definition of a function named `sub_166c5c`. This functio\nn seems to be part of a larger system and its functionality depends on other ext\nernal unspecified functions referenced as `sub_6fe10`, `sub_6f8e0`, `sub_6fbb0` \nand `sub_70050`. The function utilizes several temporary integer and pointer var\niables (tmp_# and v#). It also uses two external global variables `g_60062c78` a\nnd `g_60062c98`.\n\nThe function mainly consists of a set of conditional if statements. These evalua\nte certain bitwise operations and accordingly call subroutines `sub_6fe10`, `sub\n_6f8e0`, `sub_6fbb0` and `sub_70050` depending on the condition results.\n\nGiven the nature of these subroutines is not provided, it's hard to comment on t\nhe specific role or functionality of this function. The names of the functions a\nnd variables suggest the use of this code in a low-level system, possibly a devi\nce driver or embedded system.\n"
+decompiled = true
