@@ -2188,3 +2188,10 @@ addr = 0xd17c0
 func_addr = 0xd17c0
 comment = "==== AI Summarization ====\nThis C code is a function named `sub_d17c0` that performs numerous condition che\ncks, calculations, and bit shifts on a variety of variables such as `unsigned in\nt`, `int`, and `unsigned short`. This function also contains several loops which\n increment or decrement the values of certain variables based on specific condit\nions. Ultimately, this function does not return any value. It appears to be part\n of a low-level program or a machine language translated code, likely dealing wi\nth complex data manipulation or hardware interfacing, but its exact purpose isn'\nt clear from the given code.\n"
 decompiled = true
+
+[0xd23a0]
+last_change = 2023-11-15T14:26:52.964074Z
+addr = 0xd23a0
+func_addr = 0xd23a0
+comment = "==== AI Summarization ====\nThe provided code is a complex C function that manipulates a variety of integer \nand short variables primarily through bitwise shifting and logic operations. The\n function appears to be highly dependent on temporary variables, and the logic i\ns organized through a series of nested conditionals and loops. The function itse\nlf does not appear to return a value. Further context (like function calls, data\n types of the temporary variables, or overarching program goal) would help furth\ner understanding of this function.\n"
+decompiled = true

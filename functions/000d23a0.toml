@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xd23a0
+size = 0x554
+last_change = 2023-11-15T14:26:52.964074Z
+
+[header]
+name = "manipulate_integer_and_shift"
+addr = 0xd23a0
