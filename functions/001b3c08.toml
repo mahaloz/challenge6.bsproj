@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1b3c08
+size = 0x128
+last_change = 2023-11-15T18:46:02.893028Z
+
+[header]
+name = "perform_bitwise_operations_and_set_values"
+addr = 0x1b3c08
