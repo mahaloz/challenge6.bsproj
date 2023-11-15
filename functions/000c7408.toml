@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc7408
+size = 0x160
+last_change = 2023-11-15T13:43:11.563871Z
+
+[header]
+name = "evaluate_condition_and_operate_external_vars"
+addr = 0xc7408
