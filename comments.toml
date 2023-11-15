@@ -2629,3 +2629,10 @@ addr = 0x122a40
 func_addr = 0x122a40
 comment = "==== AI Summarization ====\nThe given code is written in C and defines a function which uses several externa\nl global variables declared elsewhere. The function then has a series of mathema\ntical and bitwise operations. The operation depends on the boolean results of bi\ntwise 'and' (&) operations on certain integer variables resulting in different p\nortions of code being executed. These involve accessing the memory locations of \nexternal global variables, performing arithmetic computation, conditional checki\nng and bit-shift operations. These operations are housed in a while loop and dif\nferent if- conditions within the function. The code then makes two calls to an e\nxternal function 'sub_6f4c0'. The return value from the function is the result o\nf the second call to 'sub_6f4c0'.\n"
 decompiled = true
+
+[0x122c84]
+last_change = 2023-11-15T14:51:44.775336Z
+addr = 0x122c84
+func_addr = 0x122c84
+comment = "==== AI Summarization ====\nThis C code demonstrates a function named \"sub_122c84\". This function initially \ndeclares several external characters and initializes many unsigned integers and \ninteger variables. The function then assigns memory addresses to these variables\n and uses a set of if-else conditions and bitwise operations to manipulate these\n values and possibly return specific values.\n\nThe interactions with the externally declared variables (like g_61e3, g_61e4, g_\n628e, etc.) suggest that this code might be a part of a larger program. The func\ntion itself doesn't carry out any evident operations such as I/O operations, str\ning operations, mathematical operations, etc., making it hard to guess its role \nin the program.\n\nNotably, these externally declared characters seem to be accessed using pointers\n (as in *(v3 - g_61e4) = 0), which suggests that memory manipulation is taking p\nlace. The function returns different values under different conditions, probably\n indicating status codes or assigned results.\n"
+decompiled = true
