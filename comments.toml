@@ -4827,3 +4827,10 @@ addr = 0x198854
 func_addr = 0x198854
 comment = "==== AI Summarization ====\nThe code declares three struct types, where each struct contains some padding fi\nelds, and a field which holds a character or an unsigned integer value. It also \ndeclares several global extern variables of character or unsigned integer types.\n The main part of the code is the function `sub_198854()`. \n\nThis function primarily performs bitwise operations on some locally declared var\niables as well as global variables. There are numerous conditions checked within\n the function based on the operation results that further proceed with different\n function calls and adjustments of these variables. The function ends by assigni\nng some locally calculated values to the structure fields. \n\nThere are also, through the code, several references to functions for instance `\nsub_10e59c(), sub_239c30(), sub_727b0(), sub_6f170()` and `sub_6ff50()` but thei\nr implementation details are not provided within this code.\n"
 decompiled = true
+
+[0x198c28]
+last_change = 2023-11-15T18:35:16.762858Z
+addr = 0x198c28
+func_addr = 0x198c28
+comment = "==== AI Summarization ====\nThe given code is a C program that's a function using external unsigned short va\nriables, g_6006e59c, g_6006e59c. \n\nThe function is mainly composed of a series of complex nested conditional and re\nlation checks on variables and memory addresses. Whatever these conditionals eva\nluate to, the function modifies the value of global variable g_6006e59c and some\ntimes g_6006e59e. \n\nIt appears to perform a series of bitwise operations and based on specific condi\ntions, various branches of logic are followed. Additionally, it includes calls t\no an external function written as sub_10e59c using the variables v4 and v5 (and \nsometimes v6). \n\nFinally, depending on satisfying different conditions, specific labels are used \nfor jump statements to various parts of the code. \n\nHowever, without appropriate context or comments, it's challenging to deduce the\n practical or real-world use of this function.\n"
+decompiled = true
