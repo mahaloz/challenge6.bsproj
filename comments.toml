@@ -2930,3 +2930,10 @@ addr = 0x130838
 func_addr = 0x130838
 comment = "==== AI Summarization ====\nThis code defines a function sub_130838().\n\nAt the beginning of the function, several variables of different types are decla\nred.\n\nThe code then performs different operations, involving bitwise operations and du\nmmy variables.\n\nIn the first few lines, certain operations are performed taking external charact\ner variables into account.\n\nThen, in a series of if-else-if condition statements, the function checks certai\nn conditions, performs bitwise operations and calls other sub-functions (sub_6f1\n70 and sub_6ff50), if certain conditions are met. \n\nIt also includes a while loop which stops according to a bitwise condition and e\nither breaks out of the loop or increments certain variables.\n\nIn the end, the function returns a value depending upon the conditions previousl\ny checked in the function. If none of these conditions are satisfied, it calls a\nnother sub function (sub_130810) with specific arguments, and then returns its r\neturn value.\n"
 decompiled = true
+
+[0x136160]
+last_change = 2023-11-15T15:18:38.601561Z
+addr = 0x136160
+func_addr = 0x136160
+comment = "==== AI Summarization ====\nThis C program declares a bunch of external char variables (presumably defined i\nn other files/modules), and one function named `sub_136160`. The function initia\nlizes a number of integer and short variables and pointers with hexadecimal addr\ness-based offsets calculated from the addresses of certain external variables. I\nt features multiple loops which perform condition checks and calculations based \non temporary variables. The function finally returns the hex value `0x10000`. Th\nis seems to be a low-level code which may relate to memory or hardware managemen\nt in embedded systems or similar environments.\n"
+decompiled = true

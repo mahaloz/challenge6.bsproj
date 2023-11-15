@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x136160
+size = 0x35c
+last_change = 2023-11-15T15:18:38.601561Z
+
+[header]
+name = "initialize_memory_offsets"
+addr = 0x136160
