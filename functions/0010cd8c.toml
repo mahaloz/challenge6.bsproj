@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x10cd8c
+size = 0x14c
+last_change = 2023-11-15T14:36:20.299120Z
+
+[header]
+name = "encrypt_decrypt_bits"
+addr = 0x10cd8c
