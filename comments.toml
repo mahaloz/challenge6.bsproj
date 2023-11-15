@@ -11,3 +11,10 @@ addr = 0x27b8
 func_addr = 0x27b8
 comment = "==== AI Summarization ====\nThis code represents an empty function named \"sub_2000\" which returns an integer\n. However, since there is no code inside the function or a return statement, it \nwill cause a compilation error.\n"
 decompiled = true
+
+[0x2a18]
+last_change = 2023-11-15T09:54:31.076449Z
+addr = 0x2a18
+func_addr = 0x2a18
+comment = "==== AI Summarization ====\nThe given code describes a function named `sub_2a18`, which doesn't take any arg\numents. Inside this function, it calls another function named `sub_2b68`. The fu\nnction sub_2b68 is marked with a comment indicating it does not return control b\nack to the calling function, which might mean it either contains an infinite loo\np or it ends the program. However, without more code context, its exact behavior\n cannot be determined. Also, it's important to note that the function sub_2a18 d\noesn't explicitly return any value, which goes against the definition since it i\ns declared as an integer function. This could mean the code provided is incomple\nte or erroneous.\n"
+decompiled = true
