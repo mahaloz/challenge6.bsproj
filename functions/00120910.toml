@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x120910
+size = 0x138
+last_change = 2023-11-15T14:49:09.564524Z
+
+[header]
+name = "initialize_and_assign_variables_based_on_conditions"
+addr = 0x120910
