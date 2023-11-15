@@ -5177,3 +5177,10 @@ addr = 0x1c0928
 func_addr = 0x1c0928
 comment = "==== AI Summarization ====\nThis C programming language code defines several global and local variables. The\n code also defines a function named 'sub_1c0928()' which carries out a number of\n operations such as assigning values to variables and performing conditional che\ncks. The function also possibly modifies the values of the global variables 'g_1\n550' and 'g_6006eb68', based on a series of conditional checks that involve bitw\nise operations on a set of temporal variables. Notably, the function 'sub_d1cc0(\n)' gets called twice with the same set of arguments. The specific workings and u\nse case of the function is not clear from the provided code snippet.\n"
 decompiled = true
+
+[0x1c0efc]
+last_change = 2023-11-15T18:56:03.055954Z
+addr = 0x1c0efc
+func_addr = 0x1c0efc
+comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` in C language with various fields that a\nre separated by character arrays (paddings). These fields are of types: characte\nr, short and unsigned integer.\n\nAlso, there are multiple declaration of global variables, again with character, \nshort, unsigned integer types and pointers. \n\nAt the end, an empty function named `sub_1c0efc` is defined which returns an int\neger.\n"
+decompiled = true
