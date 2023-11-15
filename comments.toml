@@ -1754,3 +1754,10 @@ addr = 0xc0c60
 func_addr = 0xc0c60
 comment = "==== AI Summarization ====\nThis C code contains a structure, `struct_1`, with a specific memory layout and \nmultiple fields of different data types, including padding. It declares a series\n of external variables, some of which are characters and others unsigned integer\ns. It defines a function `sub_c0c60()` that manipulates these variables, with co\nmplex flow control involving if statements and a do-while loop. The function als\no interacts with the instance of `struct_1`, setting various fields to specific \nvalues. Some elements of the code, like the padding in `struct_1`, suggest it ma\ny have been generated from a reverse-engineering tool or disassembler.\n"
 decompiled = true
+
+[0xc0e50]
+last_change = 2023-11-15T13:32:17.511611Z
+addr = 0xc0e50
+func_addr = 0xc0e50
+comment = "==== AI Summarization ====\nThis code mainly defines two data structures: `struct_2` and `struct_0`, and a f\nunction `sub_c0e50`. The `struct_2` contains padding bytes, four unsigned intege\nrs, an unsigned short and another padding. The `struct_0` contains padding bytes\n and an unsigned integer.\n\nThe `sub_c0e50` function seems to be a complex function with many local variable\ns, where quite a few bitwise operations (^, &, |), pointer arithmetic, and funct\nion calls to external functions (likely subroutines at specified addresses) like\n `sub_c0c60`, `sub_c13d0` and `sub_bc6e0` are involved.\n\nThere are three globally defined variables `g_1c30` and `g_8000`, which are bein\ng used in `sub_c0e50` function. During the execution of `sub_c0e50`, certain fie\nlds of the `struct_2` instance are being updated depending on certain conditions\n.\n\nThe code is not self-explanatory due to unclear variable names, likely due to th\ne fact that it has been decompiled from machine code or assembly code to C. Hard\ncoded values and externally referenced functions suggest it's part of a larger p\nrogram, with specific memory management or data manipulation operations.\n"
+decompiled = true
