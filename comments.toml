@@ -2216,3 +2216,10 @@ addr = 0xe0338
 func_addr = 0xe0338
 comment = "==== AI Summarization ====\nThis code defines a function `sub_e0338()` that manipulates various global varia\nbles and local variables of integer and character types defined within the funct\nion. The function utilizes bit-wise operations (`&`, `^`, `>>`, `|`, `~`, etc.) \nand conditional statements (`if`, `else`, etc.) for different data manipulations\n. There is also a call to another function, `sub_d23a0()`.\n\nThe extensive use of bit manipulation with numerous temporary variables and glob\nal variables indicates this could possibly be some low-level or hardware related\n code. Also, these variables could be referring to the locations in memory or re\ngister where specific data is stored. \n\nHowever, without context, it's hard to understand the real-world use-case of thi\ns function, as the variable names are not descriptive, and there appears to be n\no clear output (the function has a void return type).\n"
 decompiled = true
+
+[0xed764]
+last_change = 2023-11-15T14:28:01.927560Z
+addr = 0xed764
+func_addr = 0xed764
+comment = "==== AI Summarization ====\nThe code appears to define an empty function named \"sub_ed764\" which returns an \ninteger. However, as it is currently, the function does not return anything, whi\nch may result in a compile error in many programming contexts. It needs a logic \nfor what value it should return.\n"
+decompiled = true
