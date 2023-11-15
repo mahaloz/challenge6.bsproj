@@ -2769,3 +2769,10 @@ addr = 0x126640
 func_addr = 0x126640
 comment = "==== AI Summarization ====\nThis is a C function named `sub_126640`. It declares and utilizes several tempor\nary variables (`tmp_XX`) and a set of global variables (`g_XXXXX`). Moreover, se\nveral function calls to `sub_6f8e0` and `sub_c1400` are made. The main behavior \nof the function appears to be contingent upon specific conditionals that leverag\ne bitwise operations, ostensibly for flag checking or shifting. Variable assignm\nent also appears to happen in a conditional manner based on the state of these f\nlags. Depending on checks on tmp_XX variables, it will assign different values t\no `v2` and allocate it in a specific way. In addition, under certain conditions \nit sets global variable `g_60063172` to either 1 or 0. Lastly, this function ult\nimately returns the value of variable `v6`, which can be the result of the funct\nion `sub_c1400` or `sub_6f8e0`, depending on a series of conditional checks.\n"
 decompiled = true
+
+[0x1268c0]
+last_change = 2023-11-15T15:08:24.350336Z
+addr = 0x1268c0
+func_addr = 0x1268c0
+comment = "==== AI Summarization ====\nThis is a C programming language code. It first declares some global variables g\n_0 to g_a of character type (char). It then defines a function sub_1268c0 which \ndeclares several variables. The function starts by defining v0 to be the referen\nce to v1. Then, it sets v3 equal to v2 if the bitwise AND of tmp_18 and 2 is not\n equal to 2. It set v12 equal to reference of g_0. If bitwise AND of tmp_11 and \n4 is not equal to 4, the function enters a loop. Inside the loop, it copies char\nacters from the global variables to certain addresses determined by v2. It does \nso for each global variable g_0 to g_9. After this loop, it assigns v14 the refe\nrence to g_1 and assigns v15 equal to v0. The function returns nothing. However,\n due to the usage of global variables and numerous logical variables, it's hard \nto determine precisely what the purpose of this code is without the context in w\nhich it's used.\n"
+decompiled = true
