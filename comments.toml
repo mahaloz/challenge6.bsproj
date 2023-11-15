@@ -4680,3 +4680,10 @@ addr = 0x18e08c
 func_addr = 0x18e08c
 comment = "==== AI Summarization ====\nThis code is written in C and it does various operations with global variables a\nnd local variables in the `sub_18e08c` function. \n\nFirstly, it defines a structure `struct_0` with a character array and an unsigne\nd int element. Then, it declares several global `char` and `unsigned int` variab\nles.\n\nIn `sub_18e08c`, it initializes a large number of local integers, characters, an\nd unsigned integers, along with a pointer to an instance of `struct_0`. \n\nThe function then performs several conditional checks using bitwise operations t\no assign values to all the globally declared `char` variables. This is followed \nby a series of bitwise rotate right (__ROR__) operations, and some multiplicatio\nns. It also iterates in a `do-while` loop until a certain condition involving a \nbitwise operation is met.\n\nThe final lines of the function check a couple of conditions that could potentia\nlly change the flow of the program execution with `goto` statements. The functio\nn ends by assigning a value to another global `unsigned int` and returning no va\nlue.\n"
 decompiled = true
+
+[0x18ea8c]
+last_change = 2023-11-15T18:26:36.512113Z
+addr = 0x18ea8c
+func_addr = 0x18ea8c
+comment = "==== AI Summarization ====\nThe code declares a set of external global unsigned integer variables. It then d\nefines a function `sub_18ea8c()` which makes use of these variables. The functio\nn assigns values to the global variables based on certain conditions. If the sec\nond least significant bit of `tmp_24` or `tmp_16`(temporary variables) is set, i\nt assigns the value at certain memory addresses (possibly from some hardware reg\nisters) to other local variables. Otherwise, it takes values from an array `v5`.\n Finally, it assigns these local variables and some array variables to the globa\nl variables.\n"
+decompiled = true

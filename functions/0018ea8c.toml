@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x18ea8c
+size = 0x140
+last_change = 2023-11-15T18:26:36.512113Z
+
+[header]
+name = "assign_global_variables_based_on_conditions"
+addr = 0x18ea8c
