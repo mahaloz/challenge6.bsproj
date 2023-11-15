@@ -4246,3 +4246,10 @@ addr = 0x175284
 func_addr = 0x175284
 comment = "==== AI Summarization ====\nThe provided code appears to be written in C or C++ language. It begins by defin\ning a struct type 'struct_0' with two fields: a character array 'padding_0' of l\nength 4 and an unsigned integer 'field_4'. \n\nSeveral extern variables are declared, implying that these variables are defined\n elsewhere and available for use in this code. These variables include four unsi\ngned integers and three characters.\n\nThe function 'sub_175284()' perform the following operations:\n- Several local variables and pointers are declared, including a pointer to stru\nct_0 and an unsigned integer pointer.\n- A pointer 'v2' is then assigned the address of a character 'v3'.\n- Several if conditions, based on bitwise manipulations of the variables 'tmp_23\n7' and 'tmp_22', determine the control flow.\n- The extern variables 'g_60061eb0', 'g_60061eb4', 'g_60061e3c' and 'g_60062348'\n are conditionally assigned values based on bitwise operations on 'tmp_22', 'tmp\n_29', and 'tmp_26'.\n- A loop runs seven times or until a bitwise manipulation of 'v12' equals 1. Ins\nide the loop, the field 'field_4' from struct 'v14' is assigned to 'v1' and poin\nters are updated.\n- An if statement based on 'tmp_15' potentially determines the final control flo\nw of the function.\n"
 decompiled = true
+
+[0x176a74]
+last_change = 2023-11-15T16:47:17.765184Z
+addr = 0x176a74
+func_addr = 0x176a74
+comment = "==== AI Summarization ====\nThis C code defines a struct by the name `struct_0` with two member variables 'p\nadding_0' and 'field_3f' and then declares extern variables `g_5191` and `g_5192\n`. \n\nThe method `sub_176a74` then declares a series of integer and character variable\ns, alongside a pointer to `struct_0`. The function tests some bitwise conditions\n to set values to some of the variables and perform certain operations.\n\nIf certain conditions hold true, then the character *(v1) is assigned certain in\nteger values. In the end, if the bitwise conditions still hold true, it jumps in\nto certain labels, probably for keeping track of where to resume execution.\n"
+decompiled = true
