@@ -5128,3 +5128,10 @@ addr = 0x1bc5ac
 func_addr = 0x1bc5ac
 comment = "==== AI Summarization ====\nThis code defines a structure \"struct_0\" with two fields: a character array \"pad\nding_0\" of size 288 and an unsigned integer \"field_120\". It also declares five e\nxtern variables of char and unsigned integer data types.\n\nThereafter, an integer function \"sub_1bc5ac\" is defined with various variable de\nclarations. It appears this function relates to binary operations, as there's us\ne of bitwise operators like exclusive XOR (&, ^), bitwise AND (&), and bit shift\ning (__ROR__). However, the overall functionality is unclear due to the lack of \ncontext and the highly abstract variable, function name. \n\nThe if statements check certain conditions - if the bitwise XOR of temp_8 and 2 \nequals 2, and if bit 2 of temp_12 is set - then executes certain operations, inc\nluding storing values in global variables and possible data rotations. If the ab\nove condition doesn't hold, it sets the void pointer to null.\n"
 decompiled = true
+
+[0x1bdc58]
+last_change = 2023-11-15T18:53:23.316565Z
+addr = 0x1bdc58
+func_addr = 0x1bdc58
+comment = "==== AI Summarization ====\nThe given code is a C function named 'sub_1bdc58'. This function references two \nglobal, external unsigned integers 'g_6006eb88' and 'g_6006eb8c'. It primarily c\nonsists of various conditions based on the bitwise AND operation with some local\n integers as well. \n\nThe assignment of global variables 'g_6006eb88' and 'g_6006eb8c' occurs based on\n certain conditions. Moreover, the code also uses local pointers 'v2' and 'v3' w\nhich are assigned to 0 if certain conditions are met. \n\nOne thing to note are the 'LABEL_0x1bdc84' and 'LABEL_0x1bdd54' labels which are\n not defined in the provided piece. Meaning, the code as it stands is incomplete\n - it misses part of the control flow. \n\nGiven the content of the code, it may be part of a larger software - possibly re\nlated to embedded or low-level systems - where these function, variables and lab\nels could have meaningful context.\n"
+decompiled = true
