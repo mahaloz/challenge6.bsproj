@@ -1481,3 +1481,10 @@ addr = 0xb5550
 func_addr = 0xb5550
 comment = "==== AI Summarization ====\nThe provided code is written in C language. It defines a struct named \"struct_0\"\n with various fields and padding, then it declares global variables of various t\nypes, such as chars, integers, and pointers. There is also a function declared n\named \"sub_b5550\". \n\nThe \"sub_b5550\" function consists of a lot of local variables and assignments. I\nt checks if certain conditions are met, mostly by bitwise operations on temporar\ny variables and then changes the values of global variables accordingly. Inside \nthe if-statements, the function 'sub_cfac0' or 'sub_cae00' gets called based on \ncertain conditions. \n\nThe function 'sub_cae00' gets called three times, each time with variable parame\nters, including global variables. \n\nThe function 'sub_cae00' is assumed to not return due to the comment in the code\n, indicating that it may be a function to exit the program or enter into an infi\nnite loop. \n\nMoreover, \"sub_b5550\" makes various changes to the fields in \"struct_0\" and othe\nr global variables, including assigning them specific numeric values, setting so\nme to zero, or assigning addresses of certain variables to others.\n\nThis code seems to be a decompiled code which often leaves unusual and hard to r\nead symbol names.\n"
 decompiled = true
+
+[0xb5c00]
+last_change = 2023-11-15T12:56:05.708884Z
+addr = 0xb5c00
+func_addr = 0xb5c00
+comment = "==== AI Summarization ====\nThe provided code snippet defines two structures, struct_0 and struct_1, each wi\nth padding and specific fields. Additionally, it declares seven external global \nvariables, g_100000, g_2000, g_200000, g_40000, g_8000, g_80000, and g_b0000. Th\nere's also the declaration of a function sub_b5c00() without an implementation.\n"
+decompiled = true
