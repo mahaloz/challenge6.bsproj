@@ -3224,3 +3224,10 @@ addr = 0x146770
 func_addr = 0x146770
 comment = "==== AI Summarization ====\nThis code snippet defines a structure `struct_0` with a variety of fields of dif\nferent types. It also defines a global character variable `g_60072d19`. The main\n function `sub_146770` appears to perform some complex operations involving the \nstruct, the global variable, and other variables. It contains multiple while and\n if conditionals, possibly doing operations based on different conditions. It us\nes label-go-to mechanism to jump back to a certain part of code. Notably, it see\nms that it involves certain bitwise operations, such as XOR (^), and memory mana\ngement operations. The function `sub_146770` doesn't take any arguments and does\nn't return specific values. It appears to modify the values of globally declared\n variables.\n"
 decompiled = true
+
+[0x146ae0]
+last_change = 2023-11-15T15:38:02.096114Z
+addr = 0x146ae0
+func_addr = 0x146ae0
+comment = "==== AI Summarization ====\nThe code defines a structure type 'struct_0' with a character array 'padding_0' \nof size 28 and another character 'field_1c'. There is also a declaration of an e\nxternal character variable 'g_7bd8'. Lastly, an empty function 'sub_146ae0()' is\n also declared, but without any code inside it.\n"
+decompiled = true
