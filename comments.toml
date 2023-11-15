@@ -3112,3 +3112,10 @@ addr = 0x144224
 func_addr = 0x144224
 comment = "==== AI Summarization ====\nThis code is written in a lower-level programming language (possibly Assembly or\n C). It's difficult to discern exactly what it does due to the heavy use of hexa\ndecimal addresses, external variables, and bitwise operations. However, generall\ny speaking, the code appears to contain several loops, conditionally performs va\nrious assignments and function calls, performs bitwise math operations, and inte\nracts with several memory locations and global variables. The function returns a\nn integer.\n\n"
 decompiled = true
+
+[0x1443d0]
+last_change = 2023-11-15T15:31:14.523365Z
+addr = 0x1443d0
+func_addr = 0x1443d0
+comment = "==== AI Summarization ====\nThis is a C language code consisting of a single function `sub_1443d0()`. This f\nunction seems to be part of a larger application. This function makes use of ext\nernal variables `g_143e10`, `g_58f0`, `g_600058ec`, `g_60072c88`, `g_60072c8c`, \n`g_60072c98`, `g_60072c99`, `g_60072c9c`, `g_60072ca0`, `g_60072ca4`, `g_60072ca\n8`, `g_60072caa`, `g_7be0`, `g_7be4`, `g_7be8` and `g_7bec`.\n\nWithin the function, depending on various conditions (where many of them are bas\ned on bitwise operations on temporary variables like `tmp_57`, `tmp_8`, `tmp_13`\n, `tmp_12`, `tmp_33`), these external variables and some locally defined variabl\nes (like `v3`, `v6`) are modified. This function internally calls `sub_239b30()`\n, and `sub_144fb0()` functions with certain parameters based on conditions. The \nfunction `sub_1443d0()` ultimately returns the value of the variable `v3`.\n"
+decompiled = true
