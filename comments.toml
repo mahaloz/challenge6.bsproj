@@ -3091,3 +3091,10 @@ addr = 0x143838
 func_addr = 0x143838
 comment = "==== AI Summarization ====\nThis code defines the function `sub_143838` which involves operation with some e\nxternal variables `g_60072b1c`, `g_7be4`, and `g_7bec`. The function works on co\nnditions with bitwise operations and assigns condition-based values to the exter\nnal variable `g_60072b1c` and to local variable `v4`. The function includes nest\ned if-else conditions and returns the value of `v4` at various conditions. The s\npecific operations seem to be related to memory or bit manipulation, including g\netting the values of specific memory addresses, bitwise and and xor operations, \nand calling other functions (`sub_1426f0`, `sub_27c8d0`, `sub_145080`, `sub_1435\n80`) whose details are not given in the provided code.\n"
 decompiled = true
+
+[0x143e04]
+last_change = 2023-11-15T15:30:05.091217Z
+addr = 0x143e04
+func_addr = 0x143e04
+comment = "==== AI Summarization ====\nThe provided code appears to be part of a larger program, most likely written in\n C language, given the syntax and the usage of extern keyword to declare externa\nl variables. The function `sub_143e04()` contains numerous local variables and i\nf-else conditionals that manipulate these variables and the external values, may\nbe performing memory manipulation due to presence of pointers and possible calcu\nlation of addresses and various bitwise operations. \n\nThe function seems to be performing some core operations, potentially being part\n of a system programming or embedded software due to usage of low-level concepts\n. The function also appears to repeatedly call other functions (`sub_141f70`, `s\nub_143b70`, `sub_143c30`, `sub_143ca0`, and `sub_144150`), whose behavior is not\n defined in the provided code.\n\nWithout additional information or context, it's impossible to specify definitive\n functionality, but the function likely satisfies a specific duty within a large\nr system, such as manipulating certain memory locations or performing some often\n-needed operation.\n"
+decompiled = true
