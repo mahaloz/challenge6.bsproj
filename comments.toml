@@ -5772,3 +5772,10 @@ addr = 0x1deb10
 func_addr = 0x1deb10
 comment = "==== AI Summarization ====\nThe given C code defines a function `sub_1deb10`. This function declares four va\nriables: `v0` and `v2` are of `unsigned int` type, `v1` is a `char` type and `v3\n` is an `unsigned int` type. The memory address of `v1` is assigned to `v0`. The\nn, a function `sub_6f9f0` is called 19 times with the same arguments, `v2` and `\nv3`. The result of the 19th `sub_6f9f0` function call is returned as the result \nof `sub_1deb10`.\n"
 decompiled = true
+
+[0x1df7f0]
+last_change = 2023-11-15T19:53:48.068899Z
+addr = 0x1df7f0
+func_addr = 0x1df7f0
+comment = "==== AI Summarization ====\nThe code is written in C programming language. It appears to be a function from \nan assembly-level script, hence the abundant use of external variables and the o\nbscure variable names, such as \"g_60062e81\", and \"g_60062e68\".\n\nThe code defines the function \"sub_1df7f0()\" with no parameters, declaring sever\nal integer and character type variables, as well as a few pointers at the start.\n It then makes various calculations and condition checks in a complex network of\n if-else statements.\n\nThe logic of the function seems to operate on the values of external variables a\nnd the function itself modifies few of these external variables like \"g_60062e81\n\" and \"g_60074eb3\". It uses multiple external functions such as \"__ROR__\", \"sub_\n10c860\", \"sub_10ccfc\", and \"sub_10cc30\".\n\nThese calculations appear to relate to the manipulation of bit-level data, as su\nggested by the use of bitwise operators such as shift (eg. <) and bitwise AND (&\n), and the arithmetic operations performed on hexadecimal values.\n\nIn the end, it returns \"v66\", an unsigned integer which is manipulated throughou\nt the function. \n\nIt is hard to derive the exact functionality of this function due to the low-lev\nel operations and lack of context or comments suggesting what the purpose of the\n code is. However, one might assume that it's likely part of a larger system whe\nre these operations have specific influences on the system's behaviour.\n"
+decompiled = true
