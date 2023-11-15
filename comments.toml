@@ -3420,3 +3420,10 @@ addr = 0x14f834
 func_addr = 0x14f834
 comment = "==== AI Summarization ====\nThe given code defines the `sub_14f834()` function that manipulates and assign v\nalues to a set of global and local variables that are designated as char or unsi\ngned int. It uses both basic assignment and pointer arithmetic to update these v\nariables. It also contains a do-while loop that updates certain local variables \ndependent on specific conditions and checks on the bits of a few variables. Afte\nr a sequence of conditions checking and operation decisions, it assigns pointers\n and values to the global unsigned int variables. The function does not return a\nny value.\n"
 decompiled = true
+
+[0x1502c8]
+last_change = 2023-11-15T15:51:13.813347Z
+addr = 0x1502c8
+func_addr = 0x1502c8
+comment = "==== AI Summarization ====\nThe code is written in C. It first declares several global variables that are us\ned in a function named sub_1502c8(). \n\nWithin the function sub_1502c8(), several local variables including v0, tmp_64, \ntmp_22, v2, v3, v4, and v5 are defined. Initial values are assigned to certain g\nlobal variables.\n\nThe function mainly consists of a series of conditional statements. Each conditi\nonal statement checks whether the bit-wise AND operation of tmp_22 with 4, XOR'd\n with 4, is false. If the condition is satisfied, a value returned by a function\n called sub_d0b90() is assigned to a corresponding global variable. \n\nThe sub_d0b90() function seems to be invoked with different arguments in differe\nnt condition blocks but the structure of the function call is the same (5 argume\nnts). Arguments include pointers, integers, and subtracting a memory address (&g\n_5634) from the value of v5. It's unclear what functionality sub_d0b90() provide\ns as it is not defined in the given code.\n\nThis code is likely part of a larger program where the data manipulated could ha\nve a meaningful context. But based on the code alone, it's difficult to determin\ne the exact purpose.\n"
+decompiled = true
