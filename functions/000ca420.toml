@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xca420
+size = 0x258
+last_change = 2023-11-15T13:50:46.754726Z
+
+[header]
+name = "perform_complex_bitwise_operation"
+addr = 0xca420
