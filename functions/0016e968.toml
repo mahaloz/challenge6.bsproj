@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x16e968
+size = 0x7cc
+last_change = 2023-11-15T16:35:17.729061Z
+
+[header]
+name = "perform_bitwise_operators_on_structs"
+addr = 0x16e968
