@@ -389,3 +389,10 @@ addr = 0x712d0
 func_addr = 0x712d0
 comment = "==== AI Summarization ====\nThe provided code is a function sub_712d0 written in low-level shorthand C langu\nage, likely decompiled from a binary machine code. It also references an externa\nl character variable named 'g_3c84'.\n\nIt defines several variables, some for storing temporary values and others reser\nved for general purpose registers. It performs various condition checks and math\nematical operations.\n\nThe function checks some bitwise conditions, does some manipulations especially \nwith variable v5 and v2 in a do-while loop under certain condition. If certain c\nonditions hold, it modifies values at memory locations related to v2 and v6. \n\nThis function also calls a couple of other functions: sub_cf510(), sub_70750(), \nsub_70290() and sub_cf640() with different arguments based on different conditio\nns. \n\nThe function returns the value of v3, changing it at different stages if differe\nnt bitwise conditions are met. The logic behind these operations and manipulatio\nns is not clear without broader context like function calls or meaningful variab\nle names.\n"
 decompiled = true
+
+[0x717a0]
+last_change = 2023-11-15T10:16:19.664420Z
+addr = 0x717a0
+func_addr = 0x717a0
+comment = "==== AI Summarization ====\nThe code defines three data structures struct_0, struct_1, and struct_2. A lot o\nf external variables are declared after that. Despite its complexity, the main f\nunction sub_717a0() seems to be configuring and manipulating these structures an\nd variables in a specific way depending upon several conditional checks.\n\nThe function sub_717a0() is a large and complex function that includes many low \nlevel operations on data. It involves complex initialization of different variab\nles, choices depending on some specific conditions, and calling multiple undefin\ned functions. Loops are present for carrying out certain operations multiple tim\nes, and bitwise operations are also there. All of this makes the function tricky\n to understand without having the complete context and without knowing what thos\ne external variables and functions do.\n"
+decompiled = true
