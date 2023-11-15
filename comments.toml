@@ -4484,3 +4484,10 @@ addr = 0x184188
 func_addr = 0x184188
 comment = "==== AI Summarization ====\nThe code defines a struct and then several global variables of type char and uns\nigned short. The 'sub_184188' function performs a series of calculations and ass\nignments involving these global variables, possibly doing something like manipul\nating memory or decoding a file or an image. There are also multiple calls to su\nb-functions like 'sub_18ee80', 'sub_6f2a0', 'sub_6f240', 'sub_6f170', 'sub_2a620\n0' and 'sub_10e59c'. These function names are not self-explanatory — they are li\nkely automatically generated from a decompiler tool (hence the alphanumeric name\ns). Without the definition and context of these referenced sub-functions, it's h\nard to tell specifically what 'sub_184188' does. At the end of the function, 'su\nb_184188' returns an unsigned short. The whole program appears to be written in \nC/C++ language.\n"
 decompiled = true
+
+[0x1848d8]
+last_change = 2023-11-15T17:02:43.746800Z
+addr = 0x1848d8
+func_addr = 0x1848d8
+comment = "==== AI Summarization ====\nThe provided C code defines a struct named 'struct_0' containing a character arr\nay for padding, along with a few global variables and the function 'sub_1848d8()\n'. \n\nThe function 'sub_1848d8()' declares some local variables including character, i\nnteger, pointer to structure 'struct_0', and unsigned integer types. It assigns \nvalue to several global variables such as 'g_60062519', 'g_60062880', 'g_6006295\na' and 'g_600627b0'. The function 'sub_6fe10()' is called several times within t\nhis function but without an implementation given. There are also conditionals ch\necking some variables against bitwise operations, and function returns nothing. \n\nNote that some calls and expressions contain undefined references or misuse the \n\"&\" operator, for example \"&v4\" and \"&g_2630\". This may either be pseudo-code or\n improperly transcribed/translated code.\n"
+decompiled = true
