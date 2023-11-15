@@ -3707,3 +3707,10 @@ addr = 0x161810
 func_addr = 0x161810
 comment = "==== AI Summarization ====\nThis is a function in C or a C-like language named `sub_161810`. It initializes \nfour variables: `v0` as an unsigned integer, `v1` as a character, and `v2` and `\nv3` as unsigned integers. The function assigns the address of `v1` to `v0`. The \nfunction then calls the `sub_6f9f0` function 35 times with `v2` and `v3` as the \narguments. The last invocation of `sub_6f9f0` function also serves as the return\n statement for the `sub_161810` function. The `sub_6f9f0` function is not define\nd in this code snippet.\n"
 decompiled = true
+
+[0x161a40]
+last_change = 2023-11-15T16:08:14.384414Z
+addr = 0x161a40
+func_addr = 0x161a40
+comment = "==== AI Summarization ====\nThis code is written in C and contains one function `sub_161a40()`. The function\n `sub_161a40()` declares several variables and pointers, and calls a function `s\nub_6f8e0` or `sub_6fe10` in every iteration. If the second least significant bit\n of the variable `tmp_13` is not set, it sets different already declared variabl\nes, pointers or members of these pointers to 0 or 1 and stores them at given loc\nations based off of the externally declared global variables. The function `sub_\n161a40` returns the value of the final call of `sub_6f8e0()`. The purpose of the\n code cannot be determined without additional context, as the functions `sub_6f8\ne0` and `sub_6fe10` are not defined in the provided code segment.\n"
+decompiled = true
