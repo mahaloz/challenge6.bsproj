@@ -5086,3 +5086,10 @@ addr = 0x1b6cdc
 func_addr = 0x1b6cdc
 comment = "==== AI Summarization ====\nThe code defines two structures named struct_0 and struct_1 with padding bytes a\nnd fields in them. It also defines many extern variables, a function named \"sub_\n1b6cdc\". The function \"sub_1b6cdc\" has many local variables and performs various\n operations with the fields of the declared structures and externally defined va\nriables such as bitwise operations, assignment operations, conditional operation\ns and calls to other functions. It appears to be manipulating a complex data str\nucture and involves some low level operations potentially related to hardware or\n system programming.\n"
 decompiled = true
+
+[0x1b7510]
+last_change = 2023-11-15T18:50:42.053223Z
+addr = 0x1b7510
+func_addr = 0x1b7510
+comment = "==== AI Summarization ====\nThis piece of code defines a function named \"sub_1b7510\" that doesn't take any a\nrguments. Inside this function, four variables v0, v1, v3, and v2 of unsigned in\nteger type and character type are declared. Then, the address of v1 is assigned \nto v0. Afterwards, the function \"sub_6f9f0\" is called 19 times with the same arg\numents v2 and v3. Finally, this function returns the last call of function \"sub_\n6f9f0\".\n"
+decompiled = true
