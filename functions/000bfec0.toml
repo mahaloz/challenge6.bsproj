@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xbfec0
+size = 0x274
+last_change = 2023-11-15T13:13:26.128782Z
+
+[header]
+name = "manipulate_int_bits"
+addr = 0xbfec0
