@@ -3959,3 +3959,10 @@ addr = 0x16ab30
 func_addr = 0x16ab30
 comment = "==== AI Summarization ====\nThe provided code is a C function that uses external character variables and man\nipulate their values based on different conditions. The function `sub_16ab30` is\n externally manipulating these `char` values `g_60061788` to `g_6006178f`. \n\nThe function is complex and uses bitwise operations, condition checks, and funct\nion calls to perform its operations. It seems to work with some external functio\nns not defined in the given code such as `sub_6f8e0` and `sub_10e59c`. \n\nIt uses memory address values directly for reading data and assigns some of the \nvalues to the external variables. The return values are obtained from `v20` vari\nable, which may be altered by `sub_6f8e0` function call. \n\nIt is important to note that this code does not directly provide insight into wh\nat exactly it achieves since it seems to be part of a larger code-base and speci\nfic parts (like function definitions and more context) are not given.\n"
 decompiled = true
+
+[0x16af78]
+last_change = 2023-11-15T16:28:57.400322Z
+addr = 0x16af78
+func_addr = 0x16af78
+comment = "==== AI Summarization ====\nThe code provided defines a structure and declares multiple external variables (\npresumably global variables). This structure is then used as part of a function \nthat initializes, calculates or manipulates these global variables and their mem\nory addresses in some way. Initially, some global and local variables are define\nd and initialized. Then, a series of operations and function calls are performed\n on these variables. Later on, a set of conditional statements checks the bits o\nf certain variables and executes different code blocks accordingly. The function\n also includes a loop that seems to update variables.\n"
+decompiled = true

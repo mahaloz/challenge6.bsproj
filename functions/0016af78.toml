@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x16af78
+size = 0x9e4
+last_change = 2023-11-15T16:28:57.400322Z
+
+[header]
+name = "update_global_variables"
+addr = 0x16af78
