@@ -3476,3 +3476,10 @@ addr = 0x153350
 func_addr = 0x153350
 comment = "==== AI Summarization ====\nThe code is written in C and seems to be part of a larger program - most likely \nthis is an assembly code disassembly output. There are multiple external variabl\nes declared at the start - 'extern' keyword refers to a declaration that is not \ndefined in the present code file, but is defined elsewhere. A function named 'su\nb_153350' is defined. This function contains multiple conditional statements to \nexecute different lines of code based on specific conditions. An important aspec\nt to note here is that most condition checks in this code involve bitwise operat\nions. \n\nWithin this function, a specific function 'sub_d2010' is called multiple times d\nepending on conditional checks 'if (!(tmp_22 & 4 ^ 4))'. If the conditions are n\not met, specific global variables (g_60065bd0, g_60065bd4, etc.) are set to valu\nes of local variables. \n\nWhat this function 'sub_153350' does is a bit difficult to conclude without the \nrest of the program and also knowing what 'sub_d2010' function does. It seems to\n be part of a larger system where 'sub_d2010' function effects are coordinated/'\ntriggered' based on conditions checked inside 'sub_153350'.\n"
 decompiled = true
+
+[0x153970]
+last_change = 2023-11-15T15:54:32.837943Z
+addr = 0x153970
+func_addr = 0x153970
+comment = "==== AI Summarization ====\nThe provided code is an incomplete code snippet, and the function doesn't return\n anything. From the existing code, it is a function `sub_153970()` in which vari\nous integer and character variables are defined and a few levels of conditionals\n are used. In each \"if\" conditional, the code checks if `tmp_8` bitwise AND with\n 4 and then XOR with 4 resulted in zero, and if this condition is true, it sets \nvarious variables `v1` to `v14` to corresponding values and `v15` to 0. However,\n all the conditions here are the same, this might be due to some error or the re\nst of the code is not provided. Also, many variables declared at the top of the \nfunction aren't actually used in the code making them redundant.\n"
+decompiled = true
