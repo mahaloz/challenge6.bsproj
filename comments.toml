@@ -599,3 +599,10 @@ addr = 0x82ec0
 func_addr = 0x82ec0
 comment = "==== AI Summarization ====\nThis code declares a set of global character variables and an integer function n\named \"sub_82ec0\". The function uses a variety of checks based on the bitwise AND\n of several temporary variables with the number 2. Depending on the results of t\nhis operation, the function writes and reads to memory addresses calculated with\n the help of the aforementioned global variables and some pointer arithmetic fac\ntoring in offsets. Execution of some parts of the function depends on the result\n of these logical checks, which seem to determine whether certain operations are\n permitted or not. The code seems to be a fragment of a low-level software, poss\nibly an operating system or a driver, which needs fine grained control over memo\nry in order to run and manage other programs.\n"
 decompiled = true
+
+[0x831a0]
+last_change = 2023-11-15T10:27:21.726845Z
+addr = 0x831a0
+func_addr = 0x831a0
+comment = "==== AI Summarization ====\nThe code defines a function `sub_831a0()`. This function declares several local \nvariables and extern variables. It initializes some variables using the result o\nf a function `sub_6f2a0()` with different arguments. Then, depending on the cond\nitions, the function carries out operations on some variables. It also includes \ntwo loops in which values are repeatedly added or assigned to the memory locatio\nns. The function returns 0 before terminating. Some of the operations carried ou\nt suggest this function may be managing or initializing certain components of a \nmore complex system (e.g., device registers, memory allocations, etc.) in low-le\nvel programming context.\n"
+decompiled = true
