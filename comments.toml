@@ -5702,3 +5702,10 @@ addr = 0x1dc32c
 func_addr = 0x1dc32c
 comment = "==== AI Summarization ====\nThis code defines two structures, struct_1 and struct_0, with various fields, so\nme of which are serving as padding. It also declares six external variables of t\nype char or unsigned int.\n\nThen an integer function sub_1dc32c is defined, declaring a multitude of variabl\nes. The first set of variable assignments take place within some if-else conditi\nons which rely on bitwise manipulation of certain temporary variables such as tm\np_8, tmp_22, tmp_16 etc.\n\nIt then sets the previously declared external variables, g_60062e7c and g_60062f\n18, with values either obtained from function outputs or from the defined struct\nures and conditions.\n\nThe remaining part of function contains series of if-else conditions where more \ncomplex bitwise operations and function calls are made. The procedure modifies s\nome global external variables and calls several unshown functions (e.g. sub_727b\n0, sub_10e59c, sub_6f170, sub_239c30 etc.) with various arguments.\n\nFinally, the function modifies fields of data contained in a pointer to a struct\n_0 type struct. By the time it completes, it has formulated a variety of bitwise\n manipulations on global/external variables, as well as various local variables \nand function outputs.\n"
 decompiled = true
+
+[0x1dc708]
+last_change = 2023-11-15T19:49:37.705208Z
+addr = 0x1dc708
+func_addr = 0x1dc708
+comment = "==== AI Summarization ====\nThe code defines two structured types `struct_0` and `struct_1`. It also defines\n some global variables and a function named `sub_1dc708`. The function has a com\nplex flow of control with conditional statements and calls to other (undefined) \nfunctions. The function modifies global variables based on its own variable stat\nes and a calculated mathematical or logical condition. The `struct_0` and `struc\nt_1` types are only utilized within this function, their instances are being use\nd to manipulate or carry certain data. Overall, the main purpose of this functio\nn cannot be entirely understood without knowing what the undefined functions do.\n"
+decompiled = true
