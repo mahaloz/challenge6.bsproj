@@ -1152,3 +1152,10 @@ addr = 0xa2c60
 func_addr = 0xa2c60
 comment = "==== AI Summarization ====\nThis C code is defining a function sub_a2c60() which primarily involves bitwise \nmanipulation of externally defined character and unsigned short variables.\n\nFirst, the function sets v0 to the address of v1. Then, it checks certain bits o\nf different temporary variables (tmp_43, tmp_22, tmp_16), and if these are a par\nticular value (not set or set), it performs certain actions such as calling func\ntions sub_a2830(), sub_a2990(), and sub_a2af0() with arguments v2,v5, and v6 res\npectively, updating specific values in the array v3, and setting certain memory \nslots to 0.\n\nThe function then repeatedly checks the 4th bit of tmp_48, with its value decidi\nng whether to continue the loop or not.\n\nAt the end, it calls another function, sub_6f300(), depending on the 2nd bit of \ntmp_13, it either sets a certain memory slot to 0 or calls a final function, sub\n_6f9f0(), before ending.\n\nThe values and variables used appear to be linked to specific memory addresses, \nso they might be controlling or interacting with hardware, or some specific memo\nry mapped region.\n\n"
 decompiled = true
+
+[0xa3910]
+last_change = 2023-11-15T12:24:42.074836Z
+addr = 0xa3910
+func_addr = 0xa3910
+comment = "==== AI Summarization ====\nThis function appears to be a low-level or compiled code which is difficult to a\nbstract without additional context. It contains numerous local integer, characte\nr, and pointer variables. It assigns some integer variables from other variables\n, and then performs a series of checks on 'tmp' variables. Depending on the resu\nlts of these checks, the function enters different loops, each of which performs\n some operations on memory using pointer arithmetic and constant numerical offse\nts. In the end, values are assigned to locations in memory based on these numeri\ncal offsets and conditions tested. It's likely that this code is performing some\n sort of data transformation or copying.\n"
+decompiled = true
