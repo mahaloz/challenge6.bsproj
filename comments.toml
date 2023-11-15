@@ -2237,3 +2237,10 @@ addr = 0xfd9ec
 func_addr = 0xfd9ec
 comment = "==== AI Summarization ====\nThe code defines two data structures, `struct_1` and `struct_0`, each containing\n various fields of char array and unsigned short integers. It also declares two \nexternal char variables `g_8d04` and `g_8d08`. Lastly, it provides an empty func\ntion declaration `sub_fd9ec()` without any implementation.\n"
 decompiled = true
+
+[0xfe274]
+last_change = 2023-11-15T14:28:59.058548Z
+addr = 0xfe274
+func_addr = 0xfe274
+comment = "==== AI Summarization ====\nThis code is written in C and involves a global variable and a function. \n\nThe global variable named 'g_9bbc' of type character is declared as extern, mean\ning it is defined somewhere else outside of this code file. \n\nThe function named 'sub_fe274' returns an integer. Inside this function, an unsi\ngned integer 'v0' is declared but not initialized. Then, a function 'sub_fe384' \nis called with an argument obtained by performing a bitwise OR operation on 'v0'\n and the address of the global variable 'g_9bbc'. It's noted in comments that th\ne function 'sub_fe384' does not return any value.\n"
+decompiled = true
