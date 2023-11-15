@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x11e4a0
+size = 0x454
+last_change = 2023-11-15T14:46:41.771833Z
+
+[header]
+name = "modify_global_vars_based_on_conditions"
+addr = 0x11e4a0
