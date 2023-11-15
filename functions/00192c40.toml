@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x192c40
+size = 0x230
+last_change = 2023-11-15T18:30:20.154887Z
+
+[header]
+name = "initialize_variables_and_check_conditions"
+addr = 0x192c40
