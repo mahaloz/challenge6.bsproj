@@ -5569,3 +5569,10 @@ addr = 0x1d1140
 func_addr = 0x1d1140
 comment = "==== AI Summarization ====\nThe given code is a complex one written in C language.\n\n1. At first, a struct named `struct_0` is declared which takes 12 bytes of paddi\nng, an unsigned int field_c, another unsigned int field_10, 51 bytes of padding,\n char fields field_47, field_48, field_49, and field_4a.\n\n2. Then an extern global variable named 'g_6006eed2' of type 'unsigned short' is\n declared.\n\n3. Then a function 'sub_1d1140' is declared taking 13 parameters, mainly unsigne\nd integers, one unsigned short and an array of unsigned short.\n\n4. In this function, many local variables are declared. A lot of conditions are \nchecked using if-statements. Certain parts of the code are not executed unless t\nhe condition is met.\n\n5. The function contains several function calls to 'sub_10e59c', 'sub_6f170', an\nd 'sub_6ff50', with different parameters passed each time. What these functions \ndo isn't provided in this code so their purpose remains unspecified.\n\n6. The function ends with setting values to fields in structure v17 and updating\n the global variable 'g_6006eed2'.\n\nIt’s worth noting that a lot of computations and manipulations are involving bit\nwise operations. Given its complexity and lack of comments, without further info\nrmation, specifics on the function's intended functionality is difficult to asce\nrtain at this point.\n"
 decompiled = true
+
+[0x1d18d0]
+last_change = 2023-11-15T19:40:42.653484Z
+addr = 0x1d18d0
+func_addr = 0x1d18d0
+comment = "==== AI Summarization ====\nThe code defined as function `sub_1d18d0` declares two variables `v0` and `v1`, \nboth unsigned integers. It then calls another function, `sub_6f9f0`, 19 times wi\nth these two variables as arguments. The last call of `sub_6f9f0` is also the re\nturn value of the function `sub_1d18d0`. However, it's important to note that th\ne values of `v0` and `v1` are not defined within this function.\n"
+decompiled = true
