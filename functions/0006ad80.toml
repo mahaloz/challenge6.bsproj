@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x6ad80
+size = 0x120
+last_change = 2023-11-15T09:57:39.488316Z
+
+[header]
+name = "update_global_variables_based_on_condition"
+addr = 0x6ad80
