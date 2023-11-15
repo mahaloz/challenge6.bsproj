@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x10a440
+size = 0x2d4
+last_change = 2023-11-15T14:31:29.475951Z
+
+[header]
+name = "cleanup_and_perform_bit_operations"
+addr = 0x10a440
