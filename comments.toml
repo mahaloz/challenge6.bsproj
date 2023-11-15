@@ -3987,3 +3987,10 @@ addr = 0x16c380
 func_addr = 0x16c380
 comment = "==== AI Summarization ====\nThe code is a part of a computer program written in C language that contain vari\nous integer and character type variables. The code contains bitwise manipulation\ns (&, |, ^ and __ROR__) and logical comparisons that are used to set the values \nof the global, extern variables (g_100000, g_60061c2b, and g_60061e1c) and local\n variables. The function carries out several conditional operations based on the\n presence of a bit in certain positions in different variables. These operations\n include resolving the value of `v1` using ternary condition, bitwise right rota\ntion and manipulation to calculate values of global variable `g_60061e1c` and lo\ncal variables (`v0`, `v20`, `v24`, `v25`). Near the end, it checks a condition r\nelated to variable `tmp_36` and `v2`, and if both conditions are met, it jumps t\no the location labelled 'LABEL_0x16c58c'.\n"
 decompiled = true
+
+[0x16c590]
+last_change = 2023-11-15T16:30:43.645232Z
+addr = 0x16c590
+func_addr = 0x16c590
+comment = "==== AI Summarization ====\nThis C code declares a function named sub_16c590 which takes no arguments. In th\nis function, some global variables (g_60061dbf and g_60061e78) and local variabl\nes of various types (integer, char, unsigned int and unsigned short) are used. \n\nThe function's core logic is essentially checking certain bit manipulations and \nconditionally copying or setting variables, or performing specific operations ba\nsed on these checks. Some of the operations include checking if certain bits (bi\ntwise AND) in characters are true i.e., & 2, & 4, etc., checking if certain bits\n (bitwise XOR) in integers or characters are true i.e., ^2, ^4, etc.\n\nThis code also features sections marked with labels (LABEL_16c668 and LABEL_16c6\n70), which may be referenced using goto statements, suggesting this part of a bi\ngger codebase where jump instructions are used. A right rotate (ROR) operation i\ns also performed on a value from a certain memory address before applying a bitw\nise & operation with 1.\n\nThe function doesn't return any value.\n"
+decompiled = true
