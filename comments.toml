@@ -4967,3 +4967,10 @@ addr = 0x1b1390
 func_addr = 0x1b1390
 comment = "==== AI Summarization ====\nThe provided C code performs some binary bitwise operations on integer variables\n, primarily using bit masking and XOR operations. First, it defines a structure,\n struct_0, with an 8-byte character array and an unsigned integer.\n\nThis code contains a function named sub_1b1390(). This function initializes inte\nger and unsigned int variables and starts with a conditional check. It checks if\n the 3rd bit of variable `v5` is not set. If the bit is not set, the function ex\necutes a series of nested conditions, bitwise operations, and assignments involv\ning the temp variables (`tmp_*`). \n\nThe complex if-else logic within the function assigns different hexadecimal valu\nes (representing float numbers) to `v7`, `v11`, and `v10`. In some conditions, t\nhe field_8 attribute of the `struct_0` object `v9` gets assigned the values of `\nv7` or `v10`. \n\nFinally, the function assigns a memory address value to variable `v0` and assign\ns variable `v12` to `v1`. If `v5`'s 3rd bit is set, the function jumps to a non-\nexistent label. The absence of any return statement and a jumping label to nowhe\nre seems to suggest that this code snippet is incomplete or erroneously written.\n"
 decompiled = true
+
+[0x1b1624]
+last_change = 2023-11-15T18:43:32.670946Z
+addr = 0x1b1624
+func_addr = 0x1b1624
+comment = "==== AI Summarization ====\nThis code defines three C structures (struct_2, struct_0, and struct_1), all con\nsisting of various char arrays (used for padding) and unsigned int values. It al\nso declares several global variables as extern, indicating that they are actuall\ny defined elsewhere (in another file or module). A final piece of the code is a \ndeclared, yet undefined, function called sub_1b1624.\n"
+decompiled = true
