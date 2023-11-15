@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xa99f0
+size = 0x23c
+last_change = 2023-11-15T12:32:38.082612Z
+
+[header]
+name = "handle_or_modify_memory"
+addr = 0xa99f0
