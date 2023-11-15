@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x171cd0
+size = 0x1bc
+last_change = 2023-11-15T16:41:12.807920Z
+
+[header]
+name = "bitwise_operation_on_globals"
+addr = 0x171cd0
