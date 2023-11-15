@@ -5240,3 +5240,10 @@ addr = 0x1c4bc0
 func_addr = 0x1c4bc0
 comment = "==== AI Summarization ====\nThis function 'sub_1c4bc0' refers to some global variables and works with local \nvariables, it performs bitwise operations and tests for some conditions based on\n the output of these bitwise operations. \n\nPrior to performing some operations, it checks if `v2 & 4 != 4`. If this conditi\non is satisfied then it calls a function 'sub_10e59c' with arguments 'v3', and '\nv4'. \n\nIt also conditionally ors g_60061dfc with v5 which is either 0 or -1 based on th\ne value of v2. \n\nIt then checks if `tmp_23 & 2 != 2`, calling 'sub_10e59c' with arguments 'v3', a\nnd '0x41f00000' if the condition is met. After that, it conditionally ors g_6006\n1df8 with v6 and negates individual bits of resultant value, then updates anothe\nr variable at an address calculated based on 'v7' and '&g_4bdc'. After completin\ng all these operations, it calls the 'sub_6f170' function with an integer value \nderived from 'v1'. \n\nSimilar procedure is performed for the condition `tmp_8 & 2 != 2`, after which i\nt updates some positions of the array 'v9' with values 'v0', 'v10', 'v11', and '\nv12'.\n"
 decompiled = true
+
+[0x1c4f70]
+last_change = 2023-11-15T18:59:38.395717Z
+addr = 0x1c4f70
+func_addr = 0x1c4f70
+comment = "==== AI Summarization ====\nThis code defines multiple external global characters and an integer function na\nmed \"sub_1c4f70\". The function creates several local variables, then runs a func\ntion(sub_6f9f0) multiple times with v2 and v3 as its parameters before setting e\nach global character to 1. The function then returns the integer value 161109435\n6. These global characters are originally defined in another file (thus the \"ext\nern\" keyword) and are all set to `1`.\n"
+decompiled = true
