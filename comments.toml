@@ -1061,3 +1061,10 @@ addr = 0x9d450
 func_addr = 0x9d450
 comment = "==== AI Summarization ====\nThe given C code defines two structures, struct_0 and struct_1, each having padd\ning and a field member. It also declares various variables and pointers to these\n structures. \n\nAn external global variable g_60070b32 is also declared.\n\nThe function sub_9d450 has complex control flow with multiple if-else conditions\n. These conditions seem to inspect and manipulate bit positions in variables lik\ne tmp_50, tmp_13, tmp_24, tmp_21, and tmp_8. The operations are mainly about set\nting certain variables or structure fields to 1 or incrementing them, making som\ne function calls to sub_9d1f0, sub_9d2c0 and possibly modifying an external vari\nable g_60070b32.\n\nNote: This code seems to be a disassembly or decompilation output, as evidenced \nby the use of labels, 'do not return' comments and naming convention of variable\ns (like tmp_50, tmp_13 etc.). Also, it is not complete and varies from standard \nC, having non-returning condition branches and some missing pieces like a missin\ng return statement at the end of the function.\n"
 decompiled = true
+
+[0x9e590]
+last_change = 2023-11-15T10:53:07.433524Z
+addr = 0x9e590
+func_addr = 0x9e590
+comment = "==== AI Summarization ====\nThis code defines an external global variable and a function. The function has m\nany local variables and performs several operations on these variables, includin\ng arithmetic operations, conditional checks, assignments, and function calls. It\n also interacts with global variables. Several conditionals, loops, and external\n function calls suggest complex functionality. This function could be a part of \nlarger system or framework. However, the exact purpose of the function isn't cle\nar just from the code without context.\n"
+decompiled = true
