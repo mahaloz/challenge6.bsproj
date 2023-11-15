@@ -1698,3 +1698,10 @@ addr = 0xbd980
 func_addr = 0xbd980
 comment = "==== AI Summarization ====\nThe code declares a structure, \"struct_0\", that has a padding array size of 2730\n, an unsigned short field, and several global variables. It also defines a funct\nion, \"sub_bd980()\" which initializes, assigns and manipulates a series of values\n using various operations. In the function, it appears several loops are accompl\nishing sequential memory address manipulation, bitwise rotation, bitwise and con\nditions, and memory address assignments. At the end of the function, a global va\nriable is reset and a local variable is updated and returned. This is written in\n C programming language with quite a low-level flavor, since it conducts sophist\nicated memory operations and bit manipulations, which could be used in certain s\nystem-level or hardware-related developments.\n"
 decompiled = true
+
+[0xbe060]
+last_change = 2023-11-15T13:11:08.399073Z
+addr = 0xbe060
+func_addr = 0xbe060
+comment = "==== AI Summarization ====\nThis C code defines two structures, struct_1 and struct_0, and declares several \nglobal variables of different types such as unsigned short, char and unsigned in\nt. It also declares numerous local variables within the sub_be060 function defin\nition. \n\nThe function sub_be060 manipulates these variables in ways that depend on variou\ns complex conditions. For example, under certain conditions it can call the func\ntions sub_cae00, sub_befa0, sub_bc6b0 and sub_10b8b0 and it performs different k\ninds of bitwise operations, additions and subtractions on the variables.\n\nGiven the generically named variables and obscure nature of the data transformat\nions, more context would be needed for clear understanding of the primary purpos\ne of this function.\n"
+decompiled = true
