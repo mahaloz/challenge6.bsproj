@@ -4834,3 +4834,10 @@ addr = 0x198c28
 func_addr = 0x198c28
 comment = "==== AI Summarization ====\nThe given code is a C program that's a function using external unsigned short va\nriables, g_6006e59c, g_6006e59c. \n\nThe function is mainly composed of a series of complex nested conditional and re\nlation checks on variables and memory addresses. Whatever these conditionals eva\nluate to, the function modifies the value of global variable g_6006e59c and some\ntimes g_6006e59e. \n\nIt appears to perform a series of bitwise operations and based on specific condi\ntions, various branches of logic are followed. Additionally, it includes calls t\no an external function written as sub_10e59c using the variables v4 and v5 (and \nsometimes v6). \n\nFinally, depending on satisfying different conditions, specific labels are used \nfor jump statements to various parts of the code. \n\nHowever, without appropriate context or comments, it's challenging to deduce the\n practical or real-world use of this function.\n"
 decompiled = true
+
+[0x199178]
+last_change = 2023-11-15T18:35:40.090781Z
+addr = 0x199178
+func_addr = 0x199178
+comment = "==== AI Summarization ====\nThis code is a function named `sub_199178` written in C programming language. It\n first lists a variety of external global variables, represented as `extern`, wh\nich means these variables could be defined in another file. \n\nThe `sub_199178` function contains a significant number of local variables, incl\nuding integer, character array, void pointer, and unsigned integer array types. \n\nThe function proceeds with a series of computations and condition checks (if-con\nditions) involving these variables. Notably, based on the value of `tmp_142` and\n `tmp_111`, it sets certain values in global variables such as `g_6006e4f8`, `g_\n6006e4ee`, `g_6006e4eb`, `g_60075160`, and `g_6006e4f4`.\n\nThe function appears to be part of a larger program, and without that context it\n's hard to surmise its exact purpose. The use of hardcoded values and multiple b\nitwise operations suggests it might be part of a lower level system, memory mana\ngement or possibly a driver.\n"
+decompiled = true

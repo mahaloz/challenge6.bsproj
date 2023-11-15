@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x199178
+size = 0x154
+last_change = 2023-11-15T18:35:40.090781Z
+
+[header]
+name = "update_global_variables_based_on_conditions"
+addr = 0x199178
