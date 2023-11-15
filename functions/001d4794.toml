@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1d4794
+size = 0x108
+last_change = 2023-11-15T19:43:16.057394Z
+
+[header]
+name = "change_global_vars_and_perform_operations"
+addr = 0x1d4794

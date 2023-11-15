@@ -5604,3 +5604,10 @@ addr = 0x1d40a4
 func_addr = 0x1d40a4
 comment = "==== AI Summarization ====\nThe provided code consists of a long list of global variables declared as 'exter\nn'. These variables are of types 'char', 'unsigned short', and 'unsigned int'. F\nollowing the declarations, there is a function 'sub_1d40a4' that takes no argume\nnts.\n\nIn the function, various local variables of type 'unsigned int' and 'char' are d\neclared. The function appears to be manipulating addresses, invoking another fun\nction called 'sub_6f2a0' by passing different global variables as arguments. The\n result of the calls to 'sub_6f2a0' are being stored in different global variabl\nes. \n\nSome bit manipulation is also performed with certain variables. Three more varia\nbles, 'g_60062eaa', 'g_60062eec', and 'g_60062fc4', are assigned the hexadecimal\n value of 65530.\n\nFinally, the function sub_1d40a4 ends by calling another function 'sub_70050' an\nd returning that function's result. This function receives two arguments, a glob\nal variable 'g_60062e02' and a local variable 'v4'.\n\nIn general, this function may be setting up values for an external hardware devi\nce or peripheral, performing tasks such as hardware initialization or configurat\nion.\n"
 decompiled = true
+
+[0x1d4794]
+last_change = 2023-11-15T19:43:16.057394Z
+addr = 0x1d4794
+func_addr = 0x1d4794
+comment = "==== AI Summarization ====\nThe code is in C and is a function named `sub_1d4794`. The function has several \nexternal character and integer variables as well as local character and integer \nvariables defined. Based on certain conditions, it changes the value of four glo\nbal variables (`g_60062e97`, `g_60062f48`, `g_60074d7c`, `g_60062e8c`) and perfo\nrms some bitwise operations, assignments, and conditional logic. However, the tr\nue purpose of the code is unclear without additional context as it seems to be a\n part of a larger program and the variables are not self-explanatory.\n"
+decompiled = true
