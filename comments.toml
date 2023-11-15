@@ -4085,3 +4085,10 @@ addr = 0x170344
 func_addr = 0x170344
 comment = "==== AI Summarization ====\nThe code defines a structure `struct_0`, declares a number of variables includin\ng the structure `struct_0`, a number of integers and characters, and several ext\nernal characters. It defines a function `sub_1701e8`. In the function `sub_1701e\n8`, it executes a series of conditional operations and assignments depending on \nthe outcomes of these conditions. The function includes bitwise manipulations, a\nddition and subtraction operations, pointer references to memory addresses and p\nossible function calls (like `sub_6f8e0` and `sub_6f240`). However, without furt\nher context on what `sub_6f8e0` and `sub_6f240` do, or the importance of the ext\nernal characters `g_100000, g_51a6, g_60061c3a, g_60061e18`, it's challenging to\n provide a more meaningful summary.\n"
 decompiled = true
+
+[0x170658]
+last_change = 2023-11-15T16:37:12.981765Z
+addr = 0x170658
+func_addr = 0x170658
+comment = "==== AI Summarization ====\nThe C code appears to be for a function named 'sub_170658' that executes various\n operations involving bitwise arithmetic. \n\nIt begins by declaring several variables and pointers. Then it enters several co\nnditional statements where different operations are performed based on the statu\ns of certain bits in the variables. \n\nThe operations involve calling other functions ('sub_10e59c', 'sub_6f170', and '\nsub_6ff50') with varying arguments, performing bitwise OR and NOT operations, as\nsignment operations involving global variables, and returning to different label\ns.\n\nThe value of external global variables 'g_4be8', 'g_51a6', and 'g_60061dd8' are \nused in this code. It is difficult to outline the exact detail without the rest \nof the code or comments to provide context. \n\nAlso, some of the labels in the code don't seem to be present in the code snippe\nt (for example, 'LABEL_0x170664', 'LABEL_0x1706dc', and so on), so it's not clea\nr what the program should do when it hits these labels.\n"
+decompiled = true
