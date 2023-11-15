@@ -5184,3 +5184,10 @@ addr = 0x1c0efc
 func_addr = 0x1c0efc
 comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` in C language with various fields that a\nre separated by character arrays (paddings). These fields are of types: characte\nr, short and unsigned integer.\n\nAlso, there are multiple declaration of global variables, again with character, \nshort, unsigned integer types and pointers. \n\nAt the end, an empty function named `sub_1c0efc` is defined which returns an int\neger.\n"
 decompiled = true
+
+[0x1c1288]
+last_change = 2023-11-15T18:56:22.864864Z
+addr = 0x1c1288
+func_addr = 0x1c1288
+comment = "==== AI Summarization ====\nThe code defines a struct data type called `struct_0` with a number of padding a\nnd field variables of varying types including char arrays, unsigned short, and u\nnsigned int. Padding is usually used to ensure proper memory alignment. Several \nextern variables of different types such as char, unsigned int, void pointers ar\ne also declared. Syntax 'extern' is used when we need to use a variable located \nin another file.\n\nThen it declares a function named `sub_1c0efc()` with no defined behavior. It ap\npears to be an empty function as its body is empty.\n"
+decompiled = true
