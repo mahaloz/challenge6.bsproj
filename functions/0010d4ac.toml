@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x10d4ac
+size = 0x250
+last_change = 2023-11-15T14:36:50.610246Z
+
+[header]
+name = "manipulate_and_evaluate_variables"
+addr = 0x10d4ac
