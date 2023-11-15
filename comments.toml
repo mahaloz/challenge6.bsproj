@@ -1383,3 +1383,10 @@ addr = 0xb0940
 func_addr = 0xb0940
 comment = "==== AI Summarization ====\nThe provided code is written in C and is a function named `sub_b0940` which decl\nares several variables. It then sets up 4 do-while loops that perform some opera\ntions on these variables, such as addition and assigning them to certain memory \naddresses. The outer blocks of code seem to manipulate some externally declared \ncharacter and short unsigned integer variables, performing some division and mor\ne complex operations on them. The function returns the value from a specific mem\nory address (1610630604).\n"
 decompiled = true
+
+[0xb0d30]
+last_change = 2023-11-15T12:39:00.755242Z
+addr = 0xb0d30
+func_addr = 0xb0d30
+comment = "==== AI Summarization ====\nThe code describes a C function named `sub_b0d30` that seems to manipulate a ser\nies of externally declared (extern) chars (`g_8000`, `g_8001`, `g_8002`) and loc\nal-integers and pointers, performing several computations and checks on them. Th\nere is also a call to another external method `sub_b10b0`.\n\nInitially, the function assigns the address of `v2` to `v1`. It also manipulates\n some pointers `v3` and `v5` on the basis of various conditions derived from dif\nferent temporary variables.\n\nDepending on the results of certain bitwise operations and conditions, the funct\nion either assigns values to certain pointers or changes the value of the char p\nointers `v3` to point at the external chars.\n\nThe function `sub_b10b0` is invoked only if a specific condition meets, and its \nreturned value is assigned to the value pointed by `v3`.\n\nThe function appears to finish by setting `v17` to `v1`, and return. Since the f\nunction is declared as `int` but does not return an integer value explicitly, it\ns return value is unclear from this code.\n"
+decompiled = true
