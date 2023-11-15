@@ -2209,3 +2209,10 @@ addr = 0xddc9c
 func_addr = 0xddc9c
 comment = "==== AI Summarization ====\nThe code defines a function named `sub_ddc9c` which declares five char variables\n. Then, it checks some binary conditions for four of these variables. For some o\nf the conditions, it uses a logical negation operator \"!\" and \"Not\" function (wh\nich might be user-defined since C++ standard library does not have \"Not\" functio\nn). If a certain bitwise condition is met, it will jump to a specific location d\nenoted by \"LABEL_0x0\". It also has special conditions where it jumps to \"None\" a\nlthough it's not clear what that refers to since that is not standard C++ syntax\n. Also \"Goto\" is typically written in lowercase as \"goto\" in C++. It's also wort\nh noting that there are references to variable names which are not declared in t\nhe given code.\n"
 decompiled = true
+
+[0xe0338]
+last_change = 2023-11-15T14:27:51.767506Z
+addr = 0xe0338
+func_addr = 0xe0338
+comment = "==== AI Summarization ====\nThis code defines a function `sub_e0338()` that manipulates various global varia\nbles and local variables of integer and character types defined within the funct\nion. The function utilizes bit-wise operations (`&`, `^`, `>>`, `|`, `~`, etc.) \nand conditional statements (`if`, `else`, etc.) for different data manipulations\n. There is also a call to another function, `sub_d23a0()`.\n\nThe extensive use of bit manipulation with numerous temporary variables and glob\nal variables indicates this could possibly be some low-level or hardware related\n code. Also, these variables could be referring to the locations in memory or re\ngister where specific data is stored. \n\nHowever, without context, it's hard to understand the real-world use-case of thi\ns function, as the variable names are not descriptive, and there appears to be n\no clear output (the function has a void return type).\n"
+decompiled = true
