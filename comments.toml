@@ -438,3 +438,10 @@ addr = 0x72510
 func_addr = 0x72510
 comment = "==== AI Summarization ====\nThe provided code is an assembly-like code written in C, and it is hard to exact\nly determine what it does without context, like the behavior of the called funct\nions `sub_70440` and `sub_71dd0`. \n\nHowever we can see some patterns:\n- The code contains a number of similar blocks that test different conditions on\n variables `tmp_22`, `tmp_19` and `tmp_21`.\n- Based on these conditions, pointer variables `v2`, `v6`, `v7`, `v9` are set to\n an offset calculated from the constant `1611135328` and the variable `v3` or ca\nll the functions `sub_70440` and `sub_71dd0`.\n- All the blocks finish with the block label `LABEL_7278c`.\n- It also looks like there's an error in the code at position `0 = 0;`\n\nPlease note that the behaviour of the entire function would be primarily determi\nned by the input values and the actions performed by the `sub_70440` and `sub_71\ndd0` functions.\n"
 decompiled = true
+
+[0x736c0]
+last_change = 2023-11-15T10:19:20.752702Z
+addr = 0x736c0
+func_addr = 0x736c0
+comment = "==== AI Summarization ====\nThis C code defines a function named `sub_736c0`. \n\nThis function declares a number of variables for general purpose use and a numbe\nr of `extern` variables that are defined somewhere else in the code. \n\nThe purpose of this function is not exactly clear without more context, as the f\nunction logic involves bitwise operations, function calls, and manipulations of \nexternal/global variables. \n\nThe function works in a loop with conditioned breaks based on bitwise operations\n on temporary variables. \n\nAt several steps, there's conditional operations or functions called that may mo\ndify these variables, such as `v2` being bitwise OR'd with addresses of differen\nt extern char variables or `v7` taking the value of a function `sub_6f640`. \n\nEventually, external short `g_6006f90a` is set to `v3` and the function returns \n`v7`. \n\nDue to the level of abstraction, this code is likely machine-generated from deco\nmpiled code.\n"
+decompiled = true
