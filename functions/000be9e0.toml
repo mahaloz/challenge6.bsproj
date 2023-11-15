@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xbe9e0
+size = 0x54c
+last_change = 2023-11-15T13:11:38.313619Z
+
+[header]
+name = "perform_checks_operations_and_memory_manipulation"
+addr = 0xbe9e0
