@@ -2181,3 +2181,10 @@ addr = 0xd14d0
 func_addr = 0xd14d0
 comment = "==== AI Summarization ====\nThis C code defines a structure `struct_0` and a function `sub_d14d0()`. The str\nucture `struct_0` has a padding of 4250 characters followed by a character field\n `field_109a`.\n\nThe function `sub_d14d0()` declares several integer and character variables, an \narray of pointers to `unsigned short` and pointers to a character and `struct_0`\n. It checks a number of conditions based on the bitwise `AND` operation with 2 o\nn several temporary variable and performs different operations accordingly, such\n as assigning values to variables or calling other functions. \n\nThe function doesn't explicitly return any value, which suggests that it may be \nmanipulating global or passed in variables to perform its task. The function see\nms to be part of a larger program, and without context it's hard to make a speci\nfic high-level summary. However, it is clear that it performs bitwise operations\n and conditions on several variables, makes function calls, and modifies a globa\nl variable.\n"
 decompiled = true
+
+[0xd17c0]
+last_change = 2023-11-15T14:26:37.830435Z
+addr = 0xd17c0
+func_addr = 0xd17c0
+comment = "==== AI Summarization ====\nThis C code is a function named `sub_d17c0` that performs numerous condition che\ncks, calculations, and bit shifts on a variety of variables such as `unsigned in\nt`, `int`, and `unsigned short`. This function also contains several loops which\n increment or decrement the values of certain variables based on specific condit\nions. Ultimately, this function does not return any value. It appears to be part\n of a low-level program or a machine language translated code, likely dealing wi\nth complex data manipulation or hardware interfacing, but its exact purpose isn'\nt clear from the given code.\n"
+decompiled = true
