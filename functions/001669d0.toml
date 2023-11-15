@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1669d0
+size = 0x134
+last_change = 2023-11-15T16:24:40.645359Z
+
+[header]
+name = "set_external_variables"
+addr = 0x1669d0

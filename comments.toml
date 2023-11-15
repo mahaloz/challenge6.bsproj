@@ -3889,3 +3889,10 @@ addr = 0x1666bc
 func_addr = 0x1666bc
 comment = "==== AI Summarization ====\nThis code is written in C programming language. It declares several global unsig\nned integer variables and has a function named `sub_1666bc` that doesn't have an\ny parameters. The function defines a number of local variables including a 12-el\nement unsigned integer array. \n\nThe function, `sub_1666bc`, first assigns some values to the elements of the `v7\n` array and to some global variables. It also sets `v19`, `v20` and `v22` to som\ne specific values. Then, it enters a do-while loop which continues as long as th\ne eighth bit of the `tmp_19` variable is set. Within this loop, `v22` and `v20` \nare incremented by 4, value of the address pointed by `v20` (interpreted as a po\ninter to int) is assigned to the location pointed by `v22` (also interpreted as \n`unsigned int*`), and `v19` is incremented by 1. After exiting the loop, more gl\nobal variables are assigned specific values. However, the function doesn't retur\nn any value. \n\nThe main aim of this function is to manipulate the values of certain memory addr\nesses that are represented by external variables. The exact functionality of the\n function depends highly on the context where it is used, like initial condition\ns and the values of the variable `tmp_19` and the global variables.\n"
 decompiled = true
+
+[0x1669d0]
+last_change = 2023-11-15T16:24:40.645359Z
+addr = 0x1669d0
+func_addr = 0x1669d0
+comment = "==== AI Summarization ====\nThis code presents an external linkage of several variables of different types (\nchar, unsigned short, unsigned int). These variables are likely defined in anoth\ner file and are being used in this function sub_1669d0(). The function itself se\nts the values of the global variables according to conditions represented by bit\nwise operations. Some values are retrieved directly from external variables and \nsome are computed with the help of helper functions like sub_6f8e0() and sub_6fe\n10(). The function ends by assigning a value to the global variable g_60062bf0 c\nomputed from local variables and another global variable.\n"
+decompiled = true
