@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x6c090
+size = 0x12c
+last_change = 2023-11-15T10:02:05.938768Z
+
+[header]
+name = "perform_complex_operation"
+addr = 0x6c090
