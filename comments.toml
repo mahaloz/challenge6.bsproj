@@ -4799,3 +4799,10 @@ addr = 0x196efc
 func_addr = 0x196efc
 comment = "==== AI Summarization ====\nThis C code defines a function `sub_196efc`. The function references two externa\nl characters `g_6006e4e9` and `g_6006e58d`. \n\nThe function initializes a set of unsigned integers and characters with local sc\nope. The character `v1` is then checked, and depending on whether it meets a cer\ntain bit condition, the value of `v0` is set to either `v2` or `v3`.\n\nNext, the function checks the bit value of `tmp_22`. If not meeting the conditio\nn, the value at a specific memory location is assigned to `v4`. If the condition\n is met, another set of conditions are checked using bitwise operations. Based o\nn this result, `v5` is either set to 0 or 1, and `v4` is set to `v5`. \n\nFinally, the values of `v4` and `v6` are stored in the two external characters `\ng_6006e58d` and `g_6006e4e9` respectively.\n"
 decompiled = true
+
+[0x1970ac]
+last_change = 2023-11-15T18:33:43.562913Z
+addr = 0x1970ac
+func_addr = 0x1970ac
+comment = "==== AI Summarization ====\nThe code is written in C language. It appears to be a cryptographic or obfuscate\nd function from a larger program. This function contains many global extern vari\nables, signifying that they are defined in another file but used here. It also c\nontains a lot of local variables. \n\nIt carries out a range of logical (AND, OR) and bitwise operations (^, <<, >>) o\nn these global and local variables. The function also includes some conditions (\nif-else clauses) and indirect function calls (through a pointer). Without additi\nonal context, it is difficult to specify its exact functionality. Importantly, t\nhe `goto` statements in the function could affect the control flow and lead the \nexecution to various code locations, based on certain conditions. \n\nThe function also has a lack of meaningful variable names, making it hard to det\nermine what the code specifically does. Typically, such code structure and namin\ng convention could come from decompiled assembly code or it is intentionally wri\ntten in such a way to obscure its purpose.\n"
+decompiled = true

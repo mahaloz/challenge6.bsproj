@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1970ac
+size = 0x6bc
+last_change = 2023-11-15T18:33:43.562913Z
+
+[header]
+name = "execute_cryptographic_operations"
+addr = 0x1970ac
