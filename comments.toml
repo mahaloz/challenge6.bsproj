@@ -3966,3 +3966,10 @@ addr = 0x16af78
 func_addr = 0x16af78
 comment = "==== AI Summarization ====\nThe code provided defines a structure and declares multiple external variables (\npresumably global variables). This structure is then used as part of a function \nthat initializes, calculates or manipulates these global variables and their mem\nory addresses in some way. Initially, some global and local variables are define\nd and initialized. Then, a series of operations and function calls are performed\n on these variables. Later on, a set of conditional statements checks the bits o\nf certain variables and executes different code blocks accordingly. The function\n also includes a loop that seems to update variables.\n"
 decompiled = true
+
+[0x16b9c4]
+last_change = 2023-11-15T16:29:23.785967Z
+addr = 0x16b9c4
+func_addr = 0x16b9c4
+comment = "==== AI Summarization ====\nThe provided code snippet is written in C and consists of a struct definition, g\nlobal variable declarations, and a function `sub_16b9c4()`.\n\nThe struct `struct_0` consists of a char array `padding_0` of size 7808 and an u\nnsigned int `field_1e80`.\n\nThere are several global variables declared and they all appear to be of type ch\nar or unsigned short. There is also an unsigned int.\n\nThe `sub_16b9c4()` is a function that doesn't accept any arguments. It then init\nializes several local unsigned int, char, `struct_0` and void pointers. The func\ntion updates the memory of some global variables and function pointer addresses \nwith the results of calling an external function `sub_6f9f0()` multiple times, a\nnd finally returns. The called function, `sub_6f9f0()`, is not defined in this c\node snippet. \n\nIts exact purpose is not clear without more context information such as what `su\nb_6f9f0()` does and the overall program flow.\n"
+decompiled = true
