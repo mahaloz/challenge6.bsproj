@@ -2069,3 +2069,10 @@ addr = 0xcb1e0
 func_addr = 0xcb1e0
 comment = "==== AI Summarization ====\nThe given code defines a C function named `sub_cb1e0`, and a struct type `struct\n_0`. \n\nThe `struct_0` type consists of a character array of length 4 and an unsigned sh\nort integer. \n\nThe `sub_cb1e0` function initializes a large number of integer and pointer varia\nbles, including pointers to the `struct_0` type, short and unsigned integer arra\nys, and an unsigned integer variable `v0`. \n\nThe function includes multiple nested do-while loops and if-else conditions that\n manipulate and check the variables and memory locations (apparently related to \ncertain offset addresses) depending on the state of some temporary variables `tm\np_*`. The logic within these loops and conditional statements is complex and app\nears to carry out a series of bitwise operations, memory address calculations, a\nnd data manipulations. \n\nFinally, the function returns the value of `v44` which is affected by the operat\nions performed in the function. \n\nHowever, without more context about the surrounding program or the purpose of th\ne `sub_cb1e0` function, the specific logical or functional purpose it serves is \nunclear just from this code snippet.\n"
 decompiled = true
+
+[0xcc0f0]
+last_change = 2023-11-15T14:19:52.887615Z
+addr = 0xcc0f0
+func_addr = 0xcc0f0
+comment = "==== AI Summarization ====\nThe provided C code defines a struct named 'struct_1' which contains padding and\n fields of various data types. It defines global characters and a complex functi\non 'sub_cc0f0()'. The function contains a number of complex data operations, suc\nh as:\n1. Bitwise calculations and comparisons.\n2. Loops to process the data.\n3. Assignments of data from/to certain memory regions.\n4. Conditional operations based on specific flags.\n5. References to functions 'sub_2000', 'sub_cae00', and 'sub_cb1e0'.\n\nWithout additional context about the meaning of these specific operations, the o\nverall purpose of the code is unclear, but it likely forms a part of some larger\n system that involves low-level data manipulation and input/output operations.\n"
+decompiled = true
