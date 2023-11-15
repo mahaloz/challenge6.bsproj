@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x71ee0
+size = 0x214
+last_change = 2023-11-15T10:17:12.911332Z
+
+[header]
+name = "manipulate_memory_arrays"
+addr = 0x71ee0
