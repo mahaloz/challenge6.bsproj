@@ -3392,3 +3392,10 @@ addr = 0x14d3f8
 func_addr = 0x14d3f8
 comment = "==== AI Summarization ====\nThis code defines two structs `struct_0` and `struct_1`, each with various field\ns containing chars and unsigned ints. The code defines several external variable\ns named `g_xxxxx`.\n\nWithin the `sub_14d3f8` function, various temporary and named variables are defi\nned, some of which hold a pointer to `struct_1` and `struct_0`. This function ch\necks and manipulates certain variables and fields within the structs based on va\nrious conditions. Notably, the function demonstrates bitwise logical operations \n`&` (and), `^` (xor), and bit shifting `<<` (left shift).\n\nAt the end of the function, it assigns certain fields of the structs and some of\n the external variables to function parameters, local variables, and the result \nof the function `sub_d0b90`, or other constant values.\n\nPlease note that without further context or includes, what `sub_d0b90` does, or \nthe exact use of this code, is unclear. Furthermore, the memory addresses of the\n fields indicate it might be part of a larger codebase, possibly related to low-\nlevel or system programming.\n"
 decompiled = true
+
+[0x14dd00]
+last_change = 2023-11-15T15:49:17.223771Z
+addr = 0x14dd00
+func_addr = 0x14dd00
+comment = "==== AI Summarization ====\nThis code defines a function named `sub_14dd00`. In this function, four variable\ns are declared: `v0`, `v1`, `v2`, `v3`. The function then calls another function\n named `sub_6f9f0` repeatedly with `v2` and `v3` as arguments. The function `sub\n_6f9f0` is called 36 times in total, and the return value of the last call to `s\nub_6f9f0` is the return value of `sub_14dd00`. The function `sub_6f9f0` is not d\nefined within this code, so we don't know exactly what it does.\n"
+decompiled = true
