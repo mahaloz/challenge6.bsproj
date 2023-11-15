@@ -4001,3 +4001,10 @@ addr = 0x16c7fc
 func_addr = 0x16c7fc
 comment = "==== AI Summarization ====\nThis code seems to define two data structures (struct_0 and struct_1), each with\n various fields of different data types - characters, integers, and padding for \nalignment. There are also several external variables declared (such as g_60061bd\n6, g_60061bd7, etc.).\n\nThe primary function (sub_16c7fc) appears to perform various bitwise operations \nand if-else conditions. This function also calls some other functions (e.g. sub_\n10e59c, sub_239c30, sub_239c20) whose functionality is not included or defined i\nn the given code. The function does not return any apparent value but appears to\n modify some global variables and work with the fields of the defined data struc\ntures.\n\nPlease note that without additional context or comments, it's hard to understand\n the exact purpose of the function.\n"
 decompiled = true
+
+[0x16cc74]
+last_change = 2023-11-15T16:31:34.957639Z
+addr = 0x16cc74
+func_addr = 0x16cc74
+comment = "==== AI Summarization ====\nThe code defines a struct type and several global variables, as well as a functi\non called \"sub_16cc74\". Inside \"sub_16cc74\", a number of variables and pointers,\n as well as arrays, are declared. The function doesn't return a value. \n\nThe function seems to be operating as a control flow with complex conditional st\natements  and carry out a number of processes including shifting of bits (using \nROR), updating the global character variables (e.g., g_60061bdb, g_60061bd9), an\nd performing memory operations on the global 'g_60061df0' variable.\n\nThere are also several function calls within this function to another function '\nsub_10e59c', 'sub_6f170', 'sub_6ff50', and 'sub_727b0'. The last function 'sub_7\n27b0' seems to be called multiple times with different parameters.\n\nThe complexity and naming of the code suggests that this code might be a disasse\nmbled C or C++ code, probably converted into a more readable form from a binary \nexecutable code. As such it may be part of a larger program or system and its ex\nact purpose might only be fully understood in that context.\n"
+decompiled = true
