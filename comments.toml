@@ -4862,3 +4862,10 @@ addr = 0x1997b4
 func_addr = 0x1997b4
 comment = "==== AI Summarization ====\nThis is a C program, which defines several global variables and has a function `\nsub_1997b4` that manipulates them. The `sub_1997b4` function begins with the dec\nlaration of several integer and unsigned integer variables, and some assignment \noperations.\n\nThe program uses operator `&` to get the address of some global variables, and `\n*` operator to manipulate the values at the pointer addresses, casting between c\nharacter and unsigned integer.\n\nThere are multiple condition checks performed with `if` statements, and for each\n condition, different computations and operations are performed on data, based o\nn conditions evaluated with bitwise operators(`&`, `^`, `>>`, `~`).\n\nThe function manipulates global values `g_6006e5a4`, `g_6006e5a1`, and `g_600751\n48` based on these conditions. \n\nHowever, without comments or more meaningful variable names, the actual intent a\nnd higher level overview of this code is unclear.\n"
 decompiled = true
+
+[0x1998d0]
+last_change = 2023-11-15T18:37:12.592903Z
+addr = 0x1998d0
+func_addr = 0x1998d0
+comment = "==== AI Summarization ====\nThe given code is a function named `sub_1998d0`. This function initializes sever\nal variables including two unsigned integers (`v0`, `v2`), a char (`v1`), and an\nother unsigned integer (`v3`). It gets the address of `v1` and assigns it to `v0\n`. Then, it calls the function `sub_6f9f0` 22 times in a row, each time passing \n`v2` and `v3` as arguments. Finally, it calls the same `sub_6f9f0` function a 23\nrd time with `v2` and `v3` as arguments and returns the result. The actual funct\nionality of this function is unknown because `sub_6f9f0` isn't defined here.\n\n"
+decompiled = true
