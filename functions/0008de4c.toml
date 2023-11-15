@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x8de4c
+size = 0x170
+last_change = 2023-11-15T10:35:44.664886Z
+
+[header]
+name = "assign_memory_and_call_operation"
+addr = 0x8de4c
