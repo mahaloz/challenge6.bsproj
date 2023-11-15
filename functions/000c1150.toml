@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc1150
+size = 0x170
+last_change = 2023-11-15T13:32:49.129542Z
+
+[header]
+name = "perform_bitwise_operations_and_update_globals"
+addr = 0xc1150
