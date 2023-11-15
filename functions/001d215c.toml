@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1d215c
+size = 0x180
+last_change = 2023-11-15T19:41:57.507921Z
+
+[header]
+name = "conditionally_modify_structures_and_globals"
+addr = 0x1d215c
