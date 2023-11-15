@@ -4981,3 +4981,10 @@ addr = 0x1b1d98
 func_addr = 0x1b1d98
 comment = "==== AI Summarization ====\nThe C code includes definitions of two structs (`struct_0` and `struct_1`), a se\nries of `extern` variables, and a function `sub_1b1d98()`. These components are \neither variables of some types or contain functions and entries for various oper\nations.\n\n`struct_0` has various fields, some are padding fields, unsigned ints of certain\n byte values, chars, and unsigned short.\n\n`struct_1` has a padding field and an unsigned int field.\n\nThe function `sub_1b1d98()` initializes various variables including integers, ch\naracters, and unsigned integers. Using bitwise operations and conditional statem\nents, the function then proceeds to modify global variables, conduct checks, and\n carry out slightly more complex operations such as function calls to some exter\nnally declared functions (`sub_10e59c()`, `sub_6f170()`, and `sub_6ff50()`). \n\nThe function also appears to be used in lower-level programming due to its manip\nulation of memory and bitwise-based checks. \n\nIt is hard to understand the precise purpose of this function due to lack of con\ntext and comments.\n\n"
 decompiled = true
+
+[0x1b20d8]
+last_change = 2023-11-15T18:44:22.642888Z
+addr = 0x1b20d8
+func_addr = 0x1b20d8
+comment = "==== AI Summarization ====\nThe code is a function named `sub_1b20d8` that contains a series of conditions a\nnd operations on variables. Four variables `tmp_144`, `tmp_13`, `tmp_16`, `tmp_2\n1` are used in different binary operations. If the least significant bit of thes\ne variables is set (is 1), different computation paths are followed. Further, th\nere is an array `v3` of size 350 and the code manipulates and assigns some exist\ning values of this array to some of its own indices. Lastly, there is `v4` which\n takes a value from either the end of array `v3` or from a memory location `1611\n064872` depending on the conditions of `tmp_21` and `tmp_16`. The return value o\nf this function is not explicitly defined for all paths and some of the variable\n values such as `v0`, `v1`, and `v2` are not manipulated within this function.\n"
+decompiled = true
