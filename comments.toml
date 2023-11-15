@@ -5198,3 +5198,10 @@ addr = 0x1c1734
 func_addr = 0x1c1734
 comment = "==== AI Summarization ====\nThe provided code describes the structure `struct_0` which contains different da\nta types, namely `char` (individual and arrays), `unsigned_short`, and `unsigned\n_int`, with different fields and padding. It also declares multiple `extern` var\niables of type `char`, `unsigned_int`, and `void*`. Most likely, these variables\n are defined in another file and they are declared `extern` in order to make the\nm available for the other parts of the program. At the end, an empty function na\nmed `sub_1c0efc` returning an integer value is declared.\n"
 decompiled = true
+
+[0x1c2780]
+last_change = 2023-11-15T18:57:06.024456Z
+addr = 0x1c2780
+func_addr = 0x1c2780
+comment = "==== AI Summarization ====\nThe C++ code implements a function called `sub_1c2780()`, which uses numerous gl\nobal and local variables. Notably, the code contains several pointer and bitwise\n operations. The function performs several conditional statements, setting value\ns of variables based on certain conditions and bitwise results. The function als\no calls `sub_10e59c()` with different arguments based on some conditions in two \ninstances, and alters the value stored in the pointer `v33` depending on certain\n conditions. Moreover, this function executes `sub_239c30(v30)` and `sub_239c20(\nv30)` based on the conditions checked. \n\nThe code does not provide what the functions `sub_10e59c()`, `sub_239c30()`, and\n `sub_239c20()` do, it is shown that they are called within the function `sub_1c\n2780()`. \n\nNote: The exact purpose of the function isn't directly clear without context fro\nm the rest of the program, such as the definitions and usage of the global varia\nbles and the subroutines that are being called.\n"
+decompiled = true
