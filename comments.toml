@@ -5737,3 +5737,10 @@ addr = 0x1dd548
 func_addr = 0x1dd548
 comment = "==== AI Summarization ====\nThe provided code is written in C programming language. It defines two struct da\nta types, 'struct_0' and 'struct_1', each with different sized char arrays and u\nnsigned integers or shorts.\n\nAt the start, it declares a number of external variables (most likely global or \nstatic variables defined in another file).\n\nA function 'sub_1dd548()' is then defined with a series of local variables. The \nfunction itself involves a series of if-else conditional statements, bitwise ope\nrations, as well as function calls to unknown functions 'sub_727b0', 'sub_10e59c\n', 'sub_6f170', and 'sub_6ff50'. \n\nAlso, the function seems to modify global variables such as 'g_60062ea0' , 'g_60\n062f5c', 'g_60062e5c' and 'g_60062e50'. At the end, it modifies certain fields o\nf an instance of 'struct_1'.\n\nHowever, without more information about these missing elements, such as what the\n overarching program does, or what the undeclared functions actually do, it is i\nmpossible to understand the functional utility of 'sub_1dd548()' in depth.\n"
 decompiled = true
+
+[0x1dd924]
+last_change = 2023-11-15T19:51:36.279344Z
+addr = 0x1dd924
+func_addr = 0x1dd924
+comment = "==== AI Summarization ====\nThe code defines two structures: struct_1 and struct_0, with some padding and fi\nelds. There are several global variables declared of char and unsigned int types\n. \n\nIt defines a function sub_1dd924, which seems to be performing some sort of bitw\nise operations. The function likely checks conditions and based on those conditi\nons, it manipulates the values of global and local variables. \n\nSubsequently, it calls external functions sub_727b0, sub_10e59c, sub_6f170, sub_\n6ff50, sub_239c30 and sub_239c20 with different parameters passing. The number a\nnd nature of these functions suggest that it may be handling memory operations, \nbut without the implementation or details of these functions, it is difficult to\n pinpoint the exact functionality. \n\nFinally, it modifies the fields in the struct_0.\n"
+decompiled = true
