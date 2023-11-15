@@ -5765,3 +5765,10 @@ addr = 0x1de480
 func_addr = 0x1de480
 comment = "==== AI Summarization ====\nThe code defines two structures, \"struct_0\" and \"struct_1\", along with multiple \nglobal variables and the function \"sub_1de480\". \n\n\"struct_0\" has multiple fields, which are arrays, integers, and characters. Simi\nlarly, \"struct_1\" also has a few fields.\n\nThe function \"sub_1de480\" primarily deals with loading different values into the\nse structures. However, it includes complex and conditional operations based on \nprocessing of bitwise operations, invocation of an undefined function (sub_10e59\nc), and some external function calls (like sub_727b0, sub_6f170, sub_6ff50, sub_\n239c30, and sub_239c20). \n\nThe function also modifies the values of the global variables \"g_1c75\", \"g_4ab0\"\n, \"g_60062e50\", \"g_60062e58\", \"g_60062e5c\", \"g_60062e74\", \"g_60062f98\", and \"g_6\n0062fa0\". \n\nNote that the exact functionality of this function is not entirely clear due to \nthe number variables with temporary names (e.g., tmp_1, tmp_2, etc.), the placeh\nolder names of the functions and the bitwise operation sensitiveness, which sugg\nests that the code could have been produced by a decompiler.\n"
 decompiled = true
+
+[0x1deb10]
+last_change = 2023-11-15T19:53:18.986438Z
+addr = 0x1deb10
+func_addr = 0x1deb10
+comment = "==== AI Summarization ====\nThe given C code defines a function `sub_1deb10`. This function declares four va\nriables: `v0` and `v2` are of `unsigned int` type, `v1` is a `char` type and `v3\n` is an `unsigned int` type. The memory address of `v1` is assigned to `v0`. The\nn, a function `sub_6f9f0` is called 19 times with the same arguments, `v2` and `\nv3`. The result of the 19th `sub_6f9f0` function call is returned as the result \nof `sub_1deb10`.\n"
+decompiled = true
