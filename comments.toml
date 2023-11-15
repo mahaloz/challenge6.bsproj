@@ -67,3 +67,10 @@ addr = 0x5f60
 func_addr = 0x5f60
 comment = "==== AI Summarization ====\nThis code defines an empty function named \"sub_5f60\" that takes no arguments and\n returns an integer. Given that the function has no content, it would likely cau\nse a compile error unless completed.\n"
 decompiled = true
+
+[0x40fa8]
+last_change = 2023-11-15T09:56:19.110004Z
+addr = 0x40fa8
+func_addr = 0x40fa8
+comment = "==== AI Summarization ====\nThis piece of code defines a function `sub_40fa8()` which seems to work as a low\n-level processor function. This function does not return any value.\n\nIn the function, an array of unsigned integers `v0` with a size of 776 is declar\ned, along with several other integer and unsigned integer variables. An external\n character variable `g_bbe70` is also accessed.\n\nThe function mainly performs bitwise operations and uses several other functions\n with names like `sub_10a720()`, `sub_bbf90()`, `sub_10a440()`, and `sub_bf410()\n`. These function names are likely placeholders from decompiled or disassembled \ncode, and without the original source code or further context, we cannot determi\nne what these functions do.\n\nIn a loop, `g_bbe70` is being incremented by 20 and `v6` is being incremented by\n 1 while certain bitwise conditions hold true.\n\nAt the end, the function `sub_bf410()` is called with an argument of `2`, and th\nen the function does not return (`/* do not return */`). This implies that `sub_\nbf410()` probably terminates the program or alters the control flow in a way tha\nt `sub_40fa8()` doesn't return in the usual way.\n"
+decompiled = true
