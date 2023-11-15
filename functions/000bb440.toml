@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xbb440
+size = 0x1d0
+last_change = 2023-11-15T13:06:01.544885Z
+
+[header]
+name = "manipulate_struct_fields"
+addr = 0xbb440
