@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1791cc
+size = 0x738
+last_change = 2023-11-15T16:51:07.677856Z
+
+[header]
+name = "manipulate_structure_fields_with_bitwise_operation"
+addr = 0x1791cc
