@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x14a13c
+size = 0x128
+last_change = 2023-11-15T15:45:24.874042Z
+
+[header]
+name = "manipulate_global_variables_and_struct"
+addr = 0x14a13c
