@@ -5464,3 +5464,10 @@ addr = 0x1cc3b8
 func_addr = 0x1cc3b8
 comment = "==== AI Summarization ====\nThe code defines two structs, struct_1 and struct_0, with various fields. It als\no declares an external char, g_49b0. In the function sub_1cc3b8(), it creates se\nveral integer and character variables, some of which are designated as temporary\n value holders. It calls an external function sub_10e238(), then performs severa\nl operations on the variables, including calling another external function sub_d\n1cc0(). The code also does several bitwise operations and assignments, and makes\n use of conditionals.\n"
 decompiled = true
+
+[0x1cc518]
+last_change = 2023-11-15T19:34:02.010586Z
+addr = 0x1cc518
+func_addr = 0x1cc518
+comment = "==== AI Summarization ====\nThis seems to be a disassembled compiled version of a C program. The code, with \nhoog-level C structures, defines two types of structures, each containing paddin\ng and a single unsigned integer field. Five external variables are declared, fol\nlowed by a rather complicated function called sub_1cc518(). \n\nThe function contains a plethora of variables with a large number of statements \ninside, including several conditional statements and calls to other previousely \ndeclared sub-functions. The sub-functions appear to manipulate data stored in th\nese various structures and globally declared variables. \n\nThese structures seem to be used to provide offsets in memory for read/write ope\nrations. The assembly code operations are very low-level (such as bit shifting a\nnd masking), and it can be challenging to determine precisely what's happening w\nithout additional specific software and hardware context.\n"
+decompiled = true
