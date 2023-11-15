@@ -2405,3 +2405,10 @@ addr = 0x10f02c
 func_addr = 0x10f02c
 comment = "==== AI Summarization ====\nThis C code represents a function with a large number of variables that performs\n various mathematical operations such as bit shifting, bitwise operations like A\nND and OR, condition checks, and loops. It might be depicting a complex algorith\nm or transformation. \n\nThe function does not accept any parameters and seems to be manipulating global \nvariables. It also calls another function sub_10eff8() under certain conditions.\n The combination of various bitwise operations and checks suggest this could be \npart of a larger, complex system where this function is modifying or operating o\nn global variables.\n\nNevertheless, without more context and information about the rest of the program\n, the specific purpose or functionality of this code cannot be accurately determ\nined.\n"
 decompiled = true
+
+[0x10f1e0]
+last_change = 2023-11-15T14:39:14.112116Z
+addr = 0x10f1e0
+func_addr = 0x10f1e0
+comment = "==== AI Summarization ====\nThe function sub_10f1e0 in this code is a complex function that takes no argumen\nts, declares a large number of local variables, and manipulates global variables\n that are defined elsewhere in the code (these are the extern char declarations \nat the beginning). It uses these variables to perform a number of operations inc\nluding addition, subtraction, bitwise shifting, division, bitwise AND and OR ope\nrations, and conditional assignment based on the result of bitwise AND and compa\nrison operations. The function eventually returns a value that results from thes\ne operations. The main purpose of the code appears to be some kind of lower leve\nl system operation or data manipulation as suggested by those bitwise operations\n and usage of external global variables.\n"
+decompiled = true
