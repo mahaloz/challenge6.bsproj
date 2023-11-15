@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x16fe58
+size = 0x2b4
+last_change = 2023-11-15T16:35:47.785312Z
+
+[header]
+name = "manipulate_global_variables_and_perform_bitwise_operations"
+addr = 0x16fe58
