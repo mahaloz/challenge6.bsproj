@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x93420
+size = 0x190
+last_change = 2023-11-15T10:41:26.172622Z
+
+[header]
+name = "update_global_vars_and_perform_bitwise_operations"
+addr = 0x93420
