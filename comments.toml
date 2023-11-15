@@ -179,3 +179,10 @@ addr = 0x6c690
 func_addr = 0x6c690
 comment = "==== AI Summarization ====\nThe code presents two custom data structures (\"struct_0\" and \"struct_1\"), and a \nfunction named \"sub_6c690\". This function carries out a series of operations, ma\ninly focusing on the bitwise operations. It defines a group of variables and per\nforms bitwise operations such as bitwise AND (&), XOR (^), and right rotation (_\n_ROR__). The function also uses a while loop and multiple if-else conditional st\natements to determine the flow of operations. The return value of the function i\ns not specified. There are two return statements, returning nothing, that appear\n to be used to break out of the function early under certain condition-tested si\ntuations. The function also uses pointers to the custom data structures (struct_\n0 and struct_1).\n"
 decompiled = true
+
+[0x6c8b0]
+last_change = 2023-11-15T10:03:39.021816Z
+addr = 0x6c8b0
+func_addr = 0x6c8b0
+comment = "==== AI Summarization ====\nThe code first defines two structures named struct_0 and struct_1, and then decl\nares a function named sub_6c8b0. \n\nstruct_0 is a complex structure that comprises 17 fields. struct_1 is a simple s\ntructure that has a padding array and an unsigned int field. \n\nAn external char variable g_527c is declared. \n\nIn the function sub_6c8b0, a series of local integer and char variables, as well\n as pointers to struct_0 and struct_1, are declared. It manipulates the data in \nstruct_0 through the pointer v10 based on conditions related to temporary intege\nr variables. Then it assigns various field data of struct_0 to a series of local\n character variables. While not completely clear without context, it seems that \nit might be involved in some bit manipulation, perhaps as a part of a larger pro\ngram. \n\nThe function then appears to make a function call to another function (sub_71dd0\n). It takes as parameters the field_4 of struct_1 and address of the variable v0\n.\nThe function returns no value. It has two return points controlled by the condit\nion of a temporary variable tmp_22.\n"
+decompiled = true
