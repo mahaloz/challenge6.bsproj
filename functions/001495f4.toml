@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1495f4
+size = 0x580
+last_change = 2023-11-15T15:44:30.090321Z
+
+[header]
+name = "execute_memory_operations"
+addr = 0x1495f4
