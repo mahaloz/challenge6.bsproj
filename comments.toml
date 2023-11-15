@@ -5247,3 +5247,10 @@ addr = 0x1c4f70
 func_addr = 0x1c4f70
 comment = "==== AI Summarization ====\nThis code defines multiple external global characters and an integer function na\nmed \"sub_1c4f70\". The function creates several local variables, then runs a func\ntion(sub_6f9f0) multiple times with v2 and v3 as its parameters before setting e\nach global character to 1. The function then returns the integer value 161109435\n6. These global characters are originally defined in another file (thus the \"ext\nern\" keyword) and are all set to `1`.\n"
 decompiled = true
+
+[0x1c50b8]
+last_change = 2023-11-15T18:59:57.547752Z
+addr = 0x1c50b8
+func_addr = 0x1c50b8
+comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` with padding and a couple of fields of t\nype `char` and `unsigned int`. It also declares four external `char` variables. \nThe function `sub_1c50b8()` is defined with lots of local variables, including a\n pointer to a `struct_0`.\n\nThe function `sub_1c50b8()` seems to be doing different computations based on mu\nltiple conditions, like manipulating values in memory, calling external function\ns like `sub_6f8e0` and `sub_6fe10`, executing loop to process certain fields, se\ntting fields of `struct_0` etc. The specific nature of these computations is har\nd to discern without more context about the attributes and the external function\ns used.\n"
+decompiled = true
