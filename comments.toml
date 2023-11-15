@@ -2461,3 +2461,10 @@ addr = 0x118a30
 func_addr = 0x118a30
 comment = "==== AI Summarization ====\nThis code is written in C and appears to be part of a larger program. It defines\n a function 'sub_118a30' without any arguments. Within the function, it declares\n several extern char and local variables of various types. \n\nIn the function body, it conducts a series of checks by bitwise ANDing variables\n with 2 to see if the least significant bit is 1 (which it would be for odd numb\ners). Based on these checks, the function carries out different actions, which m\nainly involve writing specific values to certain memory addresses or calling ano\nther function 'sub_d0cc0' with 5 arguments. \n\nThe function ultimately returns a variable v7, but under certain conditions it m\nay return another unsigned short located at a specific address. \n\nThe purpose or functionality of this code can't be determined without more conte\nxt, but it seems that it is manipulating memory addresses and variables based on\n the outcomes of specific conditions.\n"
 decompiled = true
+
+[0x118b70]
+last_change = 2023-11-15T14:41:58.926780Z
+addr = 0x118b70
+func_addr = 0x118b70
+comment = "==== AI Summarization ====\nThe given C code declares a function `sub_118b70()`. \n\nThe function begins with numerous variable initializations and extern global var\niable declarations. These global variables are unsigned shorts, void pointers or\n chars. The function `sub_118b70()` itself does not take any arguments.\n\nWithin this function, the main logic involves: \n- Calling other functions like `sub_b6460()`, `sub_6f7d0()`, `sub_6fbb0()`, `sub\n_d14d0()`, `sub_6f170()`, `sub_b9420()`, `sub_6ff50()`, which presumably perform\n specific calculations or operations. \n- Assigning values to the variables and global variables.\n- Performing bitwise operations under certain conditions.\n- Value comparisons and conditional (if-else) logic.\n\nThe function ends by returning the value from calling another function `sub_6f7d\n0()`.\n"
+decompiled = true
