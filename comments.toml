@@ -1677,3 +1677,10 @@ addr = 0xbc994
 func_addr = 0xbc994
 comment = "==== AI Summarization ====\nThis code is a function (named `sub_bc8e0`) with no parameters. This function in\nitializes several variables and arrays (including the unsigned integer array `v2\n` with 739 elements indexed from 0 to 738). After initializing, the function ass\nigns some specific values to the latter elements of array `v2`.\n\nAlso, the function performs some computations involving bitwise operations on th\ne values of various variables and checking certain conditions. Depending on the \nconditions, it might jump to different labels (i.e., different sections within t\nhe same function).\n\nFinally, in the last section, the function sets the variable `v8` to the value o\nf `v0` before finishing execution. However, the function does not seem to explic\nitly return any value because its return type is `int` but it does not return an\n integer value at the end of the function, this could be an error or possible tr\nuncation of the code snippet.\n"
 decompiled = true
+
+[0xbcc0c]
+last_change = 2023-11-15T13:10:01.223467Z
+addr = 0xbcc0c
+func_addr = 0xbcc0c
+comment = "==== AI Summarization ====\nThe provided code defines an external function named `sub_bcc0c`. The function c\nontains a series of variable declarations, including two external character vari\nables. The main body of the function performs operations on some of these variab\nles including bitwise operations and loops. Notably, there's a nested `do-while`\n loop performing different operations, with one being to reset some values in a \nlarge array based on certain conditions. It's worth noting that this is very low\n-level code and without proper context, the purpose of this function is not clea\nr.\n"
+decompiled = true
