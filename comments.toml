@@ -214,3 +214,10 @@ addr = 0x6d760
 func_addr = 0x6d760
 comment = "==== AI Summarization ====\nThe code defines three C data structures named struct_0, struct_1, and struct_2.\n Each structure contains char arrays (sometimes used for padding) and other vari\nables like unsigned int and unsigned short. \n\nFollowing that, it has a global char variable named g_5278. \n\nLastly, it introduces a complex function sub_6d760. This function appears to be \na low-level function, which is hard to interpret without additional context. It \ninvolves various logical operations, such as bitwise AND, OR and XOR operations,\n and several logical comparisons. It also modifies fields of the defined structu\nres and calls other unknown functions. The function returns an int and in practi\nce, the function passes its input parameters through registers or global memory,\n which is common in low-level or embedded programming.\n"
 decompiled = true
+
+[0x6d8c0]
+last_change = 2023-11-15T10:05:39.916509Z
+addr = 0x6d8c0
+func_addr = 0x6d8c0
+comment = "==== AI Summarization ====\nThe provided code defines three struct data types: `struct_0`, `struct_1`, `stru\nct_2` and some variables using these data types. It then specifies a C function \n`sub_6d8c0()`. \n\nThis `sub_6d8c0()` function performs intricate computations using local variable\ns and temporary variables. The nature of actions performed by the function is no\nt immediately clear due to the heavy use of temporary variables and hexadecimal \nconstants. Furthermore, there are some external functions (`sub_6dbd0()` and `su\nb_6d760()`) being called within main method, but without their implementations, \nit's hard to say specifically what the `sub_6d8c0()` function is intended to do.\n \n\nThe function doesn't return a value, but has an elaborate loop structure and con\nditional decision-making. It appears to contain some bitwise-operation logic, po\nssibly intended for handling binary data or bitfields in complex ways.\n"
+decompiled = true
