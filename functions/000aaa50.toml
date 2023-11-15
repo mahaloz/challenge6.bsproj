@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xaaa50
+size = 0x550
+last_change = 2023-11-15T12:33:53.714380Z
+
+[header]
+name = "perform_low_level_computation"
+addr = 0xaaa50

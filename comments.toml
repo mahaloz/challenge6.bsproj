@@ -1292,3 +1292,10 @@ addr = 0xaa4c0
 func_addr = 0xaa4c0
 comment = "==== AI Summarization ====\nThe code is written in C. There is a function named `sub_aa4c0()` that involves \nprocessing of multiple global character data (`g_70c4`, `g_70c8`, `g_70ce`, `g_7\n0d0`, `g_70d4`, `g_7d84`) and several local variables of type integer or unsigne\nd integer. \n\nThere are several conditional statements that involve checking the bitwise opera\ntions results of these variables. The function does not return anything, but is \nmodifying certain parts of the global state, for example by writing to the memor\ny locations related to the external global variables. It seems to be performing \nsome low-level manipulations on the bits of these global variables, potentially \nfor control flow or signaling in a larger system.\n\nIn addition, a `do while` loop is contained within nested conditional statements\n and includes a bitwise right circular shift function (`__ROR__`). Please note, \nthere is no explicit return value for this function.\n"
 decompiled = true
+
+[0xaaa50]
+last_change = 2023-11-15T12:33:53.714380Z
+addr = 0xaaa50
+func_addr = 0xaaa50
+comment = "==== AI Summarization ====\nThis is an assembly-like code. It is a C-like function named `sub_aaa50`, but it\n operates at a very low level closer to assembly language. It declares several e\nxternal variables (possibly stored in specific memory locations),\nand uses bitwise operations heavily. The function is performing some sort of com\nplex computation, with the specific intent hard to determine without further con\ntext. Its heavy use of bitwise operations suggests low-level system programming,\n perhaps a system or hardware interface. It could be for memory management, hard\nware programming, communications or similar functions. The function finalizes by\n setting the values of g_6007ebe8, g_6007ec02, and g_60071500, and returning the\n value of v11.\n"
+decompiled = true
