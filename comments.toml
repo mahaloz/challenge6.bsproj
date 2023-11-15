@@ -1243,3 +1243,10 @@ addr = 0xa8350
 func_addr = 0xa8350
 comment = "==== AI Summarization ====\nThe given C code is a function named `sub_a8350` that seems to be part of a larg\ner program (since it calls other functions named `sub_a6ef0`, `sub_a7080`, `sub_\na7200`, `sub_a7380`, `sub_a7510`, `sub_a7820`, `sub_a7bc0`, `sub_a7fb0`). \n\nThis function primarily consists of a series of conditional statements, which ar\ne executed based on whether certain conditions on the variables `tmp_25`, `tmp_1\n3`, `tmp_17`, `tmp_8`, `tmp_16` are met. These conditions include bit-wise arith\nmetic operations and checks to see if the second least significant bit (counting\n starts at 0, from right to left) of these integers is 1 or 0 when they are type\ncast to chars.\n\nIf none of the conditions are met, the code sets the memory location pointed by \n`v7 - 2939` to 4 and returns 4. \n\nNote: This function contains several call to other functions marked with \"do not\n return\". The actual flow of execution of the program would depend on the detail\ns of these functions which have not been provided.\n"
 decompiled = true
+
+[0xa84a0]
+last_change = 2023-11-15T12:30:41.449577Z
+addr = 0xa84a0
+func_addr = 0xa84a0
+comment = "==== AI Summarization ====\nThe given code is a C function named 'sub_a84a0'. It declares several integers a\nnd an unsigned integer, then performs a sequence of if conditions. Within each i\nf condition, it checks whether the second least significant bit in the binary re\npresentation of one of the integer variables is set or not. This is done by bit-\nwise AND operation with the number 2. If this bit is set in the integer variable\n, it returns the unsigned integer 'v2'. However, if the bit is not set, it may c\nall another function 'sub_a4a50' or 'sub_a42d0' under certain conditions while p\nassing some parameters to them. If these functions get called, the function 'sub\n_a84a0' does not return but if non-fulfillment of any conditions, it finally ret\nurns the unsigned integer 'v2'.\n"
+decompiled = true
