@@ -683,3 +683,10 @@ addr = 0x89fe0
 func_addr = 0x89fe0
 comment = "==== AI Summarization ====\nThe code defines two structures, `struct_1` and `struct_0`, with character array\ns for padding and an additional variable for each. The type of variable differs \nbetween the two structures with one containing an `unsigned short` and a `char` \nwhile the other only contains an `unsigned short`.\n\nThe code then declares several external character variables like `g_7861`, `g_78\n76`, and `g_787b` among others.\n\nLastly, an empty function named `sub_89fe0` is declared.\n"
 decompiled = true
+
+[0x8b250]
+last_change = 2023-11-15T10:33:02.317192Z
+addr = 0x8b250
+func_addr = 0x8b250
+comment = "==== AI Summarization ====\nThe code defines a structure `struct_0` with several fields separated by padding\n. \nIt declares a number of external global variables, mostly of type `unsigned shor\nt` and some `void` pointers. \n\nThe function `sub_8b250()` initializes various aspects of this `struct_0` and gl\nobal variables based on certain conditions. Notably, if certain temporary variab\nles under specific conditions then the function modifies the value of the global\n variables such as `g_600705cc`, `g_600705d0` among others. The function finally\n returns an integer value computed by the function `sub_6f240()`. \n\nThe code extensively uses pointer arithmetic, temporary variables and specific m\nemory addresses. It seems that `sub_6f240()`, `sub_8b0b0` are externally defined\n functions which are called during the execution of `sub_8b250()`. Without furth\ner context, it's difficult to describe the exact purpose of this code, but it se\nems like a low-level code, possibly related to the management, modification and \ninterpretation of certain data structures and memory locations.\n"
+decompiled = true
