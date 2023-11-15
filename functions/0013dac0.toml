@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x13dac0
+size = 0x384
+last_change = 2023-11-15T15:20:56.023757Z
+
+[header]
+name = "adjust_values_based_on_bitwise_operations"
+addr = 0x13dac0
