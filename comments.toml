@@ -2916,3 +2916,10 @@ addr = 0x12f2b0
 func_addr = 0x12f2b0
 comment = "==== AI Summarization ====\nThe code sets up global external variable references for multiple char and unsig\nned int variables (with hexadecimal naming convention), and also a few void poin\nters. Afterwards, it declares an empty function called sub_12f2b0. The function \ndoesn't have any arguments and doesn't perform any operations. The variables and\n the function are expected to be defined in other source files.\n"
 decompiled = true
+
+[0x130680]
+last_change = 2023-11-15T15:17:56.513777Z
+addr = 0x130680
+func_addr = 0x130680
+comment = "==== AI Summarization ====\nThis is a C program that defines several external character variables along with\n a function named sub_130680. This function contains a rather complicated contro\nl flow logic using various if and else if structure statements alongside the bit\nwise XOR operator. It also calls two external functions, sub_6fbb0 and sub_6f7d0\n, multiple times and manipulates the variables extensively. The function assigns\n values back to the external character variables and finally, it returns the val\nue of v7.\n"
+decompiled = true
