@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x19b12c
+size = 0x368
+last_change = 2023-11-15T18:38:34.377195Z
+
+[header]
+name = "set_global_vars_and_calculate_memory"
+addr = 0x19b12c
