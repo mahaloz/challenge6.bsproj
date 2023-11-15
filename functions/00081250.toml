@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x81250
+size = 0x6b0
+last_change = 2023-11-15T10:25:45.559585Z
+
+[header]
+name = "manipulate_data_and_perform_logic"
+addr = 0x81250

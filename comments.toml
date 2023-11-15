@@ -564,3 +564,10 @@ addr = 0x80a10
 func_addr = 0x80a10
 comment = "==== AI Summarization ====\nThis C code defines a structure named `struct_0` which has an array of `char` of\n length 11 `padding_0`  and a single `char` element `field_b`. This structure ma\ny be padding to reach a particular memory size for performance reasons.\n\nFive global variables are also declared, all of type `char`: `g_60070eff`, `g_60\n0813e7`, `g_6a74`, `g_6a96`, `g_6ab9`, and `g_6b24`. \n\nIn addition, an empty function `sub_80a10()` is also defined. The function curre\nntly does not do anything because there is no code within the function.\n"
 decompiled = true
+
+[0x81250]
+last_change = 2023-11-15T10:25:45.559585Z
+addr = 0x81250
+func_addr = 0x81250
+comment = "==== AI Summarization ====\nThe code is written in C. It defines two structures named struct_0 and struct_1,\n with certain fields and other variables, including several global char variable\ns and local integer and char variables.\n\nThe primary functionality is contained within the function 'sub_81250'. This fun\nction appears to manipulate a lot of data and makes calls to other various funct\nions. It's not entirely clear what the purpose of the function is due to the use\n of non-descriptive variable and function names (e.g., tmp_77 or g_1350) and the\n mismatch of the braces in the code.\n\nA summary of the function would be that it uses a variety of local and global va\nriables to perform some logic involving bit manipulation, then executes differen\nt actions based on the result of these conditional checks (including the calling\n of other functions and the assigning of specific values to specific memory addr\nesses).\n\nWithout additional context or better variable names, it's challenging to further\n clarify the function's actions.\n"
+decompiled = true
