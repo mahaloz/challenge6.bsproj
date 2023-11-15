@@ -1943,3 +1943,10 @@ addr = 0xc7b18
 func_addr = 0xc7b18
 comment = "==== AI Summarization ====\nThe code is written in C and it defines a function `sub_c7840()`. It starts by d\neclaring some global and local variables in the function. Then, the function ass\nigns values to some of these variables and initiates function `sub_b3f10()` with\n `v14` as a parameter. \n\nThere is a complex logic structure involving several nested if-statements. The c\node checks various conditions and depending on the outcomes it executes differen\nt blocks of code. The conditions seem to be bitwise operations on temporary vari\nables, comparing results to 2. Depending on these checks, the function might cal\nl other functions (`sub_10b8b0()`, `sub_cc7b0()`, `sub_cc6c0()`, `sub_cca90()`),\n perform additional assignments among variables, update memory addresses with de\ntermined values, or control the code flow with return points.\n\nThis function appears to be a small part of a much larger project, possibly rela\nted to memory allocation, transformation, or communication between different dat\na blocks or hardware. Due to the absence of the original context, the specific t\nasks or functionalities of the function are not clear from the code snippet.\n"
 decompiled = true
+
+[0xc7d20]
+last_change = 2023-11-15T13:46:03.070296Z
+addr = 0xc7d20
+func_addr = 0xc7d20
+comment = "==== AI Summarization ====\nThe code defines an empty function named 'sub_c7d20' that returns an integer. Ho\nwever, it doesn't perform any operation or return any value.\n"
+decompiled = true
