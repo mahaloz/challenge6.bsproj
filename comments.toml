@@ -5926,3 +5926,10 @@ addr = 0x201d78
 func_addr = 0x201d78
 comment = "==== AI Summarization ====\nThis C program declares several global variables, defines a function called sub_\n201afc(), which manipulates those variables, performs bit-operations, calls cert\nain other functions like sub_10e59c and sub_6fbb0(). \n\nIt also makes usage of conditional constructs with complex conditions based on b\nit-level operations and variable values to guide the flow control. Several tempo\nrary variables are declared to assist with these operations. \n\nThere are certain hops to labels LABEL_0x202110, LABEL_0x201b98, LABEL_0x2024d8,\n LABEL_0x2028a0, LABEL_0x202f98, LABEL_0x202fe0, LABEL_0x203028, LABEL_0x203070,\n LABEL_0x2030b8, LABEL_0x203188 and LABEL_0x202c68, however these labels are not\n defined in the provided code, likely indicating it's part of a larger source fi\nle. \n\nGiven the use of bitwise rotations and conditions, this function may be part of \na lower-level system or device driver. However, without further context or comme\nnts, it's difficult to give a precise summary of what this code is achieving.\n"
 decompiled = true
+
+[0x202140]
+last_change = 2023-11-15T20:03:04.413513Z
+addr = 0x202140
+func_addr = 0x202140
+comment = "==== AI Summarization ====\nThis C language source code contains a function named `sub_201afc`. The function\n utilizes several globally external variables and various temporary variables. T\nhe function carries out a set of operations including bitwise shifts and logical\n operators. The function also calls other functions such as `sub_10e59c` and `su\nb_6fbb0`. It incorporates a series of conditional decisions (`if` statements). T\nhe function's behavior changes depending on the values of the conditions, execut\ning different operations or jumping to different labels. The labels suggest this\n is part of a compiler output or a disassembled code. Please note that it's chal\nlenging to understand the function's actual objective without further context, s\nuch as what the called functions do, the semantics of the variables, and overall\n program architecture.\n"
+decompiled = true
