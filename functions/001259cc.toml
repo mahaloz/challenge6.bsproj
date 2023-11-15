@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1259cc
+size = 0x260
+last_change = 2023-11-15T15:06:07.903878Z
+
+[header]
+name = "manipulate_memory_and_calculate"
+addr = 0x1259cc
