@@ -4260,3 +4260,10 @@ addr = 0x177660
 func_addr = 0x177660
 comment = "==== AI Summarization ====\nThis code declares a global variable 'g_60074a52' and then defines a function 's\nub_177660()'. \n\nIn the function, four variables are defined: v0, v1, v2, v3. The memory address \nof v1 is assigned to v0. \n\nThen, the function 'sub_6f9f0' is called 25 times with arguments v2 and v3, thou\ngh it's not shown in this snippet where v2 and v3 are being assigned. \n\nAfter the repeated function calls, the global variable 'g_60074a52' is set to 1.\n \n\nThe function then ends by calling the 'sub_6f9f0' function once again and return\ning its result.\n"
 decompiled = true
+
+[0x177810]
+last_change = 2023-11-15T16:48:13.670904Z
+addr = 0x177810
+func_addr = 0x177810
+comment = "==== AI Summarization ====\nThe given C code defines several externally linked variables of type char and vo\nid pointers. It also defines a function \"sub_177810\". \n\nIn the function, it defines several temporary and local variables. Various check\ns and operations are performed on these variables. Specifically in the function,\n the statement `v10 = &v11;` assigns the address of the variable v11 to v10. The\nn, the code checks whether the second least significant bit of tmp_48 is set, if\n it is, the function returns v12.\n\nThe code continues to call the function `sub_6f8e0` with parameters v13, v14, v1\n5 and do further bit-wise checks on tmp_13, if the second least significant bit \nof tmp_13 is not set, it assigns 0 to various variables including local variable\ns (v1, v2, v3, v4) and global extern variables (g_600622c4, g_6006230c, g_600623\n50, g_60062280).\n\nFinally, it assigns v0 to g_60061887, calls the function `sub_6f8e0` again with \nsame parameters, and checks if the third least significant bit of tmp_18 is set \nto perform a jump to label \"LABEL_0x1779e4\". \n\nHowever, the last line is incomplete and the code doesn't provide what is done w\nith v5 or what follows the LABEL_0x1779e4.\n"
+decompiled = true
