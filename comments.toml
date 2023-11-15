@@ -2587,3 +2587,10 @@ addr = 0x120910
 func_addr = 0x120910
 comment = "==== AI Summarization ====\nThe code declares several global characters and defines a function `sub_120910()\n`. This function initializes several local variables and memory references like \n`v1`, `v2`, `v3`, `v4` etc. After initialization, it checks some conditions by e\nxamining the value contained in two local integers `tmp_38` and `tmp_13` using b\nitwise operations.\n\nThe function might be part of a bigger system, as it calls other unnamed externa\nl functions such as `sub_6f8e0()` and `sub_10c464()` with varying parameters, ba\nsed on certain conditions.\n\nFinally, the function assigns the value of local variable `v8` to the global cha\nr `g_600631fe` and returns without any return value (probably for the side effec\nts of the function calls and assignments).\n\nWithout contextual information of what those functions do, or what the global an\nd local variables represent, it's challenging to describe more about the functio\nnality of `sub_120910()`.\n"
 decompiled = true
+
+[0x120a60]
+last_change = 2023-11-15T14:49:24.206710Z
+addr = 0x120a60
+func_addr = 0x120a60
+comment = "==== AI Summarization ====\nThe code is written in C and contains the function sub_120a60(). This function f\nirst initializes a number of local variables (the ones with v on the front), whi\nch include simple variables (such as integers and characters) and pointers (such\n as arrays and void pointers). It then uses conditional flow control structures \n(if-else statements) and a loop (while loop) to perform complex memory and arith\nmetic operations. It also calls two other functions - sub_1226b0() and sub_12167\n0() - within its body. The function predicatively returns 'v6', whose value chan\nges depending upon the if-else conditions.\n"
+decompiled = true
