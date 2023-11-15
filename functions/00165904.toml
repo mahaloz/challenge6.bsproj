@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x165904
+size = 0x16c
+last_change = 2023-11-15T16:17:47.321783Z
+
+[header]
+name = "conditional_global_variables_assignment"
+addr = 0x165904
