@@ -718,3 +718,10 @@ addr = 0x8cad0
 func_addr = 0x8cad0
 comment = "==== AI Summarization ====\nThe code is written in C and it appears to be extracted from a larger program, p\nossibly a gaming or embedded software (judging by the example of explicit memory\n address operations and bitwise manipulations).\n\nThe function `sub_8cad0` does not take any argument. There are several externall\ny referred characters (`extern char`) `g_79c0`, `g_79c8`, `g_79f0`, and local va\nriables or temporary variables are declared. These variables are mainly integer \nand character types, and there are also some pointers.\n\nThe function seems to run a few conditional (if) and iterative (do-while) operat\nions based on bitwise manipulations of those variables. Then, the various parts \nof memory are read and written based on these conditions.\n\nThe use of pointer arithmetic and explicit memory addresses suggests that the fu\nnction is performing some form of low-level operations, commonly seen when writi\nng code to interact with hardware or when optimizing for performance or memory u\nse.\n\nIn conclusion, without further context, it is challenging to decipher the higher\n-level logic that `sub_8cad0` is implementing. Basically, the function performs \na lot of memory and bitwise operations with various local and external variables\n. It does not return any values.\n"
 decompiled = true
+
+[0x8cfd0]
+last_change = 2023-11-15T10:34:45.786400Z
+addr = 0x8cfd0
+func_addr = 0x8cfd0
+comment = "==== AI Summarization ====\nThis code defines three external global variables of the type char with names g_\n79f0, g_79f9 and g_79fa. It also defines an empty function called sub_8cfd0 with\n no return value.\n"
+decompiled = true
