@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1738c0
+size = 0x144
+last_change = 2023-11-15T16:44:11.805295Z
+
+[header]
+name = "perform_operations_check_bits"
+addr = 0x1738c0
