@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x8eadc
+size = 0x348
+last_change = 2023-11-15T10:36:10.490977Z
+
+[header]
+name = "process_and_update_variables"
+addr = 0x8eadc
