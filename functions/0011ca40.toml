@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x11ca40
+size = 0x12fc
+last_change = 2023-11-15T14:45:26.020877Z
+
+[header]
+name = "perform_hardware_operations"
+addr = 0x11ca40
