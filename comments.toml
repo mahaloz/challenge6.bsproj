@@ -5506,3 +5506,10 @@ addr = 0x1ce934
 func_addr = 0x1ce934
 comment = "==== AI Summarization ====\nThe code defines an external number of global variables of different types char,\n unsigned int, void*, and unsigned short. There is a function called sub_1ce934(\n), which does not take any parameters. This function initializes local variables\n, calls functions sub_c7f50(), sub_c8390(), sub_18ef10(), eight times the functi\non sub_6f2a0() with different parameters, assigns globals g_60062ce9  and g_6006\n2d58 to  1 and 0 respectively. Other globals g_6006f300, g_6006f322, g_6006f302,\n g_6006f304, g_6006f2c0, g_6006f2c2, g_6006f2c4, g_6006f2c6 are assigned the res\nults of functions sub_6f2a0() with different parameters. g_60062cf6 is assigned \nthe result of function sub_b4160(). Function sub_10cd8c(g_60062cf6, 1) is called\n twice. g_60062cd8 is assigned the result of function sub_10ca18(). g_60062d44 a\nnd g_60062d5c is assigned the hexadecimal number 0x41200000 while g_60062d04 and\n g_60062d40 are assigned 0. The function returns 0 at the end.\n"
 decompiled = true
+
+[0x1cec20]
+last_change = 2023-11-15T19:36:46.209701Z
+addr = 0x1cec20
+func_addr = 0x1cec20
+comment = "==== AI Summarization ====\nThis is a C code piece that uses multiple global and local variables. There is a\n defined data structure named \"struct_0\", which has a char array and an unsigned\n int field. 18 global variables and multiple local variables are also declared. \nThe \"sub_1cec20\" function appears to manipulate these variables using arithmetic\n and bitwise operations, including multiple conditional statements and calls to \nexternal functions named \"sub_10e59c\", \"sub_6f170\", \"sub_7d190\", and \"sub_d0b90\"\n.This function manipulates values of the struct and global variables and return \na value after various operations. The conditional logic can follow two main path\ns, depending on the evaluation of an complicated condition.\n"
+decompiled = true
