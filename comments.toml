@@ -1614,3 +1614,10 @@ addr = 0xba5f0
 func_addr = 0xba5f0
 comment = "==== AI Summarization ====\nThe code is written in C and defines three data structures ('struct_0', 'struct_\n1', and 'struct_2') with fields for padding and additional fields of type 'char'\n and 'unsigned int'. It also defines six external 'char' variables (g_100000, g_\n200000, g_40000, g_400000, g_8000, g_80000). There's an empty function 'sub_ba5f\n0' at the end. The purpose of the code cannot be determined as it stands, as the\n function is empty and the defined structures and variables are not being used.\n\n"
 decompiled = true
+
+[0xbae30]
+last_change = 2023-11-15T13:05:07.621971Z
+addr = 0xbae30
+func_addr = 0xbae30
+comment = "==== AI Summarization ====\nThe provided code in C defines four different structs, struct_1, struct_2, struc\nt_3 and struct_0, each with a character array for padding and an unsigned intege\nr field. It also defines multiple variables of various types including integers,\n pointers, and references to the previously defined structs. A global character \n`g_32a718` is also declared as external.\n\nThe main part of the code is a function `sub_bae30` which performs various opera\ntions depending on the values of some temporary variables. These operations ofte\nn involve bitwise manipulations. The function reads from and writes to certain f\nields in the structs based on the conditions. It also features a loop that itera\ntes until a certain condition met (the bitwise AND operation between `tmp_25` an\nd `8` produces `8`), reading a value from a global character array during each i\nteration.\n\nThe function `sub_bae30` finally assigns to `v23` the address of `v1` and then r\neturns. This function doesn't return any value which suggests that it might be m\nanipulating some global state or the parameters passed to it are getting modifie\nd.\n\nPlease note that __ROR__ is a pseudo function often seen in disassembled code re\npresenting bitwise rotation operation. This does not exist in standard C and it'\ns usually a sign that the source code was reconstructed from disassembled machin\ne code.\n"
+decompiled = true
