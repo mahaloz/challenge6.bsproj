@@ -4120,3 +4120,10 @@ addr = 0x170fa8
 func_addr = 0x170fa8
 comment = "==== AI Summarization ====\nThis C code defines the function `sub_170fa8()` which operates on variables from\n the global scope and some local variables defined in the function scope. The fu\nnction performs a series of check and computation process based on conditions pl\naced with `if` statements. However, it seems to be incomplete, as no return stat\nement is found. Externally defined char variable `g_51a6` and unsigned integer `\ng_60061dd8` are used, and bitwise manipulation is performed on them. `Sub_10e59c\n`, `sub_6f170` and `sub_6ff50` are other unknown functions that are being called\n within this function. The function seems to be a part of disassembled low-level\n program, because several variables are not defined or have missing context in t\nhe presented code.\n"
 decompiled = true
+
+[0x1711e0]
+last_change = 2023-11-15T16:39:04.090769Z
+addr = 0x1711e0
+func_addr = 0x1711e0
+comment = "==== AI Summarization ====\nThe given code is a function in C language, which is defined to handle bitwise o\nperations and conditional branching based on certain conditions. It's mainly man\nipulating some global and local variables using bitwise operations, subroutines \nand condition checks. \n\nThe code uses external variables `g_51a6` and `g_60061dd8`. It involves checks w\nith bitwise operations such as `AND (&)` and `XOR (^)`, and based on these condi\ntions it moves to different labels or calls some subroutines such as `sub_10e59c\n()`, `sub_6f170()`, `sub_6ff50()` and `sub_6f240()`. \n\nAlthough not fully described due to unclear context, the operations include basi\nc manipulation such as assignment of values to variables, bitwise negation and O\nR operations. It looks sections of the code are designed for different scenarios\n or states for the values of the variables.\n"
+decompiled = true
