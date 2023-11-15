@@ -3903,3 +3903,10 @@ addr = 0x166c5c
 func_addr = 0x166c5c
 comment = "==== AI Summarization ====\nThe provided code is a definition of a function named `sub_166c5c`. This functio\nn seems to be part of a larger system and its functionality depends on other ext\nernal unspecified functions referenced as `sub_6fe10`, `sub_6f8e0`, `sub_6fbb0` \nand `sub_70050`. The function utilizes several temporary integer and pointer var\niables (tmp_# and v#). It also uses two external global variables `g_60062c78` a\nnd `g_60062c98`.\n\nThe function mainly consists of a set of conditional if statements. These evalua\nte certain bitwise operations and accordingly call subroutines `sub_6fe10`, `sub\n_6f8e0`, `sub_6fbb0` and `sub_70050` depending on the condition results.\n\nGiven the nature of these subroutines is not provided, it's hard to comment on t\nhe specific role or functionality of this function. The names of the functions a\nnd variables suggest the use of this code in a low-level system, possibly a devi\nce driver or embedded system.\n"
 decompiled = true
+
+[0x167024]
+last_change = 2023-11-15T16:25:27.518097Z
+addr = 0x167024
+func_addr = 0x167024
+comment = "==== AI Summarization ====\nThis code is a function in C language. The function name is sub_167024. It decla\nres several global external variables, and its return type is int. Inside this f\nunction, some local variables are declared.\n\nA bitwise rotation operation is performed on the address of variable v1 and the \nresult is assigned to two of the global variables (g_60061ada and g_60061adb).\n\nThen, several conditions are checked. Depending on these conditions, other funct\nions named sub_23b200 are called with different arguments and the return values \nare assigned to the global variables g_600749c4 and g_600749c6 \n\nThe function finally calls the function sub_23b200 with certain arguments and as\nsigns its return value to the global variable g_600749c2. This same variable (g_\n600749c2) is then returned as the output of the function sub_167024.\n"
+decompiled = true
