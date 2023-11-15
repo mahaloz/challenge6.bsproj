@@ -1369,3 +1369,10 @@ addr = 0xaf680
 func_addr = 0xaf680
 comment = "==== AI Summarization ====\nThe code contains two struct definitions: struct_3 and struct_2 with various fie\nlds. The code also introduces a set of global variables ranging g_100000 to g_c0\n000.\n\nThen, it defines an integer function named \"sub_af680\" with numerous local varia\nbles and no argument. Initial values are set for multiple global variables with \nhard-coded hexadecimal values. The function contains a wide range of conditional\ns, loops, and operations indicating a complex set of processes being computed. T\nhese operations seem to manipulate both the locally defined variables and some o\nf the earlier global variables, particularly those set as external, in various w\nays.\n\nThe function does not return a value explicitly. At the end, a variable v55 is a\nssigned the value of v17, but it is unclear how this is used or if and how this \nmight impact the effect of this function.\n"
 decompiled = true
+
+[0xb05d0]
+last_change = 2023-11-15T12:38:16.927830Z
+addr = 0xb05d0
+func_addr = 0xb05d0
+comment = "==== AI Summarization ====\nThe code is an empty function named 'sub_b05d0' in C or C++ programming language\n, which returns an integer. Currently, it doesn't perform any operations.\n"
+decompiled = true
