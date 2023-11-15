@@ -2783,3 +2783,10 @@ addr = 0x1269d0
 func_addr = 0x1269d0
 comment = "==== AI Summarization ====\nThis C code declares a function called `sub_1269d0()` which has no arguments. Wi\nthin this function, there are several integer and character variables declared b\nut not initialized with any values. The variable `v2` is assigned a value based \non a conditional expression (ternary operator) applied on `tmp_8`. \n\nThe array `v0` elements are assigned values from their respective indexes which \nseems redundant as it doesn't modify any value. Then, `v3`, `v4`, `v5`, `v6` are\n assigned values from certain indices of the `v0` array. \n\nThe pointer `v7` is pointed to the start of the `v0` array shifted by one index.\n \n\nThe code then has an `if` statement that checks whether certain binary operation\ns on `tmp_286` and `tmp_290` are both false. If so, it assigns three initial ele\nments of array `v7` as `0`. \n\nFinally, `v9` is assigned the value `1`, and the function ends without returning\n anything.\n"
 decompiled = true
+
+[0x127418]
+last_change = 2023-11-15T15:09:15.413365Z
+addr = 0x127418
+func_addr = 0x127418
+comment = "==== AI Summarization ====\nThe provided C code defines a function `sub_127418()` which takes no arguments. \nThe function declares a number of integer, char and pointer variables, then call\ns another function `sub_6f640` with two variables. The value returned from this \nfunction is stored in `v8`. \n\nBased on several conditionals, `(v6)` is either set to zero or values are fetche\nd and processed from short or char pointers. If neither of these conditions are \nmet, another value is fetched and processed. \n\nThere are nested conditionals where if certain conditions are met, a loop is exe\ncuted. In this loop, a function `sub_d06c0()` is called multiple times with diff\nerent arguments and some of the variables' values are updated. After the loop (o\nr if the condition for the loop is not met), the function sets `v28` to be equal\n to `v3` and ends. \n\nPlease note that without any additional context or comments it's hard to provide\n a more specific summary of what this function does.\n"
+decompiled = true
