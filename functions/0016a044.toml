@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x16a044
+size = 0x540
+last_change = 2023-11-15T16:28:13.814709Z
+
+[header]
+name = "manipulate_struct_and_perform_bitwise_operations"
+addr = 0x16a044
