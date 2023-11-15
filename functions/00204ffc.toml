@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x204ffc
+size = 0x28c
+last_change = 2023-11-15T20:08:07.691910Z
+
+[header]
+name = "update_global_variables_and_struct_fields"
+addr = 0x204ffc
