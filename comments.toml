@@ -3119,3 +3119,10 @@ addr = 0x1443d0
 func_addr = 0x1443d0
 comment = "==== AI Summarization ====\nThis is a C language code consisting of a single function `sub_1443d0()`. This f\nunction seems to be part of a larger application. This function makes use of ext\nernal variables `g_143e10`, `g_58f0`, `g_600058ec`, `g_60072c88`, `g_60072c8c`, \n`g_60072c98`, `g_60072c99`, `g_60072c9c`, `g_60072ca0`, `g_60072ca4`, `g_60072ca\n8`, `g_60072caa`, `g_7be0`, `g_7be4`, `g_7be8` and `g_7bec`.\n\nWithin the function, depending on various conditions (where many of them are bas\ned on bitwise operations on temporary variables like `tmp_57`, `tmp_8`, `tmp_13`\n, `tmp_12`, `tmp_33`), these external variables and some locally defined variabl\nes (like `v3`, `v6`) are modified. This function internally calls `sub_239b30()`\n, and `sub_144fb0()` functions with certain parameters based on conditions. The \nfunction `sub_1443d0()` ultimately returns the value of the variable `v3`.\n"
 decompiled = true
+
+[0x144650]
+last_change = 2023-11-15T15:31:34.389805Z
+addr = 0x144650
+func_addr = 0x144650
+comment = "==== AI Summarization ====\nThe function sub_144650 uses integer variable declarations and bitwise operation\ns. It starts with initializing several integer and pointer variables, then goes \ninto a conditional looping statement checking bitwise operations on external cha\nracter variables.\n\nIf a condition is met, it performs a series of calculations and checks on numero\nus variables, resulting in operations on a set of integers using bitwise additio\nn or assignment. Depending on the evaluation of other bitwise checks, it enters \ninto another loop that performs operations on integers.\n\nLastly, it sets v0 to v16 and exits the function. As with much low-level code, w\ne can't be certain about the purpose of this routine without knowing more about \nthe context in which it is used.\n\n"
+decompiled = true
