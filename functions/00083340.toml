@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x83340
+size = 0xe50
+last_change = 2023-11-15T10:28:15.549835Z
+
+[header]
+name = "process_input_and_manipulate_memory"
+addr = 0x83340
