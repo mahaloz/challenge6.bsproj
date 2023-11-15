@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1cb1e8
+size = 0x238
+last_change = 2023-11-15T19:31:09.928919Z
+
+[header]
+name = "perform_bitwise_operations_set_null_pointer"
+addr = 0x1cb1e8
