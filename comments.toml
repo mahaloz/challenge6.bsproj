@@ -4848,3 +4848,10 @@ addr = 0x1992cc
 func_addr = 0x1992cc
 comment = "==== AI Summarization ====\nThe given code is a function called \"sub_1992cc\" written in C. It declares a num\nber of variables and pointers to some global variables. The function calculates \nand assigns values for these variables based on various conditions. The global v\nariables \"g_6006e598\", \"g_6006e59a\", and \"g_6007515c\" are accessed and modified \nmultiple times in different conditions. It seems like an assembly-to-C translate\nd code due to the variables named like registers (For example, gpr13, gpr3) and \ntmp (temporary) variables. The \"__ROR__\" represents a \"rotate right\" operation.\n"
 decompiled = true
+
+[0x1993e0]
+last_change = 2023-11-15T18:36:26.476696Z
+addr = 0x1993e0
+func_addr = 0x1993e0
+comment = "==== AI Summarization ====\nThe provided code is written in the C++ programming language. It declares multip\nle external variables and one function 'sub_1993e0'. The function first assigns \nvalues to addresses based on the externally declared variables and local values.\n\nThe code further includes conditional operations based on 'bitwise and' and 'bit\nwise not' operations. Depending on certain conditions being true or false, the f\nunction assigns different values to the variable 'v7' and some external variable\ns.\n\nThe function does not have a specific return value, it simply terminates and ret\nurns after setting some external/global variables with certain values based on i\nnternal logic.\n"
+decompiled = true
