@@ -3791,3 +3791,10 @@ addr = 0x163c20
 func_addr = 0x163c20
 comment = "==== AI Summarization ====\nThe code declares external variables and defines a function named 'sub_163c20'. \nThe function initializes certain memory spaces with certain values. It checks va\nrious conditions based on the values of `tmp_51`, `tmp_13` and `tmp_19`, then ha\nndles these different conditions accordingly. It appears to include a loop that \nrepeatedly calls the `sub_163b20` and `sub_163b40` functions under certain condi\ntions until a specific condition linked with `tmp_19` is met. The function `sub_\n6f640` also seems to be used for some calculations or transformations. Finally, \nthe function returns `v11`, an unsigned integer, which might be the result of th\ne performed operations or calculations.\n\n"
 decompiled = true
+
+[0x163d70]
+last_change = 2023-11-15T16:13:32.452529Z
+addr = 0x163d70
+func_addr = 0x163d70
+comment = "==== AI Summarization ====\nThis is a C code for a function named 'sub_163d70'. \n\nThis function defines three structs named 'struct_0', 'struct_1', and 'struct_2'\n. 'Struct_0' has a character array named 'padding_0' of size 57 and a character \nnamed 'field_39'. 'Struct_1' has a character array named 'padding_0' of size 8 a\nnd a character named 'field_8'. 'Struct_2' has six members, four characters name\nd 'field_0', 'field_1', 'field_2' and 'field_3'; one unsigned integer named 'fie\nld_4'; a character array named 'padding_8' of size 4; and two unsigned integers \nnamed 'field_c' and 'field_10'.\n\nThe function also contains several local variables of type integer, character, p\nointer to the defined structs, and pointer to void. It also declares extern vari\nables 'g_16ac', 'g_527c', and 'g_7b98'.\n\nThe function 'sub_163d70' performs various operations including condition checki\nng, arithmetic, and memory operations related to these structures and other vari\nables. It seems to be part of a low-level system or hardware related code due to\n the usage of padding and manipulation of addresses and contents of variables. H\nowever, without context, its exact purpose remains unclear.\n"
+decompiled = true
