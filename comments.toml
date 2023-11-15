@@ -725,3 +725,10 @@ addr = 0x8cfd0
 func_addr = 0x8cfd0
 comment = "==== AI Summarization ====\nThis code defines three external global variables of the type char with names g_\n79f0, g_79f9 and g_79fa. It also defines an empty function called sub_8cfd0 with\n no return value.\n"
 decompiled = true
+
+[0x8d264]
+last_change = 2023-11-15T10:35:02.089534Z
+addr = 0x8d264
+func_addr = 0x8d264
+comment = "==== AI Summarization ====\nThis code declares several external unsigned integer variables and one function \n(sub_8d264). In the function, multiple local unsigned integer variables and temp\norary integer variables are defined. The function contains several if-else condi\ntions that are deciding the values of the external variables with either the val\nues at location pointers or the results of a function (sub_d0b90). The decision \nis made based on whether the least significant bit of the binary representation \nof temp_18 and temp_21 is 1 or 0 (indicates by the checking \"tmp_18 & 2\" or \"tmp\n_21 & 2\"). The function does not have a designated return value.\n"
+decompiled = true
