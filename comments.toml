@@ -3231,3 +3231,10 @@ addr = 0x146ae0
 func_addr = 0x146ae0
 comment = "==== AI Summarization ====\nThe code defines a structure type 'struct_0' with a character array 'padding_0' \nof size 28 and another character 'field_1c'. There is also a declaration of an e\nxternal character variable 'g_7bd8'. Lastly, an empty function 'sub_146ae0()' is\n also declared, but without any code inside it.\n"
 decompiled = true
+
+[0x146c20]
+last_change = 2023-11-15T15:38:35.640442Z
+addr = 0x146c20
+func_addr = 0x146c20
+comment = "==== AI Summarization ====\nThe given C code defines two structures `struct_2` and `struct_3`, the first wit\nh two `char` arrays utilized as padding, two `char` and two `unsigned int` field\ns, and the second with one `char` field, a `char` array used as padding, and fou\nr `unsigned int` fields.\n\nIt declares some global `char` variables and a function called `sub_146c20`. Wit\nhin the function, numerous local variables of various types (primarily `int` and\n `char`) are declared. The function `sub_146c20` is complex and appears to be pa\nrt of a larger program, potentially performing operations on memory addresses, b\nitwise operations, conditional logic, and calling other functions `sub_239b30`, \n`sub_146ae0`, and `sub_147aa0` whose implementations are not provided.\n\nIt seems that the function manipulates data of the previously defined structures\n and interacts with the global variables and possible external memory. It is imp\nortant to note that `g_60072f15` is used as a reference to some kind of global s\ntate and several temporary variables `tmp_##` are used but not initially defined\n within the function. The implementation of `sub_146c20` shows multiple nested w\nhile and if/else-if/else blocks.\n"
+decompiled = true
