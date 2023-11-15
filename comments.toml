@@ -3826,3 +3826,10 @@ addr = 0x164700
 func_addr = 0x164700
 comment = "==== AI Summarization ====\nThis is an incomplete C code snippet. Here's the breakdown of the code's current\n structure:\n\n1. A struct type, named struct_0, is defined which contains an array of characte\nrs (type char) named 'padding_0' with 3 elements and a single char type variable\n named 'field_3'.\n\n2. It declares three external variables of type char named g_32a750, g_60071338,\n and g_7b98. These variables are defined somewhere else, possibly in other c fil\nes.\n\n3. It declares a function named sub_164700 which returns an integer (int). But, \nthe function body is empty (it has undergone a function declaration but not func\ntion definition) and hence, function does nothing when invoked.\n"
 decompiled = true
+
+[0x164c30]
+last_change = 2023-11-15T16:15:36.970981Z
+addr = 0x164c30
+func_addr = 0x164c30
+comment = "==== AI Summarization ====\nThis code defines a function sub_164c30(). This function primarily consists of m\nultiple nested if and do-while loops and a few data manipulation operations, whi\nch might be some sort of raw data handling or custom calculations.\n\nThe function uses several external global variables (g_529c, g_52a2, and g_52a4)\n and undefined subroutine functions (sub_c1400 and sub_164700).\n\nThe function appears to perform a series of bitwise operations and calculations \nthen makes repeated calls to the functions sub_c1400 and sub_164700 based upon t\nhese calculations, continually modifying the variables v3, v6, and v7 in the pro\ncess.\n\nThe function also modifies memory locations based on the address of the global v\nariables (either decrementing, setting a new value or increment the value), and \nit finally returns the value in v3.\n\nWithout more context about the rest of the program it's part of, specifically th\ne roles of the external variables and the subroutines, it is difficult to give a\n more specific description of what exactly this function is doing. It might be p\nart of a larger program aimed at data processing or algorithmic computation.\n"
+decompiled = true
