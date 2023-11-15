@@ -732,3 +732,10 @@ addr = 0x8d264
 func_addr = 0x8d264
 comment = "==== AI Summarization ====\nThis code declares several external unsigned integer variables and one function \n(sub_8d264). In the function, multiple local unsigned integer variables and temp\norary integer variables are defined. The function contains several if-else condi\ntions that are deciding the values of the external variables with either the val\nues at location pointers or the results of a function (sub_d0b90). The decision \nis made based on whether the least significant bit of the binary representation \nof temp_18 and temp_21 is 1 or 0 (indicates by the checking \"tmp_18 & 2\" or \"tmp\n_21 & 2\"). The function does not have a designated return value.\n"
 decompiled = true
+
+[0x8d464]
+last_change = 2023-11-15T10:35:26.028614Z
+addr = 0x8d464
+func_addr = 0x8d464
+comment = "==== AI Summarization ====\nThe provided code is low-level code (likely output from a C decompiler), which i\ns not easy to understand due to the use of raw memory operations, external globa\nl variables, and temporary variables without meaningful context. However, the co\nde can be summarized as follows:\n\nThe code defines a structure `struct_0` with a character array `padding_0` of si\nze 56 and an unsigned integer `field_38`. There are also external character vari\nables `g_7848`, `g_784c`, `g_7863`, `g_786e`, `g_789c`, `g_79f6`.\n\nThe function `sub_8d464` performs several operations involving conditional check\ns and memory operations. These operations largely involve writing zeros and ones\n to different memory locations, based on the values of several variables such as\n `v0`, `tmp_18`, `tmp_13`, `tmp_16`, and `tmp_8`.\n\nIt contains several condition checks and depending on these conditions, differen\nt operations (like memory set and calculations) are performed. Some parts of the\n memory are set to certain constants or the values of other parts of memory.\n\nWithout additional context, such as what the function is supposed to achieve, it\n's hard to provide a useful summary of what this function does in meaningful ter\nms.\n"
+decompiled = true
