@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x10d8e0
+size = 0x154
+last_change = 2023-11-15T14:37:44.373777Z
+
+[header]
+name = "perform_bitwise_operations"
+addr = 0x10d8e0
