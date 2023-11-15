@@ -4820,3 +4820,10 @@ addr = 0x197c54
 func_addr = 0x197c54
 comment = "==== AI Summarization ====\nThe given C code defines a structure named `struct_0` with two fields - a charac\nter array `padding_0` of size 1212 and an unsigned integer `field_4bc`. \nThere are numerous externally declared characters and a few unsigned shorts and \nints. \n\nA function `sub_197c54` is declared. It first calls a function named `sub_18efb0\n` with the parameter 1. Several externally declared short ints and characters ar\ne assigned values returned from calling function `sub_6f2a0` with different para\nmeters. \nFinally, it assigns values directly to some variable such as `g_6006e4eb`, `g_60\n06e59a`, `g_6006e5cd`, `g_6006e5a1`, `g_6006e5c8`, and `g_6006e560`.\nThe function, `sub_197c54`, returns the value from calling the function `sub_136\n590` with the function `sub_1998c0` as a parameter.\n"
 decompiled = true
+
+[0x198854]
+last_change = 2023-11-15T18:34:55.960768Z
+addr = 0x198854
+func_addr = 0x198854
+comment = "==== AI Summarization ====\nThe code declares three struct types, where each struct contains some padding fi\nelds, and a field which holds a character or an unsigned integer value. It also \ndeclares several global extern variables of character or unsigned integer types.\n The main part of the code is the function `sub_198854()`. \n\nThis function primarily performs bitwise operations on some locally declared var\niables as well as global variables. There are numerous conditions checked within\n the function based on the operation results that further proceed with different\n function calls and adjustments of these variables. The function ends by assigni\nng some locally calculated values to the structure fields. \n\nThere are also, through the code, several references to functions for instance `\nsub_10e59c(), sub_239c30(), sub_727b0(), sub_6f170()` and `sub_6ff50()` but thei\nr implementation details are not provided within this code.\n"
+decompiled = true
