@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1834a4
+size = 0x928
+last_change = 2023-11-15T17:01:22.265253Z
+
+[header]
+name = "manipulate_globals_and_locals"
+addr = 0x1834a4

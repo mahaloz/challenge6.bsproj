@@ -4463,3 +4463,10 @@ addr = 0x183370
 func_addr = 0x183370
 comment = "==== AI Summarization ====\nThe code is a function written in C that declares four variables: v0, v1, v2, an\nd v3. It assigns the address of v1 to v0. Then, it runs a subroutine (sub_6f9f0)\n with v2 and v3 as arguments 16 times. It returns the output of the 17th call to\n the same subroutine (sub_6f9f0).\n"
 decompiled = true
+
+[0x1834a4]
+last_change = 2023-11-15T17:01:22.265253Z
+addr = 0x1834a4
+func_addr = 0x1834a4
+comment = "==== AI Summarization ====\nThis code is defining a \"C\" structure named struct_0 with two fields, padding_0 \nand field_6ce. It also declares a number of globally scoped variables, and then \nthe function sub_1834a4, which consists of a series of variable declarations, ma\nthematical operations, function calls, and condition checks. The bulk of the log\nic is used to manipulate or calculate the global variables or local data variabl\nes, based on various conditions and operations. It also makes calls to some exte\nrnal functions, sub_6f8e0, sub_2c27a0, sub_6f240 and sub_10e59c with different p\narameters during the process. The variables seem to be used as flags, array inde\nxes or data manipulators based on their usage in condition checking, direct assi\ngnment or passed as parameters. It might be part of a larger program doing some \nhardware specific or low-level operations given the interaction with external fu\nnctions and variables.\n"
+decompiled = true
