@@ -4379,3 +4379,10 @@ addr = 0x17f1f4
 func_addr = 0x17f1f4
 comment = "==== AI Summarization ====\nThe provided C language code shows a function called `sub_17f1f4`. The function \nmakes use of several globally defined character variables - `g_60062354`, `g_600\n62356` and `g_60062358`, and several local variables which are a mix of integers\n and character types.\n\nA series of conditional statements are implemented. The first `if` assigning a v\nalue to `v2`, and another complex condition to set the value of `v7`.\n\nThen, `v1` is assigned the character value of `v7`, and the global variable `g_6\n0062358` is set to `4`.\n\nThe code continues with more conditional statements, particularly affecting the \ncharacter `v8` and global variables `g_60062356` and `g_60062354`.\n\nThe main goal of the code is however, not clear as there are no comments or info\nrmation about the purpose of the variables and the function. The code appears to\n be automatically generated due to the usage of generic variable names and somew\nhat unreadable code formatting.\n"
 decompiled = true
+
+[0x17f49c]
+last_change = 2023-11-15T16:55:32.132768Z
+addr = 0x17f49c
+func_addr = 0x17f49c
+comment = "==== AI Summarization ====\nThe code contains the definition of a function 'sub_17f49c' that utilizes both l\nocal variables and external global variables. The function contains complex comp\nutation, which includes arithmetic calculations, comparisions, bitwise operation\ns and condition checks. The results of these computations are assigned to variab\nles which are later used to update the values of multiple global variables. The \nexternal global variables that have their values updated are 'g_60062353', 'g_60\n062352', 'g_60061ed0', 'g_6006235f', 'g_60062359', 'g_60062357', and 'g_60061ecc\n'. The function does not return any value.\n"
+decompiled = true
