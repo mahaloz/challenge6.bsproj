@@ -2076,3 +2076,10 @@ addr = 0xcc0f0
 func_addr = 0xcc0f0
 comment = "==== AI Summarization ====\nThe provided C code defines a struct named 'struct_1' which contains padding and\n fields of various data types. It defines global characters and a complex functi\non 'sub_cc0f0()'. The function contains a number of complex data operations, suc\nh as:\n1. Bitwise calculations and comparisons.\n2. Loops to process the data.\n3. Assignments of data from/to certain memory regions.\n4. Conditional operations based on specific flags.\n5. References to functions 'sub_2000', 'sub_cae00', and 'sub_cb1e0'.\n\nWithout additional context about the meaning of these specific operations, the o\nverall purpose of the code is unclear, but it likely forms a part of some larger\n system that involves low-level data manipulation and input/output operations.\n"
 decompiled = true
+
+[0xcc540]
+last_change = 2023-11-15T14:20:10.745087Z
+addr = 0xcc540
+func_addr = 0xcc540
+comment = "==== AI Summarization ====\nThe provided code defines a function named `sub_cc540` that operates mostly on `\nunsigned short`, `char`, and `unsigned int` data types along with some temporal \ninteger variables. It initializes several variables and in a loop, it updates se\nveral values based on calculations and manipulations on these variables. The fun\nction makes use of bitwise operators, pointer arithmetic, and function calls to \nperform its operations. If certain conditions are met, the function returns the \nvalue of `v8`. This function seems to be a part of a larger codebase, as it uses\n and modifies global and external variables, as well as calling an external func\ntion `sub_cae00`.\n"
+decompiled = true
