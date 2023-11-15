@@ -3868,3 +3868,10 @@ addr = 0x165904
 func_addr = 0x165904
 comment = "==== AI Summarization ====\nThis given code is written in the C language. It is defining a function called `\nsub_165904()`. This function declares a series of char and unsigned integer vari\nables, initializes some of them and performs a number of if/else condition check\ns to conditionally assign values to global variables (`g_60061c20`, `g_600747d4`\n, `g_600747d8`, `g_60061c24`, `g_60074b0c`, `g_60074b10`, `g_60074b14`, `g_60074\nb18`). The function doesn't return any value. The function seems to be a part of\n a larger program or software, as it uses several external variables (noted by t\nhe `extern` keyword). These variables are likely to be defined and assigned valu\nes in other parts of the program.\n"
 decompiled = true
+
+[0x165af0]
+last_change = 2023-11-15T16:18:13.653042Z
+addr = 0x165af0
+func_addr = 0x165af0
+comment = "==== AI Summarization ====\nThis C or C++ function, named `sub_165af0`, initializes two variables: `v0` as a\nn unsigned integer and `v1` as a character. It assigns the memory address of `v1\n` to `v0`. It then calls another function `sub_6f9f0` twenty-four times consecut\nively, each time passing `v2` and `v3` as its arguments. Finally, it calls `sub_\n6f9f0` again and returns the result of this call. The function `sub_6f9f0` is ex\npected to be a function taking two unsigned integers parameters and returning an\n integer, although this code does not provide its definition or any specifics ab\nout its operation. Note that the variables `v2`, `v3` are used without initializ\nation, so if this is actual code this would likely lead to runtime errors.\n"
+decompiled = true
