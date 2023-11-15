@@ -2923,3 +2923,10 @@ addr = 0x130680
 func_addr = 0x130680
 comment = "==== AI Summarization ====\nThis is a C program that defines several external character variables along with\n a function named sub_130680. This function contains a rather complicated contro\nl flow logic using various if and else if structure statements alongside the bit\nwise XOR operator. It also calls two external functions, sub_6fbb0 and sub_6f7d0\n, multiple times and manipulates the variables extensively. The function assigns\n values back to the external character variables and finally, it returns the val\nue of v7.\n"
 decompiled = true
+
+[0x130838]
+last_change = 2023-11-15T15:18:19.452407Z
+addr = 0x130838
+func_addr = 0x130838
+comment = "==== AI Summarization ====\nThis code defines a function sub_130838().\n\nAt the beginning of the function, several variables of different types are decla\nred.\n\nThe code then performs different operations, involving bitwise operations and du\nmmy variables.\n\nIn the first few lines, certain operations are performed taking external charact\ner variables into account.\n\nThen, in a series of if-else-if condition statements, the function checks certai\nn conditions, performs bitwise operations and calls other sub-functions (sub_6f1\n70 and sub_6ff50), if certain conditions are met. \n\nIt also includes a while loop which stops according to a bitwise condition and e\nither breaks out of the loop or increments certain variables.\n\nIn the end, the function returns a value depending upon the conditions previousl\ny checked in the function. If none of these conditions are satisfied, it calls a\nnother sub function (sub_130810) with specific arguments, and then returns its r\neturn value.\n"
+decompiled = true
