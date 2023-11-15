@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1bbf64
+size = 0x1b8
+last_change = 2023-11-15T18:52:29.623038Z
+
+[header]
+name = "manipulate_memory_byte_patterns"
+addr = 0x1bbf64

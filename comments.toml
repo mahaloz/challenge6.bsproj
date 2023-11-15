@@ -5114,3 +5114,10 @@ addr = 0x1bb518
 func_addr = 0x1bb518
 comment = "==== AI Summarization ====\nThe code is written in C and it declares a number of external global variables, \nboth char and unsigned int types, then sets up a function \"sub_1bb518()\". Inside\n this function, it sets several variables, check conditions using bitwise operat\nors, and calls another unspecified function \"sub_d1cc0()\" with multiple argument\ns repeatedly. The results of these function calls are assigned to respective glo\nbal variables. Certain branches in the function are outlined, although their con\nditions and subsequent instructions are not defined.\n"
 decompiled = true
+
+[0x1bbf64]
+last_change = 2023-11-15T18:52:29.623038Z
+addr = 0x1bbf64
+func_addr = 0x1bbf64
+comment = "==== AI Summarization ====\nThe code defines a C structure (struct_0) with a char array (padding_0) and an u\nnsigned integer (field_578). It also declares several external variables - 1 cha\nr and 6 unsigned int. \n\nThe code then implements a function \"sub_1bbf64()\" which includes a variety of l\nocal variables, some of which are likely temporary storage or used for specific \nconditions. This function takes no parameters and returns an integer. The functi\non includes computations and condition checks involving the local and external v\nariables. Some variables are assigned value by referencing certain addresses dir\nectly (pointer operations).\n\nThere are several condition checks in this function that are followed by variabl\ne assignments. Based on these conditions, the function might either execute thes\ne assignments or jump to specific labels (LABEL_0x1bc160 and LABEL_0x1bbff0) wit\nhin the function. The function seems to be involved in manipulating/referencing \ndata at memory locations directly, more specifically serving as a sub-routine th\nat reads, manipulates and stores certain byte-patterns in memory. It's hard to g\nuess the overall purpose of this function without more context about the whole p\nrogram.\n"
+decompiled = true
