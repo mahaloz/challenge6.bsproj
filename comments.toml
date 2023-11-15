@@ -4659,3 +4659,10 @@ addr = 0x18c0f8
 func_addr = 0x18c0f8
 comment = "==== AI Summarization ====\nThis C code defines a structure `struct_0` and declares global variables. It als\no contains the implementation of the function `sub_18c0f8()`. The function perfo\nrms an initial check and determines the value of `v1` based upon that check. It \nthen sets the value of `v76` based on another check. The function continues with\n initializing multiple variables, calling a function, and running a loop that co\npies values from one address to another. The code seems to be a partial decompil\ned section of an executable and contains low-level operations, possibly for devi\nce control, data manipulation or, communication protocol.\n"
 decompiled = true
+
+[0x18c350]
+last_change = 2023-11-15T18:25:29.732040Z
+addr = 0x18c350
+func_addr = 0x18c350
+comment = "==== AI Summarization ====\nThis code declares an external global character variable. It then defines a func\ntion sub_18c350 which declares four local signed integers. The first one v0 is g\niven the address of v1. Then the function \"sub_6f9f0\" is called 28 times with th\ne same arguments v2 and v3. After that, the global character variable 'g_60074c7\n7' is set to 1. Finally, the function sub_6f9f0 is called one last time and its \nreturn value is the result of sub_18c350 function.\n"
+decompiled = true
