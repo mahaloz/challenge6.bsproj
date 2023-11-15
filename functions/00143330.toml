@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x143330
+size = 0x14c
+last_change = 2023-11-15T15:28:37.343442Z
+
+[header]
+name = "perform_operations_on_struct_fields"
+addr = 0x143330
