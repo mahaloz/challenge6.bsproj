@@ -3994,3 +3994,10 @@ addr = 0x16c590
 func_addr = 0x16c590
 comment = "==== AI Summarization ====\nThis C code declares a function named sub_16c590 which takes no arguments. In th\nis function, some global variables (g_60061dbf and g_60061e78) and local variabl\nes of various types (integer, char, unsigned int and unsigned short) are used. \n\nThe function's core logic is essentially checking certain bit manipulations and \nconditionally copying or setting variables, or performing specific operations ba\nsed on these checks. Some of the operations include checking if certain bits (bi\ntwise AND) in characters are true i.e., & 2, & 4, etc., checking if certain bits\n (bitwise XOR) in integers or characters are true i.e., ^2, ^4, etc.\n\nThis code also features sections marked with labels (LABEL_16c668 and LABEL_16c6\n70), which may be referenced using goto statements, suggesting this part of a bi\ngger codebase where jump instructions are used. A right rotate (ROR) operation i\ns also performed on a value from a certain memory address before applying a bitw\nise & operation with 1.\n\nThe function doesn't return any value.\n"
 decompiled = true
+
+[0x16c7fc]
+last_change = 2023-11-15T16:31:01.879909Z
+addr = 0x16c7fc
+func_addr = 0x16c7fc
+comment = "==== AI Summarization ====\nThis code seems to define two data structures (struct_0 and struct_1), each with\n various fields of different data types - characters, integers, and padding for \nalignment. There are also several external variables declared (such as g_60061bd\n6, g_60061bd7, etc.).\n\nThe primary function (sub_16c7fc) appears to perform various bitwise operations \nand if-else conditions. This function also calls some other functions (e.g. sub_\n10e59c, sub_239c30, sub_239c20) whose functionality is not included or defined i\nn the given code. The function does not return any apparent value but appears to\n modify some global variables and work with the fields of the defined data struc\ntures.\n\nPlease note that without additional context or comments, it's hard to understand\n the exact purpose of the function.\n"
+decompiled = true
