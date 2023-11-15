@@ -5849,3 +5849,10 @@ addr = 0x1f72f4
 func_addr = 0x1f72f4
 comment = "==== AI Summarization ====\nThis C code declares a function named sub_1f72f4(). This function includes decla\nring a number of integer variables, character variables, boolean states and one \nexternal character variable. Then there are a series of conditional checks that \nmanipulate and perform bitwise operations on these variables. The function also \nincludes goto statements for labels that are not defined in the given code, impl\nying this is a fragment of a larger code base where these labels are defined. Th\ne function ends by checking values of some conditions multiple times and assigni\nng a null value (0) to a pointer variable 'v1'. In addition, there seems to be s\nome form of bit shifting and rotating operations being performed on variable v20\n.\n"
 decompiled = true
+
+[0x1f7478]
+last_change = 2023-11-15T19:58:25.265182Z
+addr = 0x1f7478
+func_addr = 0x1f7478
+comment = "==== AI Summarization ====\nThe provided C code defines a structure called struct_0 with five fields and the\nn declares several variables including extern and local ones. It then defines a \nfunction named sub_1f7478(). \n\nInside this function, it first initializes multiple variables. It then starts a \ndo-while loop where an unsigned int value gets updated each time the loop iterat\nes. This loop continues only while v61 is an odd number. After the loop, it call\ns another function named sub_309470(). Another do-while loop follows which again\n iterates while v66 is an odd number. \n\nThe function also updates multiple global variables like g_60071e14, g_60071e16,\n g_60071e10, g_60071dcc, g_60071e12, g_60071e18, g_60071e1c, g_60071e0a, g_60071\nd25, g_60071d24. It also updates the fields of structure v58 before the function\n ends.\n"
+decompiled = true
