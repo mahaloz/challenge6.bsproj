@@ -1971,3 +1971,10 @@ addr = 0xc8dd0
 func_addr = 0xc8dd0
 comment = "==== AI Summarization ====\nThe given code is a C function, 'sub_c8dd0()', with a complex control flow and l\nots of variables declarations. The function, 'sub_c8dd0()', accepts no arguments\n but is using some external variables, 'g_6400' and 'g_f4240'.\n\nInitially, it declares a large amount of integer, character, pointer and array v\nariables, some of them intended to be temporary variables. There are also variab\nles that are very likely used for handling General Purpose Registers (GPR).\n\nThe control flow is mostly composed of nested conditional statements and a while\n loop. Inside these control structures, various operations are performed, includ\ning arithmetic operations, fetching or storing values in memory, and calling oth\ner functions.\n\nDue to the naming of the functions and variables, it is difficult to determine t\nhe exact purpose of this function without additional context. However, it seems \nto be performing some sort of iteration or computation based on the state of its\n many variables and possibly manipulating some memory locations.\n"
 decompiled = true
+
+[0xc92b0]
+last_change = 2023-11-15T13:47:58.678444Z
+addr = 0xc92b0
+func_addr = 0xc92b0
+comment = "==== AI Summarization ====\nThis code declares a structure `struct_0` with two members: a character array `p\nadding_0` of size 2, and an unsigned short `field_2`. \n\nThen, it defines a function `sub_c92b0()` which has some complex looping and con\nditional logic inside it. The function is manipulating variables based on specif\nic binary conditions, calling other unspecified functions (`sub_b73d0()` and `su\nb_b6910()`), performing bit manipulation, and updating specific fields in the `s\ntruct_0` variable `v9`. \n\nThe function doesn't have a clear return value in the code, but it includes a st\natement implying the return of an unsigned int `v11`. \n\nThe purpose of the function isn't immediately clear from the code given, as it w\nould depend on context not provided as well as the behavior of the external func\ntions called within it.\n"
+decompiled = true
