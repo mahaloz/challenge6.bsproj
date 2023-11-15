@@ -5863,3 +5863,10 @@ addr = 0x1f7774
 func_addr = 0x1f7774
 comment = "==== AI Summarization ====\nThe given C code defines a function named `sub_1f7774`. This function declares a\n number of global variables and variables of various data types including intege\nr, character, pointer, and unsigned short. This function seems to be performing \nchecks for bitwise AND operation of `tmp_184` and `tmp_13` variables with the nu\nmber 2. If the result is False, several variables are set to 0 and written to me\nmory with addresses based on the address of `v16` and each extern char variable \n`g_4664` to `g_467c`. This function also makes calls to two external functions n\named `sub_6fe10` and `sub_6f8e0` with parameters `v13, v14, v15`. The final `v17\n` value is then returned.\n"
 decompiled = true
+
+[0x1f7b20]
+last_change = 2023-11-15T19:59:08.279361Z
+addr = 0x1f7b20
+func_addr = 0x1f7b20
+comment = "==== AI Summarization ====\nThe code defines several structs (struct_0, struct_1, struct_2, struct_3) which \nlay out the structure of memory in a program. Each struct is formatted with byte\n padding and fields, presumably to match a specific pattern in memory. Additiona\nlly, it declares a number of external variables including chars, unsigned shorts\n, unsigned ints and void pointers. These are specific locations in memory that t\nhe program expects to reference. Finally, it declares an empty function stub `su\nb_1f7b20`.\n"
+decompiled = true
