@@ -60,3 +60,10 @@ addr = 0x5b00
 func_addr = 0x5b00
 comment = "==== AI Summarization ====\nThe code defines a function `sub_5b00` which calls another function `sub_5d1c`. \nThe comment suggests that `sub_5d1c` does not return control to `sub_5b00` after\n it finishes executing.\n"
 decompiled = true
+
+[0x5f60]
+last_change = 2023-11-15T09:55:50.643029Z
+addr = 0x5f60
+func_addr = 0x5f60
+comment = "==== AI Summarization ====\nThis code defines an empty function named \"sub_5f60\" that takes no arguments and\n returns an integer. Given that the function has no content, it would likely cau\nse a compile error unless completed.\n"
+decompiled = true
