@@ -3399,3 +3399,10 @@ addr = 0x14dd00
 func_addr = 0x14dd00
 comment = "==== AI Summarization ====\nThis code defines a function named `sub_14dd00`. In this function, four variable\ns are declared: `v0`, `v1`, `v2`, `v3`. The function then calls another function\n named `sub_6f9f0` repeatedly with `v2` and `v3` as arguments. The function `sub\n_6f9f0` is called 36 times in total, and the return value of the last call to `s\nub_6f9f0` is the return value of `sub_14dd00`. The function `sub_6f9f0` is not d\nefined within this code, so we don't know exactly what it does.\n"
 decompiled = true
+
+[0x14eef8]
+last_change = 2023-11-15T15:49:48.968462Z
+addr = 0x14eef8
+func_addr = 0x14eef8
+comment = "==== AI Summarization ====\nThe code defines a structured data type named `struct_0` and several global vari\nables. \nIt also declares a function `sub_14eef8` which performs different operations. Th\ne function initially modifies some of the global variables with values from loca\nl variables. There are some manipulations done using pointers and memory address\nes. \n\nThe function `sub_d1cc0` is called twice with different set of arguments. The va\nlues returned from these function calls are then assigned to specific memory add\nresses calculated using the variables `v9` and a few global variables.\n\nConditional statements then define the flow for the rest of the function. The gl\nobal variable `g_600655bc` and local variable `v1` are set to zero. Depending on\n the second least significant bit of `tmp_8`, `v12` is set to either 0 or -5 and\n this value is then stored at a specific memory address.\n\nFinally the function `sub_70050` is being called. Please note that without more \ncontextual information about what these functions are doing or what the global v\nariables are used for, it is difficult to understand the specific purpose or beh\navior of this function.\n"
+decompiled = true
