@@ -32,3 +32,10 @@ addr = 0x3124
 func_addr = 0x3124
 comment = "==== AI Summarization ====\nThis code defines a function named `sub_3124()`, which calls another function na\nmed `sub_3330()`. The function `sub_3124()` does not have a specified return val\nue.\n"
 decompiled = true
+
+[0x35c0]
+last_change = 2023-11-15T09:55:04.568855Z
+addr = 0x35c0
+func_addr = 0x35c0
+comment = "==== AI Summarization ====\nThis code, written in C language, defines a function named `sub_35c0`. This func\ntion runs another function, `sub_3898()`, and does not return any value.\n"
+decompiled = true
