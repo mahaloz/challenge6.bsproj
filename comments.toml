@@ -2391,3 +2391,10 @@ addr = 0x10e028
 func_addr = 0x10e028
 comment = "==== AI Summarization ====\nThe given code is a C-style function called `sub_10e028` . The function declares\n a number of external character variables, integer variables and unsigned intege\nr variables, both scalar and array types. Then it checks a mask on several condi\ntions and assigning values based on these conditions. The function ends with a r\neturn but without explicitly returning a value. Mostly, it has some conditions, \nbit manipulations and writes some values into memory addresses computed by addin\ng & subtracting addresses of the global variables and values of other variables.\n However, this code is quite cryptic and might be a part of a larger decompiled \ncode, maybe for a low-level hardware operation or encryption/decryption operatio\nn as the numbers represent hexadecimal values with reference counting and shifti\nng.\n"
 decompiled = true
+
+[0x10e59c]
+last_change = 2023-11-15T14:38:29.731269Z
+addr = 0x10e59c
+func_addr = 0x10e59c
+comment = "==== AI Summarization ====\nThis code is a function named 'sub_10e59c' written in C that seems to be part of\n a larger codebase. The function's purpose cannot be accurately determined as it\n lacks context. \n\nIt handles a number of variables (including temporary ones), and there are numer\nous conditional statements. It utilizes bitwise operations extensively for calcu\nlations and logical decisions. The function suggestively handles some sort of co\nmputations or decision-making process based on the input value or state of tempo\nrary variables as it frequently returns from within if-else blocks.\n\nAt least three other unidentified functions ('sub_10f02c', 'sub_10f14c', 'sub_10\ne548') are also invoked within this function. It assigns the address of variable\n 'v2' to the pointer 'v1' and often returns this value at the end of some execut\nion paths. However, unfortunately, without more context, this function seems to \nbe a part of a large, probably low-level operation, and its specific purpose rem\nains unclear.\n"
+decompiled = true
