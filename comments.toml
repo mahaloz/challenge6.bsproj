@@ -5002,3 +5002,10 @@ addr = 0x1b3404
 func_addr = 0x1b3404
 comment = "==== AI Summarization ====\nThe given code, written in C, declares several variables including integers, cha\nracters, and pointers. Externally defined characters are also declared. A functi\non named `sub_1b3404` is defined, which seems to apply bitwise operations on cer\ntain variables, use value assignment and conditional statements. Importantly, th\nis function involves the use of a label `LABEL_0x1b359c` and `LABEL_0x1b353c`, p\nossibly for a later goto operation. However, the implementation of these labels \nisn't shown in the code snippet. Without more code or comments, the precise func\ntion of sub_1b3404 is unclear, but it appears to be manipulating data at a low l\nevel.\n"
 decompiled = true
+
+[0x1b35ac]
+last_change = 2023-11-15T18:45:35.650963Z
+addr = 0x1b35ac
+func_addr = 0x1b35ac
+comment = "==== AI Summarization ====\nThe code defines two structures `struct_1` and `struct_0` each containing two da\nta members of type `char array` and data types `char` and `unsigned int` respect\nively. It also declares some external variables of type `char`, `unsigned int` a\nnd `unsigned short`.\n\nThe main function `sub_1b35ac()` declares a multitude of variables of type `int`\n, `char`, `unsigned int`, `unsigned short` and `void pointers`. It further decla\nres variables of type `struct_0` and `struct_1`. \n\nIn the function, it performs various conditional checks, mathematical operations\n and assignments, and manipulates global and local variables on the basis of the\nse checks. It also seems to contain calls to other subroutines (`sub_10e59c`, `s\nub_239c30` and `sub_239c20`).\n\nIt's difficult to provide a concrete summary without knowing the other functions\n and overall nature of the software, but the function seems to be mainly respons\nible for manipulating and assigning values to a variety of different data types \nbased on a series of conditions. The logic of the function is written in an obfu\nscated manner and not adhering to common coding practices, which make it hard to\n understand.\n"
+decompiled = true
