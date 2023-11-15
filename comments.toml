@@ -1033,3 +1033,10 @@ addr = 0x9c910
 func_addr = 0x9c910
 comment = "==== AI Summarization ====\nThis C code declares several external variables along with a function, sub_9c910\n(). This function sets several integer and character values. It interacts with t\nhe external variables g_60070d08, g_60070d09, and g_100000 in a series of bitwis\ne operations and conditional checks. The use of bitwise operations suggests this\n code may be related to low-level data manipulation or hardware interaction.\n\nThe code has several nested if-statements to determine conditions based on bitwi\nse operations of variables. Finally, the function updates the value of external \nvariable g_60070d09 under certain conditions and returns nothing explicitly (voi\nd), as it seems to be changing the state of external or global state.\n\nHowever, without more context, it's hard to know what specifically this function\n is meant for. It seems to have been decompiled or automatically generated, give\nn the non-descriptive variable and function names.\n"
 decompiled = true
+
+[0x9cb90]
+last_change = 2023-11-15T10:51:46.006425Z
+addr = 0x9cb90
+func_addr = 0x9cb90
+comment = "==== AI Summarization ====\nThe given C code defines a procedure named sub_9cb90(). This code uses some glob\nal character variables. At the beginning of the function, some variables are ini\ntialized. After that, it invokes function sub_6f9f0() multiple times with the sa\nme argument pair. Throughout the execution, certain global variables are assigne\nd the value 255. This function ends by returning the value of function sub_6f9f0\n(). Please note that the behavior of sub_6f9f0() is not given in the code snippe\nt, so complete understanding might not be possible without the implementation of\n sub_6f9f0().\n"
+decompiled = true
