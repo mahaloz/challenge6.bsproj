@@ -2412,3 +2412,10 @@ addr = 0x10f1e0
 func_addr = 0x10f1e0
 comment = "==== AI Summarization ====\nThe function sub_10f1e0 in this code is a complex function that takes no argumen\nts, declares a large number of local variables, and manipulates global variables\n that are defined elsewhere in the code (these are the extern char declarations \nat the beginning). It uses these variables to perform a number of operations inc\nluding addition, subtraction, bitwise shifting, division, bitwise AND and OR ope\nrations, and conditional assignment based on the result of bitwise AND and compa\nrison operations. The function eventually returns a value that results from thes\ne operations. The main purpose of the code appears to be some kind of lower leve\nl system operation or data manipulation as suggested by those bitwise operations\n and usage of external global variables.\n"
 decompiled = true
+
+[0x10f760]
+last_change = 2023-11-15T14:39:34.800007Z
+addr = 0x10f760
+func_addr = 0x10f760
+comment = "==== AI Summarization ====\nThis C++ code defines a function named `sub_10f760` that includes references to \nexternal global char variables. It declares several temporary variables and some\n unsigned integers.\n\nThe function then enters several nested conditional (if-else) checks, touching s\nome of the global variables and different temporary values. Memory locations are\n manipulated directly in these conditional statements. Also, based on certain co\nnditions different pieces of code are executed which include calculations and da\nta manipulations.\n\nThe function is designed to set or adjust the memory values of some char variabl\nes and typically returns the value of `v20` - an unsigned integer that could be \nset or modified in multiple places within the function's code block. This type o\nf function could be used in a low-level system or device driver where direct int\neraction with memory addresses is required.\n"
+decompiled = true
