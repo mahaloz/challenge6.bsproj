@@ -4897,3 +4897,10 @@ addr = 0x1ae360
 func_addr = 0x1ae360
 comment = "==== AI Summarization ====\nThe given code declares four variables: v0, v1, v2, and v3. It then assigns the \naddress of v1 to v0. After that, the function sub_6f9f0 is called 64 times with \nthe arguments v2 and v3. After 64 calls, the return value from the 65th call of \nsub_6f9f0 with the same arguments is returned from function sub_1ae360. Informat\nion about what sub_6f9f0 does is not provided.\n"
 decompiled = true
+
+[0x1aecc0]
+last_change = 2023-11-15T18:39:18.102888Z
+addr = 0x1aecc0
+func_addr = 0x1aecc0
+comment = "==== AI Summarization ====\nThis is a C code for a function named `sub_1aecc0`. The function accesses some e\nxternal variables and manipulates them based on certain conditions. It has an if\n condition repeated multiple times that checks if the bitwise AND of the second \nleast significant bit of `tmp_13` is not equal to 2. If the condition is met, a \nseries of variables (`v0, v6, v7, v8, v9, v10, v4, v3, v1, v2, v5`) are set to z\nero and assigned to some external variables or stored at certain memory location\ns. Additionally, an operation is performed where if `tmp_18` & 4 evaluates to tr\nue, `v5` is unchanged, otherwise, it is set to 2147483647. After each operation,\n a subroutine `sub_6f8e0` or `sub_6fe10` is called, presumably to perform some a\ndditional task.\n"
+decompiled = true
