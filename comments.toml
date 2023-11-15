@@ -515,3 +515,10 @@ addr = 0x7d6f0
 func_addr = 0x7d6f0
 comment = "==== AI Summarization ====\nThe provided C code defines a data structure named \"struct_0\" which uses differe\nnt data types (unsigned integer, char, unsigned short) and padding to control it\ns memory layout. The fields in the structure are browser-defined. There are also\n two external variables: \"g_13ac\" and \"g_7654\".\n\nThe function \"sub_7d6f0\" is defined later, which assigns addresses of local vari\nables, mines difference calculations, memory reads/writes involving the external\n variables and the fields in instances of \"struct_0\", and takes conditional acti\nons based on the results. Notice that there's a called function named \"sub_b0d30\n\", which appears to be external or defined elsewhere. The function does not real\nly \"return\" any specific value as the return type is 'int'.\n"
 decompiled = true
+
+[0x7d7d0]
+last_change = 2023-11-15T10:23:06.605400Z
+addr = 0x7d7d0
+func_addr = 0x7d7d0
+comment = "==== AI Summarization ====\nThe provided code is written in C and starts by defining a struct called `struct\n_0`, which contains a collection of fields of different datatypes and paddings.\n\nThe code then declares `g_13ac` and `g_7654` as globally accessible characters.\n\nThe function `sub_7d6f0` is defined next. It declares a large number of integer \nvariables, a character, and two pointers to `struct_0`. \n\nThe function goes on to manipulate these variables in several ways, primarily by\n accessing the struct and its fields. It also checks whether a temporary variabl\ne `tmp_115` is a positive even number and calls the function `sub_b0d30()` condi\ntionally (if it is not).\n\nThe function doesn't return a specific value (proof being the fact that the retu\nrn statement does not have an expression), which implies its return type should \nideally be `void` instead of `int`.\n"
+decompiled = true

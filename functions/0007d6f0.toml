@@ -1,7 +1,7 @@
 [metadata]
 addr = 0x7d6f0
 size = 0x160
-last_change = 2023-11-15T10:22:47.070531Z
+last_change = 2023-11-15T10:23:06.605400Z
 
 [header]
 name = "assign_values_to_structure_fields"
