@@ -3462,3 +3462,10 @@ addr = 0x1523c8
 func_addr = 0x1523c8
 comment = "==== AI Summarization ====\nThis C code declares a series of global variables of type char and unsigned int,\n followed by a function called \"sub_1523c8\". Within this function, a set of loca\nl variables of different types are declared. Then, a series of conditions are ch\necked. Depending on which condition is met, different actions are taken, such as\n the assignment of variables or calling a function named \"sub_d2010\" with differ\nent parameters. If none of the initial conditions are met, some variables are as\nsigned certain values and a pointer is set to null. Finally, if none of these co\nnditions are met, the function \"sub_d2010\" is called with a different set of par\nameters.\n"
 decompiled = true
+
+[0x1529b8]
+last_change = 2023-11-15T15:53:47.562074Z
+addr = 0x1529b8
+func_addr = 0x1529b8
+comment = "==== AI Summarization ====\nThis is a C function `sub_1529b8` in which multiple temporary and local variable\ns are declared, ranging from type char to unsigned integers and a void pointer. \nThese variables seem to be associated in memory based on their offsets from the \nbase pointer. The function assigns values to these variables, some of which are \nassigned values from other variables, and some of which are casted from char to \nint.\n\nThere are two primary condition checks in the function related to the variables \n`tmp_247` and `tmp_8`. Depending on these conditions, blocks of code assign valu\nes to a subset of the variables.\n\nHowever, the if-else conditions seem to be repeated, and are checking the same c\nondition in each statement, which indicates that the code may have been incorrec\ntly copied or decompiled. The function does not have a return statement and thus\n does not return any value.\n"
+decompiled = true
