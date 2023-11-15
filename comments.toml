@@ -5170,3 +5170,10 @@ addr = 0x1bf994
 func_addr = 0x1bf994
 comment = "==== AI Summarization ====\nThe given C code represents a function named sub_1bf994 and a structure named st\nruct_0. The structure has two members, a character array, and an unsigned intege\nr.\n\nThe function declares several local variables and arrays, then conducts a series\n of if-else conditions and bitmask operations. It also modifies multiple global \nvariables (like g_6006ea70, g_6006ea74, g_6006ea8c, g_6006ebb8, g_6006ebd0, g_60\n06ebd2, g_6006ebd4, and g_6006ebe4). It looks like it flags the state and initia\nlizes and manipulates several variables based on input or previous state of thes\ne variables. \n\nDue to the lack of context, it's difficult to infer more specifics about the ove\nrall purpose of the code; it appears to be a piece of low-level system programmi\nng, possibly an interrupt handler or something similar.\n\n"
 decompiled = true
+
+[0x1c0928]
+last_change = 2023-11-15T18:55:45.930891Z
+addr = 0x1c0928
+func_addr = 0x1c0928
+comment = "==== AI Summarization ====\nThis C programming language code defines several global and local variables. The\n code also defines a function named 'sub_1c0928()' which carries out a number of\n operations such as assigning values to variables and performing conditional che\ncks. The function also possibly modifies the values of the global variables 'g_1\n550' and 'g_6006eb68', based on a series of conditional checks that involve bitw\nise operations on a set of temporal variables. Notably, the function 'sub_d1cc0(\n)' gets called twice with the same set of arguments. The specific workings and u\nse case of the function is not clear from the provided code snippet.\n"
+decompiled = true
