@@ -5611,3 +5611,10 @@ addr = 0x1d4794
 func_addr = 0x1d4794
 comment = "==== AI Summarization ====\nThe code is in C and is a function named `sub_1d4794`. The function has several \nexternal character and integer variables as well as local character and integer \nvariables defined. Based on certain conditions, it changes the value of four glo\nbal variables (`g_60062e97`, `g_60062f48`, `g_60074d7c`, `g_60062e8c`) and perfo\nrms some bitwise operations, assignments, and conditional logic. However, the tr\nue purpose of the code is unclear without additional context as it seems to be a\n part of a larger program and the variables are not self-explanatory.\n"
 decompiled = true
+
+[0x1d48a0]
+last_change = 2023-11-15T19:43:40.253998Z
+addr = 0x1d48a0
+func_addr = 0x1d48a0
+comment = "==== AI Summarization ====\nThis code is a C function that performs a series of bitwise operations on severa\nl integer variables. Each data item's second bit is checked, and depending on it\ns state, certain conditions are met. If those conditions do not pass, the functi\non skips to the specific label domain (`LABEL_1d4918`). The function is also usi\nng an external global character variable (`g_60062e9b`). At a certain point it a\nssigns to `v6` the value 0 or 1 depending on the condition passed. \n\nFinally, it stores the address of `g_60062e9b` into `v0` and then assigns `g_600\n62e9b` the final value of `v6.`. This implies that the function is likely modify\ning a global character variable based on its computations. However, without adde\nd contextual information about the purpose of these operations, it's challenging\n to derive more precise meaning from the behavior of this function.\n"
+decompiled = true
