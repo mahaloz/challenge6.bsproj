@@ -2265,3 +2265,10 @@ addr = 0x1085dc
 func_addr = 0x1085dc
 comment = "==== AI Summarization ====\nThe code is a function declaration in C++ language for a function named 'sub_108\n5dc' that doesn't take any arguments and returns an integer. However, the functi\non is empty and it does not have any operations or a return statement inside it,\n meaning it will cause an error if it's called.\n"
 decompiled = true
+
+[0x109f30]
+last_change = 2023-11-15T14:30:19.381271Z
+addr = 0x109f30
+func_addr = 0x109f30
+comment = "==== AI Summarization ====\nThe provided code is a function called `sub_109f30` in C/C++ language. It define\ns several integer and character variables, including temporary variables, and a \npointer `v0`. It performs a complex if condition using bitwise operations on the\nse variables, and if the condition is true, it calls another function `sub_10a03\n0` with several parameters. The pointer `v0` is then assigned to `v13`, and the \nfunction exits. The function does not return any value. Note that without the co\nntext of where these variables are set or how this function is invoked, it's imp\nossible to tell the exact high-level logic happening here.\n"
+decompiled = true
