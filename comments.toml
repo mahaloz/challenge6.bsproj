@@ -2447,3 +2447,10 @@ addr = 0x116620
 func_addr = 0x116620
 comment = "==== AI Summarization ====\nThe provided code is a function (sub_116620) in C. The function performs differe\nnt operations based on several conditions present within the if-else conditions \nand bitwise operations. Externally defined variables (like g_100000, g_6668, g_6\n720, g_7ece, etc.) are used in these processes. In general, it manipulates some \nexternal global char variables and it uses a lot of temporary variables. If-else\n statements seemingly implement different behavior for these temporary variables\n if certain conditions are met, especially checking the 2nd bit (and other condi\ntions). At the end of each branch, it changes the value of a char that is access\ned by some determined address and it returns the value of v21.\n"
 decompiled = true
+
+[0x118750]
+last_change = 2023-11-15T14:41:14.498937Z
+addr = 0x118750
+func_addr = 0x118750
+comment = "==== AI Summarization ====\nThis code defines a function `sub_118750()`, which contains external variables a\nnd local variables as global states and temporary states respectively.\n\nThe function uses bitwise operations on the temporary variables and updates them\n based on certain conditions. The updated values of the variables are assigned u\nsing bitwise logic to manipulate bits and positions.\n\nThis function uses a combination of bitwise operators, conditional (ternary) ope\nrators, pointer arithmetic, and external variables. The pointers and values are \nmanipulated using various bitwise operations and conditional statements. At last\n, the function returns the value of `v19` which is calculated using the rotate r\night operation on `v18` and using a bitwise 'and' with 1. The function appears t\no handle some low-level operations possibly related to memory management or hard\nware interfaces, but it's hard to be specific without additional context because\n the variable names are not descriptive.\n"
+decompiled = true
