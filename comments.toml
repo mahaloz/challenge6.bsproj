@@ -3483,3 +3483,10 @@ addr = 0x153970
 func_addr = 0x153970
 comment = "==== AI Summarization ====\nThe provided code is an incomplete code snippet, and the function doesn't return\n anything. From the existing code, it is a function `sub_153970()` in which vari\nous integer and character variables are defined and a few levels of conditionals\n are used. In each \"if\" conditional, the code checks if `tmp_8` bitwise AND with\n 4 and then XOR with 4 resulted in zero, and if this condition is true, it sets \nvarious variables `v1` to `v14` to corresponding values and `v15` to 0. However,\n all the conditions here are the same, this might be due to some error or the re\nst of the code is not provided. Also, many variables declared at the top of the \nfunction aren't actually used in the code making them redundant.\n"
 decompiled = true
+
+[0x154484]
+last_change = 2023-11-15T15:54:49.205700Z
+addr = 0x154484
+func_addr = 0x154484
+comment = "==== AI Summarization ====\nThis code declares several global variables, creates a function named sub_154484\n, and defines local variables within the function. The function runs several con\ndition checks and for each condition, it calls another function named sub_d2010 \nwith several arguments including the addresses and values of various global and \nlocal variables. If certain conditions are not met, it assigns certain values to\n specific global variables. The variables and function names suggest possible lo\nw-level operations, perhaps related to device drivers or embedded systems.\n"
+decompiled = true
