@@ -207,3 +207,10 @@ addr = 0x6d4d0
 func_addr = 0x6d4d0
 comment = "==== AI Summarization ====\nThis C code is defining a structure `struct_0` and a function `sub_6d4d0`. \n\n`struct_0` has a character array `padding_0` of size 12 and an unsigned integer \n`field_c`. \n\nThe function `sub_6d4d0` declares several variables, including an array `v5` and\n `v7` of unsigned ints, a pointer `v2` and `v6` to `struct_0`, and several integ\ner and unsigned int variables. \n\nThe function executes several conditional checks and computations, notably using\n bitwise operations and indirection (dereferencing). The function also manipulat\nes the members and offsets of the `struct_0` instances.\n\nIt modifies some global variables `g_5274` and `g_7b96`. It includes a few loops\n, assigning values to the elements in the arrays `v5` and `v7` and updating the \n`field_c` member in the instances of `struct_0`.\n\nDespite this summary, please note the function itself doesn't seem to perform a \ncoherent task, it could possibly be a chunk of a decompiled binary. Some functio\nn calls like `sub_239890(16)` are also not defined in the provided code snippet.\n"
 decompiled = true
+
+[0x6d760]
+last_change = 2023-11-15T10:05:15.074001Z
+addr = 0x6d760
+func_addr = 0x6d760
+comment = "==== AI Summarization ====\nThe code defines three C data structures named struct_0, struct_1, and struct_2.\n Each structure contains char arrays (sometimes used for padding) and other vari\nables like unsigned int and unsigned short. \n\nFollowing that, it has a global char variable named g_5278. \n\nLastly, it introduces a complex function sub_6d760. This function appears to be \na low-level function, which is hard to interpret without additional context. It \ninvolves various logical operations, such as bitwise AND, OR and XOR operations,\n and several logical comparisons. It also modifies fields of the defined structu\nres and calls other unknown functions. The function returns an int and in practi\nce, the function passes its input parameters through registers or global memory,\n which is common in low-level or embedded programming.\n"
+decompiled = true
