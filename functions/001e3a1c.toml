@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1e3a1c
+size = 0x1a4
+last_change = 2023-11-15T19:54:37.425534Z
+
+[header]
+name = "process_and_manage_memory"
+addr = 0x1e3a1c
