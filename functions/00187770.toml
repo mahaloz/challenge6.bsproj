@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x187770
+size = 0x214
+last_change = 2023-11-15T17:04:44.273051Z
+
+[header]
+name = "update_struct_fields"
+addr = 0x187770
