@@ -781,3 +781,10 @@ addr = 0x904d0
 func_addr = 0x904d0
 comment = "==== AI Summarization ====\nThis is a function named \"sub_904d0\" written in the C programming language. The \nfunction references several global variables which are declared as external, and\n these variables include `g_1d30`, `g_60070584`, `g_7840`, `g_7850`, `g_7854`, a\nnd `g_785c`. Within the function, a large amount of local variables are declared\n generally of integer, unsigned integer, character, pointers to unsigned integer\ns, and void pointer types.\n\nThe function seems to be doing some computation involving bitwise manipulations \nand conditional branching with \"if\" and \"else if\" statements based on certain co\nnditions. Also, external functions `sub_10dc14` and `sub_6f170` are called withi\nn this function.\n\nIt also involves complex memory management with pointer arithmetic and dereferen\ncing pointers to fetch and store values of variables and memory locations. The f\nunction ends with either an early return statement or assignment of some local v\nariables, but it's not clear what exact value the function returns. \n\nWithout more meaningful variable names or comments, it's difficult to infer the \nexact high-level purpose of this code.\n"
 decompiled = true
+
+[0x908a8]
+last_change = 2023-11-15T10:37:57.170875Z
+addr = 0x908a8
+func_addr = 0x908a8
+comment = "==== AI Summarization ====\nThe code defines two structures, `struct_1` and `struct_0`, with their respectiv\ne members. There is a globally available character `g_7930`. It also declares a \nfunction `sub_908a8()` which employs complicated operations involving further te\nmporary variables, pointers to structures, and array. The function appears to up\ndate some fields of the structures based upon certain conditions and function ca\nlls. Although a summary is provided, fully understanding the exact working would\n require additional context outside the scope of this snippet like the actual da\nta these structures are handling and the actual activity inside invoked function\ns such as `sub_6f8e0` and `sub_d0b90`.\n"
+decompiled = true
