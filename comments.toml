@@ -3168,3 +3168,10 @@ addr = 0x1453dc
 func_addr = 0x1453dc
 comment = "==== AI Summarization ====\nThe provided code defines several external variables of various data types inclu\nding char, unsigned int, void pointer, and unsigned short. It then defines a fun\nction named 'sub_1453dc'. The function first initializes several variables. Then\n if a particular condition involving 'tmp_96' variable is met, it performs certa\nin operations involving the external variables and returns 'v3'. If the conditio\nn is not met, the function calls another function 'sub_145080' with parameters 6\n5534 and 1, and returns the value it returns. If certain conditions involving 't\nmp_102' and 'tmp_76' variables are met inside the main condition, the function e\nxecutes additional computations, including a loop that increments 'v5' until som\ne condition involving 'tmp_11' is met.\n"
 decompiled = true
+
+[0x1454dc]
+last_change = 2023-11-15T15:34:42.107377Z
+addr = 0x1454dc
+func_addr = 0x1454dc
+comment = "==== AI Summarization ====\nThis C code defines a function named `sub_1454dc()`, which manipulates values of\n various global and local variables as well as memory addresses, including condi\ntional decision-making and looping. It includes various condition checks and ass\nignments, with multiple conditional branches within loops. The operation of the \nfunction heavily depends on bitwise operations on variables, such as XOR and ROR\n (rotate right). Various function calls and memory management techniques are als\no involved. \n\nThe program defines a structured type 'struct_0' with a char array and an unsign\ned integer. Several global variables of different types (characters, integers, s\nhorts) are also declared. Within the function 'sub_1454dc()', various temporary \nand other variables are declared and manipulated.\n\nIt's difficult to describe precisely what this code does without more context, a\ns the function and variable names, like 'sub_1454dc()' and 'g_600058d0', don't g\nive clear indications of their purpose.\n"
+decompiled = true
