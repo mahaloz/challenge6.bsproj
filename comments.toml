@@ -1992,3 +1992,10 @@ addr = 0xc9610
 func_addr = 0xc9610
 comment = "==== AI Summarization ====\nThe given C++ code is of a function named `sub_c9610` which doesn't accept any a\nrguments and returns an integer. The function mainly includes variable initializ\nations, condition checks and return statements. There are two function calls: `s\nub_b3f10(v6)` and `sub_cca90(*((short *)&v4), *((short *)&v5), &v0, &v1)` inside\n the function. The function conditionally returns nothing and includes infinite \nloops that break based on certain conditions. Most of the variables in the code \nare not initialized or used, suggesting that the code might be incomplete or has\n been decompiled.\n"
 decompiled = true
+
+[0xc98e0]
+last_change = 2023-11-15T13:49:09.845994Z
+addr = 0xc98e0
+func_addr = 0xc98e0
+comment = "==== AI Summarization ====\nThe C code defines a number of global variables, a struct, and a function named \n\"sub_c98e0\".\n\nThe struct \"struct_0\" has two members - a char array named \"padding_0\" of size 3\n816, and an unsigned int \"field_ee8\".\n\nThe function \"sub_c98e0\" does not take any arguments. It has variables defined o\nn stack, some of which seem to be used to access and manipulate the global varia\nbles. In the function body, it initializes multiple global variable (probably me\nmory-mapped registers) with specific values, performs bitwise operations on some\n others, and ends by assigning a value to the struct member \"field_ee8\". The fun\nction ends by returning 257.\n\nSeveral global variables are set using the complex value dereference and computa\ntions. The function also contains a do-while loop which performs operations on g\nlobal variables for a condition that only checks a bit (bit 3) of some temporary\n variable \"tmp_22\". \n\nThe purpose of the code is not clear just from this snippet, but it seems to be \nrelated to low-level hardware or operating system programming where memory-mappe\nd registers are used. The naming suggests that this code probably originates fro\nm a larger auto-generated or disassembled/embedded systems code.\n"
+decompiled = true

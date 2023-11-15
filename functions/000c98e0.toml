@@ -1,0 +1,8 @@
+[metadata]
+addr = 0xc98e0
+size = 0x650
+last_change = 2023-11-15T13:49:09.845994Z
+
+[header]
+name = "init_memory_mapped_registers"
+addr = 0xc98e0
