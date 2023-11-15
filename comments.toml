@@ -5163,3 +5163,10 @@ addr = 0x1bf698
 func_addr = 0x1bf698
 comment = "==== AI Summarization ====\nThis C/C++ code declares external variables `g_100000`, `g_4abc`, `g_4abe`, and \n`g_6006eaf0`, and defines a function `sub_1bf698()`. The function declares a var\niety of integer, character, and array variables.\n\nThe function `sub_1bf698()` performs a variety of operations, but here are key h\nigh-level details:\n\n1. It assigns values to `v4`, `v7[74]`, `v7[51]`, and `v26` in its initial segme\nnt. \n2. Then it checks conditions and assigns values to `v2` and to `v0` and `v1` in \nsubsequent segments. The latter involves further invocations of another function\n, `sub_d0b90(...)`.\n3. The function also deals with global variable `g_6006eaf0`, whose value may be\n changed by this function. \n\nHowever, without further context and without clear information about what the ot\nher functions and the external variables do, it's difficult to say much more abo\nut what this code does at a higher level than the raw operations it performs.\n"
 decompiled = true
+
+[0x1bf994]
+last_change = 2023-11-15T18:55:25.784202Z
+addr = 0x1bf994
+func_addr = 0x1bf994
+comment = "==== AI Summarization ====\nThe given C code represents a function named sub_1bf994 and a structure named st\nruct_0. The structure has two members, a character array, and an unsigned intege\nr.\n\nThe function declares several local variables and arrays, then conducts a series\n of if-else conditions and bitmask operations. It also modifies multiple global \nvariables (like g_6006ea70, g_6006ea74, g_6006ea8c, g_6006ebb8, g_6006ebd0, g_60\n06ebd2, g_6006ebd4, and g_6006ebe4). It looks like it flags the state and initia\nlizes and manipulates several variables based on input or previous state of thes\ne variables. \n\nDue to the lack of context, it's difficult to infer more specifics about the ove\nrall purpose of the code; it appears to be a piece of low-level system programmi\nng, possibly an interrupt handler or something similar.\n\n"
+decompiled = true

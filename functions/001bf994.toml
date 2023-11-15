@@ -1,0 +1,8 @@
+[metadata]
+addr = 0x1bf994
+size = 0x18c
+last_change = 2023-11-15T18:55:25.784202Z
+
+[header]
+name = "handle_interrupt_and_init_vars"
+addr = 0x1bf994
